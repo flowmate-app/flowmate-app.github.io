@@ -6,7 +6,8 @@
 
   let root = null, returnTo = 'load';
 
-  const link = (href, text) => h('a', { href, target: '_blank', rel: 'noopener' }, text);
+  const ext = (cls, href, ic, text) => h('a.btn' + cls, { href, target: '_blank', rel: 'noopener' }, icon(ic), text);
+  const fact = (k, v) => h('div.ab-fact', h('dt', k), h('dd', v));
 
   function render() {
     if (!root) return;
@@ -14,14 +15,20 @@
     const back = FM.STEPS.find(s => s.id === returnTo);
     const P = FM.project;
     root.appendChild(h('div.ab-wrap',
-      h('header.ab-head',
-        h('h1', 'About'),
-        h('button.btn.sm', { on: { click: () => FM.go(back ? returnTo : 'load') } }, icon('left'), 'Back')),
-      h('p', 'FlowMate ' + FM.version + ' is free flow cytometry analysis software that runs in the browser. Files are processed locally and are not uploaded.'),
-      h('p', 'Made by ' + P.author + '. Open source under the ' + P.licence + ' licence: ', link(P.repo, 'source code'), ', ',
-        link(P.repo + '/blob/main/VALIDATION.md', 'validation'), '. Tools marked ', h('span.beta', 'beta'), ' are still being tested.'),
-      h('p', 'Contact, or to contribute: ', h('a', { href: 'mailto:' + P.email + '?subject=FlowMate' }, P.email), '. Bugs and requests: ',
-        h('a', { href: '#', on: { click: e => { e.preventDefault(); FM.feedback.open('bug'); } } }, 'feedback'), '.')));
+      h('button.btn.ghost.sm.ab-back', { on: { click: () => FM.go(back ? returnTo : 'load') } }, icon('left'), 'Back'),
+      h('div.ab-card',
+        h('header.ab-head', FM.brand.mark(40),
+          h('div', h('h1', 'FlowMate'), h('div.muted.small', 'Version ' + FM.version))),
+        h('p.ab-lead', 'Free flow cytometry analysis in the browser. Files are processed locally and never uploaded.'),
+        h('dl.ab-facts',
+          fact('Author', P.author),
+          fact('Licence', P.licence + ', open source'),
+          fact('Contact', h('a', { href: 'mailto:' + P.email + '?subject=FlowMate' }, P.email))),
+        h('p.ab-note.small', 'Contributions are welcome — fork the code or get in touch. Tools marked ', h('span.beta', 'beta'), ' are still being tested.'),
+        h('div.ab-actions',
+          ext('.primary', P.repo, 'copy', 'Source code'),
+          ext('', P.repo + '/blob/main/VALIDATION.md', 'check', 'Validation'),
+          h('button.btn.ghost', { on: { click: () => FM.feedback.open('bug') } }, icon('alert'), 'Send feedback')))));
   }
 
   function mount(el) { root = el; render(); }

@@ -1236,10 +1236,20 @@ b.st-adjusted, b.st-inherited { color: var(--warn); }
 
 /* About */
 .view-about { overflow: auto; }
-.ab-wrap { max-width: 680px; margin: 0 auto; padding: 28px 24px 60px; }
-.ab-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 12px; }
-.ab-head h1 { font: 650 20px/1.3 var(--cond); margin: 0; color: var(--ink); }
-.ab-wrap p { line-height: 1.6; color: var(--ink-2); margin: 0 0 10px; }
+.ab-wrap { max-width: 560px; margin: 0 auto; padding: 32px 16px 60px; }
+.ab-back { margin: 0 0 12px -8px; }
+.ab-card { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 28px; box-shadow: 0 1px 2px rgba(0,0,0,.04), 0 8px 24px -12px rgba(0,0,0,.12); }
+.ab-head { display: flex; align-items: center; gap: 14px; }
+.ab-head h1 { font: 700 24px/1.15 var(--cond); margin: 0 0 2px; color: var(--ink); letter-spacing: -.01em; }
+.ab-lead { font-size: 15px; line-height: 1.55; color: var(--ink-2); margin: 18px 0 20px; }
+.ab-facts { margin: 0; border-top: 1px solid var(--line-soft); }
+.ab-fact { display: grid; grid-template-columns: 96px minmax(0, 1fr); gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--line-soft); font-size: 13.5px; }
+.ab-fact dt { color: var(--ink-2); opacity: .75; }
+.ab-fact dd { margin: 0; color: var(--ink); overflow-wrap: anywhere; }
+.ab-fact a { color: var(--accent); text-decoration: none; }
+.ab-fact a:hover { text-decoration: underline; }
+.ab-note { color: var(--ink-2); line-height: 1.55; margin: 16px 0 20px; }
+.ab-actions { display: flex; flex-wrap: wrap; gap: 8px; }
 a.btn { text-decoration: none; }
 
 /* Feedback */
@@ -22606,7 +22616,8 @@ FM.guideMedia = {"load":{"src":"data:image/webp;base64,UklGRuy1AwBXRUJQVlA4WAoAA
 
   let root = null, returnTo = 'load';
 
-  const link = (href, text) => h('a', { href, target: '_blank', rel: 'noopener' }, text);
+  const ext = (cls, href, ic, text) => h('a.btn' + cls, { href, target: '_blank', rel: 'noopener' }, icon(ic), text);
+  const fact = (k, v) => h('div.ab-fact', h('dt', k), h('dd', v));
 
   function render() {
     if (!root) return;
@@ -22614,14 +22625,20 @@ FM.guideMedia = {"load":{"src":"data:image/webp;base64,UklGRuy1AwBXRUJQVlA4WAoAA
     const back = FM.STEPS.find(s => s.id === returnTo);
     const P = FM.project;
     root.appendChild(h('div.ab-wrap',
-      h('header.ab-head',
-        h('h1', 'About'),
-        h('button.btn.sm', { on: { click: () => FM.go(back ? returnTo : 'load') } }, icon('left'), 'Back')),
-      h('p', 'FlowMate ' + FM.version + ' is free flow cytometry analysis software that runs in the browser. Files are processed locally and are not uploaded.'),
-      h('p', 'Made by ' + P.author + '. Open source under the ' + P.licence + ' licence: ', link(P.repo, 'source code'), ', ',
-        link(P.repo + '/blob/main/VALIDATION.md', 'validation'), '. Tools marked ', h('span.beta', 'beta'), ' are still being tested.'),
-      h('p', 'Contact, or to contribute: ', h('a', { href: 'mailto:' + P.email + '?subject=FlowMate' }, P.email), '. Bugs and requests: ',
-        h('a', { href: '#', on: { click: e => { e.preventDefault(); FM.feedback.open('bug'); } } }, 'feedback'), '.')));
+      h('button.btn.ghost.sm.ab-back', { on: { click: () => FM.go(back ? returnTo : 'load') } }, icon('left'), 'Back'),
+      h('div.ab-card',
+        h('header.ab-head', FM.brand.mark(40),
+          h('div', h('h1', 'FlowMate'), h('div.muted.small', 'Version ' + FM.version))),
+        h('p.ab-lead', 'Free flow cytometry analysis in the browser. Files are processed locally and never uploaded.'),
+        h('dl.ab-facts',
+          fact('Author', P.author),
+          fact('Licence', P.licence + ', open source'),
+          fact('Contact', h('a', { href: 'mailto:' + P.email + '?subject=FlowMate' }, P.email))),
+        h('p.ab-note.small', 'Contributions are welcome — fork the code or get in touch. Tools marked ', h('span.beta', 'beta'), ' are still being tested.'),
+        h('div.ab-actions',
+          ext('.primary', P.repo, 'copy', 'Source code'),
+          ext('', P.repo + '/blob/main/VALIDATION.md', 'check', 'Validation'),
+          h('button.btn.ghost', { on: { click: () => FM.feedback.open('bug') } }, icon('alert'), 'Send feedback')))));
   }
 
   function mount(el) { root = el; render(); }

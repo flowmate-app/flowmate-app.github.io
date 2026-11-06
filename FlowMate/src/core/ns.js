@@ -9,8 +9,8 @@ FM.appName = 'FlowMate';
 FM.project = {
   author: 'Shir Harel',
   email: 'rlshir302010@gmail.com',
-  repo: 'https://github.com/rlshir302010-cpu/flowmate',
-  site: 'https://rlshir302010-cpu.github.io/flowmate/',
+  repo: 'https://github.com/flowmate-app/flowmate-app.github.io',
+  site: 'https://flowmate-app.github.io/',
   licence: 'MIT',
 };
 

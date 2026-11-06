@@ -10,7 +10,7 @@ fixing what you found: email **rlshir302010@gmail.com** or open an issue, and le
 
 ## Reporting a problem
 
-Open an [issue](https://github.com/rlshir302010-cpu/flowmate/issues) — the Feedback button in the app
+Open an [issue](https://github.com/flowmate-app/flowmate-app.github.io/issues) — the Feedback button in the app
 prefills one. Say what you did, what you expected and what happened. Never attach data you are not
 allowed to share; a description, a screenshot of the plot, or a small public example is enough.
 

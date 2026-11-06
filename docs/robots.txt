@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://rlshir302010-cpu.github.io/flowmate/sitemap.xml
+Sitemap: https://flowmate-app.github.io/sitemap.xml

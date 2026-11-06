@@ -10,8 +10,8 @@ import datetime, html, json, pathlib, re, shutil, subprocess, sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 SITE_SRC, OUT = ROOT / 'site', ROOT / 'docs'
-SITE = 'https://rlshir302010-cpu.github.io/flowmate/'
-REPO = 'https://github.com/rlshir302010-cpu/flowmate'
+SITE = 'https://flowmate-app.github.io/'
+REPO = 'https://github.com/flowmate-app/flowmate-app.github.io'
 AUTHOR, EMAIL = 'Shir Harel', 'rlshir302010@gmail.com'
 
 FAQ = [

@@ -4,9 +4,9 @@
 
 ## Links
 
-- [Open the app](https://rlshir302010-cpu.github.io/flowmate/app/): runs in Chrome, Edge or Firefox, nothing to install
-- [Source code](https://github.com/rlshir302010-cpu/flowmate): plain JavaScript, MIT licence
-- [Validation report](https://github.com/rlshir302010-cpu/flowmate/blob/main/VALIDATION.md): checked against FlowKit, Beckman CytExpert, GraphPad Prism and R on public data
+- [Open the app](https://flowmate-app.github.io/app/): runs in Chrome, Edge or Firefox, nothing to install
+- [Source code](https://github.com/flowmate-app/flowmate-app.github.io): plain JavaScript, MIT licence
+- [Validation report](https://github.com/flowmate-app/flowmate-app.github.io/blob/main/VALIDATION.md): checked against FlowKit, Beckman CytExpert, GraphPad Prism and R on public data
 - [Contact](mailto:rlshir302010@gmail.com): rlshir302010@gmail.com — to contribute, report a problem or build it together
 
 ## Facts

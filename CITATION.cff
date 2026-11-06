@@ -9,8 +9,8 @@ authors:
 version: "0.2.0"
 date-released: "2026-11-06"
 license: MIT
-repository-code: "https://github.com/rlshir302010-cpu/flowmate"
-url: "https://rlshir302010-cpu.github.io/flowmate/"
+repository-code: "https://github.com/flowmate-app/flowmate-app.github.io"
+url: "https://flowmate-app.github.io/"
 keywords:
   - flow cytometry
   - gating

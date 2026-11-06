@@ -7,8 +7,8 @@ Gate every well of a plate at once, compensate, measure and graph with the stati
 with nothing to install, and your data never leaving your computer.</p>
 
 <p align="center">
-<a href="https://rlshir302010-cpu.github.io/flowmate/app/"><b>Open FlowMate</b></a> ·
-<a href="https://rlshir302010-cpu.github.io/flowmate/">Website</a> ·
+<a href="https://flowmate-app.github.io/app/"><b>Open FlowMate</b></a> ·
+<a href="https://flowmate-app.github.io/">Website</a> ·
 <a href="VALIDATION.md">Validation</a> ·
 <a href="CONTRIBUTING.md">Contribute</a> ·
 <a href="mailto:rlshir302010@gmail.com">Contact</a>
@@ -61,7 +61,7 @@ criteria written before any result existed. Summary below; everything else in [V
 
 ## Run it yourself
 
-No build step is needed to use it — open the [web app](https://rlshir302010-cpu.github.io/flowmate/app/),
+No build step is needed to use it — open the [web app](https://flowmate-app.github.io/app/),
 or download [`docs/app/index.html`](docs/app/index.html) and open it from your disk.
 
 To work on the code (plain JavaScript, no dependencies):
@@ -77,7 +77,7 @@ python tools/build_site.py        # the website, into docs/
 FlowMate is made by **Shir Harel** and released under the [MIT licence](LICENSE): copy it, change it,
 use it in your lab or your course. If you'd rather build it together — new features, more
 instruments, validation on your data — email **[rlshir302010@gmail.com](mailto:rlshir302010@gmail.com)**
-or open an [issue](https://github.com/rlshir302010-cpu/flowmate/issues). See [CONTRIBUTING.md](CONTRIBUTING.md).
+or open an [issue](https://github.com/flowmate-app/flowmate-app.github.io/issues). See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Citing
 

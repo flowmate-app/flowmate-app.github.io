@@ -30,5 +30,5 @@ python FlowMate/tests/external_qa/tools/reval.py spec1 spec4 spec5
 The FCS files are downloaded from Zenodo (record numbers in REPORT.md) into
 `FlowMate/tests/public_large/external_qa/`; they are not in the repository.
 
-Found a wrong number? [Open an issue](https://github.com/rlshir302010-cpu/flowmate/issues) or email
+Found a wrong number? [Open an issue](https://github.com/flowmate-app/flowmate-app.github.io/issues) or email
 rlshir302010@gmail.com.

@@ -1,0 +1,86 @@
+{
+ "type": "wsp",
+ "dir": "../public_large/external_qa/als_ics4/",
+ "fcs": [
+  "HC Specimen_001_C10_C10 Negative.fcs",
+  "HC Specimen_001_C11_C11 Peptide.fcs",
+  "HC Specimen_001_C12_C12 Positive.fcs",
+  "HC Specimen_001_C1_C01 Negative.fcs",
+  "HC Specimen_001_C2_C02 Peptide.fcs",
+  "HC Specimen_001_C3_C03 Positive.fcs",
+  "HC Specimen_001_C4_C04 Negative.fcs",
+  "HC Specimen_001_C5_C05 Peptide.fcs",
+  "HC Specimen_001_C6_C06 Positive.fcs",
+  "HC Specimen_001_C7_C07 Negative.fcs",
+  "HC Specimen_001_C8_C08 Peptide.fcs",
+  "HC Specimen_001_C9_C09 Positive.fcs"
+ ],
+ "wsp": "Screen #4 HC ICS.wsp",
+ "names": {
+  "HC Specimen_001_C10_C10 Negative.fcs": "Specimen_001_C10_C10.fcs",
+  "HC Specimen_001_C11_C11 Peptide.fcs": "Specimen_001_C11_C11.fcs",
+  "HC Specimen_001_C12_C12 Positive.fcs": "Specimen_001_C12_C12.fcs",
+  "HC Specimen_001_C1_C01 Negative.fcs": "Specimen_001_C1_C01.fcs",
+  "HC Specimen_001_C2_C02 Peptide.fcs": "Specimen_001_C2_C02.fcs",
+  "HC Specimen_001_C3_C03 Positive.fcs": "Specimen_001_C3_C03.fcs",
+  "HC Specimen_001_C4_C04 Negative.fcs": "Specimen_001_C4_C04.fcs",
+  "HC Specimen_001_C5_C05 Peptide.fcs": "Specimen_001_C5_C05.fcs",
+  "HC Specimen_001_C6_C06 Positive.fcs": "Specimen_001_C6_C06.fcs",
+  "HC Specimen_001_C7_C07 Negative.fcs": "Specimen_001_C7_C07.fcs",
+  "HC Specimen_001_C8_C08 Peptide.fcs": "Specimen_001_C8_C08.fcs",
+  "HC Specimen_001_C9_C09 Positive.fcs": "Specimen_001_C9_C09.fcs"
+ },
+ "wspReplace": [
+  [
+   "data-type:name=\"LIVE_DEAD Aqua-A",
+   "data-type:name=\"LIVE/DEAD Aqua-A"
+  ],
+  [
+   "data-type:name=\"Comp-LIVE_DEAD Aqua-A",
+   "data-type:name=\"Comp-LIVE/DEAD Aqua-A"
+  ],
+  [
+   "data-type:parameter=\"LIVE_DEAD Aqua-A",
+   "data-type:parameter=\"LIVE/DEAD Aqua-A"
+  ],
+  [
+   "data-type:parameter=\"Comp-LIVE_DEAD Aqua-A",
+   "data-type:parameter=\"Comp-LIVE/DEAD Aqua-A"
+  ],
+  [
+   "userProvidedCompInfix=\"LIVE_DEAD Aqua-A",
+   "userProvidedCompInfix=\"LIVE/DEAD Aqua-A"
+  ],
+  [
+   "userProvidedCompInfix=\"Comp-LIVE_DEAD Aqua-A",
+   "userProvidedCompInfix=\"Comp-LIVE/DEAD Aqua-A"
+  ],
+  [
+   "value=\"LIVE_DEAD Aqua-A",
+   "value=\"LIVE/DEAD Aqua-A"
+  ],
+  [
+   "value=\"Comp-LIVE_DEAD Aqua-A",
+   "value=\"Comp-LIVE/DEAD Aqua-A"
+  ],
+  [
+   ",LIVE_DEAD Aqua-A,",
+   ",LIVE/DEAD Aqua-A,"
+  ]
+ ],
+ "members": [
+  [
+   "Specimen_001_C7_C07.fcs",
+   "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD8 Single Positive"
+  ],
+  [
+   "Specimen_001_C7_C07.fcs",
+   "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD8 Single Positive/IL-10 APC +"
+  ],
+  [
+   "Specimen_001_C7_C07.fcs",
+   "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive"
+  ]
+ ],
+ "gatesOut": true
+}

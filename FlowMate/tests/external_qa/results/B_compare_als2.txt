@@ -1,0 +1,37 @@
+population   medianFJ   max|Δ|     rule   pass  Spearman
+Lymphocytes     58.30    10.64          ≤5pp   3/18  rho=0.971  FAIL
+Singlets SSC    99.22     0.47          ≤5pp  18/18  rho=0.903  PASS
+Singlets FSC    98.39     5.10          ≤5pp  17/18  rho=0.110  FAIL
+Live            93.19     5.94          ≤5pp  14/18  rho=0.986  FAIL
+CD3+            78.97    10.22          ≤5pp  10/18  rho=0.961  FAIL
+CD4 T           85.63    59.48          ≤5pp  12/18  rho=0.971  FAIL
+CD8 T            6.00     0.72 max(.5pp,30%)  18/18  rho=0.988  PASS
+CD4 IFNg+        3.87    45.89 max(.5pp,30%)   1/18  rho=0.853  FAIL
+CD4 IL-4+        4.95    36.16 max(.5pp,30%)   0/18  rho=0.847  FAIL
+CD4 IL-10+      34.31    54.32          ≤5pp   0/18  rho=0.883  FAIL
+CD4 IL-17+       1.86     4.76 max(.5pp,30%)   0/18  rho=0.736  FAIL
+CD8 IFNg+        0.90     3.41 max(.5pp,30%)  15/18  rho=0.756  FAIL
+CD8 IL-4+        0.07     4.66 max(.5pp,30%)  16/18  rho=0.828  FAIL
+CD8 IL-10+       0.21     0.80 max(.5pp,30%)  16/18  rho=0.421  FAIL
+CD8 IL-17+       0.47     5.56 max(.5pp,30%)  15/18  rho=0.650  FAIL
+
+response calls (SI ≥ 2 and ≥ 0.05 pp over the donor's negative tube): agree 77 / 96
+  differ: {'donor': 'Donor 4 (HC)', 'pop': 'CD4 IL-4+', 'cond': 'Peptide', 'mine': True, 'flowjo': False}
+  differ: {'donor': 'Donor 4 (HC)', 'pop': 'CD4 IL-10+', 'cond': 'Peptide', 'mine': True, 'flowjo': False}
+  differ: {'donor': 'Donor 4 (HC)', 'pop': 'CD4 IL-17+', 'cond': 'Positive', 'mine': True, 'flowjo': False}
+  differ: {'donor': 'Donor 4 (HC)', 'pop': 'CD8 IFNg+', 'cond': 'Peptide', 'mine': True, 'flowjo': False}
+  differ: {'donor': 'Donor 5 (HC)', 'pop': 'CD4 IFNg+', 'cond': 'Peptide', 'mine': True, 'flowjo': False}
+  differ: {'donor': 'Donor 5 (HC)', 'pop': 'CD4 IL-4+', 'cond': 'Peptide', 'mine': True, 'flowjo': False}
+  differ: {'donor': 'Donor 5 (HC)', 'pop': 'CD4 IL-17+', 'cond': 'Peptide', 'mine': True, 'flowjo': False}
+  differ: {'donor': 'Donor 5 (HC)', 'pop': 'CD8 IL-4+', 'cond': 'Peptide', 'mine': False, 'flowjo': True}
+  differ: {'donor': 'Donor 5 (HC)', 'pop': 'CD8 IL-17+', 'cond': 'Peptide', 'mine': False, 'flowjo': True}
+  differ: {'donor': 'Donor 6 (HC)', 'pop': 'CD8 IL-4+', 'cond': 'Peptide', 'mine': False, 'flowjo': True}
+  differ: {'donor': 'Donor 1 (ALS)', 'pop': 'CD4 IFNg+', 'cond': 'Peptide', 'mine': True, 'flowjo': False}
+  differ: {'donor': 'Donor 1 (ALS)', 'pop': 'CD4 IL-4+', 'cond': 'Peptide', 'mine': True, 'flowjo': False}
+  differ: {'donor': 'Donor 1 (ALS)', 'pop': 'CD4 IL-10+', 'cond': 'Peptide', 'mine': True, 'flowjo': False}
+  differ: {'donor': 'Donor 1 (ALS)', 'pop': 'CD4 IL-17+', 'cond': 'Positive', 'mine': True, 'flowjo': False}
+  differ: {'donor': 'Donor 2 (ALS)', 'pop': 'CD4 IL-4+', 'cond': 'Peptide', 'mine': True, 'flowjo': False}
+  differ: {'donor': 'Donor 2 (ALS)', 'pop': 'CD4 IL-10+', 'cond': 'Peptide', 'mine': True, 'flowjo': False}
+  differ: {'donor': 'Donor 2 (ALS)', 'pop': 'CD4 IL-17+', 'cond': 'Positive', 'mine': True, 'flowjo': False}
+  differ: {'donor': 'Donor 2 (ALS)', 'pop': 'CD8 IL-10+', 'cond': 'Positive', 'mine': True, 'flowjo': False}
+  differ: {'donor': 'Donor 3 (ALS)', 'pop': 'CD8 IFNg+', 'cond': 'Peptide', 'mine': False, 'flowjo': True}

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="generator" content="FlowMate {{VERSION}}">
+<title>FlowMate</title>
+<link rel="icon" href="{{FAVICON}}">
+<style>
+{{FONTS}}
+</style>
+<style>
+{{CSS}}
+</style>
+</head>
+<body>
+<div id="app"></div>
+<noscript>FlowMate needs JavaScript enabled.</noscript>
+<script>
+/* surface uncaught errors: stamped on <html data-errors> for automated smoke tests, and shown to the user by app.js */
+window.__errors = [];
+(function () {
+  function note(msg) { window.__errors.push(msg); document.documentElement.setAttribute('data-errors', window.__errors.join(' | ')); if (window.FM && FM.dom && FM.dom.toast) FM.dom.toast('Something went wrong: ' + msg, { level: 'crit', ms: 8000 }); }
+  addEventListener('error', function (e) { note(String(e.message) + ' @ line ' + e.lineno); });
+  addEventListener('unhandledrejection', function (e) { note('async: ' + (e.reason && e.reason.message || e.reason)); });
+})();
+</script>
+<script>
+{{JS}}
+</script>
+<script>FM.boot();</script>
+</body>
+</html>

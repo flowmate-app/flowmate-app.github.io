@@ -1,0 +1,450 @@
+{
+ "type": "gate",
+ "loadErrors": [],
+ "samples": [
+  {
+   "name": "H1.fcs",
+   "key": "D1",
+   "events": 46308,
+   "params": [
+    "FSC-H",
+    "FSC-A",
+    "SSC-H",
+    "SSC-A",
+    "FL1-H",
+    "FL1-A",
+    "FL2-H",
+    "FL2-A",
+    "FL3-H",
+    "FL3-A",
+    "FL4-H",
+    "FL4-A",
+    "FSC-Width",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.0",
+   "spill": [
+    "FL1-H",
+    "FL2-H",
+    "FL3-H",
+    "FL4-H",
+    "FL1-A",
+    "FL2-A",
+    "FL3-A",
+    "FL4-A"
+   ],
+   "cyt": "CytoFLEX",
+   "datatype": "F",
+   "src": null
+  },
+  {
+   "name": "H2.fcs",
+   "key": "D2",
+   "events": 18429,
+   "params": [
+    "FSC-H",
+    "FSC-A",
+    "SSC-H",
+    "SSC-A",
+    "FL1-H",
+    "FL1-A",
+    "FL2-H",
+    "FL2-A",
+    "FL3-H",
+    "FL3-A",
+    "FL4-H",
+    "FL4-A",
+    "FSC-Width",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.0",
+   "spill": [
+    "FL1-H",
+    "FL2-H",
+    "FL3-H",
+    "FL4-H",
+    "FL1-A",
+    "FL2-A",
+    "FL3-A",
+    "FL4-A"
+   ],
+   "cyt": "CytoFLEX",
+   "datatype": "F",
+   "src": null
+  },
+  {
+   "name": "H3.fcs",
+   "key": "D3",
+   "events": 24133,
+   "params": [
+    "FSC-H",
+    "FSC-A",
+    "SSC-H",
+    "SSC-A",
+    "FL1-H",
+    "FL1-A",
+    "FL2-H",
+    "FL2-A",
+    "FL3-H",
+    "FL3-A",
+    "FL4-H",
+    "FL4-A",
+    "FSC-Width",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.0",
+   "spill": [
+    "FL1-H",
+    "FL2-H",
+    "FL3-H",
+    "FL4-H",
+    "FL1-A",
+    "FL2-A",
+    "FL3-A",
+    "FL4-A"
+   ],
+   "cyt": "CytoFLEX",
+   "datatype": "F",
+   "src": null
+  },
+  {
+   "name": "L1.fcs",
+   "key": "D8",
+   "events": 52912,
+   "params": [
+    "FSC-H",
+    "FSC-A",
+    "SSC-H",
+    "SSC-A",
+    "FL1-H",
+    "FL1-A",
+    "FL2-H",
+    "FL2-A",
+    "FL3-H",
+    "FL3-A",
+    "FL4-H",
+    "FL4-A",
+    "FSC-Width",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.0",
+   "spill": [
+    "FL1-H",
+    "FL2-H",
+    "FL3-H",
+    "FL4-H",
+    "FL1-A",
+    "FL2-A",
+    "FL3-A",
+    "FL4-A"
+   ],
+   "cyt": "CytoFLEX",
+   "datatype": "F",
+   "src": null
+  },
+  {
+   "name": "L2.fcs",
+   "key": "D9",
+   "events": 21596,
+   "params": [
+    "FSC-H",
+    "FSC-A",
+    "SSC-H",
+    "SSC-A",
+    "FL1-H",
+    "FL1-A",
+    "FL2-H",
+    "FL2-A",
+    "FL3-H",
+    "FL3-A",
+    "FL4-H",
+    "FL4-A",
+    "FSC-Width",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.0",
+   "spill": [
+    "FL1-H",
+    "FL2-H",
+    "FL3-H",
+    "FL4-H",
+    "FL1-A",
+    "FL2-A",
+    "FL3-A",
+    "FL4-A"
+   ],
+   "cyt": "CytoFLEX",
+   "datatype": "F",
+   "src": null
+  },
+  {
+   "name": "L3.fcs",
+   "key": "D10",
+   "events": 27630,
+   "params": [
+    "FSC-H",
+    "FSC-A",
+    "SSC-H",
+    "SSC-A",
+    "FL1-H",
+    "FL1-A",
+    "FL2-H",
+    "FL2-A",
+    "FL3-H",
+    "FL3-A",
+    "FL4-H",
+    "FL4-A",
+    "FSC-Width",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.0",
+   "spill": [
+    "FL1-H",
+    "FL2-H",
+    "FL3-H",
+    "FL4-H",
+    "FL1-A",
+    "FL2-A",
+    "FL3-A",
+    "FL4-A"
+   ],
+   "cyt": "CytoFLEX",
+   "datatype": "F",
+   "src": null
+  },
+  {
+   "name": "M1.fcs",
+   "key": "D5",
+   "events": 17173,
+   "params": [
+    "FSC-H",
+    "FSC-A",
+    "SSC-H",
+    "SSC-A",
+    "FL1-H",
+    "FL1-A",
+    "FL2-H",
+    "FL2-A",
+    "FL3-H",
+    "FL3-A",
+    "FL4-H",
+    "FL4-A",
+    "FSC-Width",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.0",
+   "spill": [
+    "FL1-H",
+    "FL2-H",
+    "FL3-H",
+    "FL4-H",
+    "FL1-A",
+    "FL2-A",
+    "FL3-A",
+    "FL4-A"
+   ],
+   "cyt": "CytoFLEX",
+   "datatype": "F",
+   "src": null
+  },
+  {
+   "name": "M2.fcs",
+   "key": "D6",
+   "events": 76265,
+   "params": [
+    "FSC-H",
+    "FSC-A",
+    "SSC-H",
+    "SSC-A",
+    "FL1-H",
+    "FL1-A",
+    "FL2-H",
+    "FL2-A",
+    "FL3-H",
+    "FL3-A",
+    "FL4-H",
+    "FL4-A",
+    "FSC-Width",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.0",
+   "spill": [
+    "FL1-H",
+    "FL2-H",
+    "FL3-H",
+    "FL4-H",
+    "FL1-A",
+    "FL2-A",
+    "FL3-A",
+    "FL4-A"
+   ],
+   "cyt": "CytoFLEX",
+   "datatype": "F",
+   "src": null
+  },
+  {
+   "name": "M3.fcs",
+   "key": "D7",
+   "events": 31167,
+   "params": [
+    "FSC-H",
+    "FSC-A",
+    "SSC-H",
+    "SSC-A",
+    "FL1-H",
+    "FL1-A",
+    "FL2-H",
+    "FL2-A",
+    "FL3-H",
+    "FL3-A",
+    "FL4-H",
+    "FL4-A",
+    "FSC-Width",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.0",
+   "spill": [
+    "FL1-H",
+    "FL2-H",
+    "FL3-H",
+    "FL4-H",
+    "FL1-A",
+    "FL2-A",
+    "FL3-A",
+    "FL4-A"
+   ],
+   "cyt": "CytoFLEX",
+   "datatype": "F",
+   "src": null
+  },
+  {
+   "name": "WT1.fcs",
+   "key": "B1",
+   "events": 23133,
+   "params": [
+    "FSC-H",
+    "FSC-A",
+    "SSC-H",
+    "SSC-A",
+    "FL1-H",
+    "FL1-A",
+    "FL2-H",
+    "FL2-A",
+    "FL3-H",
+    "FL3-A",
+    "FL4-H",
+    "FL4-A",
+    "FSC-Width",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.0",
+   "spill": [
+    "FL1-H",
+    "FL2-H",
+    "FL3-H",
+    "FL4-H",
+    "FL1-A",
+    "FL2-A",
+    "FL3-A",
+    "FL4-A"
+   ],
+   "cyt": "CytoFLEX",
+   "datatype": "F",
+   "src": null
+  },
+  {
+   "name": "WT2.fcs",
+   "key": "C1",
+   "events": 84802,
+   "params": [
+    "FSC-H",
+    "FSC-A",
+    "SSC-H",
+    "SSC-A",
+    "FL1-H",
+    "FL1-A",
+    "FL2-H",
+    "FL2-A",
+    "FL3-H",
+    "FL3-A",
+    "FL4-H",
+    "FL4-A",
+    "FSC-Width",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.0",
+   "spill": [
+    "FL1-H",
+    "FL2-H",
+    "FL3-H",
+    "FL4-H",
+    "FL1-A",
+    "FL2-A",
+    "FL3-A",
+    "FL4-A"
+   ],
+   "cyt": "CytoFLEX",
+   "datatype": "F",
+   "src": null
+  }
+ ],
+ "gates": [],
+ "comp": "file",
+ "rows": [
+  {
+   "sample": "WT1.fcs",
+   "total": 23133,
+   "pops": {}
+  },
+  {
+   "sample": "WT2.fcs",
+   "total": 84802,
+   "pops": {}
+  },
+  {
+   "sample": "H1.fcs",
+   "total": 46308,
+   "pops": {}
+  },
+  {
+   "sample": "H2.fcs",
+   "total": 18429,
+   "pops": {}
+  },
+  {
+   "sample": "H3.fcs",
+   "total": 24133,
+   "pops": {}
+  },
+  {
+   "sample": "M1.fcs",
+   "total": 17173,
+   "pops": {}
+  },
+  {
+   "sample": "M2.fcs",
+   "total": 76265,
+   "pops": {}
+  },
+  {
+   "sample": "M3.fcs",
+   "total": 31167,
+   "pops": {}
+  },
+  {
+   "sample": "L1.fcs",
+   "total": 52912,
+   "pops": {}
+  },
+  {
+   "sample": "L2.fcs",
+   "total": 21596,
+   "pops": {}
+  },
+  {
+   "sample": "L3.fcs",
+   "total": 27630,
+   "pops": {}
+  }
+ ]
+}

@@ -1,0 +1,5599 @@
+{
+ "type": "gate",
+ "loadErrors": [],
+ "samples": [
+  {
+   "name": "ALS Specimen_001_C10_C10 Negative.fcs",
+   "key": "C10",
+   "events": 7636,
+   "params": [
+    "FSC-A",
+    "FSC-H",
+    "FSC-W",
+    "SSC-A",
+    "SSC-H",
+    "SSC-W",
+    "APC-eFluor 780-A",
+    "Alexa Fluor 700-A",
+    "BV650-A",
+    "APC-A",
+    "BV421-A",
+    "FITC-A",
+    "BV785-A",
+    "LIVE/DEAD Aqua-A",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.0",
+   "spill": [
+    "APC-eFluor 780-A",
+    "Alexa Fluor 700-A",
+    "BV650-A",
+    "APC-A",
+    "BV421-A",
+    "FITC-A",
+    "BV785-A",
+    "LIVE/DEAD Aqua-A"
+   ],
+   "cyt": "X-20 (LSRFortessa)",
+   "datatype": "F",
+   "src": "BD FACSDiva Software Version 9.2"
+  },
+  {
+   "name": "ALS Specimen_001_C11_C11 Peptide.fcs",
+   "key": "C11",
+   "events": 10035,
+   "params": [
+    "FSC-A",
+    "FSC-H",
+    "FSC-W",
+    "SSC-A",
+    "SSC-H",
+    "SSC-W",
+    "APC-eFluor 780-A",
+    "Alexa Fluor 700-A",
+    "BV650-A",
+    "APC-A",
+    "BV421-A",
+    "FITC-A",
+    "BV785-A",
+    "LIVE/DEAD Aqua-A",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.0",
+   "spill": [
+    "APC-eFluor 780-A",
+    "Alexa Fluor 700-A",
+    "BV650-A",
+    "APC-A",
+    "BV421-A",
+    "FITC-A",
+    "BV785-A",
+    "LIVE/DEAD Aqua-A"
+   ],
+   "cyt": "X-20 (LSRFortessa)",
+   "datatype": "F",
+   "src": "BD FACSDiva Software Version 9.2"
+  },
+  {
+   "name": "ALS Specimen_001_C12_C12 Positive.fcs",
+   "key": "C12",
+   "events": 8795,
+   "params": [
+    "FSC-A",
+    "FSC-H",
+    "FSC-W",
+    "SSC-A",
+    "SSC-H",
+    "SSC-W",
+    "APC-eFluor 780-A",
+    "Alexa Fluor 700-A",
+    "BV650-A",
+    "APC-A",
+    "BV421-A",
+    "FITC-A",
+    "BV785-A",
+    "LIVE/DEAD Aqua-A",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.0",
+   "spill": [
+    "APC-eFluor 780-A",
+    "Alexa Fluor 700-A",
+    "BV650-A",
+    "APC-A",
+    "BV421-A",
+    "FITC-A",
+    "BV785-A",
+    "LIVE/DEAD Aqua-A"
+   ],
+   "cyt": "X-20 (LSRFortessa)",
+   "datatype": "F",
+   "src": "BD FACSDiva Software Version 9.2"
+  },
+  {
+   "name": "ALS Specimen_001_C4_C04 Negative.fcs",
+   "key": "C4",
+   "events": 7502,
+   "params": [
+    "FSC-A",
+    "FSC-H",
+    "FSC-W",
+    "SSC-A",
+    "SSC-H",
+    "SSC-W",
+    "APC-eFluor 780-A",
+    "Alexa Fluor 700-A",
+    "BV650-A",
+    "APC-A",
+    "BV421-A",
+    "FITC-A",
+    "BV785-A",
+    "LIVE/DEAD Aqua-A",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.0",
+   "spill": [
+    "APC-eFluor 780-A",
+    "Alexa Fluor 700-A",
+    "BV650-A",
+    "APC-A",
+    "BV421-A",
+    "FITC-A",
+    "BV785-A",
+    "LIVE/DEAD Aqua-A"
+   ],
+   "cyt": "X-20 (LSRFortessa)",
+   "datatype": "F",
+   "src": "BD FACSDiva Software Version 9.2"
+  },
+  {
+   "name": "ALS Specimen_001_C5_C05 Peptide.fcs",
+   "key": "C5",
+   "events": 5613,
+   "params": [
+    "FSC-A",
+    "FSC-H",
+    "FSC-W",
+    "SSC-A",
+    "SSC-H",
+    "SSC-W",
+    "APC-eFluor 780-A",
+    "Alexa Fluor 700-A",
+    "BV650-A",
+    "APC-A",
+    "BV421-A",
+    "FITC-A",
+    "BV785-A",
+    "LIVE/DEAD Aqua-A",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.0",
+   "spill": [
+    "APC-eFluor 780-A",
+    "Alexa Fluor 700-A",
+    "BV650-A",
+    "APC-A",
+    "BV421-A",
+    "FITC-A",
+    "BV785-A",
+    "LIVE/DEAD Aqua-A"
+   ],
+   "cyt": "X-20 (LSRFortessa)",
+   "datatype": "F",
+   "src": "BD FACSDiva Software Version 9.2"
+  },
+  {
+   "name": "ALS Specimen_001_C6_C06 Positive.fcs",
+   "key": "C6",
+   "events": 8931,
+   "params": [
+    "FSC-A",
+    "FSC-H",
+    "FSC-W",
+    "SSC-A",
+    "SSC-H",
+    "SSC-W",
+    "APC-eFluor 780-A",
+    "Alexa Fluor 700-A",
+    "BV650-A",
+    "APC-A",
+    "BV421-A",
+    "FITC-A",
+    "BV785-A",
+    "LIVE/DEAD Aqua-A",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.0",
+   "spill": [
+    "APC-eFluor 780-A",
+    "Alexa Fluor 700-A",
+    "BV650-A",
+    "APC-A",
+    "BV421-A",
+    "FITC-A",
+    "BV785-A",
+    "LIVE/DEAD Aqua-A"
+   ],
+   "cyt": "X-20 (LSRFortessa)",
+   "datatype": "F",
+   "src": "BD FACSDiva Software Version 9.2"
+  },
+  {
+   "name": "ALS Specimen_001_H1_H01 Negatice.fcs",
+   "key": "H1",
+   "events": 54717,
+   "params": [
+    "FSC-A",
+    "FSC-H",
+    "FSC-W",
+    "SSC-A",
+    "SSC-H",
+    "SSC-W",
+    "APC-eFluor 780-A",
+    "Alexa Fluor 700-A",
+    "BV650-A",
+    "APC-A",
+    "BV421-A",
+    "FITC-A",
+    "BV785-A",
+    "LIVE/DEAD Aqua-A",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.0",
+   "spill": [
+    "APC-eFluor 780-A",
+    "Alexa Fluor 700-A",
+    "BV650-A",
+    "APC-A",
+    "BV421-A",
+    "FITC-A",
+    "BV785-A",
+    "LIVE/DEAD Aqua-A"
+   ],
+   "cyt": "X-20 (LSRFortessa)",
+   "datatype": "F",
+   "src": "BD FACSDiva Software Version 9.2"
+  },
+  {
+   "name": "ALS Specimen_001_H2_H02 Peptide.fcs",
+   "key": "H2",
+   "events": 38870,
+   "params": [
+    "FSC-A",
+    "FSC-H",
+    "FSC-W",
+    "SSC-A",
+    "SSC-H",
+    "SSC-W",
+    "APC-eFluor 780-A",
+    "Alexa Fluor 700-A",
+    "BV650-A",
+    "APC-A",
+    "BV421-A",
+    "FITC-A",
+    "BV785-A",
+    "LIVE/DEAD Aqua-A",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.0",
+   "spill": [
+    "APC-eFluor 780-A",
+    "Alexa Fluor 700-A",
+    "BV650-A",
+    "APC-A",
+    "BV421-A",
+    "FITC-A",
+    "BV785-A",
+    "LIVE/DEAD Aqua-A"
+   ],
+   "cyt": "X-20 (LSRFortessa)",
+   "datatype": "F",
+   "src": "BD FACSDiva Software Version 9.2"
+  },
+  {
+   "name": "ALS Specimen_001_H3_H03 Positive.fcs",
+   "key": "H3",
+   "events": 36432,
+   "params": [
+    "FSC-A",
+    "FSC-H",
+    "FSC-W",
+    "SSC-A",
+    "SSC-H",
+    "SSC-W",
+    "APC-eFluor 780-A",
+    "Alexa Fluor 700-A",
+    "BV650-A",
+    "APC-A",
+    "BV421-A",
+    "FITC-A",
+    "BV785-A",
+    "LIVE/DEAD Aqua-A",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.0",
+   "spill": [
+    "APC-eFluor 780-A",
+    "Alexa Fluor 700-A",
+    "BV650-A",
+    "APC-A",
+    "BV421-A",
+    "FITC-A",
+    "BV785-A",
+    "LIVE/DEAD Aqua-A"
+   ],
+   "cyt": "X-20 (LSRFortessa)",
+   "datatype": "F",
+   "src": "BD FACSDiva Software Version 9.2"
+  },
+  {
+   "name": "HC Specimen_001_C1_C01 Negative.fcs",
+   "key": "C1",
+   "events": 18715,
+   "params": [
+    "FSC-A",
+    "FSC-H",
+    "FSC-W",
+    "SSC-A",
+    "SSC-H",
+    "SSC-W",
+    "APC-eFluor 780-A",
+    "Alexa Fluor 700-A",
+    "BV650-A",
+    "APC-A",
+    "BV421-A",
+    "FITC-A",
+    "BV785-A",
+    "LIVE/DEAD Aqua-A",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.0",
+   "spill": [
+    "APC-eFluor 780-A",
+    "Alexa Fluor 700-A",
+    "BV650-A",
+    "APC-A",
+    "BV421-A",
+    "FITC-A",
+    "BV785-A",
+    "LIVE/DEAD Aqua-A"
+   ],
+   "cyt": "X-20 (LSRFortessa)",
+   "datatype": "F",
+   "src": "BD FACSDiva Software Version 9.2"
+  },
+  {
+   "name": "HC Specimen_001_C2_C02 Peptide.fcs",
+   "key": "C2",
+   "events": 26156,
+   "params": [
+    "FSC-A",
+    "FSC-H",
+    "FSC-W",
+    "SSC-A",
+    "SSC-H",
+    "SSC-W",
+    "APC-eFluor 780-A",
+    "Alexa Fluor 700-A",
+    "BV650-A",
+    "APC-A",
+    "BV421-A",
+    "FITC-A",
+    "BV785-A",
+    "LIVE/DEAD Aqua-A",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.0",
+   "spill": [
+    "APC-eFluor 780-A",
+    "Alexa Fluor 700-A",
+    "BV650-A",
+    "APC-A",
+    "BV421-A",
+    "FITC-A",
+    "BV785-A",
+    "LIVE/DEAD Aqua-A"
+   ],
+   "cyt": "X-20 (LSRFortessa)",
+   "datatype": "F",
+   "src": "BD FACSDiva Software Version 9.2"
+  },
+  {
+   "name": "HC Specimen_001_C3_C03 Positive.fcs",
+   "key": "C3",
+   "events": 21919,
+   "params": [
+    "FSC-A",
+    "FSC-H",
+    "FSC-W",
+    "SSC-A",
+    "SSC-H",
+    "SSC-W",
+    "APC-eFluor 780-A",
+    "Alexa Fluor 700-A",
+    "BV650-A",
+    "APC-A",
+    "BV421-A",
+    "FITC-A",
+    "BV785-A",
+    "LIVE/DEAD Aqua-A",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.0",
+   "spill": [
+    "APC-eFluor 780-A",
+    "Alexa Fluor 700-A",
+    "BV650-A",
+    "APC-A",
+    "BV421-A",
+    "FITC-A",
+    "BV785-A",
+    "LIVE/DEAD Aqua-A"
+   ],
+   "cyt": "X-20 (LSRFortessa)",
+   "datatype": "F",
+   "src": "BD FACSDiva Software Version 9.2"
+  },
+  {
+   "name": "HC Specimen_001_C7_C07 Negative.fcs",
+   "key": "C7",
+   "events": 25346,
+   "params": [
+    "FSC-A",
+    "FSC-H",
+    "FSC-W",
+    "SSC-A",
+    "SSC-H",
+    "SSC-W",
+    "APC-eFluor 780-A",
+    "Alexa Fluor 700-A",
+    "BV650-A",
+    "APC-A",
+    "BV421-A",
+    "FITC-A",
+    "BV785-A",
+    "LIVE/DEAD Aqua-A",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.0",
+   "spill": [
+    "APC-eFluor 780-A",
+    "Alexa Fluor 700-A",
+    "BV650-A",
+    "APC-A",
+    "BV421-A",
+    "FITC-A",
+    "BV785-A",
+    "LIVE/DEAD Aqua-A"
+   ],
+   "cyt": "X-20 (LSRFortessa)",
+   "datatype": "F",
+   "src": "BD FACSDiva Software Version 9.2"
+  },
+  {
+   "name": "HC Specimen_001_C8_C08 Peptide.fcs",
+   "key": "C8",
+   "events": 35006,
+   "params": [
+    "FSC-A",
+    "FSC-H",
+    "FSC-W",
+    "SSC-A",
+    "SSC-H",
+    "SSC-W",
+    "APC-eFluor 780-A",
+    "Alexa Fluor 700-A",
+    "BV650-A",
+    "APC-A",
+    "BV421-A",
+    "FITC-A",
+    "BV785-A",
+    "LIVE/DEAD Aqua-A",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.0",
+   "spill": [
+    "APC-eFluor 780-A",
+    "Alexa Fluor 700-A",
+    "BV650-A",
+    "APC-A",
+    "BV421-A",
+    "FITC-A",
+    "BV785-A",
+    "LIVE/DEAD Aqua-A"
+   ],
+   "cyt": "X-20 (LSRFortessa)",
+   "datatype": "F",
+   "src": "BD FACSDiva Software Version 9.2"
+  },
+  {
+   "name": "HC Specimen_001_C9_C09 Positive.fcs",
+   "key": "C9",
+   "events": 24196,
+   "params": [
+    "FSC-A",
+    "FSC-H",
+    "FSC-W",
+    "SSC-A",
+    "SSC-H",
+    "SSC-W",
+    "APC-eFluor 780-A",
+    "Alexa Fluor 700-A",
+    "BV650-A",
+    "APC-A",
+    "BV421-A",
+    "FITC-A",
+    "BV785-A",
+    "LIVE/DEAD Aqua-A",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.0",
+   "spill": [
+    "APC-eFluor 780-A",
+    "Alexa Fluor 700-A",
+    "BV650-A",
+    "APC-A",
+    "BV421-A",
+    "FITC-A",
+    "BV785-A",
+    "LIVE/DEAD Aqua-A"
+   ],
+   "cyt": "X-20 (LSRFortessa)",
+   "datatype": "F",
+   "src": "BD FACSDiva Software Version 9.2"
+  },
+  {
+   "name": "HC Specimen_001_H7_H07 Negative.fcs",
+   "key": "H7",
+   "events": 131652,
+   "params": [
+    "FSC-A",
+    "FSC-H",
+    "FSC-W",
+    "SSC-A",
+    "SSC-H",
+    "SSC-W",
+    "APC-eFluor 780-A",
+    "Alexa Fluor 700-A",
+    "BV650-A",
+    "APC-A",
+    "BV421-A",
+    "FITC-A",
+    "BV785-A",
+    "LIVE/DEAD Aqua-A",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.0",
+   "spill": [
+    "APC-eFluor 780-A",
+    "Alexa Fluor 700-A",
+    "BV650-A",
+    "APC-A",
+    "BV421-A",
+    "FITC-A",
+    "BV785-A",
+    "LIVE/DEAD Aqua-A"
+   ],
+   "cyt": "X-20 (LSRFortessa)",
+   "datatype": "F",
+   "src": "BD FACSDiva Software Version 9.2"
+  },
+  {
+   "name": "HC Specimen_001_H8_H08 Peptide.fcs",
+   "key": "H8",
+   "events": 151869,
+   "params": [
+    "FSC-A",
+    "FSC-H",
+    "FSC-W",
+    "SSC-A",
+    "SSC-H",
+    "SSC-W",
+    "APC-eFluor 780-A",
+    "Alexa Fluor 700-A",
+    "BV650-A",
+    "APC-A",
+    "BV421-A",
+    "FITC-A",
+    "BV785-A",
+    "LIVE/DEAD Aqua-A",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.0",
+   "spill": [
+    "APC-eFluor 780-A",
+    "Alexa Fluor 700-A",
+    "BV650-A",
+    "APC-A",
+    "BV421-A",
+    "FITC-A",
+    "BV785-A",
+    "LIVE/DEAD Aqua-A"
+   ],
+   "cyt": "X-20 (LSRFortessa)",
+   "datatype": "F",
+   "src": "BD FACSDiva Software Version 9.2"
+  },
+  {
+   "name": "HC Specimen_001_H9_H09 Positive.fcs",
+   "key": "H9",
+   "events": 103914,
+   "params": [
+    "FSC-A",
+    "FSC-H",
+    "FSC-W",
+    "SSC-A",
+    "SSC-H",
+    "SSC-W",
+    "APC-eFluor 780-A",
+    "Alexa Fluor 700-A",
+    "BV650-A",
+    "APC-A",
+    "BV421-A",
+    "FITC-A",
+    "BV785-A",
+    "LIVE/DEAD Aqua-A",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.0",
+   "spill": [
+    "APC-eFluor 780-A",
+    "Alexa Fluor 700-A",
+    "BV650-A",
+    "APC-A",
+    "BV421-A",
+    "FITC-A",
+    "BV785-A",
+    "LIVE/DEAD Aqua-A"
+   ],
+   "cyt": "X-20 (LSRFortessa)",
+   "datatype": "F",
+   "src": "BD FACSDiva Software Version 9.2"
+  }
+ ],
+ "gates": [
+  {
+   "name": "Lymphocytes",
+   "parentName": null,
+   "frozen": {
+    "type": "polygon",
+    "x": "FSC-A",
+    "y": "SSC-A",
+    "xScale": {
+     "type": "lin",
+     "min": 0,
+     "max": 200000
+    },
+    "yScale": {
+     "type": "lin",
+     "min": 0,
+     "max": 180000
+    },
+    "verts": [
+     [
+      56000.00000000001,
+      12600.000000000002
+     ],
+     [
+      72000,
+      5400
+     ],
+     [
+      120000,
+      9000
+     ],
+     [
+      152000,
+      28800
+     ],
+     [
+      154000,
+      61200.00000000001
+     ],
+     [
+      124000,
+      77400
+     ],
+     [
+      88000,
+      64800
+     ],
+     [
+      57999.99999999999,
+      37800
+     ]
+    ],
+    "name": "Lymphocytes"
+   }
+  },
+  {
+   "name": "Singlets SSC",
+   "parentName": "Lymphocytes",
+   "frozen": {
+    "type": "polygon",
+    "x": "SSC-A",
+    "y": "SSC-H",
+    "xScale": {
+     "type": "lin",
+     "min": 0,
+     "max": 80000
+    },
+    "yScale": {
+     "type": "lin",
+     "min": 0,
+     "max": 80000
+    },
+    "verts": [
+     [
+      4000,
+      2480
+     ],
+     [
+      79000,
+      65000
+     ],
+     [
+      74000,
+      108000
+     ],
+     [
+      2000,
+      5000
+     ]
+    ],
+    "name": "Singlets SSC"
+   }
+  },
+  {
+   "name": "Singlets FSC",
+   "parentName": "Singlets SSC",
+   "frozen": {
+    "type": "polygon",
+    "x": "FSC-A",
+    "y": "FSC-H",
+    "xScale": {
+     "type": "lin",
+     "min": 50000,
+     "max": 160000
+    },
+    "yScale": {
+     "type": "lin",
+     "min": 40000,
+     "max": 140000
+    },
+    "verts": [
+     [
+      54950,
+      42000
+     ],
+     [
+      158020,
+      126500
+     ],
+     [
+      148010,
+      138500
+     ],
+     [
+      51980,
+      61600
+     ]
+    ],
+    "name": "Singlets FSC"
+   }
+  },
+  {
+   "name": "Live",
+   "parentName": "Singlets FSC",
+   "frozen": {
+    "type": "polygon",
+    "x": "LIVE/DEAD Aqua-A",
+    "y": "SSC-A",
+    "xScale": {
+     "type": "logicle",
+     "T": 1000,
+     "W": 1.65,
+     "M": 4.5,
+     "A": 0
+    },
+    "yScale": {
+     "type": "lin",
+     "min": 0,
+     "max": 80000
+    },
+    "verts": [
+     [
+      -2307.213690900747,
+      -28000
+     ],
+     [
+      241.8901215193264,
+      -28000
+     ],
+     [
+      241.8901215193264,
+      108000
+     ],
+     [
+      -2307.213690900747,
+      108000
+     ]
+    ],
+    "name": "Live"
+   }
+  },
+  {
+   "name": "CD3+",
+   "parentName": "Live",
+   "frozen": {
+    "type": "rect",
+    "x": "FSC-A",
+    "y": "Alexa Fluor 700-A",
+    "xScale": {
+     "type": "lin",
+     "min": 50000,
+     "max": 160000
+    },
+    "yScale": {
+     "type": "logicle",
+     "T": 15000,
+     "W": 1.47,
+     "M": 5,
+     "A": 0
+    },
+    "rect": {
+     "x0": 11500,
+     "x1": 198500,
+     "y0": 426.17199951670597,
+     "y1": 835743.490460492
+    },
+    "name": "CD3+"
+   }
+  },
+  {
+   "name": "CD4 T",
+   "parentName": "CD3+",
+   "frozen": {
+    "type": "rect",
+    "x": "BV650-A",
+    "y": "APC-eFluor 780-A",
+    "xScale": {
+     "type": "logicle",
+     "T": 20000,
+     "W": 1.18,
+     "M": 4.8,
+     "A": 0
+    },
+    "yScale": {
+     "type": "logicle",
+     "T": 15000,
+     "W": 1.61,
+     "M": 5.2,
+     "A": 0
+    },
+    "rect": {
+     "x0": -3543.9661077943674,
+     "x1": 362.4189279721079,
+     "y0": 138.24528738141453,
+     "y1": 981018.3646891379
+    },
+    "name": "CD4 T"
+   }
+  },
+  {
+   "name": "CD8 T",
+   "parentName": "CD3+",
+   "frozen": {
+    "type": "rect",
+    "x": "BV650-A",
+    "y": "APC-eFluor 780-A",
+    "xScale": {
+     "type": "logicle",
+     "T": 20000,
+     "W": 1.18,
+     "M": 4.8,
+     "A": 0
+    },
+    "yScale": {
+     "type": "logicle",
+     "T": 15000,
+     "W": 1.61,
+     "M": 5.2,
+     "A": 0
+    },
+    "rect": {
+     "x0": 2264.1887968749215,
+     "x1": 952837.5075616393,
+     "y0": -10420.962900381357,
+     "y1": 628.4513467558555
+    },
+    "name": "CD8 T"
+   }
+  }
+ ],
+ "comp": "file",
+ "rows": [
+  {
+   "sample": "HC Specimen_001_C1_C01 Negative.fcs",
+   "total": 18715,
+   "pops": {
+    "Lymphocytes": {
+     "count": 7563,
+     "pct": 40.411434678065724
+    },
+    "Singlets SSC": {
+     "count": 7519,
+     "pct": 99.4182202829565
+    },
+    "Singlets FSC": {
+     "count": 7482,
+     "pct": 99.50791328634126
+    },
+    "Live": {
+     "count": 7137,
+     "pct": 95.38893344025662
+    },
+    "CD3+": {
+     "count": 5050,
+     "pct": 70.75802157769371
+    },
+    "CD4 T": {
+     "count": 4752,
+     "pct": 94.0990099009901
+    },
+    "CD8 T": {
+     "count": 233,
+     "pct": 4.6138613861386135
+    }
+   }
+  },
+  {
+   "sample": "HC Specimen_001_C2_C02 Peptide.fcs",
+   "total": 26156,
+   "pops": {
+    "Lymphocytes": {
+     "count": 11124,
+     "pct": 42.52943875210277
+    },
+    "Singlets SSC": {
+     "count": 11060,
+     "pct": 99.42466738583244
+    },
+    "Singlets FSC": {
+     "count": 10985,
+     "pct": 99.32188065099457
+    },
+    "Live": {
+     "count": 10480,
+     "pct": 95.40282203004097
+    },
+    "CD3+": {
+     "count": 7425,
+     "pct": 70.84923664122137
+    },
+    "CD4 T": {
+     "count": 6939,
+     "pct": 93.45454545454545
+    },
+    "CD8 T": {
+     "count": 365,
+     "pct": 4.915824915824916
+    }
+   }
+  },
+  {
+   "sample": "HC Specimen_001_C3_C03 Positive.fcs",
+   "total": 21919,
+   "pops": {
+    "Lymphocytes": {
+     "count": 10570,
+     "pct": 48.223002874218714
+    },
+    "Singlets SSC": {
+     "count": 10489,
+     "pct": 99.2336802270577
+    },
+    "Singlets FSC": {
+     "count": 10444,
+     "pct": 99.57097912098389
+    },
+    "Live": {
+     "count": 9953,
+     "pct": 95.29873611643049
+    },
+    "CD3+": {
+     "count": 7329,
+     "pct": 73.63608962121974
+    },
+    "CD4 T": {
+     "count": 4471,
+     "pct": 61.00422977213808
+    },
+    "CD8 T": {
+     "count": 511,
+     "pct": 6.9723018147086915
+    }
+   }
+  },
+  {
+   "sample": "ALS Specimen_001_C4_C04 Negative.fcs",
+   "total": 7502,
+   "pops": {
+    "Lymphocytes": {
+     "count": 1687,
+     "pct": 22.48733671021061
+    },
+    "Singlets SSC": {
+     "count": 1662,
+     "pct": 98.5180794309425
+    },
+    "Singlets FSC": {
+     "count": 1656,
+     "pct": 99.63898916967509
+    },
+    "Live": {
+     "count": 1513,
+     "pct": 91.36473429951691
+    },
+    "CD3+": {
+     "count": 1250,
+     "pct": 82.61731658955718
+    },
+    "CD4 T": {
+     "count": 1215,
+     "pct": 97.2
+    },
+    "CD8 T": {
+     "count": 17,
+     "pct": 1.36
+    }
+   }
+  },
+  {
+   "sample": "ALS Specimen_001_C5_C05 Peptide.fcs",
+   "total": 5613,
+   "pops": {
+    "Lymphocytes": {
+     "count": 1734,
+     "pct": 30.89257081774452
+    },
+    "Singlets SSC": {
+     "count": 1721,
+     "pct": 99.25028835063438
+    },
+    "Singlets FSC": {
+     "count": 1719,
+     "pct": 99.88378849506101
+    },
+    "Live": {
+     "count": 1550,
+     "pct": 90.16870273414776
+    },
+    "CD3+": {
+     "count": 1239,
+     "pct": 79.93548387096774
+    },
+    "CD4 T": {
+     "count": 1188,
+     "pct": 95.88377723970945
+    },
+    "CD8 T": {
+     "count": 40,
+     "pct": 3.228410008071025
+    }
+   }
+  },
+  {
+   "sample": "ALS Specimen_001_C6_C06 Positive.fcs",
+   "total": 8931,
+   "pops": {
+    "Lymphocytes": {
+     "count": 3881,
+     "pct": 43.45538013660284
+    },
+    "Singlets SSC": {
+     "count": 3859,
+     "pct": 99.43313578974491
+    },
+    "Singlets FSC": {
+     "count": 3841,
+     "pct": 99.53355791655869
+    },
+    "Live": {
+     "count": 3592,
+     "pct": 93.51731319968758
+    },
+    "CD3+": {
+     "count": 2839,
+     "pct": 79.03674832962137
+    },
+    "CD4 T": {
+     "count": 1637,
+     "pct": 57.66114829165199
+    },
+    "CD8 T": {
+     "count": 145,
+     "pct": 5.10743219443466
+    }
+   }
+  },
+  {
+   "sample": "HC Specimen_001_C7_C07 Negative.fcs",
+   "total": 25346,
+   "pops": {
+    "Lymphocytes": {
+     "count": 14966,
+     "pct": 59.046792393277045
+    },
+    "Singlets SSC": {
+     "count": 14909,
+     "pct": 99.61913670987572
+    },
+    "Singlets FSC": {
+     "count": 14828,
+     "pct": 99.4567040042927
+    },
+    "Live": {
+     "count": 14472,
+     "pct": 97.59913676827624
+    },
+    "CD3+": {
+     "count": 13093,
+     "pct": 90.47125483692648
+    },
+    "CD4 T": {
+     "count": 12531,
+     "pct": 95.70763003131444
+    },
+    "CD8 T": {
+     "count": 353,
+     "pct": 2.6960971511494694
+    }
+   }
+  },
+  {
+   "sample": "HC Specimen_001_C8_C08 Peptide.fcs",
+   "total": 35006,
+   "pops": {
+    "Lymphocytes": {
+     "count": 22604,
+     "pct": 64.57178769353825
+    },
+    "Singlets SSC": {
+     "count": 22512,
+     "pct": 99.5929923907273
+    },
+    "Singlets FSC": {
+     "count": 22392,
+     "pct": 99.46695095948827
+    },
+    "Live": {
+     "count": 21945,
+     "pct": 98.00375133976421
+    },
+    "CD3+": {
+     "count": 19919,
+     "pct": 90.7678286625655
+    },
+    "CD4 T": {
+     "count": 18703,
+     "pct": 93.89527586726241
+    },
+    "CD8 T": {
+     "count": 858,
+     "pct": 4.3074451528691196
+    }
+   }
+  },
+  {
+   "sample": "HC Specimen_001_C9_C09 Positive.fcs",
+   "total": 24196,
+   "pops": {
+    "Lymphocytes": {
+     "count": 14468,
+     "pct": 59.795007439246156
+    },
+    "Singlets SSC": {
+     "count": 14407,
+     "pct": 99.57837987282278
+    },
+    "Singlets FSC": {
+     "count": 14354,
+     "pct": 99.63212327340877
+    },
+    "Live": {
+     "count": 13981,
+     "pct": 97.40142120663229
+    },
+    "CD3+": {
+     "count": 11936,
+     "pct": 85.37300622273085
+    },
+    "CD4 T": {
+     "count": 8330,
+     "pct": 69.78887399463807
+    },
+    "CD8 T": {
+     "count": 649,
+     "pct": 5.4373324396782845
+    }
+   }
+  },
+  {
+   "sample": "ALS Specimen_001_C10_C10 Negative.fcs",
+   "total": 7636,
+   "pops": {
+    "Lymphocytes": {
+     "count": 3115,
+     "pct": 40.79360921948664
+    },
+    "Singlets SSC": {
+     "count": 3092,
+     "pct": 99.26163723916532
+    },
+    "Singlets FSC": {
+     "count": 3083,
+     "pct": 99.70892626131953
+    },
+    "Live": {
+     "count": 2962,
+     "pct": 96.07525137852741
+    },
+    "CD3+": {
+     "count": 2558,
+     "pct": 86.36056718433491
+    },
+    "CD4 T": {
+     "count": 1950,
+     "pct": 76.23143080531665
+    },
+    "CD8 T": {
+     "count": 430,
+     "pct": 16.810007818608288
+    }
+   }
+  },
+  {
+   "sample": "ALS Specimen_001_C11_C11 Peptide.fcs",
+   "total": 10035,
+   "pops": {
+    "Lymphocytes": {
+     "count": 4384,
+     "pct": 43.687095166915796
+    },
+    "Singlets SSC": {
+     "count": 4369,
+     "pct": 99.65784671532846
+    },
+    "Singlets FSC": {
+     "count": 4362,
+     "pct": 99.83978027008469
+    },
+    "Live": {
+     "count": 4201,
+     "pct": 96.30903255387437
+    },
+    "CD3+": {
+     "count": 3703,
+     "pct": 88.14567960009522
+    },
+    "CD4 T": {
+     "count": 2841,
+     "pct": 76.72157709964894
+    },
+    "CD8 T": {
+     "count": 637,
+     "pct": 17.20226843100189
+    }
+   }
+  },
+  {
+   "sample": "ALS Specimen_001_C12_C12 Positive.fcs",
+   "total": 8795,
+   "pops": {
+    "Lymphocytes": {
+     "count": 3225,
+     "pct": 36.6685616827743
+    },
+    "Singlets SSC": {
+     "count": 3198,
+     "pct": 99.16279069767442
+    },
+    "Singlets FSC": {
+     "count": 3188,
+     "pct": 99.68730456535334
+    },
+    "Live": {
+     "count": 2524,
+     "pct": 79.17189460476789
+    },
+    "CD3+": {
+     "count": 2230,
+     "pct": 88.35182250396197
+    },
+    "CD4 T": {
+     "count": 1417,
+     "pct": 63.54260089686099
+    },
+    "CD8 T": {
+     "count": 428,
+     "pct": 19.192825112107624
+    }
+   }
+  },
+  {
+   "sample": "ALS Specimen_001_H1_H01 Negatice.fcs",
+   "total": 54717,
+   "pops": {
+    "Lymphocytes": {
+     "count": 27808,
+     "pct": 50.82149971672423
+    },
+    "Singlets SSC": {
+     "count": 27581,
+     "pct": 99.18368814729574
+    },
+    "Singlets FSC": {
+     "count": 27472,
+     "pct": 99.60480040607665
+    },
+    "Live": {
+     "count": 26486,
+     "pct": 96.41089108910892
+    },
+    "CD3+": {
+     "count": 21598,
+     "pct": 81.5449671524579
+    },
+    "CD4 T": {
+     "count": 19505,
+     "pct": 90.3092878970275
+    },
+    "CD8 T": {
+     "count": 1383,
+     "pct": 6.403370682470599
+    }
+   }
+  },
+  {
+   "sample": "ALS Specimen_001_H2_H02 Peptide.fcs",
+   "total": 38870,
+   "pops": {
+    "Lymphocytes": {
+     "count": 21014,
+     "pct": 54.062258811422694
+    },
+    "Singlets SSC": {
+     "count": 20859,
+     "pct": 99.26239649757305
+    },
+    "Singlets FSC": {
+     "count": 20784,
+     "pct": 99.64044297425572
+    },
+    "Live": {
+     "count": 20012,
+     "pct": 96.28560431100847
+    },
+    "CD3+": {
+     "count": 16311,
+     "pct": 81.50609634219468
+    },
+    "CD4 T": {
+     "count": 14926,
+     "pct": 91.50879774385385
+    },
+    "CD8 T": {
+     "count": 861,
+     "pct": 5.27864631230458
+    }
+   }
+  },
+  {
+   "sample": "ALS Specimen_001_H3_H03 Positive.fcs",
+   "total": 36432,
+   "pops": {
+    "Lymphocytes": {
+     "count": 18504,
+     "pct": 50.790513833992094
+    },
+    "Singlets SSC": {
+     "count": 18301,
+     "pct": 98.90293990488543
+    },
+    "Singlets FSC": {
+     "count": 18227,
+     "pct": 99.59565051090104
+    },
+    "Live": {
+     "count": 17071,
+     "pct": 93.65776046524387
+    },
+    "CD3+": {
+     "count": 13887,
+     "pct": 81.34848573604359
+    },
+    "CD4 T": {
+     "count": 10363,
+     "pct": 74.62374882984086
+    },
+    "CD8 T": {
+     "count": 1100,
+     "pct": 7.921077266508245
+    }
+   }
+  },
+  {
+   "sample": "HC Specimen_001_H7_H07 Negative.fcs",
+   "total": 131652,
+   "pops": {
+    "Lymphocytes": {
+     "count": 91496,
+     "pct": 69.49837450247622
+    },
+    "Singlets SSC": {
+     "count": 90526,
+     "pct": 98.93984436478097
+    },
+    "Singlets FSC": {
+     "count": 90030,
+     "pct": 99.45209111194573
+    },
+    "Live": {
+     "count": 88826,
+     "pct": 98.66266799955571
+    },
+    "CD3+": {
+     "count": 81121,
+     "pct": 91.32573795960643
+    },
+    "CD4 T": {
+     "count": 69691,
+     "pct": 85.90993700767989
+    },
+    "CD8 T": {
+     "count": 4811,
+     "pct": 5.930646811553112
+    }
+   }
+  },
+  {
+   "sample": "HC Specimen_001_H8_H08 Peptide.fcs",
+   "total": 151869,
+   "pops": {
+    "Lymphocytes": {
+     "count": 100752,
+     "pct": 66.34138632637338
+    },
+    "Singlets SSC": {
+     "count": 99571,
+     "pct": 98.82781483245991
+    },
+    "Singlets FSC": {
+     "count": 99055,
+     "pct": 99.48177682256882
+    },
+    "Live": {
+     "count": 97578,
+     "pct": 98.50890919186311
+    },
+    "CD3+": {
+     "count": 89408,
+     "pct": 91.62721105167148
+    },
+    "CD4 T": {
+     "count": 74865,
+     "pct": 83.73411775232641
+    },
+    "CD8 T": {
+     "count": 7006,
+     "pct": 7.835987831066571
+    }
+   }
+  },
+  {
+   "sample": "HC Specimen_001_H9_H09 Positive.fcs",
+   "total": 103914,
+   "pops": {
+    "Lymphocytes": {
+     "count": 55851,
+     "pct": 53.74732952248975
+    },
+    "Singlets SSC": {
+     "count": 54903,
+     "pct": 98.30262663157329
+    },
+    "Singlets FSC": {
+     "count": 54607,
+     "pct": 99.46086734786806
+    },
+    "Live": {
+     "count": 53373,
+     "pct": 97.74021645576575
+    },
+    "CD3+": {
+     "count": 47799,
+     "pct": 89.55651734022821
+    },
+    "CD4 T": {
+     "count": 36784,
+     "pct": 76.95558484487123
+    },
+    "CD8 T": {
+     "count": 3307,
+     "pct": 6.918554781480784
+    }
+   }
+  }
+ ],
+ "quantiles": {
+  "HC Specimen_001_C1_C01 Negative.fcs": [
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.5,
+    "value": 124.45238494873047,
+    "n": 4752
+   },
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.99,
+    "value": 297.3510272216796,
+    "n": 4752
+   },
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.995,
+    "value": 353.94624526977526,
+    "n": 4752
+   },
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.999,
+    "value": 483.3134432067796,
+    "n": 4752
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.5,
+    "value": 60.45170021057129,
+    "n": 4752
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.99,
+    "value": 148.69281784057608,
+    "n": 4752
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.995,
+    "value": 161.19595306396482,
+    "n": 4752
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.999,
+    "value": 189.09607272338602,
+    "n": 4752
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.5,
+    "value": 259.7012023925781,
+    "n": 4752
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.99,
+    "value": 892.8696997070268,
+    "n": 4752
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.995,
+    "value": 1129.2570928955072,
+    "n": 4752
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.999,
+    "value": 1529.0800426025264,
+    "n": 4752
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.5,
+    "value": 65.6033935546875,
+    "n": 4752
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.99,
+    "value": 619.4901544189448,
+    "n": 4752
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.995,
+    "value": 680.4727865600581,
+    "n": 4752
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.999,
+    "value": 1713.77747485344,
+    "n": 4752
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.5,
+    "value": 127.79850006103516,
+    "n": 233
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.99,
+    "value": 225.88288574218757,
+    "n": 233
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.995,
+    "value": 245.03018737792974,
+    "n": 233
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.999,
+    "value": 268.6015169677735,
+    "n": 233
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.5,
+    "value": 65.06645965576172,
+    "n": 233
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.99,
+    "value": 128.51813598632813,
+    "n": 233
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.995,
+    "value": 131.86848388671876,
+    "n": 233
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.999,
+    "value": 519.2512153320316,
+    "n": 233
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.5,
+    "value": 67.25419616699219,
+    "n": 233
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.99,
+    "value": 523.6765478515631,
+    "n": 233
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.995,
+    "value": 594.4654345703127,
+    "n": 233
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.999,
+    "value": 624.4579033203125,
+    "n": 233
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.5,
+    "value": 262.6751708984375,
+    "n": 233
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.99,
+    "value": 1054.1759521484375,
+    "n": 233
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.995,
+    "value": 1294.6979931640635,
+    "n": 233
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.999,
+    "value": 6938.270844726568,
+    "n": 233
+   }
+  ],
+  "HC Specimen_001_C2_C02 Peptide.fcs": [
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.5,
+    "value": 123.95361328125,
+    "n": 6939
+   },
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.99,
+    "value": 332.7392742919921,
+    "n": 6939
+   },
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.995,
+    "value": 369.65526580810604,
+    "n": 6939
+   },
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.999,
+    "value": 694.846836181637,
+    "n": 6939
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.5,
+    "value": 61.03643798828125,
+    "n": 6939
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.99,
+    "value": 163.9672503662109,
+    "n": 6939
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.995,
+    "value": 179.7250866699227,
+    "n": 6939
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.999,
+    "value": 300.0960681762665,
+    "n": 6939
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.5,
+    "value": 269.8474426269531,
+    "n": 6939
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.99,
+    "value": 1273.787448730468,
+    "n": 6939
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.995,
+    "value": 1773.80122924806,
+    "n": 6939
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.999,
+    "value": 2794.721640624999,
+    "n": 6939
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.5,
+    "value": 55.330345153808594,
+    "n": 6939
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.99,
+    "value": 588.9791113281246,
+    "n": 6939
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.995,
+    "value": 720.1514440917991,
+    "n": 6939
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.999,
+    "value": 2417.710060058434,
+    "n": 6939
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.5,
+    "value": 124.8167495727539,
+    "n": 365
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.99,
+    "value": 300.15781982421896,
+    "n": 365
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.995,
+    "value": 463.17765991211087,
+    "n": 365
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.999,
+    "value": 890.2697341308688,
+    "n": 365
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.5,
+    "value": 63.24840545654297,
+    "n": 365
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.99,
+    "value": 157.9598236083985,
+    "n": 365
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.995,
+    "value": 168.51009338378924,
+    "n": 365
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.999,
+    "value": 243.42521527099814,
+    "n": 365
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.5,
+    "value": 67.8814697265625,
+    "n": 365
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.99,
+    "value": 549.5908447265626,
+    "n": 365
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.995,
+    "value": 604.9410339355477,
+    "n": 365
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.999,
+    "value": 21796.466262940252,
+    "n": 365
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.5,
+    "value": 191.96469116210938,
+    "n": 365
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.99,
+    "value": 1341.977856445313,
+    "n": 365
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.995,
+    "value": 1603.3505664062577,
+    "n": 365
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.999,
+    "value": 4974.74874511728,
+    "n": 365
+   }
+  ],
+  "HC Specimen_001_C3_C03 Positive.fcs": [
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.5,
+    "value": 132.56922912597656,
+    "n": 4471
+   },
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.99,
+    "value": 34197.99609375002,
+    "n": 4471
+   },
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.995,
+    "value": 40119.368554687404,
+    "n": 4471
+   },
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.999,
+    "value": 49767.38023437491,
+    "n": 4471
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.5,
+    "value": 59.914466857910156,
+    "n": 4471
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.99,
+    "value": 808.9586547851567,
+    "n": 4471
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.995,
+    "value": 1054.718383789057,
+    "n": 4471
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.999,
+    "value": 1402.7391491699145,
+    "n": 4471
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.5,
+    "value": 119.27975463867188,
+    "n": 4471
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.99,
+    "value": 387.10563354492194,
+    "n": 4471
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.995,
+    "value": 446.3503982543937,
+    "n": 4471
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.999,
+    "value": 678.7066156005839,
+    "n": 4471
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.5,
+    "value": 107.77776336669922,
+    "n": 4471
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.99,
+    "value": 634.2382751464872,
+    "n": 4471
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.995,
+    "value": 1358.661694335887,
+    "n": 4471
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.999,
+    "value": 11694.623291015301,
+    "n": 4471
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.5,
+    "value": 165.56837463378906,
+    "n": 511
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.99,
+    "value": 38451.826562499984,
+    "n": 511
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.995,
+    "value": 45267.16542968739,
+    "n": 511
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.999,
+    "value": 55736.69882812504,
+    "n": 511
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.5,
+    "value": 60.81270980834961,
+    "n": 511
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.99,
+    "value": 449.35854492187474,
+    "n": 511
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.995,
+    "value": 587.0722686767555,
+    "n": 511
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.999,
+    "value": 1016.2621136474634,
+    "n": 511
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.5,
+    "value": 47.6633415222168,
+    "n": 511
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.99,
+    "value": 438.42065734863274,
+    "n": 511
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.995,
+    "value": 453.05675811767577,
+    "n": 511
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.999,
+    "value": 537.1120324707036,
+    "n": 511
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.5,
+    "value": 190.22950744628906,
+    "n": 511
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.99,
+    "value": 1096.5879028320292,
+    "n": 511
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.995,
+    "value": 1245.820654296872,
+    "n": 511
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.999,
+    "value": 2257.0019006347748,
+    "n": 511
+   }
+  ],
+  "ALS Specimen_001_C4_C04 Negative.fcs": [
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.5,
+    "value": 167.11727905273438,
+    "n": 1215
+   },
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.99,
+    "value": 457.84079589843685,
+    "n": 1215
+   },
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.995,
+    "value": 546.2568597412118,
+    "n": 1215
+   },
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.999,
+    "value": 879.1742889404477,
+    "n": 1215
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.5,
+    "value": 80.5680160522461,
+    "n": 1215
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.99,
+    "value": 205.10694671630858,
+    "n": 1215
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.995,
+    "value": 214.1469497680664,
+    "n": 1215
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.999,
+    "value": 381.11335137940046,
+    "n": 1215
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.5,
+    "value": 340.1590881347656,
+    "n": 1215
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.99,
+    "value": 1849.9087597656176,
+    "n": 1215
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.995,
+    "value": 2225.0639013671907,
+    "n": 1215
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.999,
+    "value": 3067.3504448242297,
+    "n": 1215
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.5,
+    "value": 52.511226654052734,
+    "n": 1215
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.99,
+    "value": 528.4075427246087,
+    "n": 1215
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.995,
+    "value": 656.5001867675828,
+    "n": 1215
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.999,
+    "value": 824.8244468994161,
+    "n": 1215
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.5,
+    "value": 160.2654571533203,
+    "n": 17
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.99,
+    "value": 270.6264221191406,
+    "n": 17
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.995,
+    "value": 274.97612915039065,
+    "n": 17
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.999,
+    "value": 278.4558947753906,
+    "n": 17
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.5,
+    "value": 78.81765747070312,
+    "n": 17
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.99,
+    "value": 150.6250146484375,
+    "n": 17
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.995,
+    "value": 150.94504516601563,
+    "n": 17
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.999,
+    "value": 151.20106958007813,
+    "n": 17
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.5,
+    "value": 40.5668830871582,
+    "n": 17
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.99,
+    "value": 393.1269873046875,
+    "n": 17
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.995,
+    "value": 394.25087158203127,
+    "n": 17
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.999,
+    "value": 395.14997900390625,
+    "n": 17
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.5,
+    "value": 171.6658477783203,
+    "n": 17
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.99,
+    "value": 1117.54294921875,
+    "n": 17
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.995,
+    "value": 1152.0772607421875,
+    "n": 17
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.999,
+    "value": 1179.7047099609376,
+    "n": 17
+   }
+  ],
+  "ALS Specimen_001_C5_C05 Peptide.fcs": [
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.5,
+    "value": 163.40521240234375,
+    "n": 1188
+   },
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.99,
+    "value": 552.410978393549,
+    "n": 1188
+   },
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.995,
+    "value": 903.6467556762707,
+    "n": 1188
+   },
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.999,
+    "value": 1987.2969830322918,
+    "n": 1188
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.5,
+    "value": 78.07638931274414,
+    "n": 1188
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.99,
+    "value": 229.45986465454038,
+    "n": 1188
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.995,
+    "value": 298.4648185729988,
+    "n": 1188
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.999,
+    "value": 463.2352952575734,
+    "n": 1188
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.5,
+    "value": 360.1888122558594,
+    "n": 1188
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.99,
+    "value": 2389.194130859375,
+    "n": 1188
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.995,
+    "value": 2920.3514331054694,
+    "n": 1188
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.999,
+    "value": 3340.6994106445395,
+    "n": 1188
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.5,
+    "value": 70.26273727416992,
+    "n": 1188
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.99,
+    "value": 470.7720043945304,
+    "n": 1188
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.995,
+    "value": 504.53624938964913,
+    "n": 1188
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.999,
+    "value": 608.8239532470759,
+    "n": 1188
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.5,
+    "value": 140.14360809326172,
+    "n": 40
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.99,
+    "value": 329.62033233642575,
+    "n": 40
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.995,
+    "value": 348.6520240783691,
+    "n": 40
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.999,
+    "value": 363.8773774719237,
+    "n": 40
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.5,
+    "value": 84.766845703125,
+    "n": 40
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.99,
+    "value": 166.22062438964844,
+    "n": 40
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.995,
+    "value": 170.9514453125,
+    "n": 40
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.999,
+    "value": 174.7361020507812,
+    "n": 40
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.5,
+    "value": 128.44037246704102,
+    "n": 40
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.99,
+    "value": 421.78020233154297,
+    "n": 40
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.995,
+    "value": 423.67347213745114,
+    "n": 40
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.999,
+    "value": 425.1880879821777,
+    "n": 40
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.5,
+    "value": 152.91751861572266,
+    "n": 40
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.99,
+    "value": 830.1840020751952,
+    "n": 40
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.995,
+    "value": 885.5779629516601,
+    "n": 40
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.999,
+    "value": 929.8931316528316,
+    "n": 40
+   }
+  ],
+  "ALS Specimen_001_C6_C06 Positive.fcs": [
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.5,
+    "value": 221.96607971191406,
+    "n": 1637
+   },
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.99,
+    "value": 54204.454218749925,
+    "n": 1637
+   },
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.995,
+    "value": 64222.34320312484,
+    "n": 1637
+   },
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.999,
+    "value": 80858.0653750001,
+    "n": 1637
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.5,
+    "value": 94.61626434326172,
+    "n": 1637
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.99,
+    "value": 1477.2606201171814,
+    "n": 1637
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.995,
+    "value": 1852.5833764648428,
+    "n": 1637
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.999,
+    "value": 2371.8581250000116,
+    "n": 1637
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.5,
+    "value": 147.80099487304688,
+    "n": 1637
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.99,
+    "value": 808.4746044921854,
+    "n": 1637
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.995,
+    "value": 1112.8607177734305,
+    "n": 1637
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.999,
+    "value": 2148.7130751953237,
+    "n": 1637
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.5,
+    "value": 83.62193298339844,
+    "n": 1637
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.99,
+    "value": 487.26751220703125,
+    "n": 1637
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.995,
+    "value": 789.443698730458,
+    "n": 1637
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.999,
+    "value": 9694.12773046896,
+    "n": 1637
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.5,
+    "value": 3616.958251953125,
+    "n": 145
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.99,
+    "value": 46887.441093750014,
+    "n": 145
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.995,
+    "value": 53444.51156250002,
+    "n": 145
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.999,
+    "value": 61066.68356249993,
+    "n": 145
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.5,
+    "value": 68.40559387207031,
+    "n": 145
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.99,
+    "value": 638.0043627929688,
+    "n": 145
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.995,
+    "value": 801.8476953125006,
+    "n": 145
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.999,
+    "value": 1121.600398437497,
+    "n": 145
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.5,
+    "value": 85.85916900634766,
+    "n": 145
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.99,
+    "value": 329.2042529296875,
+    "n": 145
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.995,
+    "value": 345.69857788085943,
+    "n": 145
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.999,
+    "value": 375.3243103027341,
+    "n": 145
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.5,
+    "value": 128.70391845703125,
+    "n": 145
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.99,
+    "value": 695.7961254882815,
+    "n": 145
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.995,
+    "value": 887.3489794921882,
+    "n": 145
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.999,
+    "value": 1191.9394248046847,
+    "n": 145
+   }
+  ],
+  "HC Specimen_001_C7_C07 Negative.fcs": [
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.5,
+    "value": 133.37823486328125,
+    "n": 12531
+   },
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.99,
+    "value": 383.1812835693363,
+    "n": 12531
+   },
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.995,
+    "value": 425.7944702148442,
+    "n": 12531
+   },
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.999,
+    "value": 520.8282269287096,
+    "n": 12531
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.5,
+    "value": 66.7764663696289,
+    "n": 12531
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.99,
+    "value": 178.63017578125002,
+    "n": 12531
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.995,
+    "value": 194.4712226867676,
+    "n": 12531
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.999,
+    "value": 227.41917984008762,
+    "n": 12531
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.5,
+    "value": 313.4625549316406,
+    "n": 12531
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.99,
+    "value": 1415.49262695313,
+    "n": 12531
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.995,
+    "value": 2024.5467407226647,
+    "n": 12531
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.999,
+    "value": 3074.0443017578064,
+    "n": 12531
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.5,
+    "value": 8.589695930480957,
+    "n": 12531
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.99,
+    "value": 418.53744812011803,
+    "n": 12531
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.995,
+    "value": 480.2821350097658,
+    "n": 12531
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.999,
+    "value": 737.6553540038814,
+    "n": 12531
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.5,
+    "value": 131.23818969726562,
+    "n": 353
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.99,
+    "value": 347.66684814453134,
+    "n": 353
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.995,
+    "value": 368.15900390625006,
+    "n": 353
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.999,
+    "value": 411.8545722656265,
+    "n": 353
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.5,
+    "value": 65.77377319335938,
+    "n": 353
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.99,
+    "value": 177.23032653808602,
+    "n": 353
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.995,
+    "value": 185.44312194824218,
+    "n": 353
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.999,
+    "value": 195.94820751953165,
+    "n": 353
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.5,
+    "value": 62.24308395385742,
+    "n": 353
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.99,
+    "value": 582.0941625976565,
+    "n": 353
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.995,
+    "value": 663.6376391601572,
+    "n": 353
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.999,
+    "value": 837.9514721679724,
+    "n": 353
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.5,
+    "value": 169.4701385498047,
+    "n": 353
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.99,
+    "value": 829.6651269531253,
+    "n": 353
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.995,
+    "value": 896.2042578125008,
+    "n": 353
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.999,
+    "value": 976.5264877929691,
+    "n": 353
+   }
+  ],
+  "HC Specimen_001_C8_C08 Peptide.fcs": [
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.5,
+    "value": 131.16844177246094,
+    "n": 18703
+   },
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.99,
+    "value": 509.037785644531,
+    "n": 18703
+   },
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.995,
+    "value": 1350.9411877442308,
+    "n": 18703
+   },
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.999,
+    "value": 6747.754802733828,
+    "n": 18703
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.5,
+    "value": 65.90894317626953,
+    "n": 18703
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.99,
+    "value": 186.47184753417946,
+    "n": 18703
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.995,
+    "value": 214.07619522094876,
+    "n": 18703
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.999,
+    "value": 401.6148222045873,
+    "n": 18703
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.5,
+    "value": 294.840087890625,
+    "n": 18703
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.99,
+    "value": 1004.3310693359347,
+    "n": 18703
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.995,
+    "value": 1458.9036975097715,
+    "n": 18703
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.999,
+    "value": 2761.8842070312394,
+    "n": 18703
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.5,
+    "value": 13.472474098205566,
+    "n": 18703
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.99,
+    "value": 446.1506628417962,
+    "n": 18703
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.995,
+    "value": 535.107377929692,
+    "n": 18703
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.999,
+    "value": 2788.5166367185507,
+    "n": 18703
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.5,
+    "value": 128.19375610351562,
+    "n": 858
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.99,
+    "value": 335.51041778564445,
+    "n": 858
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.995,
+    "value": 409.2124258422852,
+    "n": 858
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.999,
+    "value": 424.50551290893577,
+    "n": 858
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.5,
+    "value": 68.3829231262207,
+    "n": 858
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.99,
+    "value": 163.57744171142576,
+    "n": 858
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.995,
+    "value": 173.80881889343289,
+    "n": 858
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.999,
+    "value": 186.97640899658214,
+    "n": 858
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.5,
+    "value": 74.92614364624023,
+    "n": 858
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.99,
+    "value": 529.9515136718749,
+    "n": 858
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.995,
+    "value": 575.7339465332032,
+    "n": 858
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.999,
+    "value": 698.6441229858436,
+    "n": 858
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.5,
+    "value": 176.04113006591797,
+    "n": 858
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.99,
+    "value": 921.578811035156,
+    "n": 858
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.995,
+    "value": 946.8649191284181,
+    "n": 858
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.999,
+    "value": 1110.1628015136723,
+    "n": 858
+   }
+  ],
+  "HC Specimen_001_C9_C09 Positive.fcs": [
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.5,
+    "value": 137.02494049072266,
+    "n": 8330
+   },
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.99,
+    "value": 46925.460937499985,
+    "n": 8330
+   },
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.995,
+    "value": 53953.79556640617,
+    "n": 8330
+   },
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.999,
+    "value": 65170.34101953127,
+    "n": 8330
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.5,
+    "value": 61.84584045410156,
+    "n": 8330
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.99,
+    "value": 1277.3304211425775,
+    "n": 8330
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.995,
+    "value": 1585.5582293701018,
+    "n": 8330
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.999,
+    "value": 2313.8711230468894,
+    "n": 8330
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.5,
+    "value": 130.7062530517578,
+    "n": 8330
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.99,
+    "value": 408.42148345947106,
+    "n": 8330
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.995,
+    "value": 481.6883616638176,
+    "n": 8330
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.999,
+    "value": 733.0318839721742,
+    "n": 8330
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.5,
+    "value": 72.88972854614258,
+    "n": 8330
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.99,
+    "value": 8814.915683593454,
+    "n": 8330
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.995,
+    "value": 15343.199868163972,
+    "n": 8330
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.999,
+    "value": 30400.69344921883,
+    "n": 8330
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.5,
+    "value": 8673.6787109375,
+    "n": 649
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.99,
+    "value": 51931.385937499974,
+    "n": 649
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.995,
+    "value": 56008.83984374996,
+    "n": 649
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.999,
+    "value": 68088.07381249972,
+    "n": 649
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.5,
+    "value": 62.0568733215332,
+    "n": 649
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.99,
+    "value": 433.8132934570312,
+    "n": 649
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.995,
+    "value": 891.7635034179647,
+    "n": 649
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.999,
+    "value": 2210.7681171874483,
+    "n": 649
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.5,
+    "value": 43.8469123840332,
+    "n": 649
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.99,
+    "value": 431.5256616210937,
+    "n": 649
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.995,
+    "value": 462.04098876953117,
+    "n": 649
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.999,
+    "value": 577.795432128903,
+    "n": 649
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.5,
+    "value": 145.75157165527344,
+    "n": 649
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.99,
+    "value": 859.5219189453122,
+    "n": 649
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.995,
+    "value": 963.4471850585928,
+    "n": 649
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.999,
+    "value": 2362.9560839843703,
+    "n": 649
+   }
+  ],
+  "ALS Specimen_001_C10_C10 Negative.fcs": [
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.5,
+    "value": 106.93358612060547,
+    "n": 1950
+   },
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.99,
+    "value": 293.09739196777343,
+    "n": 1950
+   },
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.995,
+    "value": 332.7269474792478,
+    "n": 1950
+   },
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.999,
+    "value": 395.89093106078974,
+    "n": 1950
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.5,
+    "value": 55.128665924072266,
+    "n": 1950
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.99,
+    "value": 152.57005935668946,
+    "n": 1950
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.995,
+    "value": 170.04880264282227,
+    "n": 1950
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.999,
+    "value": 198.0027541503906,
+    "n": 1950
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.5,
+    "value": 268.2284240722656,
+    "n": 1950
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.99,
+    "value": 910.4592572021484,
+    "n": 1950
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.995,
+    "value": 1107.1488391113246,
+    "n": 1950
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.999,
+    "value": 1461.6064759521396,
+    "n": 1950
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.5,
+    "value": 30.07718849182129,
+    "n": 1950
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.99,
+    "value": 483.27324249267576,
+    "n": 1950
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.995,
+    "value": 550.4517529296875,
+    "n": 1950
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.999,
+    "value": 2166.6557678815275,
+    "n": 1950
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.5,
+    "value": 117.22854614257812,
+    "n": 430
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.99,
+    "value": 300.4294268798822,
+    "n": 430
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.995,
+    "value": 329.4074137878421,
+    "n": 430
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.999,
+    "value": 390.67720123291116,
+    "n": 430
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.5,
+    "value": 66.50762557983398,
+    "n": 430
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.99,
+    "value": 137.8397549438476,
+    "n": 430
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.995,
+    "value": 144.14497352600102,
+    "n": 430
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.999,
+    "value": 228.66700048828193,
+    "n": 430
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.5,
+    "value": 84.88430786132812,
+    "n": 430
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.99,
+    "value": 573.4665179443354,
+    "n": 430
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.995,
+    "value": 628.6536068725587,
+    "n": 430
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.999,
+    "value": 676.9868171997075,
+    "n": 430
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.5,
+    "value": 179.71275329589844,
+    "n": 430
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.99,
+    "value": 943.8456805419914,
+    "n": 430
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.995,
+    "value": 1251.7289074707094,
+    "n": 430
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.999,
+    "value": 8295.95223803743,
+    "n": 430
+   }
+  ],
+  "ALS Specimen_001_C11_C11 Peptide.fcs": [
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.5,
+    "value": 112.38228607177734,
+    "n": 2841
+   },
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.99,
+    "value": 1406.9625732421785,
+    "n": 2841
+   },
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.995,
+    "value": 3478.8204101562565,
+    "n": 2841
+   },
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.999,
+    "value": 10971.960117187082,
+    "n": 2841
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.5,
+    "value": 57.101051330566406,
+    "n": 2841
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.99,
+    "value": 186.61093444824198,
+    "n": 2841
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.995,
+    "value": 434.72988281251156,
+    "n": 2841
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.999,
+    "value": 556.0226123046785,
+    "n": 2841
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.5,
+    "value": 277.0258483886719,
+    "n": 2841
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.99,
+    "value": 1088.4948974609372,
+    "n": 2841
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.995,
+    "value": 1451.0850585937571,
+    "n": 2841
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.999,
+    "value": 2297.5631738281004,
+    "n": 2841
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.5,
+    "value": 29.867931365966797,
+    "n": 2841
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.99,
+    "value": 439.2979858398432,
+    "n": 2841
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.995,
+    "value": 501.745654296876,
+    "n": 2841
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.999,
+    "value": 694.6684497070199,
+    "n": 2841
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.5,
+    "value": 122.12444305419922,
+    "n": 637
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.99,
+    "value": 255.02659545898427,
+    "n": 637
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.995,
+    "value": 280.6064398193361,
+    "n": 637
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.999,
+    "value": 297.35620007324303,
+    "n": 637
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.5,
+    "value": 64.60411834716797,
+    "n": 637
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.99,
+    "value": 146.4770648193359,
+    "n": 637
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.995,
+    "value": 154.27471496582032,
+    "n": 637
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.999,
+    "value": 171.981997497559,
+    "n": 637
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.5,
+    "value": 71.87271118164062,
+    "n": 637
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.99,
+    "value": 487.36989746093747,
+    "n": 637
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.995,
+    "value": 546.6335656738289,
+    "n": 637
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.999,
+    "value": 777.8838359375153,
+    "n": 637
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.5,
+    "value": 153.29824829101562,
+    "n": 637
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.99,
+    "value": 853.7970312499999,
+    "n": 637
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.995,
+    "value": 1006.2945947265641,
+    "n": 637
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.999,
+    "value": 1283.8629873047078,
+    "n": 637
+   }
+  ],
+  "ALS Specimen_001_C12_C12 Positive.fcs": [
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.5,
+    "value": 121.57971954345703,
+    "n": 1417
+   },
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.99,
+    "value": 29739.34546874995,
+    "n": 1417
+   },
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.995,
+    "value": 36973.210468750025,
+    "n": 1417
+   },
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.999,
+    "value": 44055.47706250007,
+    "n": 1417
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.5,
+    "value": 61.794246673583984,
+    "n": 1417
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.99,
+    "value": 605.360964355468,
+    "n": 1417
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.995,
+    "value": 767.576435546875,
+    "n": 1417
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.999,
+    "value": 1247.151903320325,
+    "n": 1417
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.5,
+    "value": 134.1853485107422,
+    "n": 1417
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.99,
+    "value": 441.22924560546755,
+    "n": 1417
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.995,
+    "value": 542.6166699218753,
+    "n": 1417
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.999,
+    "value": 748.4436508789076,
+    "n": 1417
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.5,
+    "value": 74.18606567382812,
+    "n": 1417
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.99,
+    "value": 415.3749340820308,
+    "n": 1417
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.995,
+    "value": 494.4621289062505,
+    "n": 1417
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.999,
+    "value": 1055.1845019531293,
+    "n": 1417
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.5,
+    "value": 168.88502502441406,
+    "n": 428
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.99,
+    "value": 27984.93851562502,
+    "n": 428
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.995,
+    "value": 28824.590800781254,
+    "n": 428
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.999,
+    "value": 32107.64339257801,
+    "n": 428
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.5,
+    "value": 67.37510299682617,
+    "n": 428
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.99,
+    "value": 945.6790093994196,
+    "n": 428
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.995,
+    "value": 1242.5452716064476,
+    "n": 428
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.999,
+    "value": 1650.2111304931504,
+    "n": 428
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.5,
+    "value": 59.66781425476074,
+    "n": 428
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.99,
+    "value": 437.3143905639649,
+    "n": 428
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.995,
+    "value": 471.25318954467775,
+    "n": 428
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.999,
+    "value": 10184.470920531894,
+    "n": 428
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.5,
+    "value": 131.21288299560547,
+    "n": 428
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.99,
+    "value": 728.2767199707031,
+    "n": 428
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.995,
+    "value": 926.7465972900407,
+    "n": 428
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.999,
+    "value": 8524.475370727265,
+    "n": 428
+   }
+  ],
+  "ALS Specimen_001_H1_H01 Negatice.fcs": [
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.5,
+    "value": 132.06809997558594,
+    "n": 19505
+   },
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.99,
+    "value": 400.25160766601545,
+    "n": 19505
+   },
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.995,
+    "value": 467.25454711914034,
+    "n": 19505
+   },
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.999,
+    "value": 19590.199562499016,
+    "n": 19505
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.5,
+    "value": 70.10231018066406,
+    "n": 19505
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.99,
+    "value": 183.57431030273423,
+    "n": 19505
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.995,
+    "value": 200.09130065917955,
+    "n": 19505
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.999,
+    "value": 240.12368725585839,
+    "n": 19505
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.5,
+    "value": 300.99371337890625,
+    "n": 19505
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.99,
+    "value": 1195.254848632812,
+    "n": 19505
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.995,
+    "value": 1642.369794921865,
+    "n": 19505
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.999,
+    "value": 2826.9533691405977,
+    "n": 19505
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.5,
+    "value": 18.807886123657227,
+    "n": 19505
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.99,
+    "value": 489.0886718749989,
+    "n": 19505
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.995,
+    "value": 569.4752099609359,
+    "n": 19505
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.999,
+    "value": 1968.8417617187406,
+    "n": 19505
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.5,
+    "value": 117.90140533447266,
+    "n": 1383
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.99,
+    "value": 261.0784497070313,
+    "n": 1383
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.995,
+    "value": 303.3131033325175,
+    "n": 1383
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.999,
+    "value": 465.4072156371981,
+    "n": 1383
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.5,
+    "value": 67.12319946289062,
+    "n": 1383
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.99,
+    "value": 143.3425881958008,
+    "n": 1383
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.995,
+    "value": 155.91606079101558,
+    "n": 1383
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.999,
+    "value": 170.39350427246066,
+    "n": 1383
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.5,
+    "value": 76.98404693603516,
+    "n": 1383
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.99,
+    "value": 465.12604919433636,
+    "n": 1383
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.995,
+    "value": 530.8623516845701,
+    "n": 1383
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.999,
+    "value": 591.7253903808579,
+    "n": 1383
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.5,
+    "value": 185.82394409179688,
+    "n": 1383
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.99,
+    "value": 936.8731445312509,
+    "n": 1383
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.995,
+    "value": 1112.735749511716,
+    "n": 1383
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.999,
+    "value": 1760.4162128906228,
+    "n": 1383
+   }
+  ],
+  "ALS Specimen_001_H2_H02 Peptide.fcs": [
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.5,
+    "value": 130.10181427001953,
+    "n": 14926
+   },
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.99,
+    "value": 403.93177795410156,
+    "n": 14926
+   },
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.995,
+    "value": 473.86939239501953,
+    "n": 14926
+   },
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.999,
+    "value": 994.1430984497656,
+    "n": 14926
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.5,
+    "value": 69.40559005737305,
+    "n": 14926
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.99,
+    "value": 185.39259338378906,
+    "n": 14926
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.995,
+    "value": 207.1488971710205,
+    "n": 14926
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.999,
+    "value": 254.34431266784847,
+    "n": 14926
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.5,
+    "value": 300.7833709716797,
+    "n": 14926
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.99,
+    "value": 1337.1022033691406,
+    "n": 14926
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.995,
+    "value": 1835.4178009033203,
+    "n": 14926
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.999,
+    "value": 2765.96719360355,
+    "n": 14926
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.5,
+    "value": 11.745832920074463,
+    "n": 14926
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.99,
+    "value": 427.9207229614258,
+    "n": 14926
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.995,
+    "value": 489.4121551513672,
+    "n": 14926
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.999,
+    "value": 1213.6571350098102,
+    "n": 14926
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.5,
+    "value": 115.4438705444336,
+    "n": 861
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.99,
+    "value": 306.97589721679685,
+    "n": 861
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.995,
+    "value": 336.7982788085939,
+    "n": 861
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.999,
+    "value": 409.0489691162104,
+    "n": 861
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.5,
+    "value": 63.780845642089844,
+    "n": 861
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.99,
+    "value": 154.7805023193359,
+    "n": 861
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.995,
+    "value": 168.79112396240254,
+    "n": 861
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.999,
+    "value": 196.43269195556624,
+    "n": 861
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.5,
+    "value": 53.40183639526367,
+    "n": 861
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.99,
+    "value": 468.0757324218749,
+    "n": 861
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.995,
+    "value": 526.9049438476566,
+    "n": 861
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.999,
+    "value": 678.2175170898427,
+    "n": 861
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.5,
+    "value": 167.14285278320312,
+    "n": 861
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.99,
+    "value": 869.6235351562499,
+    "n": 861
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.995,
+    "value": 944.2269958496112,
+    "n": 861
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.999,
+    "value": 1132.382094726558,
+    "n": 861
+   }
+  ],
+  "ALS Specimen_001_H3_H03 Positive.fcs": [
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.5,
+    "value": 196.66705322265625,
+    "n": 10363
+   },
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.99,
+    "value": 52625.96835937496,
+    "n": 10363
+   },
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.995,
+    "value": 58081.49546875006,
+    "n": 10363
+   },
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.999,
+    "value": 72434.41834375028,
+    "n": 10363
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.5,
+    "value": 69.37933349609375,
+    "n": 10363
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.99,
+    "value": 905.5708923339832,
+    "n": 10363
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.995,
+    "value": 1094.4367004394549,
+    "n": 10363
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.999,
+    "value": 1546.9346247558717,
+    "n": 10363
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.5,
+    "value": 139.5601043701172,
+    "n": 10363
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.99,
+    "value": 546.3564770507785,
+    "n": 10363
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.995,
+    "value": 848.6507495117197,
+    "n": 10363
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.999,
+    "value": 2631.018662597907,
+    "n": 10363
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.5,
+    "value": 64.26559448242188,
+    "n": 10363
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.99,
+    "value": 4011.3934130859293,
+    "n": 10363
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.995,
+    "value": 7087.190458984457,
+    "n": 10363
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.999,
+    "value": 19619.268179688206,
+    "n": 10363
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.5,
+    "value": 8020.02099609375,
+    "n": 1100
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.99,
+    "value": 41354.074140625,
+    "n": 1100
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.995,
+    "value": 43617.24693359368,
+    "n": 1100
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.999,
+    "value": 47825.169472656315,
+    "n": 1100
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.5,
+    "value": 60.510732650756836,
+    "n": 1100
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.99,
+    "value": 201.15645812988234,
+    "n": 1100
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.995,
+    "value": 407.745780944816,
+    "n": 1100
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.999,
+    "value": 683.8312728271494,
+    "n": 1100
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.5,
+    "value": 53.63278579711914,
+    "n": 1100
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.99,
+    "value": 391.84732452392575,
+    "n": 1100
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.995,
+    "value": 424.27611953735266,
+    "n": 1100
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.999,
+    "value": 454.84295123291076,
+    "n": 1100
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.5,
+    "value": 127.88034057617188,
+    "n": 1100
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.99,
+    "value": 701.0732910156248,
+    "n": 1100
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.995,
+    "value": 755.4736135864247,
+    "n": 1100
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.999,
+    "value": 936.9056240844759,
+    "n": 1100
+   }
+  ],
+  "HC Specimen_001_H7_H07 Negative.fcs": [
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.5,
+    "value": 130.0753936767578,
+    "n": 69691
+   },
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.99,
+    "value": 332.7005310058595,
+    "n": 69691
+   },
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.995,
+    "value": 380.17315826416035,
+    "n": 69691
+   },
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.999,
+    "value": 578.072260131823,
+    "n": 69691
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.5,
+    "value": 66.80351257324219,
+    "n": 69691
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.99,
+    "value": 157.43140869140632,
+    "n": 69691
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.995,
+    "value": 172.9755386352539,
+    "n": 69691
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.999,
+    "value": 209.56763565063267,
+    "n": 69691
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.5,
+    "value": 290.3030700683594,
+    "n": 69691
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.99,
+    "value": 1111.884716796876,
+    "n": 69691
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.995,
+    "value": 1557.7720764160174,
+    "n": 69691
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.999,
+    "value": 2933.661328124979,
+    "n": 69691
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.5,
+    "value": 8.898633003234863,
+    "n": 69691
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.99,
+    "value": 434.07902832031294,
+    "n": 69691
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.995,
+    "value": 503.90084686279386,
+    "n": 69691
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.999,
+    "value": 1271.6164672850919,
+    "n": 69691
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.5,
+    "value": 124.92138671875,
+    "n": 4811
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.99,
+    "value": 281.7383453369133,
+    "n": 4811
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.995,
+    "value": 319.7620895385734,
+    "n": 4811
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.999,
+    "value": 590.2011230468264,
+    "n": 4811
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.5,
+    "value": 62.362548828125,
+    "n": 4811
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.99,
+    "value": 146.34360046386715,
+    "n": 4811
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.995,
+    "value": 156.17965850830063,
+    "n": 4811
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.999,
+    "value": 178.72444793701135,
+    "n": 4811
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.5,
+    "value": 65.46154022216797,
+    "n": 4811
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.99,
+    "value": 500.32555236816296,
+    "n": 4811
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.995,
+    "value": 569.3126739501948,
+    "n": 4811
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.999,
+    "value": 723.2139123535144,
+    "n": 4811
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.5,
+    "value": 185.03048706054688,
+    "n": 4811
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.99,
+    "value": 974.7945922851561,
+    "n": 4811
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.995,
+    "value": 1126.3534790039055,
+    "n": 4811
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.999,
+    "value": 1589.5312219237987,
+    "n": 4811
+   }
+  ],
+  "HC Specimen_001_H8_H08 Peptide.fcs": [
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.5,
+    "value": 130.58297729492188,
+    "n": 74865
+   },
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.99,
+    "value": 335.42594238281254,
+    "n": 74865
+   },
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.995,
+    "value": 383.7670422363276,
+    "n": 74865
+   },
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.999,
+    "value": 656.5469047851514,
+    "n": 74865
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.5,
+    "value": 67.18711853027344,
+    "n": 74865
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.99,
+    "value": 162.63875122070314,
+    "n": 74865
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.995,
+    "value": 181.71854431152224,
+    "n": 74865
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.999,
+    "value": 246.62010119628752,
+    "n": 74865
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.5,
+    "value": 278.8730773925781,
+    "n": 74865
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.99,
+    "value": 1145.1482519531257,
+    "n": 74865
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.995,
+    "value": 1703.1715283203082,
+    "n": 74865
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.999,
+    "value": 3190.5974667968558,
+    "n": 74865
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.5,
+    "value": 11.46379566192627,
+    "n": 74865
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.99,
+    "value": 438.5905859375001,
+    "n": 74865
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.995,
+    "value": 513.4954394531235,
+    "n": 74865
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.999,
+    "value": 1348.648961914036,
+    "n": 74865
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.5,
+    "value": 126.54571533203125,
+    "n": 7006
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.99,
+    "value": 282.64597473144516,
+    "n": 7006
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.995,
+    "value": 327.21537780761753,
+    "n": 7006
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.999,
+    "value": 632.9661492919818,
+    "n": 7006
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.5,
+    "value": 62.404537200927734,
+    "n": 7006
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.99,
+    "value": 152.16761703491207,
+    "n": 7006
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.995,
+    "value": 162.7803520202639,
+    "n": 7006
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.999,
+    "value": 202.84770164489706,
+    "n": 7006
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.5,
+    "value": 49.47304725646973,
+    "n": 7006
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.99,
+    "value": 516.193798828125,
+    "n": 7006
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.995,
+    "value": 583.0851547241217,
+    "n": 7006
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.999,
+    "value": 720.0710217285155,
+    "n": 7006
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.5,
+    "value": 186.201416015625,
+    "n": 7006
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.99,
+    "value": 964.1690277099609,
+    "n": 7006
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.995,
+    "value": 1097.399853515629,
+    "n": 7006
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.999,
+    "value": 3395.6692468261253,
+    "n": 7006
+   }
+  ],
+  "HC Specimen_001_H9_H09 Positive.fcs": [
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.5,
+    "value": 7923.312744140625,
+    "n": 36784
+   },
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.99,
+    "value": 69759.61367187482,
+    "n": 36784
+   },
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.995,
+    "value": 76262.78312499993,
+    "n": 36784
+   },
+   {
+    "pop": "CD4 T",
+    "param": "FITC-A",
+    "p": 0.999,
+    "value": 92751.39154687492,
+    "n": 36784
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.5,
+    "value": 66.33078002929688,
+    "n": 36784
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.99,
+    "value": 1041.7990014648415,
+    "n": 36784
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.995,
+    "value": 1285.3473168945288,
+    "n": 36784
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV421-A",
+    "p": 0.999,
+    "value": 2007.3097772216431,
+    "n": 36784
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.5,
+    "value": 136.904541015625,
+    "n": 36784
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.99,
+    "value": 512.0465002441406,
+    "n": 36784
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.995,
+    "value": 696.6546069335936,
+    "n": 36784
+   },
+   {
+    "pop": "CD4 T",
+    "param": "APC-A",
+    "p": 0.999,
+    "value": 3039.0151025390237,
+    "n": 36784
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.5,
+    "value": 64.34446334838867,
+    "n": 36784
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.99,
+    "value": 614.0533093261664,
+    "n": 36784
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.995,
+    "value": 2346.6804016113047,
+    "n": 36784
+   },
+   {
+    "pop": "CD4 T",
+    "param": "BV785-A",
+    "p": 0.999,
+    "value": 14243.405220702763,
+    "n": 36784
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.5,
+    "value": 204.22244262695312,
+    "n": 3307
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.99,
+    "value": 48573.69304687501,
+    "n": 3307
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.995,
+    "value": 53604.12003906246,
+    "n": 3307
+   },
+   {
+    "pop": "CD8 T",
+    "param": "FITC-A",
+    "p": 0.999,
+    "value": 63744.209109375,
+    "n": 3307
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.5,
+    "value": 56.133872985839844,
+    "n": 3307
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.99,
+    "value": 168.3869665527344,
+    "n": 3307
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.995,
+    "value": 224.3724336242669,
+    "n": 3307
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV421-A",
+    "p": 0.999,
+    "value": 463.08500378417966,
+    "n": 3307
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.5,
+    "value": 46.64842224121094,
+    "n": 3307
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.99,
+    "value": 425.9651940917971,
+    "n": 3307
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.995,
+    "value": 482.4946978759746,
+    "n": 3307
+   },
+   {
+    "pop": "CD8 T",
+    "param": "APC-A",
+    "p": 0.999,
+    "value": 671.6568311767562,
+    "n": 3307
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.5,
+    "value": 160.28916931152344,
+    "n": 3307
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.99,
+    "value": 875.8346142578126,
+    "n": 3307
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.995,
+    "value": 974.4689428710923,
+    "n": 3307
+   },
+   {
+    "pop": "CD8 T",
+    "param": "BV785-A",
+    "p": 0.999,
+    "value": 3750.4310175779888,
+    "n": 3307
+   }
+  ]
+ }
+}

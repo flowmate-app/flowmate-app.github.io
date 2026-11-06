@@ -1,0 +1,70 @@
+{
+ "Comp_APC.fcs": {
+  "Lymphocytes": 4367,
+  "Lymphocytes/Single Cells": 3995
+ },
+ "Comp_BV421.fcs": {
+  "Lymphocytes": 4362,
+  "Lymphocytes/Single Cells": 3995
+ },
+ "Comp_FITC.fcs": {
+  "Lymphocytes": 4402,
+  "Lymphocytes/Single Cells": 4070
+ },
+ "Comp_PE.fcs": {
+  "Lymphocytes": 4448,
+  "Lymphocytes/Single Cells": 4087
+ },
+ "Comp_Unstained.fcs": {
+  "Lymphocytes": 4388,
+  "Lymphocytes/Single Cells": 4007
+ },
+ "Donor1_SEB.fcs": {
+  "Lymphocytes": 7492,
+  "Lymphocytes/Single Cells": 6801,
+  "Lymphocytes/Single Cells/CD3+": 4890,
+  "Lymphocytes/Single Cells/CD3+/CD4+": 2987,
+  "Lymphocytes/Single Cells/CD3+/CD4+/IFNg+": 128,
+  "Lymphocytes/Single Cells/CD3+/CD8+": 1526,
+  "Lymphocytes/Single Cells/CD3+/CD8+/IFNg+": 125,
+  "Lymphocytes/Single Cells/CD3+/IFNg+ T cells": 253,
+  "Lymphocytes/Single Cells/Non-T cells": 1911,
+  "Monocytes": 1323
+ },
+ "Donor1_Unstim.fcs": {
+  "Lymphocytes": 7358,
+  "Lymphocytes/Single Cells": 6723,
+  "Lymphocytes/Single Cells/CD3+": 4825,
+  "Lymphocytes/Single Cells/CD3+/CD4+": 2996,
+  "Lymphocytes/Single Cells/CD3+/CD4+/IFNg+": 3,
+  "Lymphocytes/Single Cells/CD3+/CD8+": 1452,
+  "Lymphocytes/Single Cells/CD3+/CD8+/IFNg+": 6,
+  "Lymphocytes/Single Cells/CD3+/IFNg+ T cells": 9,
+  "Lymphocytes/Single Cells/Non-T cells": 1898,
+  "Monocytes": 1341
+ },
+ "Donor2_SEB.fcs": {
+  "Lymphocytes": 7347,
+  "Lymphocytes/Single Cells": 6715,
+  "Lymphocytes/Single Cells/CD3+": 4867,
+  "Lymphocytes/Single Cells/CD3+/CD4+": 3010,
+  "Lymphocytes/Single Cells/CD3+/CD4+/IFNg+": 89,
+  "Lymphocytes/Single Cells/CD3+/CD8+": 1466,
+  "Lymphocytes/Single Cells/CD3+/CD8+/IFNg+": 73,
+  "Lymphocytes/Single Cells/CD3+/IFNg+ T cells": 162,
+  "Lymphocytes/Single Cells/Non-T cells": 1848,
+  "Monocytes": 1353
+ },
+ "Donor2_Unstim.fcs": {
+  "Lymphocytes": 7372,
+  "Lymphocytes/Single Cells": 6756,
+  "Lymphocytes/Single Cells/CD3+": 4866,
+  "Lymphocytes/Single Cells/CD3+/CD4+": 3050,
+  "Lymphocytes/Single Cells/CD3+/CD4+/IFNg+": 4,
+  "Lymphocytes/Single Cells/CD3+/CD8+": 1421,
+  "Lymphocytes/Single Cells/CD3+/CD8+/IFNg+": 4,
+  "Lymphocytes/Single Cells/CD3+/IFNg+ T cells": 8,
+  "Lymphocytes/Single Cells/Non-T cells": 1890,
+  "Monocytes": 1347
+ }
+}

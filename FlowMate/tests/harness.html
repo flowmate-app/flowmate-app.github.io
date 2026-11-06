@@ -1,0 +1,103 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>FlowMate tests</title>
+<script src="../../brand/dist/benchmate-brand.js"></script>
+<script src="../../shared/handoff.js"></script>
+<script src="../../PlotMate/src/core/ns.js"></script>
+<script src="../../PlotMate/src/core/num.js"></script>
+<script src="../../PlotMate/src/core/dist.js"></script>
+<script src="../../PlotMate/src/core/linalg.js"></script>
+<script src="../../PlotMate/src/core/describe.js"></script>
+<script src="../../PlotMate/src/core/ttest.js"></script>
+<script src="../../PlotMate/src/core/anova1.js"></script>
+<script src="../../PlotMate/src/core/posthoc.js"></script>
+<script src="../../PlotMate/src/core/nested.js"></script>
+<script src="../../PlotMate/tests/reference/datasets.js"></script>
+<script src="../../PlotMate/tests/reference/prism_cases.js"></script>
+<script src="../../PlotMate/tests/reference/ref_r.js"></script>
+<style>body{font:13px/1.45 ui-monospace,Consolas,monospace;margin:20px}.pass{color:#1a7f37}.fail{color:#c62828;font-weight:bold}pre{white-space:pre-wrap}</style>
+<div id="summary">RUNNING</div>
+<pre id="log"></pre>
+<script src="../src/core/ns.js"></script>
+<script src="../src/core/fcs.js"></script>
+<script src="../src/core/transforms.js"></script>
+<script src="../src/core/scope.js"></script>
+<script src="../src/core/gating.js"></script>
+<script src="../src/core/stats.js"></script>
+<script src="../src/core/inference.js"></script>
+<script src="../src/core/expr.js"></script>
+<script src="../src/core/wells.js"></script>
+<script src="../src/core/workspace.js"></script>
+<script src="../src/core/comp.js"></script>
+<script src="../src/core/unmix.js"></script>
+<script src="../src/core/matrixio.js"></script>
+<script src="../src/core/formula.js"></script>
+<script src="../src/core/tables.js"></script>
+<script src="../src/core/groupstats.js"></script>
+<script src="../src/core/graphs.js"></script>
+<script src="../src/core/bundle.js"></script>
+<script src="../src/core/xml.js"></script>
+<script src="../src/core/gatingml.js"></script>
+<script src="../src/core/wsp.js"></script>
+<script src="../src/core/analysis.js"></script>
+<script src="../src/core/summary.js"></script>
+<script src="../src/core/treetable.js"></script>
+<script src="../src/core/strategy.js"></script>
+<script src="../src/core/pubtext.js"></script>
+<script src="../src/core/autofit.js"></script>
+<script src="../src/core/autogate.js"></script>
+<script src="../src/core/presets.js"></script>
+<script src="../src/core/synth.js"></script>
+<script src="../src/core/example_tcell.js"></script>
+<script src="../src/core/spectra_data.js"></script>
+<script src="../src/core/planner.js"></script>
+<script src="../src/core/handoff.js"></script>
+<script src="../src/render/spectra.js"></script>
+<script src="../src/render/statchart.js"></script>
+<script>
+/* Minimal async test runner. Results are written into the DOM so headless Chrome's
+ * --dump-dom can read them; see run_tests.sh. */
+const TESTS = [];
+function test(name, fn) { TESTS.push({ name, fn }); }
+function assert(cond, msg) { if (!cond) throw new Error(msg || 'assertion failed'); }
+function eq(a, b, msg) { if (a !== b) throw new Error((msg || '') + ' expected ' + JSON.stringify(b) + ' got ' + JSON.stringify(a)); }
+function approx(a, b, tol, msg) {
+  const ok = Number.isFinite(a) && Number.isFinite(b) && Math.abs(a - b) <= tol * Math.max(1, Math.abs(b));
+  if (!ok) throw new Error((msg || '') + ' expected ≈' + b + ' got ' + a + ' (tol ' + tol + ')');
+}
+function absApprox(a, b, tol, msg) {
+  if (!(Math.abs(a - b) <= tol)) throw new Error((msg || '') + ' expected ' + b + ' ± ' + tol + ', got ' + a);
+}
+async function run() {
+  const log = document.getElementById('log');
+  let pass = 0, fail = 0, skip = 0;
+  const lines = [];
+  for (const t of TESTS) {
+    const t0 = performance.now();
+    try {
+      const r = await t.fn();
+      if (r === 'SKIP') { skip++; lines.push('SKIP ' + t.name); continue; }
+      pass++; lines.push('PASS ' + t.name + (typeof r === 'string' && r.startsWith('INFO') ? '\n     ' + r : ''));
+    }
+    catch (e) { fail++; lines.push('FAIL ' + t.name + '\n     ' + (e && e.stack ? e.stack.split('\n').slice(0, 3).join('\n     ') : e)); }
+  }
+  log.textContent = lines.join('\n');
+  document.getElementById('summary').textContent = 'DONE pass=' + pass + ' fail=' + fail + ' skip=' + skip;
+  document.getElementById('summary').className = fail ? 'fail' : 'pass';
+}
+</script>
+<script src="test_core.js"></script>
+<script src="test_real.js"></script>
+<script src="test_planner.js"></script>
+<script src="test_pub.js"></script>
+<script src="test_v1.js"></script>
+<script src="test_interop.js"></script>
+<script src="test_formula.js"></script>
+<script src="test_groupstats.js"></script>
+<script src="test_graphs.js"></script>
+<script src="test_nested_cells.js"></script>
+<script src="test_flowjo_fixes.js"></script>
+<script src="test_bundle.js"></script>
+<script src="test_unmix.js"></script>
+<script src="test_matrixio.js"></script>
+<script>window.addEventListener('load', () => setTimeout(run, 10));</script>

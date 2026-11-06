@@ -1,0 +1,50 @@
+[
+ {
+  "what": "Reading FCS files (FCS 3.0 / 3.1; BD, Cytek)",
+  "against": "FlowKit 1.3.2",
+  "cls": "ok",
+  "result": "Bit-identical"
+ },
+ {
+  "what": "Compensation, event by event",
+  "against": "FlowKit · Beckman CytExpert",
+  "cls": "ok",
+  "result": "Equal to 6×10⁻⁸ · 1.2×10⁻⁷"
+ },
+ {
+  "what": "Gate counts on held-out FlowJo workspaces (1,701 counts)",
+  "against": "FlowKit 1.3.2",
+  "cls": "ok",
+  "result": "92 % exact or within 2 events / 0.1 %"
+ },
+ {
+  "what": "FlowJo import: compensation and errors",
+  "against": "—",
+  "cls": "ok",
+  "result": "25/25 compensated · 0 hidden errors"
+ },
+ {
+  "what": "Rule-based gating of a published experiment (11 tubes)",
+  "against": "Paper's values (CytExpert)",
+  "cls": "ok",
+  "result": "All within 3 %"
+ },
+ {
+  "what": "t tests, ANOVA, Tukey, Dunnett",
+  "against": "GraphPad Prism 11",
+  "cls": "ok",
+  "result": "Match Prism's printed digits"
+ },
+ {
+  "what": "Nested (mixed-model) tests on cells",
+  "against": "R nlme",
+  "cls": "ok",
+  "result": "Match to 1×10⁻⁵"
+ },
+ {
+  "what": "FlowJo's own saved counts, 2 of 3 held-out workspaces",
+  "against": "FlowJo 10.10",
+  "cls": "warn",
+  "result": "Differ from the CD45 gate down — open"
+ }
+]

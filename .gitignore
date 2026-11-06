@@ -1,0 +1,20 @@
+# build outputs (regenerate with FlowMate/build.py; the website's copy lives in docs/)
+FlowMate/dist/
+FlowMate/tests/app_dev.html
+FlowMate/tests/ui.html
+FlowMate/tests/ui_shot.html
+FlowMate/tests/flowjo.html
+FlowMate/tests/compdemo.html
+FlowMate/tests/example.html
+FlowMate/tests/real.html
+
+# data: raw lab data is never published; large public downloads are fetched by the QA tools
+*.fcs
+!FlowMate/tests/public/**/*.fcs
+FlowMate/tests/data/
+FlowMate/tests/public_large/
+
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

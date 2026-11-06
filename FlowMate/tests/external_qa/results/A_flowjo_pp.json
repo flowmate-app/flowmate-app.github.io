@@ -1,0 +1,74 @@
+{
+ "ALS ICS, analyst gates": {
+  "pop>=10%": {
+   "n": 901,
+   "median_pp": 0.058,
+   "p95_pp": 0.988,
+   "max_pp": 7.143,
+   "within_0.5pp": 793,
+   "within_1pp": 855
+  },
+  "pop<10%": {
+   "n": 827,
+   "median_pp": 0.019,
+   "p95_pp": 0.568,
+   "max_pp": 3.908,
+   "within_0.5pp": 778,
+   "within_1pp": 817
+  }
+ },
+ "Spectral #3": {
+  "pop>=10%": {
+   "n": 385,
+   "median_pp": 0.017,
+   "p95_pp": 0.118,
+   "max_pp": 1.692,
+   "within_0.5pp": 381,
+   "within_1pp": 383
+  },
+  "pop<10%": {
+   "n": 191,
+   "median_pp": 0.004,
+   "p95_pp": 0.073,
+   "max_pp": 1.655,
+   "within_0.5pp": 190,
+   "within_1pp": 190
+  }
+ },
+ "Spectral #2": {
+  "pop>=10%": {
+   "n": 238,
+   "median_pp": 0.009,
+   "p95_pp": 0.103,
+   "max_pp": 0.237,
+   "within_0.5pp": 238,
+   "within_1pp": 238
+  },
+  "pop<10%": {
+   "n": 128,
+   "median_pp": 0.002,
+   "p95_pp": 0.051,
+   "max_pp": 0.09,
+   "within_0.5pp": 128,
+   "within_1pp": 128
+  }
+ },
+ "OPC (excl. tSNE)": {
+  "pop>=10%": {
+   "n": 96,
+   "median_pp": 0.059,
+   "p95_pp": 0.464,
+   "max_pp": 0.86,
+   "within_0.5pp": 91,
+   "within_1pp": 96
+  },
+  "pop<10%": {
+   "n": 1,
+   "median_pp": 0.057,
+   "p95_pp": 0.057,
+   "max_pp": 0.057,
+   "within_0.5pp": 1,
+   "within_1pp": 1
+  }
+ }
+}

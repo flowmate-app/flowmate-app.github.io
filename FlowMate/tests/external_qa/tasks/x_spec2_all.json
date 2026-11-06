@@ -1,0 +1,72 @@
+{
+ "type": "wsp",
+ "dir": "../public_large/external_qa/als_spectral/",
+ "fcs": [
+  "A1 7114 ALS.fcs",
+  "A2 6910 ALS.fcs",
+  "A3 6989 ALS.fcs",
+  "A4 3549 HC.fcs",
+  "A5 3550 HC.fcs",
+  "A6 7102 HC.fcs"
+ ],
+ "wsp": "#2 Spectral.wsp",
+ "names": {
+  "A1 7114 ALS.fcs": "A1 7114.fcs",
+  "A2 6910 ALS.fcs": "A2 6910.fcs",
+  "A3 6989 ALS.fcs": "A3 6989.fcs",
+  "A4 3549 HC.fcs": "A4 3549.fcs",
+  "A5 3550 HC.fcs": "A5 3550.fcs",
+  "A6 7102 HC.fcs": "A6 7102.fcs"
+ },
+ "members": [
+  [
+   "A1 7114.fcs",
+   "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+/CD19,CD14-/CD19+.CD14-,CD56-/B Cells"
+  ],
+  [
+   "A1 7114.fcs",
+   "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-"
+  ],
+  [
+   "A2 6910.fcs",
+   "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+/CD19,CD14-/CD19+.CD14-,CD56-/B Cells"
+  ],
+  [
+   "A2 6910.fcs",
+   "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-"
+  ],
+  [
+   "A3 6989.fcs",
+   "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+/CD19,CD14-/CD19+.CD14-,CD56-/B Cells"
+  ],
+  [
+   "A3 6989.fcs",
+   "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-"
+  ],
+  [
+   "A4 3549.fcs",
+   "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+/CD19,CD14-/CD19+.CD14-,CD56-/B Cells"
+  ],
+  [
+   "A4 3549.fcs",
+   "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-"
+  ],
+  [
+   "A5 3550.fcs",
+   "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+/CD19,CD14-/CD19+.CD14-,CD56-/B Cells"
+  ],
+  [
+   "A5 3550.fcs",
+   "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-"
+  ],
+  [
+   "A6 7102.fcs",
+   "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+/CD19,CD14-/CD19+.CD14-,CD56-/B Cells"
+  ],
+  [
+   "A6 7102.fcs",
+   "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-"
+  ]
+ ],
+ "gatesOut": true
+}

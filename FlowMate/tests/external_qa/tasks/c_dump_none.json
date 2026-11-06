@@ -1,0 +1,1 @@
+{"type": "dump", "dir": "../public_large/external_qa/algae/", "fcs": ["H1.fcs", "H2.fcs", "H3.fcs", "L1.fcs", "L2.fcs", "L3.fcs", "M1.fcs", "M2.fcs", "M3.fcs", "WT1.fcs", "WT2.fcs"], "comp": "none", "n": 10000000, "params": ["FSC-A", "SSC-A", "FL1-A", "FL3-A"]}

@@ -1,0 +1,156 @@
+{
+ "05012023_OPC_Comp_APC_006.fcs": {
+  "Beads": 9866,
+  "Beads/Single Beads": 9766,
+  "Beads/Single Beads/APC+": 3018,
+  "Beads/Single Beads/APC-": 4212
+ },
+ "05012023_OPC_Comp_BUV395_CELLS_007.fcs": {
+  "Cells": 4223,
+  "Cells/Single Cells": 3831
+ },
+ "05012023_OPC_Comp_BUV395_cells_OK_028.fcs": {
+  "Cells": 8721,
+  "Cells/BUV395-A+": 8082,
+  "Cells/Single Cells": 7658,
+  "Cells/Single Cells/BUV395+": 6996,
+  "Cells/Single Cells/BUV395-": 351
+ },
+ "05012023_OPC_Comp_BV605_002.fcs": {},
+ "05012023_OPC_Comp_BV605_cells_OK_030.fcs": {
+  "Cells": 8800,
+  "Cells/Single Cells": 7511,
+  "Cells/Single Cells/BV605+": 6874
+ },
+ "05012023_OPC_Comp_BV786_026.fcs": {},
+ "05012023_OPC_Comp_BV786_cells_004.fcs": {},
+ "05012023_OPC_Comp_BV786_cells_OK_029.fcs": {
+  "Cells": 8841,
+  "Cells/Single Cells": 7866,
+  "Cells/Single Cells/BV786+": 6740
+ },
+ "05012023_OPC_Comp_FITC_005.fcs": {
+  "Beads": 9819,
+  "Beads/Single Beads": 9678,
+  "Beads/Single Beads/FITC+": 5448,
+  "Beads/Single Beads/FITC-": 2741
+ },
+ "05012023_OPC_Comp_PE-Vio770_001.fcs": {
+  "Beads": 9769,
+  "Beads/Single Beads": 9596,
+  "Beads/Single Beads/PE-Vio770+": 5171,
+  "Beads/Single Beads/PE-Vio770-": 2252
+ },
+ "05012023_OPC_Comp_PE_003.fcs": {
+  "Beads": 9787,
+  "Beads/PE-YG-A+": 5289,
+  "Beads/Single Beads": 9583,
+  "Beads/Single Beads/PE+": 5240,
+  "Beads/Single Beads/PE-": 2618
+ },
+ "05012023_OPC_Comp_cells_neg_027.fcs": {
+  "Cells": 8728,
+  "Cells/Single Cells": 7721,
+  "Cells/Single Cells/BV605-": 7626,
+  "Cells/Single Cells/BV786-": 7670
+ },
+ "05012023_OPC_OB15_ALL_017.fcs": {
+  "Cells": 26957,
+  "Cells/Single Cells": 24454,
+  "Cells/Single Cells/Live": 23343,
+  "Cells/Single Cells/Live/Lin-": 22845
+ },
+ "05012023_OPC_OB15_DAPI_016.fcs": {
+  "Cells": 27234,
+  "Cells/Single Cells": 24852,
+  "Cells/Single Cells/Live": 23981
+ },
+ "05012023_OPC_OB16_ALL_019.fcs": {
+  "Cells": 9599,
+  "Cells/Single Cells": 9011,
+  "Cells/Single Cells/Live": 6799,
+  "Cells/Single Cells/Live/Lin-": 6656
+ },
+ "05012023_OPC_OB16_DAPI_018.fcs": {
+  "Cells": 12014,
+  "Cells/Single Cells": 11073,
+  "Cells/Single Cells/Live": 9051
+ },
+ "05012023_OPC_OB1_ALL_009.fcs": {
+  "Cells": 22657,
+  "Cells/Single Cells": 18977,
+  "Cells/Single Cells/Live": 18015,
+  "Cells/Single Cells/Live/Lin-": 17009
+ },
+ "05012023_OPC_OB1_DAPI_008.fcs": {
+  "Cells": 24209,
+  "Cells/Single Cells": 20662,
+  "Cells/Single Cells/Live": 19943
+ },
+ "05012023_OPC_OB2B_ALL_011.fcs": {
+  "Cells": 17974,
+  "Cells/Single Cells": 17189,
+  "Cells/Single Cells/Live": 12036,
+  "Cells/Single Cells/Live/Lin-": 10956
+ },
+ "05012023_OPC_OB2B_DAPI_010.fcs": {
+  "Cells": 19933,
+  "Cells/Single Cells": 18818,
+  "Cells/Single Cells/Live": 13903
+ },
+ "05012023_OPC_OB32_ALL_021.fcs": {
+  "Cells": 22878,
+  "Cells/Single Cells": 21536,
+  "Cells/Single Cells/Live": 18455,
+  "Cells/Single Cells/Live/Lin-": 17623
+ },
+ "05012023_OPC_OB32_DAPI_020.fcs": {
+  "Cells": 23202,
+  "Cells/Single Cells": 21722,
+  "Cells/Single Cells/Live": 19084
+ },
+ "05012023_OPC_OB39_ALL_023.fcs": {
+  "Cells": 19759,
+  "Cells/Single Cells": 19190,
+  "Cells/Single Cells/Live": 16962,
+  "Cells/Single Cells/Live/Lin-": 16697
+ },
+ "05012023_OPC_OB39_DAPI_022.fcs": {
+  "Cells": 20035,
+  "Cells/Single Cells": 19440,
+  "Cells/Single Cells/Live": 17498
+ },
+ "05012023_OPC_OB3A_ALL_013.fcs": {
+  "Cells": 22028,
+  "Cells/Single Cells": 17881,
+  "Cells/Single Cells/Live": 15170,
+  "Cells/Single Cells/Live/Lin-": 14945
+ },
+ "05012023_OPC_OB3A_DAPI_012.fcs": {
+  "Cells": 16814,
+  "Cells/Single Cells": 13386,
+  "Cells/Single Cells/Live": 10706
+ },
+ "05012023_OPC_OB40_ALL_025.fcs": {
+  "Cells": 17455,
+  "Cells/Single Cells": 15633,
+  "Cells/Single Cells/Live": 10705,
+  "Cells/Single Cells/Live/Lin-": 10341
+ },
+ "05012023_OPC_OB40_DAPI_024.fcs": {
+  "Cells": 18756,
+  "Cells/Single Cells": 16508,
+  "Cells/Single Cells/Live": 12691
+ },
+ "05012023_OPC_OB4_ALL_015.fcs": {
+  "Cells": 24177,
+  "Cells/Single Cells": 20408,
+  "Cells/Single Cells/Live": 17968,
+  "Cells/Single Cells/Live/Lin-": 17282
+ },
+ "05012023_OPC_OB4_DAPI_014.fcs": {
+  "Cells": 24688,
+  "Cells/Single Cells": 21068,
+  "Cells/Single Cells/Live": 19095
+ }
+}

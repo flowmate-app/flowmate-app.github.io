@@ -1,0 +1,48 @@
+<!doctype html><meta charset="utf-8">
+<style>
+:root{--plot-bg:#fff;--plot-frame:#3a4052;--plot-tick:#6b7288;--ink-2:#3a4052;--muted:#6b7288;--gate:#151823;--accent:#4c3fb3;--panel:#fff}
+body{margin:0;background:#f4f5f8;font-family:system-ui} .row{display:flex;gap:10px;padding:10px}
+canvas{background:#fff;border:1px solid #dde0e8}
+</style>
+<div class="row" id="row"></div>
+<div class="row" id="row2"></div>
+<script src="../src/core/ns.js"></script><script src="../src/core/fcs.js"></script><script src="../src/core/transforms.js"></script>
+<script src="../src/core/gating.js"></script><script src="../src/core/stats.js"></script><script src="../src/core/inference.js"></script>
+<script src="../src/core/expr.js"></script><script src="../src/core/wells.js"></script><script src="../src/core/workspace.js"></script>
+<script src="../src/core/analysis.js"></script>
+<script src="../src/core/summary.js"></script><script src="../src/core/presets.js"></script><script src="../src/core/synth.js"></script>
+<script src="../src/render/colormaps.js"></script><script src="../src/render/plot.js"></script>
+<script>
+(async () => {
+  const wells = new URLSearchParams(location.search).get('demo') ? null : ['A1','E1','F1'];
+  const ws = new FM.Workspace();
+  if (wells) {
+    const ss = [];
+    for (const w of wells) ss.push(FM.fcs.parse(await (await fetch('data/01-Well-'+w+'.fcs')).arrayBuffer(), '01-Well-'+w+'.fcs'));
+    ws.addSamples(ss);
+  } else ws.addSamples(FM.synth.demoPlate(6000));
+  const p = FM.presets.byId('phagocytosis');
+  FM.presets.apply(ws, p, { mapping: FM.presets.autoMap(p, ws.paramNames()), layout: true, replace: true });
+  const s = ws.samples[0];
+  const gates = ws.doc.gates;
+  const draw = (parent, x, y, gateSel, el, cmap) => {
+    const c = document.createElement('canvas'); el.appendChild(c);
+    const L = FM.plot.layout(330, 290, { dpr: 2 });
+    const m = { sample: s, idx: ws.indices(s, parent), x, y, xSpec: ws.scaleSpec(x), ySpec: y ? ws.scaleSpec(y) : null, xLabel: ws.paramLabel(x), yLabel: y ? ws.paramLabel(y) : '', cmap };
+    FM.plot.render(c, L, m);
+    const ctx = c.getContext('2d');
+    const items = gates.filter(g => (g.parent||null) === (parent||null) && FM.plot.gateFits(g, x, y))
+      .map(g => ({ gate: g, outline: FM.plot.gateOutline(g, L, m.xSpec, m.ySpec), pct: ws.pct(s, g.id), selected: g.id === gateSel }));
+    FM.plot.drawGates(ctx, L, items);
+  };
+  const row = document.getElementById('row');
+  draw(null, 'FSC-H', 'SSC-H', null, row, 'turbo');
+  draw(gates[0].id, 'SSC-A', 'SSC-H', gates[1].id, row, 'turbo');
+  draw(gates[1].id, 'FL1-H', 'FSC-H', null, row, 'jet');
+  const row2 = document.getElementById('row2');
+  draw(gates[1].id, 'FL1-H', null, null, row2);
+  draw(null, 'FSC-H', 'SSC-H', null, row2, 'viridis');
+  draw(gates[1].id, 'FL1-H', 'SSC-A', null, row2, 'ink');
+  document.title = 'READY';
+})().catch(e => { document.body.insertAdjacentHTML('beforeend', '<pre id="err">'+e.stack+'</pre>'); document.title='ERR'; });
+</script>

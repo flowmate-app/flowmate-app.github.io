@@ -1,0 +1,101 @@
+{
+ "type": "plot",
+ "dir": "../public_large/external_qa/algae/",
+ "fcs": [
+  "H1.fcs",
+  "H2.fcs",
+  "H3.fcs",
+  "L1.fcs",
+  "L2.fcs",
+  "L3.fcs",
+  "M1.fcs",
+  "M2.fcs",
+  "M3.fcs",
+  "WT1.fcs",
+  "WT2.fcs"
+ ],
+ "gates": [
+  {
+   "name": "Viable",
+   "parent": null,
+   "type": "range",
+   "x": "FL3-A",
+   "disp": true,
+   "range": [
+    "d:770000",
+    1.0
+   ]
+  },
+  {
+   "name": "Top 20% GFP",
+   "parent": "Viable",
+   "type": "range",
+   "x": "FL1-A",
+   "disp": true,
+   "range": [
+    "d:0",
+    1.0
+   ],
+   "perWellTop": 0.2
+  }
+ ],
+ "stats": [
+  {
+   "pop": "Viable",
+   "param": "FL1-A",
+   "which": "median"
+  },
+  {
+   "pop": "Viable",
+   "param": "FL3-A",
+   "which": "median"
+  },
+  {
+   "pop": "Top 20% GFP",
+   "param": "FL1-A",
+   "which": "median"
+  },
+  {
+   "pop": "Top 20% GFP",
+   "param": "FL3-A",
+   "which": "median"
+  }
+ ],
+ "size": 420,
+ "plots": [
+  {
+   "x": "FSC-A",
+   "y": "SSC-A",
+   "title": "pooled"
+  },
+  {
+   "x": "FL3-A",
+   "title": "APC-A (chlorophyll) all",
+   "show": [
+    "Viable"
+   ]
+  },
+  {
+   "x": "FL3-A",
+   "y": "FL1-A",
+   "title": "pooled",
+   "show": []
+  },
+  {
+   "pop": "Viable",
+   "x": "FL1-A",
+   "title": "GFP in viable, WT1",
+   "samples": [
+    "WT1.fcs"
+   ]
+  },
+  {
+   "pop": "Viable",
+   "x": "FL1-A",
+   "title": "GFP in viable, H1",
+   "samples": [
+    "H1.fcs"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,118 @@
+/* App shell: top bar, stepper, view frame, empty states. */
+#app { height: 100vh; display: flex; flex-direction: column; }
+
+.topbar {
+  height: var(--topbar); flex: none; display: flex; align-items: center; gap: 14px;
+  padding: 0 12px 0 14px; background: var(--panel); border-bottom: 1px solid transparent; overflow: hidden;
+  position: relative; z-index: 20;
+}
+.brand { display: flex; align-items: center; gap: 8px; color: var(--ink); flex: none; }
+.brand-mark { width: 26px; height: 26px; flex: none; display: inline-flex; }
+.brand-mark svg, .brand-name svg, .brand-lockup svg { display: block; }
+.brand-name { display: inline-flex; align-items: center; }
+
+/* the laser line under the bar, with one sweep of light when the app opens */
+.topbar::after {
+  content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 2px; background: var(--brand-grad); opacity: .85;
+}
+.topbar::before {
+  content: ""; position: absolute; bottom: 0; height: 3px; width: 180px; left: -200px; z-index: 1; border-radius: 2px;
+  background: linear-gradient(90deg, transparent, var(--brand-b), transparent); filter: blur(1px);
+  animation: laser-sweep 2.4s .3s cubic-bezier(.4, 0, .2, 1) 1 forwards;
+}
+@keyframes laser-sweep { to { left: calc(100% + 20px); } }
+.exp { display: flex; align-items: baseline; gap: 10px; min-width: 0; flex: 0 1 300px; }
+.exp-name {
+  border: 1px solid transparent; background: transparent; border-radius: 5px; padding: 4px 7px;
+  font-weight: 500; color: var(--ink); min-width: 80px; width: 100%; text-overflow: ellipsis;
+}
+.exp-name:hover { border-color: var(--line); }
+.exp-name:focus { border-color: var(--accent); outline: none; background: var(--panel); }
+.status { color: var(--faint); font-size: 11px; white-space: nowrap; }
+
+.stepper { display: flex; align-items: center; margin: 0 auto; flex: none; }
+.step {
+  display: inline-flex; align-items: center; gap: 7px; border: 0; background: transparent; cursor: pointer;
+  padding: 6px 10px 6px 6px; border-radius: 18px; color: var(--muted); font-weight: 500;
+}
+.step:hover { background: var(--hover); color: var(--ink); }
+.step-n {
+  width: 22px; height: 22px; border-radius: 50%; display: inline-grid; place-items: center;
+  font: 600 11px/1 var(--mono); border: 1.5px solid var(--line); color: var(--muted); background: var(--panel);
+}
+.step-n svg { width: 12px; height: 12px; stroke-width: 3; }
+.step.done .step-n { border-color: var(--accent-line); color: var(--accent); background: var(--accent-soft); }
+.step.locked { color: var(--faint); }
+.step.on { color: var(--ink); background: var(--accent-soft); }
+.step.on .step-n { background: var(--accent); border-color: var(--accent); color: var(--on-accent); }
+.step-join { width: 16px; height: 1.5px; background: var(--line); }
+.top-actions { display: flex; align-items: center; gap: 4px; flex: none; }
+
+.view { flex: 1 1 auto; min-height: 0; position: relative; }
+
+.empty {
+  height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px;
+  color: var(--muted); text-align: center; padding: 24px;
+}
+.empty svg.big { width: 40px; height: 40px; color: var(--faint); }
+.empty h2 { color: var(--ink); font-size: 16px; }
+.empty p { margin: 0; max-width: 46ch; }
+
+body.dragging::after {
+  content: 'Drop FCS files or a folder to add them'; position: fixed; inset: 10px; z-index: 950;
+  border: 2px dashed var(--accent); border-radius: 14px; background: color-mix(in srgb, var(--accent-soft) 82%, transparent);
+  display: grid; place-items: center; font: 600 18px/1 var(--font); color: var(--accent); pointer-events: none;
+}
+
+.help-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+.help-grid .eyebrow { margin-bottom: 8px; }
+.help-row { display: flex; align-items: center; gap: 12px; padding: 5px 0; border-bottom: 1px solid var(--line-soft); }
+.help-keys { display: inline-flex; gap: 3px; min-width: 150px; }
+
+@media (max-width: 1100px) {
+  .exp { flex-basis: 180px; }
+}
+
+/* a soft glint travels the laser line now and then */
+.laser-glint {
+  position: absolute; bottom: 0; left: -160px; width: 140px; height: 2px; z-index: 1; pointer-events: none;
+  background: linear-gradient(90deg, transparent, color-mix(in srgb, var(--brand-b) 80%, white), transparent);
+  animation: laser-glint 15s 5s linear infinite; opacity: .8;
+}
+@keyframes laser-glint { 0% { left: -160px; } 14% { left: 100%; } 100% { left: 100%; } }
+/* particles drift along the connectors already travelled */
+.step-join { position: relative; overflow: visible; }
+.step-join.flowing { background: color-mix(in srgb, var(--brand-b) 45%, var(--line)); }
+.step-join.flowing::after {
+  content: ""; position: absolute; top: -1.5px; left: 0; width: 4px; height: 4px; border-radius: 50%;
+  background: var(--brand-b); box-shadow: 0 0 5px var(--brand-b); animation: join-drift 3.2s ease-in-out infinite;
+}
+.step-join.flowing:nth-of-type(4n)::after { animation-delay: 1.1s; }
+@keyframes join-drift { 0% { left: -2px; opacity: 0; } 20% { opacity: 1; } 80% { opacity: 1; } 100% { left: calc(100% - 2px); opacity: 0; } }
+.empty .mini-cell { margin-bottom: 4px; }
+
+/* every step keeps its name; when the bar runs short the experiment block clips and the
+   buttons on the right drop their labels instead */
+.exp { overflow: hidden; min-width: 120px; }
+.step-join { width: 12px; }
+@media (max-width: 1500px) {
+  .top-actions .btn:not(.layout-btn) .lbl { display: none; }
+  .status { display: none; }
+}
+@media (max-width: 1180px) {
+  .top-actions .layout-btn .lbl { display: none; }
+}
+
+/* Guided | Traditional gating */
+.mode-slot { flex: none; display: flex; }
+.mode-switch {
+  display: inline-flex; padding: 2px; gap: 2px; border-radius: 8px; background: var(--hover);
+  border: 1px solid var(--line-soft);
+}
+.mode-opt {
+  border: 0; background: transparent; color: var(--muted); font: 500 12px/1 var(--font); cursor: pointer;
+  padding: 6px 10px; border-radius: 6px; white-space: nowrap;
+}
+.mode-opt:hover { color: var(--ink); }
+.mode-opt.on { background: var(--panel); color: var(--ink); box-shadow: 0 1px 2px rgba(0, 0, 0, .08); }
+.mode-switch.lg .mode-opt { font-size: 13px; padding: 8px 16px; }

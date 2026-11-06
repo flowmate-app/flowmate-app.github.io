@@ -1,0 +1,2517 @@
+{
+ "type": "wsp",
+ "wsp": "Healthy Donors.wsp",
+ "flowjoVersion": "10.10.0",
+ "parseWarnings": [],
+ "importWarnings": [
+  "In FlowMate a sample belongs to one group; these were in several and joined the first: Specimen_001_C1_C01 Positive.fcs (C9, Donor 1); Specimen_001_C2_C02 Peptide.fcs (C9, Donor 1); Specimen_001_C3_C03 Negative.fcs (C9, Donor 1); Specimen_001_C7_C07 Positive.fcs (Donor 2, C9); Specimen_001_C8_C08 Peptide.fcs (Donor 2, C9); Specimen_001_C9_C09 Negative.fcs (Donor 2, C9); Specimen_001_C10_C10 Positive.fcs (C9, Donor 3); Specimen_001_C11_C11 Peptide.fcs (C9, Donor 3); Specimen_001_C12_C12 Negative.fcs (C9, Donor 3); Specimen_001_H1_H01 Positive.fcs (C9, Donor 4); Specimen_001_H2_H02 Peptide.fcs (C9, Donor 4); Specimen_001_H3_H03 Negative.fcs (C9, Donor 4)."
+ ],
+ "missing": [],
+ "matched": 12,
+ "gates": 28,
+ "compensation": "cmeq0f6h",
+ "gateTypes": {
+  "rect": 48,
+  "polygon": 288
+ },
+ "transformTypes": {
+  "lin": 84,
+  "biex": 192
+ },
+ "loadErrors": [],
+ "flowjoTotals": {
+  "Specimen_001_C1_C01 Positive.fcs": 102787,
+  "Specimen_001_C2_C02 Peptide.fcs": 125649,
+  "Specimen_001_C3_C03 Negative.fcs": 55637,
+  "Specimen_001_C7_C07 Positive.fcs": 259141,
+  "Specimen_001_C8_C08 Peptide.fcs": 199065,
+  "Specimen_001_C9_C09 Negative.fcs": 165163,
+  "Specimen_001_C10_C10 Positive.fcs": 173650,
+  "Specimen_001_C11_C11 Peptide.fcs": 82846,
+  "Specimen_001_C12_C12 Negative.fcs": 61272,
+  "Specimen_001_H1_H01 Positive.fcs": 254081,
+  "Specimen_001_H2_H02 Peptide.fcs": 205367,
+  "Specimen_001_H3_H03 Negative.fcs": 145153
+ },
+ "ms": 0,
+ "wspReplace": null,
+ "compActive": "cmeq0f6h",
+ "compensated": [
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false
+ ],
+ "popErrors": [
+  {
+   "gewhq8g": "Parameter \"LIVE_DEAD Aqua-A\" not found in Specimen_001_C1_C01 Positive.fcs"
+  },
+  {
+   "gewhq8g": "Parameter \"LIVE_DEAD Aqua-A\" not found in Specimen_001_C2_C02 Peptide.fcs"
+  },
+  {
+   "gewhq8g": "Parameter \"LIVE_DEAD Aqua-A\" not found in Specimen_001_C3_C03 Negative.fcs"
+  }
+ ],
+ "samples": [
+  {
+   "name": "Specimen_001_C10_C10 Positive.fcs",
+   "key": "C10",
+   "events": 173650,
+   "params": [
+    "FSC-A",
+    "FSC-H",
+    "FSC-W",
+    "SSC-A",
+    "SSC-H",
+    "SSC-W",
+    "APC-eFluor 780-A",
+    "Alexa Fluor 700-A",
+    "BV650-A",
+    "APC-A",
+    "BV421-A",
+    "FITC-A",
+    "BV785-A",
+    "LIVE/DEAD Aqua-A",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.1",
+   "spill": [
+    "APC-eFluor 780-A",
+    "Alexa Fluor 700-A",
+    "BV650-A",
+    "APC-A",
+    "BV421-A",
+    "FITC-A",
+    "BV785-A",
+    "LIVE/DEAD Aqua-A"
+   ],
+   "cyt": "X-20 (LSRFortessa)",
+   "datatype": "F",
+   "src": "BD FACSDiva Software Version 9.2"
+  },
+  {
+   "name": "Specimen_001_C11_C11 Peptide.fcs",
+   "key": "C11",
+   "events": 82846,
+   "params": [
+    "FSC-A",
+    "FSC-H",
+    "FSC-W",
+    "SSC-A",
+    "SSC-H",
+    "SSC-W",
+    "APC-eFluor 780-A",
+    "Alexa Fluor 700-A",
+    "BV650-A",
+    "APC-A",
+    "BV421-A",
+    "FITC-A",
+    "BV785-A",
+    "LIVE/DEAD Aqua-A",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.1",
+   "spill": [
+    "APC-eFluor 780-A",
+    "Alexa Fluor 700-A",
+    "BV650-A",
+    "APC-A",
+    "BV421-A",
+    "FITC-A",
+    "BV785-A",
+    "LIVE/DEAD Aqua-A"
+   ],
+   "cyt": "X-20 (LSRFortessa)",
+   "datatype": "F",
+   "src": "BD FACSDiva Software Version 9.2"
+  },
+  {
+   "name": "Specimen_001_C12_C12 Negative.fcs",
+   "key": "C12",
+   "events": 61272,
+   "params": [
+    "FSC-A",
+    "FSC-H",
+    "FSC-W",
+    "SSC-A",
+    "SSC-H",
+    "SSC-W",
+    "APC-eFluor 780-A",
+    "Alexa Fluor 700-A",
+    "BV650-A",
+    "APC-A",
+    "BV421-A",
+    "FITC-A",
+    "BV785-A",
+    "LIVE/DEAD Aqua-A",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.1",
+   "spill": [
+    "APC-eFluor 780-A",
+    "Alexa Fluor 700-A",
+    "BV650-A",
+    "APC-A",
+    "BV421-A",
+    "FITC-A",
+    "BV785-A",
+    "LIVE/DEAD Aqua-A"
+   ],
+   "cyt": "X-20 (LSRFortessa)",
+   "datatype": "F",
+   "src": "BD FACSDiva Software Version 9.2"
+  },
+  {
+   "name": "Specimen_001_C1_C01 Positive.fcs",
+   "key": "C1",
+   "events": 102787,
+   "params": [
+    "FSC-A",
+    "FSC-H",
+    "FSC-W",
+    "SSC-A",
+    "SSC-H",
+    "SSC-W",
+    "APC-eFluor 780-A",
+    "Alexa Fluor 700-A",
+    "BV650-A",
+    "APC-A",
+    "BV421-A",
+    "FITC-A",
+    "BV785-A",
+    "LIVE/DEAD Aqua-A",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.1",
+   "spill": [
+    "APC-eFluor 780-A",
+    "Alexa Fluor 700-A",
+    "BV650-A",
+    "APC-A",
+    "BV421-A",
+    "FITC-A",
+    "BV785-A",
+    "LIVE/DEAD Aqua-A"
+   ],
+   "cyt": "X-20 (LSRFortessa)",
+   "datatype": "F",
+   "src": "BD FACSDiva Software Version 9.2"
+  },
+  {
+   "name": "Specimen_001_C2_C02 Peptide.fcs",
+   "key": "C2",
+   "events": 125649,
+   "params": [
+    "FSC-A",
+    "FSC-H",
+    "FSC-W",
+    "SSC-A",
+    "SSC-H",
+    "SSC-W",
+    "APC-eFluor 780-A",
+    "Alexa Fluor 700-A",
+    "BV650-A",
+    "APC-A",
+    "BV421-A",
+    "FITC-A",
+    "BV785-A",
+    "LIVE/DEAD Aqua-A",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.1",
+   "spill": [
+    "APC-eFluor 780-A",
+    "Alexa Fluor 700-A",
+    "BV650-A",
+    "APC-A",
+    "BV421-A",
+    "FITC-A",
+    "BV785-A",
+    "LIVE/DEAD Aqua-A"
+   ],
+   "cyt": "X-20 (LSRFortessa)",
+   "datatype": "F",
+   "src": "BD FACSDiva Software Version 9.2"
+  },
+  {
+   "name": "Specimen_001_C3_C03 Negative.fcs",
+   "key": "C3",
+   "events": 55637,
+   "params": [
+    "FSC-A",
+    "FSC-H",
+    "FSC-W",
+    "SSC-A",
+    "SSC-H",
+    "SSC-W",
+    "APC-eFluor 780-A",
+    "Alexa Fluor 700-A",
+    "BV650-A",
+    "APC-A",
+    "BV421-A",
+    "FITC-A",
+    "BV785-A",
+    "LIVE/DEAD Aqua-A",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.1",
+   "spill": [
+    "APC-eFluor 780-A",
+    "Alexa Fluor 700-A",
+    "BV650-A",
+    "APC-A",
+    "BV421-A",
+    "FITC-A",
+    "BV785-A",
+    "LIVE/DEAD Aqua-A"
+   ],
+   "cyt": "X-20 (LSRFortessa)",
+   "datatype": "F",
+   "src": "BD FACSDiva Software Version 9.2"
+  },
+  {
+   "name": "Specimen_001_C7_C07 Positive.fcs",
+   "key": "C7",
+   "events": 259141,
+   "params": [
+    "FSC-A",
+    "FSC-H",
+    "FSC-W",
+    "SSC-A",
+    "SSC-H",
+    "SSC-W",
+    "APC-eFluor 780-A",
+    "Alexa Fluor 700-A",
+    "BV650-A",
+    "APC-A",
+    "BV421-A",
+    "FITC-A",
+    "BV785-A",
+    "LIVE/DEAD Aqua-A",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.1",
+   "spill": [
+    "APC-eFluor 780-A",
+    "Alexa Fluor 700-A",
+    "BV650-A",
+    "APC-A",
+    "BV421-A",
+    "FITC-A",
+    "BV785-A",
+    "LIVE/DEAD Aqua-A"
+   ],
+   "cyt": "X-20 (LSRFortessa)",
+   "datatype": "F",
+   "src": "BD FACSDiva Software Version 9.2"
+  },
+  {
+   "name": "Specimen_001_C8_C08 Peptide.fcs",
+   "key": "C8",
+   "events": 199065,
+   "params": [
+    "FSC-A",
+    "FSC-H",
+    "FSC-W",
+    "SSC-A",
+    "SSC-H",
+    "SSC-W",
+    "APC-eFluor 780-A",
+    "Alexa Fluor 700-A",
+    "BV650-A",
+    "APC-A",
+    "BV421-A",
+    "FITC-A",
+    "BV785-A",
+    "LIVE/DEAD Aqua-A",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.1",
+   "spill": [
+    "APC-eFluor 780-A",
+    "Alexa Fluor 700-A",
+    "BV650-A",
+    "APC-A",
+    "BV421-A",
+    "FITC-A",
+    "BV785-A",
+    "LIVE/DEAD Aqua-A"
+   ],
+   "cyt": "X-20 (LSRFortessa)",
+   "datatype": "F",
+   "src": "BD FACSDiva Software Version 9.2"
+  },
+  {
+   "name": "Specimen_001_C9_C09 Negative.fcs",
+   "key": "C9",
+   "events": 165163,
+   "params": [
+    "FSC-A",
+    "FSC-H",
+    "FSC-W",
+    "SSC-A",
+    "SSC-H",
+    "SSC-W",
+    "APC-eFluor 780-A",
+    "Alexa Fluor 700-A",
+    "BV650-A",
+    "APC-A",
+    "BV421-A",
+    "FITC-A",
+    "BV785-A",
+    "LIVE/DEAD Aqua-A",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.1",
+   "spill": [
+    "APC-eFluor 780-A",
+    "Alexa Fluor 700-A",
+    "BV650-A",
+    "APC-A",
+    "BV421-A",
+    "FITC-A",
+    "BV785-A",
+    "LIVE/DEAD Aqua-A"
+   ],
+   "cyt": "X-20 (LSRFortessa)",
+   "datatype": "F",
+   "src": "BD FACSDiva Software Version 9.2"
+  },
+  {
+   "name": "Specimen_001_H1_H01 Positive.fcs",
+   "key": "H1",
+   "events": 254081,
+   "params": [
+    "FSC-A",
+    "FSC-H",
+    "FSC-W",
+    "SSC-A",
+    "SSC-H",
+    "SSC-W",
+    "APC-eFluor 780-A",
+    "Alexa Fluor 700-A",
+    "BV650-A",
+    "APC-A",
+    "BV421-A",
+    "FITC-A",
+    "BV785-A",
+    "LIVE/DEAD Aqua-A",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.1",
+   "spill": [
+    "APC-eFluor 780-A",
+    "Alexa Fluor 700-A",
+    "BV650-A",
+    "APC-A",
+    "BV421-A",
+    "FITC-A",
+    "BV785-A",
+    "LIVE/DEAD Aqua-A"
+   ],
+   "cyt": "X-20 (LSRFortessa)",
+   "datatype": "F",
+   "src": "BD FACSDiva Software Version 9.2"
+  },
+  {
+   "name": "Specimen_001_H2_H02 Peptide.fcs",
+   "key": "H2",
+   "events": 205367,
+   "params": [
+    "FSC-A",
+    "FSC-H",
+    "FSC-W",
+    "SSC-A",
+    "SSC-H",
+    "SSC-W",
+    "APC-eFluor 780-A",
+    "Alexa Fluor 700-A",
+    "BV650-A",
+    "APC-A",
+    "BV421-A",
+    "FITC-A",
+    "BV785-A",
+    "LIVE/DEAD Aqua-A",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.1",
+   "spill": [
+    "APC-eFluor 780-A",
+    "Alexa Fluor 700-A",
+    "BV650-A",
+    "APC-A",
+    "BV421-A",
+    "FITC-A",
+    "BV785-A",
+    "LIVE/DEAD Aqua-A"
+   ],
+   "cyt": "X-20 (LSRFortessa)",
+   "datatype": "F",
+   "src": "BD FACSDiva Software Version 9.2"
+  },
+  {
+   "name": "Specimen_001_H3_H03 Negative.fcs",
+   "key": "H3",
+   "events": 145153,
+   "params": [
+    "FSC-A",
+    "FSC-H",
+    "FSC-W",
+    "SSC-A",
+    "SSC-H",
+    "SSC-W",
+    "APC-eFluor 780-A",
+    "Alexa Fluor 700-A",
+    "BV650-A",
+    "APC-A",
+    "BV421-A",
+    "FITC-A",
+    "BV785-A",
+    "LIVE/DEAD Aqua-A",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.1",
+   "spill": [
+    "APC-eFluor 780-A",
+    "Alexa Fluor 700-A",
+    "BV650-A",
+    "APC-A",
+    "BV421-A",
+    "FITC-A",
+    "BV785-A",
+    "LIVE/DEAD Aqua-A"
+   ],
+   "cyt": "X-20 (LSRFortessa)",
+   "datatype": "F",
+   "src": "BD FACSDiva Software Version 9.2"
+  }
+ ],
+ "compare": [
+  {
+   "file": "Specimen_001_C1_C01 Positive.fcs",
+   "path": "FSC-A, Time subset",
+   "flowjo": 94637,
+   "ours": 94637
+  },
+  {
+   "file": "Specimen_001_C1_C01 Positive.fcs",
+   "path": "Lymphocytes",
+   "flowjo": 67456,
+   "ours": 67306
+  },
+  {
+   "file": "Specimen_001_C1_C01 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1",
+   "flowjo": 65796,
+   "ours": 65617
+  },
+  {
+   "file": "Specimen_001_C1_C01 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2",
+   "flowjo": 59956,
+   "ours": 60259
+  },
+  {
+   "file": "Specimen_001_C1_C01 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset",
+   "flowjo": 54531,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C1_C01 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3",
+   "flowjo": 51399,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C1_C01 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive",
+   "flowjo": 17625,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C1_C01 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IFNy FITC +",
+   "flowjo": 10518,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C1_C01 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IFNy FITC +/IL-4 BV421 +",
+   "flowjo": 2614,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C1_C01 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IFNy FITC +/IL-10 APC +",
+   "flowjo": 234,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C1_C01 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IFNy FITC +/IL-17 BV785 +",
+   "flowjo": 265,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C1_C01 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-4 BV421 +",
+   "flowjo": 4536,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C1_C01 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-4 BV421 +/IFNy FITC +",
+   "flowjo": 2614,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C1_C01 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-4 BV421 +/IL-10 APC +",
+   "flowjo": 117,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C1_C01 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-4 BV421 +/IL-17 BV785 +",
+   "flowjo": 149,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C1_C01 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-10 APC +",
+   "flowjo": 327,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C1_C01 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-10 APC +/IFNy FITC +",
+   "flowjo": 234,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C1_C01 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-10 APC +/IL-4 BV421 +",
+   "flowjo": 117,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C1_C01 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-10 APC +/IL-17 BV785 +",
+   "flowjo": 9,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C1_C01 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-17 BV785 +",
+   "flowjo": 505,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C1_C01 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-17 BV785 +/IFNy FITC +",
+   "flowjo": 265,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C1_C01 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-17 BV785 +/IL-4 BV421 +",
+   "flowjo": 149,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C1_C01 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-17 BV785 +/IL-10 APC +",
+   "flowjo": 9,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C1_C01 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD8 Single Positive",
+   "flowjo": 4678,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C1_C01 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD8 Single Positive/IFNy FITC +",
+   "flowjo": 1396,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C1_C01 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD8 Single Positive/IL-4 BV421 +",
+   "flowjo": 20,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C1_C01 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD8 Single Positive/IL-10 APC +",
+   "flowjo": 0,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C1_C01 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD8 Single Positive/IL-17 BV785 +",
+   "flowjo": 41,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C2_C02 Peptide.fcs",
+   "path": "FSC-A, Time subset",
+   "flowjo": 115842,
+   "ours": 115842
+  },
+  {
+   "file": "Specimen_001_C2_C02 Peptide.fcs",
+   "path": "Lymphocytes",
+   "flowjo": 85420,
+   "ours": 85272
+  },
+  {
+   "file": "Specimen_001_C2_C02 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1",
+   "flowjo": 83226,
+   "ours": 83035
+  },
+  {
+   "file": "Specimen_001_C2_C02 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2",
+   "flowjo": 74707,
+   "ours": 75263
+  },
+  {
+   "file": "Specimen_001_C2_C02 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset",
+   "flowjo": 68834,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C2_C02 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3",
+   "flowjo": 66197,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C2_C02 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive",
+   "flowjo": 55184,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C2_C02 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IFNy FITC +",
+   "flowjo": 651,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C2_C02 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IFNy FITC +/IL-4 BV421 +",
+   "flowjo": 212,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C2_C02 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IFNy FITC +/IL-10 APC +",
+   "flowjo": 106,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C2_C02 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IFNy FITC +/IL-17 BV785 +",
+   "flowjo": 85,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C2_C02 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-4 BV421 +",
+   "flowjo": 2363,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C2_C02 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-4 BV421 +/IFNy FITC +",
+   "flowjo": 212,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C2_C02 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-4 BV421 +/IL-10 APC +",
+   "flowjo": 125,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C2_C02 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-4 BV421 +/IL-17 BV785 +",
+   "flowjo": 1068,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C2_C02 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-10 APC +",
+   "flowjo": 1680,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C2_C02 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-10 APC +/IFNy FITC +",
+   "flowjo": 106,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C2_C02 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-10 APC +/IL-4 BV421 +",
+   "flowjo": 125,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C2_C02 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-10 APC +/IL-17 BV785 +",
+   "flowjo": 90,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C2_C02 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-17 BV785 +",
+   "flowjo": 1701,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C2_C02 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-17 BV785 +/IFNy FITC +",
+   "flowjo": 85,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C2_C02 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-17 BV785 +/IL-4 BV421 +",
+   "flowjo": 1068,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C2_C02 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-17 BV785 +/IL-10 APC +",
+   "flowjo": 90,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C2_C02 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD8 Single Positive",
+   "flowjo": 5918,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C2_C02 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD8 Single Positive/IFNy FITC +",
+   "flowjo": 27,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C2_C02 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD8 Single Positive/IL-4 BV421 +",
+   "flowjo": 100,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C2_C02 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD8 Single Positive/IL-10 APC +",
+   "flowjo": 13,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C2_C02 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD8 Single Positive/IL-17 BV785 +",
+   "flowjo": 124,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C3_C03 Negative.fcs",
+   "path": "FSC-A, Time subset",
+   "flowjo": 52852,
+   "ours": 52852
+  },
+  {
+   "file": "Specimen_001_C3_C03 Negative.fcs",
+   "path": "Lymphocytes",
+   "flowjo": 38868,
+   "ours": 38794
+  },
+  {
+   "file": "Specimen_001_C3_C03 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1",
+   "flowjo": 38192,
+   "ours": 38102
+  },
+  {
+   "file": "Specimen_001_C3_C03 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2",
+   "flowjo": 35210,
+   "ours": 35370
+  },
+  {
+   "file": "Specimen_001_C3_C03 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset",
+   "flowjo": 32340,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C3_C03 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3",
+   "flowjo": 31185,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C3_C03 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive",
+   "flowjo": 26845,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C3_C03 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IFNy FITC +",
+   "flowjo": 357,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C3_C03 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IFNy FITC +/IL-4 BV421 +",
+   "flowjo": 57,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C3_C03 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IFNy FITC +/IL-10 APC +",
+   "flowjo": 62,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C3_C03 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IFNy FITC +/IL-17 BV785 +",
+   "flowjo": 31,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C3_C03 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-4 BV421 +",
+   "flowjo": 371,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C3_C03 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-4 BV421 +/IFNy FITC +",
+   "flowjo": 57,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C3_C03 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-4 BV421 +/IL-10 APC +",
+   "flowjo": 27,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C3_C03 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-4 BV421 +/IL-17 BV785 +",
+   "flowjo": 224,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C3_C03 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-10 APC +",
+   "flowjo": 825,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C3_C03 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-10 APC +/IFNy FITC +",
+   "flowjo": 62,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C3_C03 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-10 APC +/IL-4 BV421 +",
+   "flowjo": 27,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C3_C03 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-10 APC +/IL-17 BV785 +",
+   "flowjo": 57,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C3_C03 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-17 BV785 +",
+   "flowjo": 829,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C3_C03 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-17 BV785 +/IFNy FITC +",
+   "flowjo": 31,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C3_C03 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-17 BV785 +/IL-4 BV421 +",
+   "flowjo": 224,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C3_C03 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-17 BV785 +/IL-10 APC +",
+   "flowjo": 57,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C3_C03 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD8 Single Positive",
+   "flowjo": 2079,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C3_C03 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD8 Single Positive/IFNy FITC +",
+   "flowjo": 10,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C3_C03 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD8 Single Positive/IL-4 BV421 +",
+   "flowjo": 13,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C3_C03 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD8 Single Positive/IL-10 APC +",
+   "flowjo": 2,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C3_C03 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD8 Single Positive/IL-17 BV785 +",
+   "flowjo": 45,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C7_C07 Positive.fcs",
+   "path": "FSC-A, Time subset",
+   "flowjo": 234608,
+   "ours": 234608
+  },
+  {
+   "file": "Specimen_001_C7_C07 Positive.fcs",
+   "path": "Lymphocytes",
+   "flowjo": 112311,
+   "ours": 111776
+  },
+  {
+   "file": "Specimen_001_C7_C07 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1",
+   "flowjo": 104032,
+   "ours": 103415
+  },
+  {
+   "file": "Specimen_001_C7_C07 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2",
+   "flowjo": 97654,
+   "ours": 97675
+  },
+  {
+   "file": "Specimen_001_C7_C07 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset",
+   "flowjo": 78674,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C7_C07 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3",
+   "flowjo": 62695,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C7_C07 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive",
+   "flowjo": 15924,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C7_C07 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IFNy FITC +",
+   "flowjo": 8876,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C7_C07 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IFNy FITC +/IL-4 BV421 +",
+   "flowjo": 1111,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C7_C07 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IFNy FITC +/IL-10 APC +",
+   "flowjo": 99,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C7_C07 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IFNy FITC +/IL-17 BV785 +",
+   "flowjo": 176,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C7_C07 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-4 BV421 +",
+   "flowjo": 1629,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C7_C07 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-4 BV421 +/IFNy FITC +",
+   "flowjo": 1111,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C7_C07 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-4 BV421 +/IL-10 APC +",
+   "flowjo": 31,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C7_C07 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-4 BV421 +/IL-17 BV785 +",
+   "flowjo": 58,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C7_C07 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-10 APC +",
+   "flowjo": 169,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C7_C07 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-10 APC +/IFNy FITC +",
+   "flowjo": 99,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C7_C07 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-10 APC +/IL-4 BV421 +",
+   "flowjo": 31,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C7_C07 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-10 APC +/IL-17 BV785 +",
+   "flowjo": 5,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C7_C07 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-17 BV785 +",
+   "flowjo": 389,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C7_C07 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-17 BV785 +/IFNy FITC +",
+   "flowjo": 176,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C7_C07 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-17 BV785 +/IL-4 BV421 +",
+   "flowjo": 58,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C7_C07 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-17 BV785 +/IL-10 APC +",
+   "flowjo": 5,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C7_C07 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD8 Single Positive",
+   "flowjo": 8112,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C7_C07 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD8 Single Positive/IFNy FITC +",
+   "flowjo": 4065,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C7_C07 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD8 Single Positive/IL-4 BV421 +",
+   "flowjo": 17,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C7_C07 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD8 Single Positive/IL-10 APC +",
+   "flowjo": 0,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C7_C07 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD8 Single Positive/IL-17 BV785 +",
+   "flowjo": 22,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C8_C08 Peptide.fcs",
+   "path": "FSC-A, Time subset",
+   "flowjo": 181737,
+   "ours": 181737
+  },
+  {
+   "file": "Specimen_001_C8_C08 Peptide.fcs",
+   "path": "Lymphocytes",
+   "flowjo": 112891,
+   "ours": 112502
+  },
+  {
+   "file": "Specimen_001_C8_C08 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1",
+   "flowjo": 107809,
+   "ours": 107363
+  },
+  {
+   "file": "Specimen_001_C8_C08 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2",
+   "flowjo": 100652,
+   "ours": 100900
+  },
+  {
+   "file": "Specimen_001_C8_C08 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset",
+   "flowjo": 86180,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C8_C08 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3",
+   "flowjo": 74069,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C8_C08 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive",
+   "flowjo": 53758,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C8_C08 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IFNy FITC +",
+   "flowjo": 531,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C8_C08 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IFNy FITC +/IL-4 BV421 +",
+   "flowjo": 83,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C8_C08 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IFNy FITC +/IL-10 APC +",
+   "flowjo": 58,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C8_C08 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IFNy FITC +/IL-17 BV785 +",
+   "flowjo": 30,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C8_C08 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-4 BV421 +",
+   "flowjo": 1065,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C8_C08 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-4 BV421 +/IFNy FITC +",
+   "flowjo": 83,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C8_C08 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-4 BV421 +/IL-10 APC +",
+   "flowjo": 60,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C8_C08 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-4 BV421 +/IL-17 BV785 +",
+   "flowjo": 739,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C8_C08 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-10 APC +",
+   "flowjo": 1602,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C8_C08 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-10 APC +/IFNy FITC +",
+   "flowjo": 58,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C8_C08 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-10 APC +/IL-4 BV421 +",
+   "flowjo": 60,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C8_C08 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-10 APC +/IL-17 BV785 +",
+   "flowjo": 61,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C8_C08 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-17 BV785 +",
+   "flowjo": 1064,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C8_C08 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-17 BV785 +/IFNy FITC +",
+   "flowjo": 30,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C8_C08 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-17 BV785 +/IL-4 BV421 +",
+   "flowjo": 739,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C8_C08 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-17 BV785 +/IL-10 APC +",
+   "flowjo": 61,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C8_C08 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD8 Single Positive",
+   "flowjo": 7943,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C8_C08 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD8 Single Positive/IFNy FITC +",
+   "flowjo": 27,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C8_C08 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD8 Single Positive/IL-4 BV421 +",
+   "flowjo": 52,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C8_C08 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD8 Single Positive/IL-10 APC +",
+   "flowjo": 11,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C8_C08 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD8 Single Positive/IL-17 BV785 +",
+   "flowjo": 87,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C9_C09 Negative.fcs",
+   "path": "FSC-A, Time subset",
+   "flowjo": 154993,
+   "ours": 154993
+  },
+  {
+   "file": "Specimen_001_C9_C09 Negative.fcs",
+   "path": "Lymphocytes",
+   "flowjo": 94438,
+   "ours": 94122
+  },
+  {
+   "file": "Specimen_001_C9_C09 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1",
+   "flowjo": 90697,
+   "ours": 90330
+  },
+  {
+   "file": "Specimen_001_C9_C09 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2",
+   "flowjo": 85348,
+   "ours": 85521
+  },
+  {
+   "file": "Specimen_001_C9_C09 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset",
+   "flowjo": 73406,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C9_C09 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3",
+   "flowjo": 63144,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C9_C09 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive",
+   "flowjo": 46400,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C9_C09 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IFNy FITC +",
+   "flowjo": 379,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C9_C09 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IFNy FITC +/IL-4 BV421 +",
+   "flowjo": 125,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C9_C09 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IFNy FITC +/IL-10 APC +",
+   "flowjo": 48,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C9_C09 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IFNy FITC +/IL-17 BV785 +",
+   "flowjo": 50,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C9_C09 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-4 BV421 +",
+   "flowjo": 1838,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C9_C09 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-4 BV421 +/IFNy FITC +",
+   "flowjo": 125,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C9_C09 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-4 BV421 +/IL-10 APC +",
+   "flowjo": 113,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C9_C09 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-4 BV421 +/IL-17 BV785 +",
+   "flowjo": 1122,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C9_C09 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-10 APC +",
+   "flowjo": 1692,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C9_C09 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-10 APC +/IFNy FITC +",
+   "flowjo": 48,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C9_C09 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-10 APC +/IL-4 BV421 +",
+   "flowjo": 113,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C9_C09 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-10 APC +/IL-17 BV785 +",
+   "flowjo": 85,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C9_C09 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-17 BV785 +",
+   "flowjo": 1382,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C9_C09 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-17 BV785 +/IFNy FITC +",
+   "flowjo": 50,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C9_C09 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-17 BV785 +/IL-4 BV421 +",
+   "flowjo": 1122,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C9_C09 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-17 BV785 +/IL-10 APC +",
+   "flowjo": 85,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C9_C09 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD8 Single Positive",
+   "flowjo": 6219,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C9_C09 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD8 Single Positive/IFNy FITC +",
+   "flowjo": 20,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C9_C09 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD8 Single Positive/IL-4 BV421 +",
+   "flowjo": 82,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C9_C09 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD8 Single Positive/IL-10 APC +",
+   "flowjo": 5,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C9_C09 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD8 Single Positive/IL-17 BV785 +",
+   "flowjo": 115,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C10_C10 Positive.fcs",
+   "path": "FSC-A, Time subset",
+   "flowjo": 161332,
+   "ours": 161332
+  },
+  {
+   "file": "Specimen_001_C10_C10 Positive.fcs",
+   "path": "Lymphocytes",
+   "flowjo": 116469,
+   "ours": 116175
+  },
+  {
+   "file": "Specimen_001_C10_C10 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1",
+   "flowjo": 112812,
+   "ours": 112467
+  },
+  {
+   "file": "Specimen_001_C10_C10 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2",
+   "flowjo": 104794,
+   "ours": 105370
+  },
+  {
+   "file": "Specimen_001_C10_C10 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset",
+   "flowjo": 96062,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C10_C10 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3",
+   "flowjo": 82721,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C10_C10 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive",
+   "flowjo": 27459,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C10_C10 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IFNy FITC +",
+   "flowjo": 12613,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C10_C10 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IFNy FITC +/IL-4 BV421 +",
+   "flowjo": 3775,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C10_C10 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IFNy FITC +/IL-10 APC +",
+   "flowjo": 244,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C10_C10 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IFNy FITC +/IL-17 BV785 +",
+   "flowjo": 353,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C10_C10 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-4 BV421 +",
+   "flowjo": 6388,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C10_C10 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-4 BV421 +/IFNy FITC +",
+   "flowjo": 3775,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C10_C10 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-4 BV421 +/IL-10 APC +",
+   "flowjo": 148,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C10_C10 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-4 BV421 +/IL-17 BV785 +",
+   "flowjo": 453,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C10_C10 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-10 APC +",
+   "flowjo": 480,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C10_C10 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-10 APC +/IFNy FITC +",
+   "flowjo": 244,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C10_C10 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-10 APC +/IL-4 BV421 +",
+   "flowjo": 148,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C10_C10 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-10 APC +/IL-17 BV785 +",
+   "flowjo": 16,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C10_C10 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-17 BV785 +",
+   "flowjo": 986,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C10_C10 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-17 BV785 +/IFNy FITC +",
+   "flowjo": 353,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C10_C10 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-17 BV785 +/IL-4 BV421 +",
+   "flowjo": 453,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C10_C10 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-17 BV785 +/IL-10 APC +",
+   "flowjo": 16,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C10_C10 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD8 Single Positive",
+   "flowjo": 6142,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C10_C10 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD8 Single Positive/IFNy FITC +",
+   "flowjo": 4646,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C10_C10 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD8 Single Positive/IL-4 BV421 +",
+   "flowjo": 169,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C10_C10 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD8 Single Positive/IL-10 APC +",
+   "flowjo": 2,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C10_C10 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD8 Single Positive/IL-17 BV785 +",
+   "flowjo": 43,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C11_C11 Peptide.fcs",
+   "path": "FSC-A, Time subset",
+   "flowjo": 79152,
+   "ours": 79152
+  },
+  {
+   "file": "Specimen_001_C11_C11 Peptide.fcs",
+   "path": "Lymphocytes",
+   "flowjo": 50716,
+   "ours": 50588
+  },
+  {
+   "file": "Specimen_001_C11_C11 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1",
+   "flowjo": 49568,
+   "ours": 49426
+  },
+  {
+   "file": "Specimen_001_C11_C11 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2",
+   "flowjo": 47458,
+   "ours": 47587
+  },
+  {
+   "file": "Specimen_001_C11_C11 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset",
+   "flowjo": 42648,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C11_C11 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3",
+   "flowjo": 39254,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C11_C11 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive",
+   "flowjo": 33517,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C11_C11 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IFNy FITC +",
+   "flowjo": 201,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C11_C11 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IFNy FITC +/IL-4 BV421 +",
+   "flowjo": 40,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C11_C11 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IFNy FITC +/IL-10 APC +",
+   "flowjo": 30,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C11_C11 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IFNy FITC +/IL-17 BV785 +",
+   "flowjo": 19,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C11_C11 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-4 BV421 +",
+   "flowjo": 444,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C11_C11 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-4 BV421 +/IFNy FITC +",
+   "flowjo": 40,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C11_C11 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-4 BV421 +/IL-10 APC +",
+   "flowjo": 35,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C11_C11 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-4 BV421 +/IL-17 BV785 +",
+   "flowjo": 288,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C11_C11 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-10 APC +",
+   "flowjo": 1658,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C11_C11 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-10 APC +/IFNy FITC +",
+   "flowjo": 30,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C11_C11 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-10 APC +/IL-4 BV421 +",
+   "flowjo": 35,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C11_C11 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-10 APC +/IL-17 BV785 +",
+   "flowjo": 62,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C11_C11 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-17 BV785 +",
+   "flowjo": 869,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C11_C11 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-17 BV785 +/IFNy FITC +",
+   "flowjo": 19,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C11_C11 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-17 BV785 +/IL-4 BV421 +",
+   "flowjo": 288,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C11_C11 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-17 BV785 +/IL-10 APC +",
+   "flowjo": 62,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C11_C11 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD8 Single Positive",
+   "flowjo": 2769,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C11_C11 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD8 Single Positive/IFNy FITC +",
+   "flowjo": 6,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C11_C11 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD8 Single Positive/IL-4 BV421 +",
+   "flowjo": 1,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C11_C11 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD8 Single Positive/IL-10 APC +",
+   "flowjo": 2,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C11_C11 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD8 Single Positive/IL-17 BV785 +",
+   "flowjo": 29,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C12_C12 Negative.fcs",
+   "path": "FSC-A, Time subset",
+   "flowjo": 58632,
+   "ours": 58632
+  },
+  {
+   "file": "Specimen_001_C12_C12 Negative.fcs",
+   "path": "Lymphocytes",
+   "flowjo": 34980,
+   "ours": 34887
+  },
+  {
+   "file": "Specimen_001_C12_C12 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1",
+   "flowjo": 34197,
+   "ours": 34093
+  },
+  {
+   "file": "Specimen_001_C12_C12 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2",
+   "flowjo": 32572,
+   "ours": 32660
+  },
+  {
+   "file": "Specimen_001_C12_C12 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset",
+   "flowjo": 29218,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C12_C12 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3",
+   "flowjo": 27327,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C12_C12 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive",
+   "flowjo": 23401,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C12_C12 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IFNy FITC +",
+   "flowjo": 160,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C12_C12 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IFNy FITC +/IL-4 BV421 +",
+   "flowjo": 12,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C12_C12 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IFNy FITC +/IL-10 APC +",
+   "flowjo": 44,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C12_C12 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IFNy FITC +/IL-17 BV785 +",
+   "flowjo": 20,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C12_C12 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-4 BV421 +",
+   "flowjo": 80,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C12_C12 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-4 BV421 +/IFNy FITC +",
+   "flowjo": 12,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C12_C12 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-4 BV421 +/IL-10 APC +",
+   "flowjo": 14,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C12_C12 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-4 BV421 +/IL-17 BV785 +",
+   "flowjo": 55,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C12_C12 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-10 APC +",
+   "flowjo": 701,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C12_C12 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-10 APC +/IFNy FITC +",
+   "flowjo": 44,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C12_C12 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-10 APC +/IL-4 BV421 +",
+   "flowjo": 14,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C12_C12 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-10 APC +/IL-17 BV785 +",
+   "flowjo": 53,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C12_C12 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-17 BV785 +",
+   "flowjo": 730,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C12_C12 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-17 BV785 +/IFNy FITC +",
+   "flowjo": 20,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C12_C12 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-17 BV785 +/IL-4 BV421 +",
+   "flowjo": 55,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C12_C12 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-17 BV785 +/IL-10 APC +",
+   "flowjo": 53,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C12_C12 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD8 Single Positive",
+   "flowjo": 1712,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C12_C12 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD8 Single Positive/IFNy FITC +",
+   "flowjo": 2,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C12_C12 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD8 Single Positive/IL-4 BV421 +",
+   "flowjo": 1,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C12_C12 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD8 Single Positive/IL-10 APC +",
+   "flowjo": 0,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_C12_C12 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD8 Single Positive/IL-17 BV785 +",
+   "flowjo": 5,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H1_H01 Positive.fcs",
+   "path": "FSC-A, Time subset",
+   "flowjo": 225126,
+   "ours": 225126
+  },
+  {
+   "file": "Specimen_001_H1_H01 Positive.fcs",
+   "path": "Lymphocytes",
+   "flowjo": 122676,
+   "ours": 122321
+  },
+  {
+   "file": "Specimen_001_H1_H01 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1",
+   "flowjo": 113865,
+   "ours": 113414
+  },
+  {
+   "file": "Specimen_001_H1_H01 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2",
+   "flowjo": 102705,
+   "ours": 103370
+  },
+  {
+   "file": "Specimen_001_H1_H01 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset",
+   "flowjo": 89119,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H1_H01 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3",
+   "flowjo": 75427,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H1_H01 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive",
+   "flowjo": 13771,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H1_H01 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IFNy FITC +",
+   "flowjo": 7195,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H1_H01 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IFNy FITC +/IL-4 BV421 +",
+   "flowjo": 1061,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H1_H01 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IFNy FITC +/IL-10 APC +",
+   "flowjo": 74,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H1_H01 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IFNy FITC +/IL-17 BV785 +",
+   "flowjo": 222,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H1_H01 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-4 BV421 +",
+   "flowjo": 2001,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H1_H01 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-4 BV421 +/IFNy FITC +",
+   "flowjo": 1061,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H1_H01 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-4 BV421 +/IL-10 APC +",
+   "flowjo": 21,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H1_H01 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-4 BV421 +/IL-17 BV785 +",
+   "flowjo": 162,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H1_H01 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-10 APC +",
+   "flowjo": 120,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H1_H01 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-10 APC +/IFNy FITC +",
+   "flowjo": 74,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H1_H01 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-10 APC +/IL-4 BV421 +",
+   "flowjo": 21,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H1_H01 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-10 APC +/IL-17 BV785 +",
+   "flowjo": 7,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H1_H01 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-17 BV785 +",
+   "flowjo": 468,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H1_H01 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-17 BV785 +/IFNy FITC +",
+   "flowjo": 222,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H1_H01 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-17 BV785 +/IL-4 BV421 +",
+   "flowjo": 162,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H1_H01 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-17 BV785 +/IL-10 APC +",
+   "flowjo": 7,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H1_H01 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD8 Single Positive",
+   "flowjo": 14091,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H1_H01 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD8 Single Positive/IFNy FITC +",
+   "flowjo": 8501,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H1_H01 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD8 Single Positive/IL-4 BV421 +",
+   "flowjo": 230,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H1_H01 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD8 Single Positive/IL-10 APC +",
+   "flowjo": 3,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H1_H01 Positive.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD8 Single Positive/IL-17 BV785 +",
+   "flowjo": 63,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H2_H02 Peptide.fcs",
+   "path": "FSC-A, Time subset",
+   "flowjo": 186530,
+   "ours": 186530
+  },
+  {
+   "file": "Specimen_001_H2_H02 Peptide.fcs",
+   "path": "Lymphocytes",
+   "flowjo": 112716,
+   "ours": 112450
+  },
+  {
+   "file": "Specimen_001_H2_H02 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1",
+   "flowjo": 106875,
+   "ours": 106542
+  },
+  {
+   "file": "Specimen_001_H2_H02 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2",
+   "flowjo": 96219,
+   "ours": 96972
+  },
+  {
+   "file": "Specimen_001_H2_H02 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset",
+   "flowjo": 86317,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H2_H02 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3",
+   "flowjo": 81022,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H2_H02 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive",
+   "flowjo": 56476,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H2_H02 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IFNy FITC +",
+   "flowjo": 1829,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H2_H02 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IFNy FITC +/IL-4 BV421 +",
+   "flowjo": 211,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H2_H02 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IFNy FITC +/IL-10 APC +",
+   "flowjo": 271,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H2_H02 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IFNy FITC +/IL-17 BV785 +",
+   "flowjo": 136,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H2_H02 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-4 BV421 +",
+   "flowjo": 1066,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H2_H02 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-4 BV421 +/IFNy FITC +",
+   "flowjo": 211,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H2_H02 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-4 BV421 +/IL-10 APC +",
+   "flowjo": 96,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H2_H02 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-4 BV421 +/IL-17 BV785 +",
+   "flowjo": 854,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H2_H02 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-10 APC +",
+   "flowjo": 2115,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H2_H02 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-10 APC +/IFNy FITC +",
+   "flowjo": 271,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H2_H02 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-10 APC +/IL-4 BV421 +",
+   "flowjo": 96,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H2_H02 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-10 APC +/IL-17 BV785 +",
+   "flowjo": 102,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H2_H02 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-17 BV785 +",
+   "flowjo": 1150,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H2_H02 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-17 BV785 +/IFNy FITC +",
+   "flowjo": 136,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H2_H02 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-17 BV785 +/IL-4 BV421 +",
+   "flowjo": 854,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H2_H02 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-17 BV785 +/IL-10 APC +",
+   "flowjo": 102,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H2_H02 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD8 Single Positive",
+   "flowjo": 15644,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H2_H02 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD8 Single Positive/IFNy FITC +",
+   "flowjo": 112,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H2_H02 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD8 Single Positive/IL-4 BV421 +",
+   "flowjo": 151,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H2_H02 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD8 Single Positive/IL-10 APC +",
+   "flowjo": 8,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H2_H02 Peptide.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD8 Single Positive/IL-17 BV785 +",
+   "flowjo": 158,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H3_H03 Negative.fcs",
+   "path": "FSC-A, Time subset",
+   "flowjo": 136047,
+   "ours": 136047
+  },
+  {
+   "file": "Specimen_001_H3_H03 Negative.fcs",
+   "path": "Lymphocytes",
+   "flowjo": 79607,
+   "ours": 79437
+  },
+  {
+   "file": "Specimen_001_H3_H03 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1",
+   "flowjo": 76316,
+   "ours": 76100
+  },
+  {
+   "file": "Specimen_001_H3_H03 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2",
+   "flowjo": 69320,
+   "ours": 69834
+  },
+  {
+   "file": "Specimen_001_H3_H03 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset",
+   "flowjo": 62692,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H3_H03 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3",
+   "flowjo": 58995,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H3_H03 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive",
+   "flowjo": 41439,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H3_H03 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IFNy FITC +",
+   "flowjo": 816,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H3_H03 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IFNy FITC +/IL-4 BV421 +",
+   "flowjo": 185,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H3_H03 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IFNy FITC +/IL-10 APC +",
+   "flowjo": 169,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H3_H03 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IFNy FITC +/IL-17 BV785 +",
+   "flowjo": 170,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H3_H03 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-4 BV421 +",
+   "flowjo": 1355,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H3_H03 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-4 BV421 +/IFNy FITC +",
+   "flowjo": 185,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H3_H03 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-4 BV421 +/IL-10 APC +",
+   "flowjo": 117,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H3_H03 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-4 BV421 +/IL-17 BV785 +",
+   "flowjo": 1154,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H3_H03 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-10 APC +",
+   "flowjo": 1453,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H3_H03 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-10 APC +/IFNy FITC +",
+   "flowjo": 169,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H3_H03 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-10 APC +/IL-4 BV421 +",
+   "flowjo": 117,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H3_H03 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-10 APC +/IL-17 BV785 +",
+   "flowjo": 144,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H3_H03 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-17 BV785 +",
+   "flowjo": 1621,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H3_H03 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-17 BV785 +/IFNy FITC +",
+   "flowjo": 170,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H3_H03 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-17 BV785 +/IL-4 BV421 +",
+   "flowjo": 1154,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H3_H03 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD4 Single Positive/IL-17 BV785 +/IL-10 APC +",
+   "flowjo": 144,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H3_H03 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD8 Single Positive",
+   "flowjo": 10465,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H3_H03 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD8 Single Positive/IFNy FITC +",
+   "flowjo": 69,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H3_H03 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD8 Single Positive/IL-4 BV421 +",
+   "flowjo": 167,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H3_H03 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD8 Single Positive/IL-10 APC +",
+   "flowjo": 5,
+   "ours": 0
+  },
+  {
+   "file": "Specimen_001_H3_H03 Negative.fcs",
+   "path": "Lymphocytes/Single Cells 1/Single Cells 2/Comp-LIVE_DEAD Aqua-A, SSC-A subset/CD3/CD8 Single Positive/IL-17 BV785 +",
+   "flowjo": 192,
+   "ours": 0
+  }
+ ],
+ "members": []
+}

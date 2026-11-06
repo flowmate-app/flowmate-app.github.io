@@ -1,0 +1,84 @@
+{
+ "type": "plot",
+ "dir": "../public_large/external_qa/als_ics2/",
+ "fcs": [
+  "ALS Specimen_001_C10_C10 Negative.fcs",
+  "ALS Specimen_001_C11_C11 Peptide.fcs",
+  "ALS Specimen_001_C12_C12 Positive.fcs",
+  "ALS Specimen_001_C4_C04 Negative.fcs",
+  "ALS Specimen_001_C5_C05 Peptide.fcs",
+  "ALS Specimen_001_C6_C06 Positive.fcs",
+  "ALS Specimen_001_H1_H01 Negatice.fcs",
+  "ALS Specimen_001_H2_H02 Peptide.fcs",
+  "ALS Specimen_001_H3_H03 Positive.fcs",
+  "HC Specimen_001_C1_C01 Negative.fcs",
+  "HC Specimen_001_C2_C02 Peptide.fcs",
+  "HC Specimen_001_C3_C03 Positive.fcs",
+  "HC Specimen_001_C7_C07 Negative.fcs",
+  "HC Specimen_001_C8_C08 Peptide.fcs",
+  "HC Specimen_001_C9_C09 Positive.fcs",
+  "HC Specimen_001_H7_H07 Negative.fcs",
+  "HC Specimen_001_H8_H08 Peptide.fcs",
+  "HC Specimen_001_H9_H09 Positive.fcs"
+ ],
+ "gates": [
+  {
+   "name": "Lymphocytes",
+   "parent": null,
+   "type": "polygon",
+   "x": "FSC-A",
+   "y": "SSC-A",
+   "disp": true,
+   "verts": [
+    [
+     0.28,
+     0.07
+    ],
+    [
+     0.36,
+     0.03
+    ],
+    [
+     0.6,
+     0.05
+    ],
+    [
+     0.76,
+     0.16
+    ],
+    [
+     0.77,
+     0.34
+    ],
+    [
+     0.62,
+     0.43
+    ],
+    [
+     0.44,
+     0.36
+    ],
+    [
+     0.29,
+     0.21
+    ]
+   ]
+  }
+ ],
+ "size": 600,
+ "smallSize": 250,
+ "plots": [
+  {
+   "pop": "Lymphocytes",
+   "x": "SSC-A",
+   "y": "SSC-H",
+   "title": "pooled"
+  },
+  {
+   "pop": "Lymphocytes",
+   "x": "FSC-A",
+   "y": "FSC-H",
+   "title": "pooled"
+  }
+ ]
+}

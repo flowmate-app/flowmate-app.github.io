@@ -1,0 +1,54 @@
+<!doctype html><meta charset="utf-8"><body><pre id="perf">running</pre>
+<script src="../src/core/ns.js"></script>
+<script src="../src/core/fcs.js"></script>
+<script src="../src/core/transforms.js"></script>
+<script src="../src/core/gating.js"></script>
+<script src="../src/core/stats.js"></script>
+<script src="../src/core/inference.js"></script>
+<script src="../src/core/expr.js"></script>
+<script src="../src/core/wells.js"></script>
+<script src="../src/core/workspace.js"></script>
+<script src="../src/core/analysis.js"></script>
+<script src="../src/core/summary.js"></script>
+<script src="../src/core/presets.js"></script>
+<script src="../src/core/synth.js"></script>
+<script src="../src/render/colormaps.js"></script>
+<script src="../src/render/plot.js"></script>
+<script src="../src/render/charts.js"></script>
+<script src="../src/ui/dom.js"></script>
+<script src="../src/ui/app.js"></script>
+<script src="../src/ui/axis.js"></script>
+<script src="../src/ui/plotview.js"></script>
+<script src="../src/ui/io.js"></script>
+<script src="../src/ui/report.js"></script>
+<script src="../src/ui/view_load.js"></script>
+<script src="../src/ui/view_plate.js"></script>
+<script src="../src/ui/view_gate.js"></script>
+<script src="../src/ui/view_measure.js"></script>
+<script src="../src/ui/view_results.js"></script>
+<script>
+(function () { try {
+  const t = [];
+  const time = (label, fn) => { const a = performance.now(); const r = fn(); t.push(label.padEnd(44) + (performance.now() - a).toFixed(0).padStart(7) + ' ms'); return r; };
+  const ws = new FM.Workspace();
+  const samples = time('generate 96 wells x 50,000 events', () => FM.synth.bigPlate(8, 12, 50000));
+  time('addSamples (well detection, default axes)', () => ws.addSamples(samples));
+  const p = FM.presets.byId('phagocytosis');
+  time('apply preset (3 gates, 3 metrics)', () => FM.presets.apply(ws, p, { mapping: FM.presets.autoMap(p, ws.paramNames()), layout: false, replace: true }));
+  const ids = ws.doc.gates.map(g => g.id);
+  time('gate all 96 wells, full hierarchy (cold)', () => ws.samples.forEach(s => ids.forEach(id => ws.count(s, id))));
+  time('same again (cached)', () => ws.samples.forEach(s => ids.forEach(id => ws.count(s, id))));
+  time('primary metric on 96 wells (gMFI x %)', () => ws.samples.forEach(s => ws.metricValue(s, ws.doc.settings.primaryMetric)));
+  const g = ws.doc.gates[2];
+  time('edit bead gate -> re-gate 96 wells', () => { ws.updateGate(g.id, { rect: Object.assign({}, g.rect, { x0: 7e4 }) }); ws.samples.forEach(s => ws.count(s, g.id)); });
+  const g1 = ws.doc.gates[0];
+  time('drag-style edit of polygon -> re-gate 96 wells', () => { const v = g1.verts.map(q => [q[0] * 1.01, q[1]]); ws.updateGate(g1.id, { verts: v }); ws.samples.forEach(s => ids.forEach(id => ws.count(s, id))); });
+  time('full analysis (groups, ANOVA, Tukey, checks)', () => FM.analysis.analyze(ws, ws.doc.settings.primaryMetric));
+  const c = document.createElement('canvas');
+  const L = FM.plot.layout(820, 600, { dpr: 1 });
+  time('render one 820x600 density plot (50k events)', () => FM.plot.render(c, L, { sample: ws.samples[0], idx: ws.indices(ws.samples[0], null), x: 'FSC-H', y: 'SSC-H', xSpec: ws.scaleSpec('FSC-H'), ySpec: ws.scaleSpec('SSC-H') }));
+  const Lt = FM.plot.layout(124, 104, { compact: true, dpr: 1 });
+  time('render 96 filmstrip thumbnails', () => ws.samples.forEach(s => FM.plot.render(c, Lt, { sample: s, idx: ws.indices(s, ids[1]), x: 'FL1-H', y: 'FSC-H', xSpec: ws.scaleSpec('FL1-H'), ySpec: ws.scaleSpec('FSC-H') })));
+  document.getElementById('perf').textContent = t.join('\n');
+} catch (e) { document.getElementById('perf').textContent = 'ERROR ' + e.stack; } })();
+</script>

@@ -1,0 +1,16 @@
+{
+ "type": "wsp",
+ "dir": "../public_large/external_qa/als_spectral/",
+ "fcs": [
+  "A1 6936 ALS.fcs",
+  "A2 7181 ALS.fcs",
+  "A3 8830 ALS.fcs",
+  "A4 8710 ALS.fcs",
+  "A5 6934 HC.fcs",
+  "A6 4595 HC.fcs",
+  "A7 3740 HC.fcs",
+  "A8 3417 HC.fcs"
+ ],
+ "wsp": "#5 Spectral.wsp",
+ "names": {}
+}

@@ -1,0 +1,53 @@
+{
+ "101_DEN084Y5_15_E01_008_clean.fcs": {
+  "Time": 290166,
+  "Time/Singlets": 239001,
+  "Time/Singlets/aAmine-": 164655,
+  "Time/Singlets/aAmine-/CD3+": 133670,
+  "Time/Singlets/aAmine-/CD3+/CD4+": 82484,
+  "Time/Singlets/aAmine-/CD3+/CD4+/CD107a+": 68,
+  "Time/Singlets/aAmine-/CD3+/CD4+/IFNg+": 4,
+  "Time/Singlets/aAmine-/CD3+/CD4+/IL2+": 6,
+  "Time/Singlets/aAmine-/CD3+/CD4+/TNFa+": 21,
+  "Time/Singlets/aAmine-/CD3+/CD8+": 47165,
+  "Time/Singlets/aAmine-/CD3+/CD8+/CD107a+": 73,
+  "Time/Singlets/aAmine-/CD3+/CD8+/IFNg+": 2,
+  "Time/Singlets/aAmine-/CD3+/CD8+/IL2+": 10,
+  "Time/Singlets/aAmine-/CD3+/CD8+/TNFa+": 8,
+  "Time/Singlets/aAmine-/CD3+/ellipse1": 7023
+ },
+ "101_DEN084Y5_15_E03_009_clean.fcs": {
+  "Time": 283968,
+  "Time/Singlets": 236780,
+  "Time/Singlets/aAmine-": 161823,
+  "Time/Singlets/aAmine-/CD3+": 132200,
+  "Time/Singlets/aAmine-/CD3+/CD4+": 81855,
+  "Time/Singlets/aAmine-/CD3+/CD4+/CD107a+": 59,
+  "Time/Singlets/aAmine-/CD3+/CD4+/IFNg+": 598,
+  "Time/Singlets/aAmine-/CD3+/CD4+/IL2+": 64,
+  "Time/Singlets/aAmine-/CD3+/CD4+/TNFa+": 288,
+  "Time/Singlets/aAmine-/CD3+/CD8+": 46965,
+  "Time/Singlets/aAmine-/CD3+/CD8+/CD107a+": 814,
+  "Time/Singlets/aAmine-/CD3+/CD8+/IFNg+": 1224,
+  "Time/Singlets/aAmine-/CD3+/CD8+/IL2+": 127,
+  "Time/Singlets/aAmine-/CD3+/CD8+/TNFa+": 821,
+  "Time/Singlets/aAmine-/CD3+/ellipse1": 5871
+ },
+ "101_DEN084Y5_15_E05_010_clean.fcs": {
+  "Time": 284846,
+  "Time/Singlets": 235331,
+  "Time/Singlets/aAmine-": 160955,
+  "Time/Singlets/aAmine-/CD3+": 131305,
+  "Time/Singlets/aAmine-/CD3+/CD4+": 81135,
+  "Time/Singlets/aAmine-/CD3+/CD4+/CD107a+": 70,
+  "Time/Singlets/aAmine-/CD3+/CD4+/IFNg+": 9,
+  "Time/Singlets/aAmine-/CD3+/CD4+/IL2+": 8,
+  "Time/Singlets/aAmine-/CD3+/CD4+/TNFa+": 28,
+  "Time/Singlets/aAmine-/CD3+/CD8+": 46546,
+  "Time/Singlets/aAmine-/CD3+/CD8+/CD107a+": 306,
+  "Time/Singlets/aAmine-/CD3+/CD8+/IFNg+": 348,
+  "Time/Singlets/aAmine-/CD3+/CD8+/IL2+": 65,
+  "Time/Singlets/aAmine-/CD3+/CD8+/TNFa+": 336,
+  "Time/Singlets/aAmine-/CD3+/ellipse1": 6004
+ }
+}

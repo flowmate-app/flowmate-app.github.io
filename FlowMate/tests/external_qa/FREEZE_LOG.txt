@@ -1,0 +1,3 @@
+2026-10-10T23:45:09+03:00  sha256 f3b40d40031e158852d79bfc68a25f6083425f144740690380cf46d46e7901ed  results/B_frozen_handgates_als2.json (frozen before opening the FlowJo workspace)
+2a70e21b93aae5c51e74eb7afe3c4c9b0eccb7d680daf150c3f05dd0c874032f *PROTOCOL_REVALIDATION.md
+  (re-validation protocol, written 2026-11-06T07:03:04Z before any held-out result)

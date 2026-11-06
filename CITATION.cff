@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use FlowMate in your work, please cite it as below."
+title: "FlowMate: free, open-source flow cytometry analysis in the browser"
+type: software
+authors:
+  - family-names: "Harel"
+    given-names: "Shir"
+    email: "rlshir302010@gmail.com"
+version: "0.2.0"
+date-released: "2026-11-06"
+license: MIT
+repository-code: "https://github.com/rlshir302010-cpu/flowmate"
+url: "https://rlshir302010-cpu.github.io/flowmate/"
+keywords:
+  - flow cytometry
+  - gating
+  - FCS
+  - compensation
+  - FlowJo workspace
+  - bioinformatics
+  - open source
+abstract: >-
+  FlowMate is a browser-based flow cytometry analysis application. It reads FCS 2.0–3.1 files,
+  gates every well of a plate at once (polygon, rectangle, ellipse, quadrant, range and Boolean
+  gates), compensates with file, computed or imported matrices, imports FlowJo 10 workspaces and
+  Gating-ML 2.0, and reports per-condition statistics (t tests, one-way ANOVA with Tukey or Dunnett,
+  and nested mixed-model tests for cell-level data). All processing happens locally in the browser.
+  Results are validated against FlowKit, Beckman CytExpert, GraphPad Prism and R on public data.

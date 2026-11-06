@@ -1,0 +1,54 @@
+{
+ "ALS ICS (7 wsp, FlowJo 10.10.0)": {
+  "official": {
+   "exact": 195,
+   "mismatch": 1391,
+   "boundary": 142
+  },
+  "n": 1728,
+  "compensated": [
+   0,
+   90
+  ],
+  "samples": 90
+ },
+ "Spectral #3 (FlowJo 10.10.0)": {
+  "official": {
+   "exact": 101,
+   "mismatch": 288,
+   "boundary": 187
+  },
+  "n": 576,
+  "compensated": [
+   8,
+   8
+  ],
+  "samples": 8
+ },
+ "Spectral #2 (FlowJo 10.10.0)": {
+  "official": {
+   "exact": 67,
+   "boundary": 237,
+   "mismatch": 62
+  },
+  "n": 366,
+  "compensated": [
+   6,
+   6
+  ],
+  "samples": 6
+ },
+ "OPC (FlowJo 10.8.1)": {
+  "official": {
+   "boundary": 35,
+   "mismatch": 65,
+   "exact": 6
+  },
+  "n": 106,
+  "compensated": [
+   30,
+   31
+  ],
+  "samples": 31
+ }
+}

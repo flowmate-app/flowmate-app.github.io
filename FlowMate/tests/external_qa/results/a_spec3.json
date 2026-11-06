@@ -1,0 +1,4033 @@
+{
+ "type": "wsp",
+ "wsp": "#3 Spectral.wsp",
+ "flowjoVersion": "10.10.0",
+ "parseWarnings": [],
+ "importWarnings": [],
+ "missing": [],
+ "matched": 8,
+ "gates": 72,
+ "compensation": "file",
+ "gateTypes": {
+  "rect": 496,
+  "polygon": 80
+ },
+ "transformTypes": {
+  "lin": 56,
+  "biex": 368
+ },
+ "loadErrors": [],
+ "flowjoTotals": {
+  "A3 6944 ALS.fcs": 183032,
+  "A4 7195 ALS.fcs": 219048,
+  "A5 6807 HC.fcs": 389744,
+  "A6 3553 HC.fcs": 335800,
+  "A7 3545 HC.fcs": 289464,
+  "A8 4660 HC.fcs": 414704,
+  "A1 6941 ALS.fcs": 63144,
+  "A2 6936 ALS.fcs": 81200
+ },
+ "ms": 0,
+ "wspReplace": null,
+ "compActive": "file",
+ "compensated": [
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true
+ ],
+ "popErrors": [],
+ "samples": [
+  {
+   "name": "A3 6944 ALS.fcs",
+   "key": "A3",
+   "events": 183032,
+   "params": [
+    "Time",
+    "SSC-H",
+    "SSC-A",
+    "FSC-H",
+    "FSC-A",
+    "SSC-B-H",
+    "SSC-B-A",
+    "BUV395-A",
+    "BUV496-A",
+    "BUV563-A",
+    "BUV805-A",
+    "BV421-A",
+    "BV480-A",
+    "eFluor 506-A",
+    "BV570-A",
+    "BV605-A",
+    "BV650-A",
+    "BV711-A",
+    "BV785-A",
+    "FITC-A",
+    "PerCP-Cy5.5-A",
+    "PE-A",
+    "PE-Dazzle594-A",
+    "PE-Cy5-A",
+    "PE-Fire 700-A",
+    "PE-Cy7-A",
+    "APC-A",
+    "Alexa Fluor 700-A",
+    "APC-eFluor 780-A",
+    "AF-A"
+   ],
+   "fcsVersion": "FCS3.1",
+   "spill": [
+    "BUV395-A",
+    "BUV496-A",
+    "BUV563-A",
+    "BUV805-A",
+    "BV421-A",
+    "BV480-A",
+    "eFluor 506-A",
+    "BV570-A",
+    "BV605-A",
+    "BV650-A",
+    "BV711-A",
+    "BV785-A",
+    "FITC-A",
+    "PerCP-Cy5.5-A",
+    "PE-A",
+    "PE-Dazzle594-A",
+    "PE-Cy5-A",
+    "PE-Fire 700-A",
+    "PE-Cy7-A",
+    "APC-A",
+    "Alexa Fluor 700-A",
+    "APC-eFluor 780-A",
+    "AF-A"
+   ],
+   "cyt": "Aurora",
+   "datatype": "F",
+   "src": "SpectroFlo 3.2.1"
+  },
+  {
+   "name": "A4 7195 ALS.fcs",
+   "key": "A4",
+   "events": 219048,
+   "params": [
+    "Time",
+    "SSC-H",
+    "SSC-A",
+    "FSC-H",
+    "FSC-A",
+    "SSC-B-H",
+    "SSC-B-A",
+    "BUV395-A",
+    "BUV496-A",
+    "BUV563-A",
+    "BUV805-A",
+    "BV421-A",
+    "BV480-A",
+    "eFluor 506-A",
+    "BV570-A",
+    "BV605-A",
+    "BV650-A",
+    "BV711-A",
+    "BV785-A",
+    "FITC-A",
+    "PerCP-Cy5.5-A",
+    "PE-A",
+    "PE-Dazzle594-A",
+    "PE-Cy5-A",
+    "PE-Fire 700-A",
+    "PE-Cy7-A",
+    "APC-A",
+    "Alexa Fluor 700-A",
+    "APC-eFluor 780-A",
+    "AF-A"
+   ],
+   "fcsVersion": "FCS3.1",
+   "spill": [
+    "BUV395-A",
+    "BUV496-A",
+    "BUV563-A",
+    "BUV805-A",
+    "BV421-A",
+    "BV480-A",
+    "eFluor 506-A",
+    "BV570-A",
+    "BV605-A",
+    "BV650-A",
+    "BV711-A",
+    "BV785-A",
+    "FITC-A",
+    "PerCP-Cy5.5-A",
+    "PE-A",
+    "PE-Dazzle594-A",
+    "PE-Cy5-A",
+    "PE-Fire 700-A",
+    "PE-Cy7-A",
+    "APC-A",
+    "Alexa Fluor 700-A",
+    "APC-eFluor 780-A",
+    "AF-A"
+   ],
+   "cyt": "Aurora",
+   "datatype": "F",
+   "src": "SpectroFlo 3.2.1"
+  },
+  {
+   "name": "A5 6807 HC.fcs",
+   "key": "A5",
+   "events": 389744,
+   "params": [
+    "Time",
+    "SSC-H",
+    "SSC-A",
+    "FSC-H",
+    "FSC-A",
+    "SSC-B-H",
+    "SSC-B-A",
+    "BUV395-A",
+    "BUV496-A",
+    "BUV563-A",
+    "BUV805-A",
+    "BV421-A",
+    "BV480-A",
+    "eFluor 506-A",
+    "BV570-A",
+    "BV605-A",
+    "BV650-A",
+    "BV711-A",
+    "BV785-A",
+    "FITC-A",
+    "PerCP-Cy5.5-A",
+    "PE-A",
+    "PE-Dazzle594-A",
+    "PE-Cy5-A",
+    "PE-Fire 700-A",
+    "PE-Cy7-A",
+    "APC-A",
+    "Alexa Fluor 700-A",
+    "APC-eFluor 780-A",
+    "AF-A"
+   ],
+   "fcsVersion": "FCS3.1",
+   "spill": [
+    "BUV395-A",
+    "BUV496-A",
+    "BUV563-A",
+    "BUV805-A",
+    "BV421-A",
+    "BV480-A",
+    "eFluor 506-A",
+    "BV570-A",
+    "BV605-A",
+    "BV650-A",
+    "BV711-A",
+    "BV785-A",
+    "FITC-A",
+    "PerCP-Cy5.5-A",
+    "PE-A",
+    "PE-Dazzle594-A",
+    "PE-Cy5-A",
+    "PE-Fire 700-A",
+    "PE-Cy7-A",
+    "APC-A",
+    "Alexa Fluor 700-A",
+    "APC-eFluor 780-A",
+    "AF-A"
+   ],
+   "cyt": "Aurora",
+   "datatype": "F",
+   "src": "SpectroFlo 3.2.1"
+  },
+  {
+   "name": "A6 3553 HC.fcs",
+   "key": "A6",
+   "events": 335800,
+   "params": [
+    "Time",
+    "SSC-H",
+    "SSC-A",
+    "FSC-H",
+    "FSC-A",
+    "SSC-B-H",
+    "SSC-B-A",
+    "BUV395-A",
+    "BUV496-A",
+    "BUV563-A",
+    "BUV805-A",
+    "BV421-A",
+    "BV480-A",
+    "eFluor 506-A",
+    "BV570-A",
+    "BV605-A",
+    "BV650-A",
+    "BV711-A",
+    "BV785-A",
+    "FITC-A",
+    "PerCP-Cy5.5-A",
+    "PE-A",
+    "PE-Dazzle594-A",
+    "PE-Cy5-A",
+    "PE-Fire 700-A",
+    "PE-Cy7-A",
+    "APC-A",
+    "Alexa Fluor 700-A",
+    "APC-eFluor 780-A",
+    "AF-A"
+   ],
+   "fcsVersion": "FCS3.1",
+   "spill": [
+    "BUV395-A",
+    "BUV496-A",
+    "BUV563-A",
+    "BUV805-A",
+    "BV421-A",
+    "BV480-A",
+    "eFluor 506-A",
+    "BV570-A",
+    "BV605-A",
+    "BV650-A",
+    "BV711-A",
+    "BV785-A",
+    "FITC-A",
+    "PerCP-Cy5.5-A",
+    "PE-A",
+    "PE-Dazzle594-A",
+    "PE-Cy5-A",
+    "PE-Fire 700-A",
+    "PE-Cy7-A",
+    "APC-A",
+    "Alexa Fluor 700-A",
+    "APC-eFluor 780-A",
+    "AF-A"
+   ],
+   "cyt": "Aurora",
+   "datatype": "F",
+   "src": "SpectroFlo 3.2.1"
+  },
+  {
+   "name": "A7 3545 HC.fcs",
+   "key": "A7",
+   "events": 289464,
+   "params": [
+    "Time",
+    "SSC-H",
+    "SSC-A",
+    "FSC-H",
+    "FSC-A",
+    "SSC-B-H",
+    "SSC-B-A",
+    "BUV395-A",
+    "BUV496-A",
+    "BUV563-A",
+    "BUV805-A",
+    "BV421-A",
+    "BV480-A",
+    "eFluor 506-A",
+    "BV570-A",
+    "BV605-A",
+    "BV650-A",
+    "BV711-A",
+    "BV785-A",
+    "FITC-A",
+    "PerCP-Cy5.5-A",
+    "PE-A",
+    "PE-Dazzle594-A",
+    "PE-Cy5-A",
+    "PE-Fire 700-A",
+    "PE-Cy7-A",
+    "APC-A",
+    "Alexa Fluor 700-A",
+    "APC-eFluor 780-A",
+    "AF-A"
+   ],
+   "fcsVersion": "FCS3.1",
+   "spill": [
+    "BUV395-A",
+    "BUV496-A",
+    "BUV563-A",
+    "BUV805-A",
+    "BV421-A",
+    "BV480-A",
+    "eFluor 506-A",
+    "BV570-A",
+    "BV605-A",
+    "BV650-A",
+    "BV711-A",
+    "BV785-A",
+    "FITC-A",
+    "PerCP-Cy5.5-A",
+    "PE-A",
+    "PE-Dazzle594-A",
+    "PE-Cy5-A",
+    "PE-Fire 700-A",
+    "PE-Cy7-A",
+    "APC-A",
+    "Alexa Fluor 700-A",
+    "APC-eFluor 780-A",
+    "AF-A"
+   ],
+   "cyt": "Aurora",
+   "datatype": "F",
+   "src": "SpectroFlo 3.2.1"
+  },
+  {
+   "name": "A8 4660 HC.fcs",
+   "key": "A8",
+   "events": 414704,
+   "params": [
+    "Time",
+    "SSC-H",
+    "SSC-A",
+    "FSC-H",
+    "FSC-A",
+    "SSC-B-H",
+    "SSC-B-A",
+    "BUV395-A",
+    "BUV496-A",
+    "BUV563-A",
+    "BUV805-A",
+    "BV421-A",
+    "BV480-A",
+    "eFluor 506-A",
+    "BV570-A",
+    "BV605-A",
+    "BV650-A",
+    "BV711-A",
+    "BV785-A",
+    "FITC-A",
+    "PerCP-Cy5.5-A",
+    "PE-A",
+    "PE-Dazzle594-A",
+    "PE-Cy5-A",
+    "PE-Fire 700-A",
+    "PE-Cy7-A",
+    "APC-A",
+    "Alexa Fluor 700-A",
+    "APC-eFluor 780-A",
+    "AF-A"
+   ],
+   "fcsVersion": "FCS3.1",
+   "spill": [
+    "BUV395-A",
+    "BUV496-A",
+    "BUV563-A",
+    "BUV805-A",
+    "BV421-A",
+    "BV480-A",
+    "eFluor 506-A",
+    "BV570-A",
+    "BV605-A",
+    "BV650-A",
+    "BV711-A",
+    "BV785-A",
+    "FITC-A",
+    "PerCP-Cy5.5-A",
+    "PE-A",
+    "PE-Dazzle594-A",
+    "PE-Cy5-A",
+    "PE-Fire 700-A",
+    "PE-Cy7-A",
+    "APC-A",
+    "Alexa Fluor 700-A",
+    "APC-eFluor 780-A",
+    "AF-A"
+   ],
+   "cyt": "Aurora",
+   "datatype": "F",
+   "src": "SpectroFlo 3.2.1"
+  },
+  {
+   "name": "A1 6941 ALS.fcs",
+   "key": "A1",
+   "events": 63144,
+   "params": [
+    "Time",
+    "SSC-H",
+    "SSC-A",
+    "FSC-H",
+    "FSC-A",
+    "SSC-B-H",
+    "SSC-B-A",
+    "BUV395-A",
+    "BUV496-A",
+    "BUV563-A",
+    "BUV805-A",
+    "BV421-A",
+    "BV480-A",
+    "eFluor 506-A",
+    "BV570-A",
+    "BV605-A",
+    "BV650-A",
+    "BV711-A",
+    "BV785-A",
+    "FITC-A",
+    "PerCP-Cy5.5-A",
+    "PE-A",
+    "PE-Dazzle594-A",
+    "PE-Cy5-A",
+    "PE-Fire 700-A",
+    "PE-Cy7-A",
+    "APC-A",
+    "Alexa Fluor 700-A",
+    "APC-eFluor 780-A",
+    "AF-A"
+   ],
+   "fcsVersion": "FCS3.1",
+   "spill": [
+    "BUV395-A",
+    "BUV496-A",
+    "BUV563-A",
+    "BUV805-A",
+    "BV421-A",
+    "BV480-A",
+    "eFluor 506-A",
+    "BV570-A",
+    "BV605-A",
+    "BV650-A",
+    "BV711-A",
+    "BV785-A",
+    "FITC-A",
+    "PerCP-Cy5.5-A",
+    "PE-A",
+    "PE-Dazzle594-A",
+    "PE-Cy5-A",
+    "PE-Fire 700-A",
+    "PE-Cy7-A",
+    "APC-A",
+    "Alexa Fluor 700-A",
+    "APC-eFluor 780-A",
+    "AF-A"
+   ],
+   "cyt": "Aurora",
+   "datatype": "F",
+   "src": "SpectroFlo 3.2.1"
+  },
+  {
+   "name": "A2 6936 ALS.fcs",
+   "key": "A2",
+   "events": 81200,
+   "params": [
+    "Time",
+    "SSC-H",
+    "SSC-A",
+    "FSC-H",
+    "FSC-A",
+    "SSC-B-H",
+    "SSC-B-A",
+    "BUV395-A",
+    "BUV496-A",
+    "BUV563-A",
+    "BUV805-A",
+    "BV421-A",
+    "BV480-A",
+    "eFluor 506-A",
+    "BV570-A",
+    "BV605-A",
+    "BV650-A",
+    "BV711-A",
+    "BV785-A",
+    "FITC-A",
+    "PerCP-Cy5.5-A",
+    "PE-A",
+    "PE-Dazzle594-A",
+    "PE-Cy5-A",
+    "PE-Fire 700-A",
+    "PE-Cy7-A",
+    "APC-A",
+    "Alexa Fluor 700-A",
+    "APC-eFluor 780-A",
+    "AF-A"
+   ],
+   "fcsVersion": "FCS3.1",
+   "spill": [
+    "BUV395-A",
+    "BUV496-A",
+    "BUV563-A",
+    "BUV805-A",
+    "BV421-A",
+    "BV480-A",
+    "eFluor 506-A",
+    "BV570-A",
+    "BV605-A",
+    "BV650-A",
+    "BV711-A",
+    "BV785-A",
+    "FITC-A",
+    "PerCP-Cy5.5-A",
+    "PE-A",
+    "PE-Dazzle594-A",
+    "PE-Cy5-A",
+    "PE-Fire 700-A",
+    "PE-Cy7-A",
+    "APC-A",
+    "Alexa Fluor 700-A",
+    "APC-eFluor 780-A",
+    "AF-A"
+   ],
+   "cyt": "Aurora",
+   "datatype": "F",
+   "src": "SpectroFlo 3.2.1"
+  }
+ ],
+ "compare": [
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset",
+   "flowjo": 162397,
+   "ours": 162397
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset",
+   "flowjo": 125065,
+   "ours": 125255
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells",
+   "flowjo": 119974,
+   "ours": 120208
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II",
+   "flowjo": 119778,
+   "ours": 120007
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset",
+   "flowjo": 115715,
+   "ours": 115897
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset",
+   "flowjo": 114369,
+   "ours": 114538
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+",
+   "flowjo": 7709,
+   "ours": 7715
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+/CD19,CD14-",
+   "flowjo": 7522,
+   "ours": 7528
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+/CD19,CD14-/B:NK",
+   "flowjo": 181,
+   "ours": 181
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+/CD19,CD14-/CD19+.CD14-,CD56-",
+   "flowjo": 7341,
+   "ours": 7347
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+/CD19,CD14-/CD19+.CD14-,CD56-/B Cells",
+   "flowjo": 7291,
+   "ours": 7297
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+/CD19,CD14-/CD19+.CD14-,CD56-/B Cells/Ab Secreting",
+   "flowjo": 783,
+   "ours": 776
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+/CD19,CD14-/CD19+.CD14-,CD56-/B Cells/Other B",
+   "flowjo": 6414,
+   "ours": 6425
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+/M:B ",
+   "flowjo": 187,
+   "ours": 187
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q2: Comp-BUV805-A+ , Comp-BV605-A+",
+   "flowjo": 473,
+   "ours": 476
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-",
+   "flowjo": 65256,
+   "ours": 65384
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-",
+   "flowjo": 64292,
+   "ours": 64416
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/CD3+,TCRgd-",
+   "flowjo": 62929,
+   "ours": 63023
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/CD3+,TCRgd-/MAIT ",
+   "flowjo": 4721,
+   "ours": 4733
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3 high",
+   "flowjo": 506,
+   "ours": 506
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3 intermediate",
+   "flowjo": 3819,
+   "ours": 3828
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-",
+   "flowjo": 59825,
+   "ours": 59940
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T",
+   "flowjo": 46845,
+   "ours": 46936
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory",
+   "flowjo": 14821,
+   "ours": 14842
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6+",
+   "flowjo": 7326,
+   "ours": 7349
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6+/Q1: Comp-PE-Cy7-A- , Comp-PE-A+",
+   "flowjo": 986,
+   "ours": 991
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6+/Q2: Comp-PE-Cy7-A+ , Comp-PE-A+",
+   "flowjo": 156,
+   "ours": 156
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6+/Q3: Comp-PE-Cy7-A+ , Comp-PE-A-",
+   "flowjo": 1633,
+   "ours": 1638
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6+/Q4: Comp-PE-Cy7-A- , Comp-PE-A-",
+   "flowjo": 4551,
+   "ours": 4564
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6-",
+   "flowjo": 7495,
+   "ours": 7491
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6-/Q1: Comp-PE-Cy7-A- , Comp-PE-A+",
+   "flowjo": 1039,
+   "ours": 1039
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6-/Q2: Comp-PE-Cy7-A+ , Comp-PE-A+",
+   "flowjo": 148,
+   "ours": 148
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6-/Q3: Comp-PE-Cy7-A+ , Comp-PE-A-",
+   "flowjo": 1781,
+   "ours": 1782
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6-/Q4: Comp-PE-Cy7-A- , Comp-PE-A-",
+   "flowjo": 4527,
+   "ours": 4522
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tcm",
+   "flowjo": 9805,
+   "ours": 9835
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem",
+   "flowjo": 4384,
+   "ours": 4391
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6+",
+   "flowjo": 2657,
+   "ours": 2661
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6+/CCR4+,CXCR3+",
+   "flowjo": 13,
+   "ours": 13
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6+/CCR4-, CXCR3-",
+   "flowjo": 1816,
+   "ours": 1820
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6+/Th1*",
+   "flowjo": 32,
+   "ours": 32
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6+/Th17",
+   "flowjo": 796,
+   "ours": 796
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6-",
+   "flowjo": 1720,
+   "ours": 1723
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6-/CCR4+,CXCR3+",
+   "flowjo": 6,
+   "ours": 6
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6-/CCR4-, CXCR3-",
+   "flowjo": 971,
+   "ours": 974
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6-/Th1",
+   "flowjo": 25,
+   "ours": 25
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6-/Th2",
+   "flowjo": 718,
+   "ours": 718
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/TEMRA",
+   "flowjo": 696,
+   "ours": 695
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tn",
+   "flowjo": 31960,
+   "ours": 32015
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tregs",
+   "flowjo": 744,
+   "ours": 776
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4, CD8 T",
+   "flowjo": 331,
+   "ours": 334
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4-,CD8- T",
+   "flowjo": 766,
+   "ours": 770
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD8 T",
+   "flowjo": 11883,
+   "ours": 11900
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD8 T/CD8 Tcm",
+   "flowjo": 560,
+   "ours": 562
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD8 T/CD8 Tem",
+   "flowjo": 2066,
+   "ours": 2068
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD8 T/CD8 TEMRA",
+   "flowjo": 2403,
+   "ours": 2411
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD8 T/CD8 Tn",
+   "flowjo": 6854,
+   "ours": 6859
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/TCRgd+",
+   "flowjo": 1363,
+   "ours": 1369
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/TCRgd+/CD+,CD56-",
+   "flowjo": 1231,
+   "ours": 1237
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/TCRgd+/CD3+,CD56+",
+   "flowjo": 134,
+   "ours": 134
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/TCRgd+/CD4+,CD8+",
+   "flowjo": 34,
+   "ours": 34
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/TCRgd+/CD4+,CD8-",
+   "flowjo": 578,
+   "ours": 581
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/TCRgd+/CD4-,CD8-",
+   "flowjo": 428,
+   "ours": 430
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/TCRgd+/CD8+,CD4-",
+   "flowjo": 323,
+   "ours": 324
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/T:M",
+   "flowjo": 853,
+   "ours": 857
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q4: Comp-BUV805-A- , Comp-BV605-A-",
+   "flowjo": 40931,
+   "ours": 40963
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q4: Comp-BUV805-A- , Comp-BV605-A-/CD56-",
+   "flowjo": 20344,
+   "ours": 20366
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q4: Comp-BUV805-A- , Comp-BV605-A-/CD56-/Classical Monocyte",
+   "flowjo": 10578,
+   "ours": 10593
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q4: Comp-BUV805-A- , Comp-BV605-A-/CD56-/Interm. Monocyte",
+   "flowjo": 2423,
+   "ours": 2433
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q4: Comp-BUV805-A- , Comp-BV605-A-/CD56-/Monocyte Negative",
+   "flowjo": 3043,
+   "ours": 3038
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q4: Comp-BUV805-A- , Comp-BV605-A-/CD56-/Non-classical Monocyte",
+   "flowjo": 4300,
+   "ours": 4302
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q4: Comp-BUV805-A- , Comp-BV605-A-/NK CD56 hi",
+   "flowjo": 2831,
+   "ours": 2830
+  },
+  {
+   "file": "A3 6944 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q4: Comp-BUV805-A- , Comp-BV605-A-/NK CD56 int",
+   "flowjo": 17756,
+   "ours": 17763
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset",
+   "flowjo": 197303,
+   "ours": 197303
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset",
+   "flowjo": 163022,
+   "ours": 163160
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells",
+   "flowjo": 153593,
+   "ours": 153903
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II",
+   "flowjo": 153388,
+   "ours": 153683
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset",
+   "flowjo": 144739,
+   "ours": 145030
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset",
+   "flowjo": 142493,
+   "ours": 142756
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+",
+   "flowjo": 8511,
+   "ours": 8512
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+/CD19,CD14-",
+   "flowjo": 8261,
+   "ours": 8264
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+/CD19,CD14-/B:NK",
+   "flowjo": 81,
+   "ours": 81
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+/CD19,CD14-/CD19+.CD14-,CD56-",
+   "flowjo": 8180,
+   "ours": 8183
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+/CD19,CD14-/CD19+.CD14-,CD56-/B Cells",
+   "flowjo": 8144,
+   "ours": 8142
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+/CD19,CD14-/CD19+.CD14-,CD56-/B Cells/Ab Secreting",
+   "flowjo": 936,
+   "ours": 934
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+/CD19,CD14-/CD19+.CD14-,CD56-/B Cells/Other B",
+   "flowjo": 7088,
+   "ours": 7092
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+/M:B ",
+   "flowjo": 248,
+   "ours": 246
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q2: Comp-BUV805-A+ , Comp-BV605-A+",
+   "flowjo": 547,
+   "ours": 548
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-",
+   "flowjo": 96756,
+   "ours": 96847
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-",
+   "flowjo": 94537,
+   "ours": 94621
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/CD3+,TCRgd-",
+   "flowjo": 91403,
+   "ours": 91447
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/CD3+,TCRgd-/MAIT ",
+   "flowjo": 1113,
+   "ours": 1101
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3 high",
+   "flowjo": 825,
+   "ours": 825
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3 intermediate",
+   "flowjo": 23033,
+   "ours": 23064
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-",
+   "flowjo": 70407,
+   "ours": 70460
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T",
+   "flowjo": 48676,
+   "ours": 48715
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory",
+   "flowjo": 33871,
+   "ours": 33879
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6+",
+   "flowjo": 16931,
+   "ours": 16936
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6+/Q1: Comp-PE-Cy7-A- , Comp-PE-A+",
+   "flowjo": 838,
+   "ours": 839
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6+/Q2: Comp-PE-Cy7-A+ , Comp-PE-A+",
+   "flowjo": 323,
+   "ours": 321
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6+/Q3: Comp-PE-Cy7-A+ , Comp-PE-A-",
+   "flowjo": 6160,
+   "ours": 6165
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6+/Q4: Comp-PE-Cy7-A- , Comp-PE-A-",
+   "flowjo": 9610,
+   "ours": 9611
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6-",
+   "flowjo": 16933,
+   "ours": 16932
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6-/Q1: Comp-PE-Cy7-A- , Comp-PE-A+",
+   "flowjo": 696,
+   "ours": 696
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6-/Q2: Comp-PE-Cy7-A+ , Comp-PE-A+",
+   "flowjo": 296,
+   "ours": 295
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6-/Q3: Comp-PE-Cy7-A+ , Comp-PE-A-",
+   "flowjo": 5672,
+   "ours": 5668
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6-/Q4: Comp-PE-Cy7-A- , Comp-PE-A-",
+   "flowjo": 10269,
+   "ours": 10273
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tcm",
+   "flowjo": 17405,
+   "ours": 17418
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem",
+   "flowjo": 13953,
+   "ours": 13961
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6+",
+   "flowjo": 7215,
+   "ours": 7222
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6+/CCR4+,CXCR3+",
+   "flowjo": 5,
+   "ours": 5
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6+/CCR4-, CXCR3-",
+   "flowjo": 3960,
+   "ours": 3963
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6+/Th1*",
+   "flowjo": 7,
+   "ours": 7
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6+/Th17",
+   "flowjo": 3243,
+   "ours": 3247
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6-",
+   "flowjo": 6711,
+   "ours": 6712
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6-/CCR4+,CXCR3+",
+   "flowjo": 4,
+   "ours": 4
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6-/CCR4-, CXCR3-",
+   "flowjo": 3540,
+   "ours": 3538
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6-/Th1",
+   "flowjo": 11,
+   "ours": 12
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6-/Th2",
+   "flowjo": 3156,
+   "ours": 3158
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/TEMRA",
+   "flowjo": 2566,
+   "ours": 2570
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tn",
+   "flowjo": 14752,
+   "ours": 14766
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tregs",
+   "flowjo": 2825,
+   "ours": 2891
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4, CD8 T",
+   "flowjo": 270,
+   "ours": 271
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4-,CD8- T",
+   "flowjo": 1960,
+   "ours": 1966
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD8 T",
+   "flowjo": 19501,
+   "ours": 19508
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD8 T/CD8 Tcm",
+   "flowjo": 1265,
+   "ours": 1265
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD8 T/CD8 Tem",
+   "flowjo": 4466,
+   "ours": 4470
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD8 T/CD8 TEMRA",
+   "flowjo": 10087,
+   "ours": 10092
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD8 T/CD8 Tn",
+   "flowjo": 3683,
+   "ours": 3681
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/TCRgd+",
+   "flowjo": 3134,
+   "ours": 3150
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/TCRgd+/CD+,CD56-",
+   "flowjo": 2576,
+   "ours": 2590
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/TCRgd+/CD3+,CD56+",
+   "flowjo": 567,
+   "ours": 570
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/TCRgd+/CD4+,CD8+",
+   "flowjo": 46,
+   "ours": 46
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/TCRgd+/CD4+,CD8-",
+   "flowjo": 840,
+   "ours": 849
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/TCRgd+/CD4-,CD8-",
+   "flowjo": 1504,
+   "ours": 1510
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/TCRgd+/CD8+,CD4-",
+   "flowjo": 744,
+   "ours": 745
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/T:M",
+   "flowjo": 1911,
+   "ours": 1918
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q4: Comp-BUV805-A- , Comp-BV605-A-",
+   "flowjo": 36679,
+   "ours": 36849
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q4: Comp-BUV805-A- , Comp-BV605-A-/CD56-",
+   "flowjo": 27901,
+   "ours": 28064
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q4: Comp-BUV805-A- , Comp-BV605-A-/CD56-/Classical Monocyte",
+   "flowjo": 15411,
+   "ours": 15507
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q4: Comp-BUV805-A- , Comp-BV605-A-/CD56-/Interm. Monocyte",
+   "flowjo": 4256,
+   "ours": 4293
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q4: Comp-BUV805-A- , Comp-BV605-A-/CD56-/Monocyte Negative",
+   "flowjo": 5028,
+   "ours": 5041
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q4: Comp-BUV805-A- , Comp-BV605-A-/CD56-/Non-classical Monocyte",
+   "flowjo": 3206,
+   "ours": 3223
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q4: Comp-BUV805-A- , Comp-BV605-A-/NK CD56 hi",
+   "flowjo": 462,
+   "ours": 461
+  },
+  {
+   "file": "A4 7195 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q4: Comp-BUV805-A- , Comp-BV605-A-/NK CD56 int",
+   "flowjo": 8316,
+   "ours": 8323
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset",
+   "flowjo": 357063,
+   "ours": 357063
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset",
+   "flowjo": 300062,
+   "ours": 300550
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells",
+   "flowjo": 280554,
+   "ours": 281177
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II",
+   "flowjo": 280317,
+   "ours": 280927
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset",
+   "flowjo": 276633,
+   "ours": 277206
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset",
+   "flowjo": 273178,
+   "ours": 273715
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+",
+   "flowjo": 17108,
+   "ours": 17130
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+/CD19,CD14-",
+   "flowjo": 16582,
+   "ours": 16604
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+/CD19,CD14-/B:NK",
+   "flowjo": 292,
+   "ours": 292
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+/CD19,CD14-/CD19+.CD14-,CD56-",
+   "flowjo": 16290,
+   "ours": 16312
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+/CD19,CD14-/CD19+.CD14-,CD56-/B Cells",
+   "flowjo": 16248,
+   "ours": 16266
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+/CD19,CD14-/CD19+.CD14-,CD56-/B Cells/Ab Secreting",
+   "flowjo": 2692,
+   "ours": 2686
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+/CD19,CD14-/CD19+.CD14-,CD56-/B Cells/Other B",
+   "flowjo": 13346,
+   "ours": 13371
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+/M:B ",
+   "flowjo": 519,
+   "ours": 519
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q2: Comp-BUV805-A+ , Comp-BV605-A+",
+   "flowjo": 1477,
+   "ours": 1482
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-",
+   "flowjo": 172023,
+   "ours": 172448
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-",
+   "flowjo": 169719,
+   "ours": 170133
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/CD3+,TCRgd-",
+   "flowjo": 167672,
+   "ours": 168029
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/CD3+,TCRgd-/MAIT ",
+   "flowjo": 4265,
+   "ours": 4279
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3 high",
+   "flowjo": 851,
+   "ours": 851
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3 intermediate",
+   "flowjo": 4311,
+   "ours": 4322
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-",
+   "flowjo": 164374,
+   "ours": 164776
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T",
+   "flowjo": 110588,
+   "ours": 110867
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory",
+   "flowjo": 67543,
+   "ours": 67616
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6+",
+   "flowjo": 32650,
+   "ours": 32683
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6+/Q1: Comp-PE-Cy7-A- , Comp-PE-A+",
+   "flowjo": 13253,
+   "ours": 13276
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6+/Q2: Comp-PE-Cy7-A+ , Comp-PE-A+",
+   "flowjo": 3582,
+   "ours": 3582
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6+/Q3: Comp-PE-Cy7-A+ , Comp-PE-A-",
+   "flowjo": 8812,
+   "ours": 8817
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6+/Q4: Comp-PE-Cy7-A- , Comp-PE-A-",
+   "flowjo": 7003,
+   "ours": 7008
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6-",
+   "flowjo": 34879,
+   "ours": 34908
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6-/Q1: Comp-PE-Cy7-A- , Comp-PE-A+",
+   "flowjo": 17517,
+   "ours": 17531
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6-/Q2: Comp-PE-Cy7-A+ , Comp-PE-A+",
+   "flowjo": 3708,
+   "ours": 3713
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6-/Q3: Comp-PE-Cy7-A+ , Comp-PE-A-",
+   "flowjo": 6378,
+   "ours": 6383
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6-/Q4: Comp-PE-Cy7-A- , Comp-PE-A-",
+   "flowjo": 7276,
+   "ours": 7281
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tcm",
+   "flowjo": 37325,
+   "ours": 37407
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem",
+   "flowjo": 25330,
+   "ours": 25388
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6+",
+   "flowjo": 13073,
+   "ours": 13105
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6+/CCR4+,CXCR3+",
+   "flowjo": 1025,
+   "ours": 1027
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6+/CCR4-, CXCR3-",
+   "flowjo": 4113,
+   "ours": 4119
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6+/Th1*",
+   "flowjo": 2699,
+   "ours": 2709
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6+/Th17",
+   "flowjo": 5236,
+   "ours": 5250
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6-",
+   "flowjo": 12211,
+   "ours": 12237
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6-/CCR4+,CXCR3+",
+   "flowjo": 1343,
+   "ours": 1348
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6-/CCR4-, CXCR3-",
+   "flowjo": 4170,
+   "ours": 4176
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6-/Th1",
+   "flowjo": 2917,
+   "ours": 2926
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6-/Th2",
+   "flowjo": 3781,
+   "ours": 3787
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/TEMRA",
+   "flowjo": 5081,
+   "ours": 5100
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tn",
+   "flowjo": 42852,
+   "ours": 42972
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tregs",
+   "flowjo": 5608,
+   "ours": 5800
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4, CD8 T",
+   "flowjo": 2604,
+   "ours": 2622
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4-,CD8- T",
+   "flowjo": 2477,
+   "ours": 2485
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD8 T",
+   "flowjo": 48705,
+   "ours": 48802
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD8 T/CD8 Tcm",
+   "flowjo": 2795,
+   "ours": 2800
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD8 T/CD8 Tem",
+   "flowjo": 11641,
+   "ours": 11675
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD8 T/CD8 TEMRA",
+   "flowjo": 29400,
+   "ours": 29450
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD8 T/CD8 Tn",
+   "flowjo": 4869,
+   "ours": 4877
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/TCRgd+",
+   "flowjo": 2047,
+   "ours": 2058
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/TCRgd+/CD+,CD56-",
+   "flowjo": 1508,
+   "ours": 1514
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/TCRgd+/CD3+,CD56+",
+   "flowjo": 546,
+   "ours": 551
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/TCRgd+/CD4+,CD8+",
+   "flowjo": 33,
+   "ours": 34
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/TCRgd+/CD4+,CD8-",
+   "flowjo": 278,
+   "ours": 279
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/TCRgd+/CD4-,CD8-",
+   "flowjo": 1443,
+   "ours": 1450
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/TCRgd+/CD8+,CD4-",
+   "flowjo": 293,
+   "ours": 295
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/T:M",
+   "flowjo": 1950,
+   "ours": 1960
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q4: Comp-BUV805-A- , Comp-BV605-A-",
+   "flowjo": 82570,
+   "ours": 82655
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q4: Comp-BUV805-A- , Comp-BV605-A-/CD56-",
+   "flowjo": 44672,
+   "ours": 44733
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q4: Comp-BUV805-A- , Comp-BV605-A-/CD56-/Classical Monocyte",
+   "flowjo": 24871,
+   "ours": 24900
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q4: Comp-BUV805-A- , Comp-BV605-A-/CD56-/Interm. Monocyte",
+   "flowjo": 2117,
+   "ours": 2118
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q4: Comp-BUV805-A- , Comp-BV605-A-/CD56-/Monocyte Negative",
+   "flowjo": 5091,
+   "ours": 5096
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q4: Comp-BUV805-A- , Comp-BV605-A-/CD56-/Non-classical Monocyte",
+   "flowjo": 12593,
+   "ours": 12619
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q4: Comp-BUV805-A- , Comp-BV605-A-/NK CD56 hi",
+   "flowjo": 798,
+   "ours": 792
+  },
+  {
+   "file": "A5 6807 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q4: Comp-BUV805-A- , Comp-BV605-A-/NK CD56 int",
+   "flowjo": 37100,
+   "ours": 37126
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset",
+   "flowjo": 301022,
+   "ours": 301022
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset",
+   "flowjo": 247509,
+   "ours": 247926
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells",
+   "flowjo": 229678,
+   "ours": 230142
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II",
+   "flowjo": 229423,
+   "ours": 229848
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset",
+   "flowjo": 226203,
+   "ours": 226598
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset",
+   "flowjo": 222543,
+   "ours": 222890
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+",
+   "flowjo": 25069,
+   "ours": 25082
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+/CD19,CD14-",
+   "flowjo": 24597,
+   "ours": 24608
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+/CD19,CD14-/B:NK",
+   "flowjo": 266,
+   "ours": 267
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+/CD19,CD14-/CD19+.CD14-,CD56-",
+   "flowjo": 24331,
+   "ours": 24341
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+/CD19,CD14-/CD19+.CD14-,CD56-/B Cells",
+   "flowjo": 24314,
+   "ours": 24316
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+/CD19,CD14-/CD19+.CD14-,CD56-/B Cells/Ab Secreting",
+   "flowjo": 3303,
+   "ours": 3254
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+/CD19,CD14-/CD19+.CD14-,CD56-/B Cells/Other B",
+   "flowjo": 20731,
+   "ours": 20807
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+/M:B ",
+   "flowjo": 468,
+   "ours": 470
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q2: Comp-BUV805-A+ , Comp-BV605-A+",
+   "flowjo": 923,
+   "ours": 918
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-",
+   "flowjo": 146156,
+   "ours": 146444
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-",
+   "flowjo": 141938,
+   "ours": 142217
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/CD3+,TCRgd-",
+   "flowjo": 139328,
+   "ours": 139566
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/CD3+,TCRgd-/MAIT ",
+   "flowjo": 4180,
+   "ours": 4120
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3 high",
+   "flowjo": 1128,
+   "ours": 1130
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3 intermediate",
+   "flowjo": 2155,
+   "ours": 2158
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-",
+   "flowjo": 138473,
+   "ours": 138747
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T",
+   "flowjo": 104380,
+   "ours": 104606
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory",
+   "flowjo": 31212,
+   "ours": 31231
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6+",
+   "flowjo": 15070,
+   "ours": 15079
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6+/Q1: Comp-PE-Cy7-A- , Comp-PE-A+",
+   "flowjo": 3489,
+   "ours": 3489
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6+/Q2: Comp-PE-Cy7-A+ , Comp-PE-A+",
+   "flowjo": 638,
+   "ours": 639
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6+/Q3: Comp-PE-Cy7-A+ , Comp-PE-A-",
+   "flowjo": 5275,
+   "ours": 5277
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6+/Q4: Comp-PE-Cy7-A- , Comp-PE-A-",
+   "flowjo": 5668,
+   "ours": 5674
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6-",
+   "flowjo": 16129,
+   "ours": 16133
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6-/Q1: Comp-PE-Cy7-A- , Comp-PE-A+",
+   "flowjo": 3495,
+   "ours": 3499
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6-/Q2: Comp-PE-Cy7-A+ , Comp-PE-A+",
+   "flowjo": 659,
+   "ours": 658
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6-/Q3: Comp-PE-Cy7-A+ , Comp-PE-A-",
+   "flowjo": 5756,
+   "ours": 5761
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6-/Q4: Comp-PE-Cy7-A- , Comp-PE-A-",
+   "flowjo": 6219,
+   "ours": 6215
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tcm",
+   "flowjo": 16558,
+   "ours": 16585
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem",
+   "flowjo": 12313,
+   "ours": 12338
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6+",
+   "flowjo": 6349,
+   "ours": 6357
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6+/CCR4+,CXCR3+",
+   "flowjo": 93,
+   "ours": 92
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6+/CCR4-, CXCR3-",
+   "flowjo": 2859,
+   "ours": 2862
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6+/Th1*",
+   "flowjo": 583,
+   "ours": 584
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6+/Th17",
+   "flowjo": 2814,
+   "ours": 2819
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6-",
+   "flowjo": 5933,
+   "ours": 5950
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6-/CCR4+,CXCR3+",
+   "flowjo": 94,
+   "ours": 94
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6-/CCR4-, CXCR3-",
+   "flowjo": 2342,
+   "ours": 2350
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6-/Th1",
+   "flowjo": 352,
+   "ours": 354
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6-/Th2",
+   "flowjo": 3145,
+   "ours": 3152
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/TEMRA",
+   "flowjo": 2459,
+   "ours": 2465
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tn",
+   "flowjo": 73050,
+   "ours": 73218
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tregs",
+   "flowjo": 4476,
+   "ours": 4605
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4, CD8 T",
+   "flowjo": 680,
+   "ours": 685
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4-,CD8- T",
+   "flowjo": 2370,
+   "ours": 2375
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD8 T",
+   "flowjo": 31043,
+   "ours": 31081
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD8 T/CD8 Tcm",
+   "flowjo": 545,
+   "ours": 545
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD8 T/CD8 Tem",
+   "flowjo": 2761,
+   "ours": 2762
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD8 T/CD8 TEMRA",
+   "flowjo": 2478,
+   "ours": 2484
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD8 T/CD8 Tn",
+   "flowjo": 25259,
+   "ours": 25290
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/TCRgd+",
+   "flowjo": 2610,
+   "ours": 2613
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/TCRgd+/CD+,CD56-",
+   "flowjo": 1934,
+   "ours": 1935
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/TCRgd+/CD3+,CD56+",
+   "flowjo": 681,
+   "ours": 683
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/TCRgd+/CD4+,CD8+",
+   "flowjo": 23,
+   "ours": 22
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/TCRgd+/CD4+,CD8-",
+   "flowjo": 532,
+   "ours": 533
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/TCRgd+/CD4-,CD8-",
+   "flowjo": 1828,
+   "ours": 1832
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/TCRgd+/CD8+,CD4-",
+   "flowjo": 227,
+   "ours": 226
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/T:M",
+   "flowjo": 3609,
+   "ours": 3613
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q4: Comp-BUV805-A- , Comp-BV605-A-",
+   "flowjo": 50395,
+   "ours": 50446
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q4: Comp-BUV805-A- , Comp-BV605-A-/CD56-",
+   "flowjo": 32950,
+   "ours": 32993
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q4: Comp-BUV805-A- , Comp-BV605-A-/CD56-/Classical Monocyte",
+   "flowjo": 17868,
+   "ours": 17891
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q4: Comp-BUV805-A- , Comp-BV605-A-/CD56-/Interm. Monocyte",
+   "flowjo": 1639,
+   "ours": 1646
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q4: Comp-BUV805-A- , Comp-BV605-A-/CD56-/Monocyte Negative",
+   "flowjo": 10441,
+   "ours": 10455
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q4: Comp-BUV805-A- , Comp-BV605-A-/CD56-/Non-classical Monocyte",
+   "flowjo": 3002,
+   "ours": 3001
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q4: Comp-BUV805-A- , Comp-BV605-A-/NK CD56 hi",
+   "flowjo": 2987,
+   "ours": 2986
+  },
+  {
+   "file": "A6 3553 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q4: Comp-BUV805-A- , Comp-BV605-A-/NK CD56 int",
+   "flowjo": 14458,
+   "ours": 14466
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset",
+   "flowjo": 237202,
+   "ours": 237202
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset",
+   "flowjo": 192836,
+   "ours": 193131
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells",
+   "flowjo": 180162,
+   "ours": 180502
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II",
+   "flowjo": 179974,
+   "ours": 180303
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset",
+   "flowjo": 175985,
+   "ours": 176289
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset",
+   "flowjo": 172502,
+   "ours": 172764
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+",
+   "flowjo": 20406,
+   "ours": 20418
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+/CD19,CD14-",
+   "flowjo": 19751,
+   "ours": 19763
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+/CD19,CD14-/B:NK",
+   "flowjo": 200,
+   "ours": 200
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+/CD19,CD14-/CD19+.CD14-,CD56-",
+   "flowjo": 19551,
+   "ours": 19563
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+/CD19,CD14-/CD19+.CD14-,CD56-/B Cells",
+   "flowjo": 19509,
+   "ours": 19521
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+/CD19,CD14-/CD19+.CD14-,CD56-/B Cells/Ab Secreting",
+   "flowjo": 1578,
+   "ours": 1562
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+/CD19,CD14-/CD19+.CD14-,CD56-/B Cells/Other B",
+   "flowjo": 17750,
+   "ours": 17775
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+/M:B ",
+   "flowjo": 651,
+   "ours": 651
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q2: Comp-BUV805-A+ , Comp-BV605-A+",
+   "flowjo": 1072,
+   "ours": 1073
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-",
+   "flowjo": 87127,
+   "ours": 87306
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-",
+   "flowjo": 85260,
+   "ours": 85433
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/CD3+,TCRgd-",
+   "flowjo": 82660,
+   "ours": 82789
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/CD3+,TCRgd-/MAIT ",
+   "flowjo": 1526,
+   "ours": 1470
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3 high",
+   "flowjo": 718,
+   "ours": 724
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3 intermediate",
+   "flowjo": 1617,
+   "ours": 1618
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-",
+   "flowjo": 82832,
+   "ours": 82996
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T",
+   "flowjo": 57368,
+   "ours": 57498
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory",
+   "flowjo": 34240,
+   "ours": 34273
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6+",
+   "flowjo": 19890,
+   "ours": 19904
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6+/Q1: Comp-PE-Cy7-A- , Comp-PE-A+",
+   "flowjo": 5108,
+   "ours": 5116
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6+/Q2: Comp-PE-Cy7-A+ , Comp-PE-A+",
+   "flowjo": 1012,
+   "ours": 1013
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6+/Q3: Comp-PE-Cy7-A+ , Comp-PE-A-",
+   "flowjo": 6122,
+   "ours": 6133
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6+/Q4: Comp-PE-Cy7-A- , Comp-PE-A-",
+   "flowjo": 7648,
+   "ours": 7642
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6-",
+   "flowjo": 14344,
+   "ours": 14358
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6-/Q1: Comp-PE-Cy7-A- , Comp-PE-A+",
+   "flowjo": 4013,
+   "ours": 4013
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6-/Q2: Comp-PE-Cy7-A+ , Comp-PE-A+",
+   "flowjo": 778,
+   "ours": 774
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6-/Q3: Comp-PE-Cy7-A+ , Comp-PE-A-",
+   "flowjo": 3525,
+   "ours": 3534
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6-/Q4: Comp-PE-Cy7-A- , Comp-PE-A-",
+   "flowjo": 6028,
+   "ours": 6037
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tcm",
+   "flowjo": 20292,
+   "ours": 20336
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem",
+   "flowjo": 13397,
+   "ours": 13424
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6+",
+   "flowjo": 8241,
+   "ours": 8260
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6+/CCR4+,CXCR3+",
+   "flowjo": 201,
+   "ours": 202
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6+/CCR4-, CXCR3-",
+   "flowjo": 3521,
+   "ours": 3526
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6+/Th1*",
+   "flowjo": 907,
+   "ours": 908
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6+/Th17",
+   "flowjo": 3612,
+   "ours": 3624
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6-",
+   "flowjo": 5141,
+   "ours": 5149
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6-/CCR4+,CXCR3+",
+   "flowjo": 191,
+   "ours": 191
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6-/CCR4-, CXCR3-",
+   "flowjo": 2297,
+   "ours": 2299
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6-/Th1",
+   "flowjo": 517,
+   "ours": 517
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6-/Th2",
+   "flowjo": 2136,
+   "ours": 2142
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/TEMRA",
+   "flowjo": 640,
+   "ours": 640
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tn",
+   "flowjo": 23039,
+   "ours": 23098
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tregs",
+   "flowjo": 4498,
+   "ours": 4609
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4, CD8 T",
+   "flowjo": 440,
+   "ours": 441
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4-,CD8- T",
+   "flowjo": 2829,
+   "ours": 2839
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD8 T",
+   "flowjo": 22195,
+   "ours": 22218
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD8 T/CD8 Tcm",
+   "flowjo": 1060,
+   "ours": 1060
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD8 T/CD8 Tem",
+   "flowjo": 12412,
+   "ours": 12426
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD8 T/CD8 TEMRA",
+   "flowjo": 3722,
+   "ours": 3725
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD8 T/CD8 Tn",
+   "flowjo": 5001,
+   "ours": 5007
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/TCRgd+",
+   "flowjo": 2600,
+   "ours": 2609
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/TCRgd+/CD+,CD56-",
+   "flowjo": 2334,
+   "ours": 2339
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/TCRgd+/CD3+,CD56+",
+   "flowjo": 272,
+   "ours": 276
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/TCRgd+/CD4+,CD8+",
+   "flowjo": 13,
+   "ours": 13
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/TCRgd+/CD4+,CD8-",
+   "flowjo": 241,
+   "ours": 241
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/TCRgd+/CD4-,CD8-",
+   "flowjo": 2014,
+   "ours": 2021
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/TCRgd+/CD8+,CD4-",
+   "flowjo": 332,
+   "ours": 334
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/T:M",
+   "flowjo": 1636,
+   "ours": 1641
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q4: Comp-BUV805-A- , Comp-BV605-A-",
+   "flowjo": 63897,
+   "ours": 63967
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q4: Comp-BUV805-A- , Comp-BV605-A-/CD56-",
+   "flowjo": 43280,
+   "ours": 43340
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q4: Comp-BUV805-A- , Comp-BV605-A-/CD56-/Classical Monocyte",
+   "flowjo": 29437,
+   "ours": 29474
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q4: Comp-BUV805-A- , Comp-BV605-A-/CD56-/Interm. Monocyte",
+   "flowjo": 3411,
+   "ours": 3421
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q4: Comp-BUV805-A- , Comp-BV605-A-/CD56-/Monocyte Negative",
+   "flowjo": 4801,
+   "ours": 4811
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q4: Comp-BUV805-A- , Comp-BV605-A-/CD56-/Non-classical Monocyte",
+   "flowjo": 5631,
+   "ours": 5634
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q4: Comp-BUV805-A- , Comp-BV605-A-/NK CD56 hi",
+   "flowjo": 1080,
+   "ours": 1075
+  },
+  {
+   "file": "A7 3545 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q4: Comp-BUV805-A- , Comp-BV605-A-/NK CD56 int",
+   "flowjo": 19537,
+   "ours": 19547
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset",
+   "flowjo": 363291,
+   "ours": 363291
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset",
+   "flowjo": 311613,
+   "ours": 311949
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells",
+   "flowjo": 291041,
+   "ours": 291588
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II",
+   "flowjo": 290624,
+   "ours": 291126
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset",
+   "flowjo": 284856,
+   "ours": 285313
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset",
+   "flowjo": 281147,
+   "ours": 281575
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+",
+   "flowjo": 15548,
+   "ours": 15580
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+/CD19,CD14-",
+   "flowjo": 14375,
+   "ours": 14403
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+/CD19,CD14-/B:NK",
+   "flowjo": 257,
+   "ours": 258
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+/CD19,CD14-/CD19+.CD14-,CD56-",
+   "flowjo": 14118,
+   "ours": 14145
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+/CD19,CD14-/CD19+.CD14-,CD56-/B Cells",
+   "flowjo": 14083,
+   "ours": 14104
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+/CD19,CD14-/CD19+.CD14-,CD56-/B Cells/Ab Secreting",
+   "flowjo": 1259,
+   "ours": 1274
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+/CD19,CD14-/CD19+.CD14-,CD56-/B Cells/Other B",
+   "flowjo": 12678,
+   "ours": 12699
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+/M:B ",
+   "flowjo": 1170,
+   "ours": 1174
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q2: Comp-BUV805-A+ , Comp-BV605-A+",
+   "flowjo": 1858,
+   "ours": 1861
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-",
+   "flowjo": 91630,
+   "ours": 91792
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-",
+   "flowjo": 89714,
+   "ours": 89867
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/CD3+,TCRgd-",
+   "flowjo": 89208,
+   "ours": 89329
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/CD3+,TCRgd-/MAIT ",
+   "flowjo": 2499,
+   "ours": 2475
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3 high",
+   "flowjo": 471,
+   "ours": 476
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3 intermediate",
+   "flowjo": 2803,
+   "ours": 2802
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-",
+   "flowjo": 86305,
+   "ours": 86455
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T",
+   "flowjo": 70757,
+   "ours": 70881
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory",
+   "flowjo": 33490,
+   "ours": 33502
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6+",
+   "flowjo": 13762,
+   "ours": 13777
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6+/Q1: Comp-PE-Cy7-A- , Comp-PE-A+",
+   "flowjo": 1201,
+   "ours": 1197
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6+/Q2: Comp-PE-Cy7-A+ , Comp-PE-A+",
+   "flowjo": 214,
+   "ours": 215
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6+/Q3: Comp-PE-Cy7-A+ , Comp-PE-A-",
+   "flowjo": 3597,
+   "ours": 3600
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6+/Q4: Comp-PE-Cy7-A- , Comp-PE-A-",
+   "flowjo": 8750,
+   "ours": 8765
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6-",
+   "flowjo": 19721,
+   "ours": 19714
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6-/Q1: Comp-PE-Cy7-A- , Comp-PE-A+",
+   "flowjo": 1539,
+   "ours": 1539
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6-/Q2: Comp-PE-Cy7-A+ , Comp-PE-A+",
+   "flowjo": 283,
+   "ours": 283
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6-/Q3: Comp-PE-Cy7-A+ , Comp-PE-A-",
+   "flowjo": 5006,
+   "ours": 5010
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6-/Q4: Comp-PE-Cy7-A- , Comp-PE-A-",
+   "flowjo": 12893,
+   "ours": 12882
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tcm",
+   "flowjo": 19934,
+   "ours": 19962
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem",
+   "flowjo": 12413,
+   "ours": 12439
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6+",
+   "flowjo": 5841,
+   "ours": 5852
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6+/CCR4+,CXCR3+",
+   "flowjo": 7,
+   "ours": 7
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6+/CCR4-, CXCR3-",
+   "flowjo": 4013,
+   "ours": 4019
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6+/Th1*",
+   "flowjo": 38,
+   "ours": 38
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6+/Th17",
+   "flowjo": 1783,
+   "ours": 1788
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6-",
+   "flowjo": 6554,
+   "ours": 6569
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6-/CCR4+,CXCR3+",
+   "flowjo": 16,
+   "ours": 16
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6-/CCR4-, CXCR3-",
+   "flowjo": 4138,
+   "ours": 4155
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6-/Th1",
+   "flowjo": 43,
+   "ours": 43
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6-/Th2",
+   "flowjo": 2357,
+   "ours": 2355
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/TEMRA",
+   "flowjo": 1287,
+   "ours": 1288
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tn",
+   "flowjo": 37123,
+   "ours": 37192
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tregs",
+   "flowjo": 3813,
+   "ours": 3933
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4, CD8 T",
+   "flowjo": 393,
+   "ours": 393
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4-,CD8- T",
+   "flowjo": 2117,
+   "ours": 2121
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD8 T",
+   "flowjo": 13038,
+   "ours": 13060
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD8 T/CD8 Tcm",
+   "flowjo": 1736,
+   "ours": 1738
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD8 T/CD8 Tem",
+   "flowjo": 4650,
+   "ours": 4659
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD8 T/CD8 TEMRA",
+   "flowjo": 2818,
+   "ours": 2824
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD8 T/CD8 Tn",
+   "flowjo": 3834,
+   "ours": 3839
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/TCRgd+",
+   "flowjo": 506,
+   "ours": 505
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/TCRgd+/CD+,CD56-",
+   "flowjo": 447,
+   "ours": 446
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/TCRgd+/CD3+,CD56+",
+   "flowjo": 59,
+   "ours": 59
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/TCRgd+/CD4+,CD8+",
+   "flowjo": 10,
+   "ours": 10
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/TCRgd+/CD4+,CD8-",
+   "flowjo": 201,
+   "ours": 201
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/TCRgd+/CD4-,CD8-",
+   "flowjo": 189,
+   "ours": 189
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/TCRgd+/CD8+,CD4-",
+   "flowjo": 106,
+   "ours": 105
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/T:M",
+   "flowjo": 1737,
+   "ours": 1745
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q4: Comp-BUV805-A- , Comp-BV605-A-",
+   "flowjo": 172111,
+   "ours": 172342
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q4: Comp-BUV805-A- , Comp-BV605-A-/CD56-",
+   "flowjo": 95096,
+   "ours": 95250
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q4: Comp-BUV805-A- , Comp-BV605-A-/CD56-/Classical Monocyte",
+   "flowjo": 60164,
+   "ours": 60266
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q4: Comp-BUV805-A- , Comp-BV605-A-/CD56-/Interm. Monocyte",
+   "flowjo": 11319,
+   "ours": 11347
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q4: Comp-BUV805-A- , Comp-BV605-A-/CD56-/Monocyte Negative",
+   "flowjo": 11279,
+   "ours": 11287
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q4: Comp-BUV805-A- , Comp-BV605-A-/CD56-/Non-classical Monocyte",
+   "flowjo": 12334,
+   "ours": 12350
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q4: Comp-BUV805-A- , Comp-BV605-A-/NK CD56 hi",
+   "flowjo": 593,
+   "ours": 594
+  },
+  {
+   "file": "A8 4660 HC.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q4: Comp-BUV805-A- , Comp-BV605-A-/NK CD56 int",
+   "flowjo": 76422,
+   "ours": 76492
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset",
+   "flowjo": 57030,
+   "ours": 57030
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset",
+   "flowjo": 52057,
+   "ours": 52088
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells",
+   "flowjo": 42956,
+   "ours": 42990
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II",
+   "flowjo": 42905,
+   "ours": 42936
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset",
+   "flowjo": 42445,
+   "ours": 42472
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset",
+   "flowjo": 42279,
+   "ours": 42295
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+",
+   "flowjo": 30386,
+   "ours": 30390
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+/CD19,CD14-",
+   "flowjo": 30295,
+   "ours": 30298
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+/CD19,CD14-/B:NK",
+   "flowjo": 60,
+   "ours": 60
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+/CD19,CD14-/CD19+.CD14-,CD56-",
+   "flowjo": 30235,
+   "ours": 30238
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+/CD19,CD14-/CD19+.CD14-,CD56-/B Cells",
+   "flowjo": 30203,
+   "ours": 30173
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+/CD19,CD14-/CD19+.CD14-,CD56-/B Cells/Ab Secreting",
+   "flowjo": 597,
+   "ours": 95
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+/CD19,CD14-/CD19+.CD14-,CD56-/B Cells/Other B",
+   "flowjo": 29593,
+   "ours": 30076
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+/M:B ",
+   "flowjo": 90,
+   "ours": 91
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q2: Comp-BUV805-A+ , Comp-BV605-A+",
+   "flowjo": 139,
+   "ours": 140
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-",
+   "flowjo": 8225,
+   "ours": 8241
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-",
+   "flowjo": 8178,
+   "ours": 8192
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/CD3+,TCRgd-",
+   "flowjo": 8123,
+   "ours": 8127
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/CD3+,TCRgd-/MAIT ",
+   "flowjo": 101,
+   "ours": 96
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3 high",
+   "flowjo": 38,
+   "ours": 38
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3 intermediate",
+   "flowjo": 47,
+   "ours": 47
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-",
+   "flowjo": 8085,
+   "ours": 8099
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T",
+   "flowjo": 6703,
+   "ours": 6717
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory",
+   "flowjo": 1262,
+   "ours": 1267
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6+",
+   "flowjo": 711,
+   "ours": 713
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6+/Q1: Comp-PE-Cy7-A- , Comp-PE-A+",
+   "flowjo": 228,
+   "ours": 228
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6+/Q2: Comp-PE-Cy7-A+ , Comp-PE-A+",
+   "flowjo": 58,
+   "ours": 58
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6+/Q3: Comp-PE-Cy7-A+ , Comp-PE-A-",
+   "flowjo": 232,
+   "ours": 232
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6+/Q4: Comp-PE-Cy7-A- , Comp-PE-A-",
+   "flowjo": 193,
+   "ours": 195
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6-",
+   "flowjo": 551,
+   "ours": 554
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6-/Q1: Comp-PE-Cy7-A- , Comp-PE-A+",
+   "flowjo": 199,
+   "ours": 198
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6-/Q2: Comp-PE-Cy7-A+ , Comp-PE-A+",
+   "flowjo": 34,
+   "ours": 34
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6-/Q3: Comp-PE-Cy7-A+ , Comp-PE-A-",
+   "flowjo": 161,
+   "ours": 162
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6-/Q4: Comp-PE-Cy7-A- , Comp-PE-A-",
+   "flowjo": 157,
+   "ours": 160
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tcm",
+   "flowjo": 734,
+   "ours": 736
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem",
+   "flowjo": 467,
+   "ours": 468
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6+",
+   "flowjo": 324,
+   "ours": 325
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6+/CCR4+,CXCR3+",
+   "flowjo": 29,
+   "ours": 29
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6+/CCR4-, CXCR3-",
+   "flowjo": 87,
+   "ours": 87
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6+/Th1*",
+   "flowjo": 74,
+   "ours": 75
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6+/Th17",
+   "flowjo": 134,
+   "ours": 134
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6-",
+   "flowjo": 143,
+   "ours": 143
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6-/CCR4+,CXCR3+",
+   "flowjo": 11,
+   "ours": 11
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6-/CCR4-, CXCR3-",
+   "flowjo": 52,
+   "ours": 50
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6-/Th1",
+   "flowjo": 33,
+   "ours": 34
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6-/Th2",
+   "flowjo": 47,
+   "ours": 48
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/TEMRA",
+   "flowjo": 64,
+   "ours": 66
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tn",
+   "flowjo": 5438,
+   "ours": 5447
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tregs",
+   "flowjo": 250,
+   "ours": 254
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4, CD8 T",
+   "flowjo": 44,
+   "ours": 44
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4-,CD8- T",
+   "flowjo": 105,
+   "ours": 105
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD8 T",
+   "flowjo": 1233,
+   "ours": 1233
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD8 T/CD8 Tcm",
+   "flowjo": 31,
+   "ours": 31
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD8 T/CD8 Tem",
+   "flowjo": 121,
+   "ours": 122
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD8 T/CD8 TEMRA",
+   "flowjo": 91,
+   "ours": 91
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD8 T/CD8 Tn",
+   "flowjo": 990,
+   "ours": 989
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/TCRgd+",
+   "flowjo": 55,
+   "ours": 55
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/TCRgd+/CD+,CD56-",
+   "flowjo": 49,
+   "ours": 49
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/TCRgd+/CD3+,CD56+",
+   "flowjo": 6,
+   "ours": 6
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/TCRgd+/CD4+,CD8+",
+   "flowjo": 0,
+   "ours": 0
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/TCRgd+/CD4+,CD8-",
+   "flowjo": 6,
+   "ours": 6
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/TCRgd+/CD4-,CD8-",
+   "flowjo": 44,
+   "ours": 44
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/TCRgd+/CD8+,CD4-",
+   "flowjo": 5,
+   "ours": 5
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/T:M",
+   "flowjo": 44,
+   "ours": 45
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q4: Comp-BUV805-A- , Comp-BV605-A-",
+   "flowjo": 3529,
+   "ours": 3524
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q4: Comp-BUV805-A- , Comp-BV605-A-/CD56-",
+   "flowjo": 1994,
+   "ours": 1993
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q4: Comp-BUV805-A- , Comp-BV605-A-/CD56-/Classical Monocyte",
+   "flowjo": 1092,
+   "ours": 1092
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q4: Comp-BUV805-A- , Comp-BV605-A-/CD56-/Interm. Monocyte",
+   "flowjo": 195,
+   "ours": 195
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q4: Comp-BUV805-A- , Comp-BV605-A-/CD56-/Monocyte Negative",
+   "flowjo": 363,
+   "ours": 362
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q4: Comp-BUV805-A- , Comp-BV605-A-/CD56-/Non-classical Monocyte",
+   "flowjo": 344,
+   "ours": 344
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q4: Comp-BUV805-A- , Comp-BV605-A-/NK CD56 hi",
+   "flowjo": 132,
+   "ours": 131
+  },
+  {
+   "file": "A1 6941 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q4: Comp-BUV805-A- , Comp-BV605-A-/NK CD56 int",
+   "flowjo": 1403,
+   "ours": 1400
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset",
+   "flowjo": 70515,
+   "ours": 70515
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset",
+   "flowjo": 41244,
+   "ours": 41325
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells",
+   "flowjo": 39128,
+   "ours": 39232
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II",
+   "flowjo": 39060,
+   "ours": 39159
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset",
+   "flowjo": 36690,
+   "ours": 36773
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset",
+   "flowjo": 36241,
+   "ours": 36324
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+",
+   "flowjo": 6410,
+   "ours": 6422
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+/CD19,CD14-",
+   "flowjo": 6307,
+   "ours": 6319
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+/CD19,CD14-/B:NK",
+   "flowjo": 94,
+   "ours": 95
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+/CD19,CD14-/CD19+.CD14-,CD56-",
+   "flowjo": 6213,
+   "ours": 6224
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+/CD19,CD14-/CD19+.CD14-,CD56-/B Cells",
+   "flowjo": 6166,
+   "ours": 6177
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+/CD19,CD14-/CD19+.CD14-,CD56-/B Cells/Ab Secreting",
+   "flowjo": 1442,
+   "ours": 1441
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+/CD19,CD14-/CD19+.CD14-,CD56-/B Cells/Other B",
+   "flowjo": 4600,
+   "ours": 4612
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q1: Comp-BUV805-A- , Comp-BV605-A+/M:B ",
+   "flowjo": 103,
+   "ours": 103
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q2: Comp-BUV805-A+ , Comp-BV605-A+",
+   "flowjo": 235,
+   "ours": 235
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-",
+   "flowjo": 22213,
+   "ours": 22259
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-",
+   "flowjo": 21961,
+   "ours": 22006
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/CD3+,TCRgd-",
+   "flowjo": 21204,
+   "ours": 21235
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/CD3+,TCRgd-/MAIT ",
+   "flowjo": 320,
+   "ours": 313
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3 high",
+   "flowjo": 52,
+   "ours": 52
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3 intermediate",
+   "flowjo": 261,
+   "ours": 260
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-",
+   "flowjo": 21613,
+   "ours": 21659
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T",
+   "flowjo": 19206,
+   "ours": 19252
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory",
+   "flowjo": 6100,
+   "ours": 6101
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6+",
+   "flowjo": 2350,
+   "ours": 2356
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6+/Q1: Comp-PE-Cy7-A- , Comp-PE-A+",
+   "flowjo": 201,
+   "ours": 201
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6+/Q2: Comp-PE-Cy7-A+ , Comp-PE-A+",
+   "flowjo": 108,
+   "ours": 110
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6+/Q3: Comp-PE-Cy7-A+ , Comp-PE-A-",
+   "flowjo": 1212,
+   "ours": 1217
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6+/Q4: Comp-PE-Cy7-A- , Comp-PE-A-",
+   "flowjo": 829,
+   "ours": 828
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6-",
+   "flowjo": 3750,
+   "ours": 3744
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6-/Q1: Comp-PE-Cy7-A- , Comp-PE-A+",
+   "flowjo": 301,
+   "ours": 301
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6-/Q2: Comp-PE-Cy7-A+ , Comp-PE-A+",
+   "flowjo": 145,
+   "ours": 144
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6-/Q3: Comp-PE-Cy7-A+ , Comp-PE-A-",
+   "flowjo": 1781,
+   "ours": 1782
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Memory/CCR6-/Q4: Comp-PE-Cy7-A- , Comp-PE-A-",
+   "flowjo": 1523,
+   "ours": 1517
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tcm",
+   "flowjo": 5028,
+   "ours": 5038
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem",
+   "flowjo": 1003,
+   "ours": 1006
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6+",
+   "flowjo": 416,
+   "ours": 418
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6+/CCR4+,CXCR3+",
+   "flowjo": 3,
+   "ours": 3
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6+/CCR4-, CXCR3-",
+   "flowjo": 131,
+   "ours": 132
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6+/Th1*",
+   "flowjo": 5,
+   "ours": 5
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6+/Th17",
+   "flowjo": 277,
+   "ours": 278
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6-",
+   "flowjo": 587,
+   "ours": 588
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6-/CCR4+,CXCR3+",
+   "flowjo": 1,
+   "ours": 1
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6-/CCR4-, CXCR3-",
+   "flowjo": 193,
+   "ours": 193
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6-/Th1",
+   "flowjo": 1,
+   "ours": 1
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tem/CD4+,CCR6-/Th2",
+   "flowjo": 392,
+   "ours": 393
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/TEMRA",
+   "flowjo": 100,
+   "ours": 100
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tn",
+   "flowjo": 13075,
+   "ours": 13108
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4 T/Tregs",
+   "flowjo": 495,
+   "ours": 513
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4, CD8 T",
+   "flowjo": 131,
+   "ours": 132
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD4-,CD8- T",
+   "flowjo": 187,
+   "ours": 187
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD8 T",
+   "flowjo": 2089,
+   "ours": 2088
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD8 T/CD8 Tcm",
+   "flowjo": 228,
+   "ours": 230
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD8 T/CD8 Tem",
+   "flowjo": 385,
+   "ours": 385
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD8 T/CD8 TEMRA",
+   "flowjo": 720,
+   "ours": 720
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/NKT CD3+, CD56-/CD8 T/CD8 Tn",
+   "flowjo": 756,
+   "ours": 753
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/TCRgd+",
+   "flowjo": 757,
+   "ours": 759
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/TCRgd+/CD+,CD56-",
+   "flowjo": 747,
+   "ours": 749
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/TCRgd+/CD3+,CD56+",
+   "flowjo": 11,
+   "ours": 11
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/TCRgd+/CD4+,CD8+",
+   "flowjo": 11,
+   "ours": 11
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/TCRgd+/CD4+,CD8-",
+   "flowjo": 601,
+   "ours": 604
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/TCRgd+/CD4-,CD8-",
+   "flowjo": 31,
+   "ours": 31
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/CD3+, CD14-/TCRgd+/CD8+,CD4-",
+   "flowjo": 114,
+   "ours": 113
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q3: Comp-BUV805-A+ , Comp-BV605-A-/T:M",
+   "flowjo": 223,
+   "ours": 224
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q4: Comp-BUV805-A- , Comp-BV605-A-",
+   "flowjo": 7383,
+   "ours": 7408
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q4: Comp-BUV805-A- , Comp-BV605-A-/CD56-",
+   "flowjo": 5141,
+   "ours": 5158
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q4: Comp-BUV805-A- , Comp-BV605-A-/CD56-/Classical Monocyte",
+   "flowjo": 2606,
+   "ours": 2620
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q4: Comp-BUV805-A- , Comp-BV605-A-/CD56-/Interm. Monocyte",
+   "flowjo": 492,
+   "ours": 493
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q4: Comp-BUV805-A- , Comp-BV605-A-/CD56-/Monocyte Negative",
+   "flowjo": 742,
+   "ours": 743
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q4: Comp-BUV805-A- , Comp-BV605-A-/CD56-/Non-classical Monocyte",
+   "flowjo": 1301,
+   "ours": 1302
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q4: Comp-BUV805-A- , Comp-BV605-A-/NK CD56 hi",
+   "flowjo": 294,
+   "ours": 293
+  },
+  {
+   "file": "A2 6936 ALS.fcs",
+   "path": "FSC-H, Time subset/FSC-H, SSC-H subset/Single Cells/Single Cells II/Live, SSC-A subset/cd45+, SSC-A subset/Q4: Comp-BUV805-A- , Comp-BV605-A-/NK CD56 int",
+   "flowjo": 1948,
+   "ours": 1956
+  }
+ ],
+ "members": []
+}

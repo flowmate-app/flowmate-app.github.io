@@ -1,0 +1,33 @@
+{
+ "type": "wsp",
+ "dir": "../public_large/external_qa/als_ics4/",
+ "fcs": [
+  "HC Specimen_001_C10_C10 Negative.fcs",
+  "HC Specimen_001_C11_C11 Peptide.fcs",
+  "HC Specimen_001_C12_C12 Positive.fcs",
+  "HC Specimen_001_C1_C01 Negative.fcs",
+  "HC Specimen_001_C2_C02 Peptide.fcs",
+  "HC Specimen_001_C3_C03 Positive.fcs",
+  "HC Specimen_001_C4_C04 Negative.fcs",
+  "HC Specimen_001_C5_C05 Peptide.fcs",
+  "HC Specimen_001_C6_C06 Positive.fcs",
+  "HC Specimen_001_C7_C07 Negative.fcs",
+  "HC Specimen_001_C8_C08 Peptide.fcs",
+  "HC Specimen_001_C9_C09 Positive.fcs"
+ ],
+ "wsp": "Screen #4 HC ICS.wsp",
+ "names": {
+  "HC Specimen_001_C10_C10 Negative.fcs": "Specimen_001_C10_C10.fcs",
+  "HC Specimen_001_C11_C11 Peptide.fcs": "Specimen_001_C11_C11.fcs",
+  "HC Specimen_001_C12_C12 Positive.fcs": "Specimen_001_C12_C12.fcs",
+  "HC Specimen_001_C1_C01 Negative.fcs": "Specimen_001_C1_C01.fcs",
+  "HC Specimen_001_C2_C02 Peptide.fcs": "Specimen_001_C2_C02.fcs",
+  "HC Specimen_001_C3_C03 Positive.fcs": "Specimen_001_C3_C03.fcs",
+  "HC Specimen_001_C4_C04 Negative.fcs": "Specimen_001_C4_C04.fcs",
+  "HC Specimen_001_C5_C05 Peptide.fcs": "Specimen_001_C5_C05.fcs",
+  "HC Specimen_001_C6_C06 Positive.fcs": "Specimen_001_C6_C06.fcs",
+  "HC Specimen_001_C7_C07 Negative.fcs": "Specimen_001_C7_C07.fcs",
+  "HC Specimen_001_C8_C08 Peptide.fcs": "Specimen_001_C8_C08.fcs",
+  "HC Specimen_001_C9_C09 Positive.fcs": "Specimen_001_C9_C09.fcs"
+ }
+}

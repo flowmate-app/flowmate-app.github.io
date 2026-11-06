@@ -1,0 +1,3502 @@
+{
+ "per_pop": {
+  "Lymphocytes": {
+   "major": true,
+   "tubes_within": 3,
+   "n": 18,
+   "spearman": 0.9711042311661506,
+   "pass": false,
+   "max_abs_diff_pp": 10.6431695394906
+  },
+  "Singlets SSC": {
+   "major": true,
+   "tubes_within": 18,
+   "n": 18,
+   "spearman": 0.9029927760577915,
+   "pass": true,
+   "max_abs_diff_pp": 0.4708924689235374
+  },
+  "Singlets FSC": {
+   "major": true,
+   "tubes_within": 17,
+   "n": 18,
+   "spearman": 0.11042311661506708,
+   "pass": false,
+   "max_abs_diff_pp": 5.101952132638047
+  },
+  "Live": {
+   "major": true,
+   "tubes_within": 14,
+   "n": 18,
+   "spearman": 0.9855521155830752,
+   "pass": false,
+   "max_abs_diff_pp": 5.94376614408128
+  },
+  "CD3+": {
+   "major": true,
+   "tubes_within": 10,
+   "n": 18,
+   "spearman": 0.9607843137254902,
+   "pass": false,
+   "max_abs_diff_pp": 10.218424539928506
+  },
+  "CD4 T": {
+   "major": true,
+   "tubes_within": 12,
+   "n": 18,
+   "spearman": 0.9711042311661506,
+   "pass": false,
+   "max_abs_diff_pp": 59.4843010112272
+  },
+  "CD8 T": {
+   "major": false,
+   "tubes_within": 18,
+   "n": 18,
+   "spearman": 0.9876160990712075,
+   "pass": true,
+   "max_abs_diff_pp": 0.7201402125889711
+  },
+  "CD4 IFNg+": {
+   "major": false,
+   "tubes_within": 1,
+   "n": 18,
+   "spearman": 0.8534571723426212,
+   "pass": false,
+   "max_abs_diff_pp": 45.892998196535196
+  },
+  "CD4 IL-4+": {
+   "major": false,
+   "tubes_within": 0,
+   "n": 18,
+   "spearman": 0.8472652218782251,
+   "pass": false,
+   "max_abs_diff_pp": 36.15774743930332
+  },
+  "CD4 IL-10+": {
+   "major": true,
+   "tubes_within": 0,
+   "n": 18,
+   "spearman": 0.8828085843471313,
+   "pass": false,
+   "max_abs_diff_pp": 54.32220758307715
+  },
+  "CD4 IL-17+": {
+   "major": false,
+   "tubes_within": 0,
+   "n": 18,
+   "spearman": 0.7358101135190918,
+   "pass": false,
+   "max_abs_diff_pp": 4.757296671375871
+  },
+  "CD8 IFNg+": {
+   "major": false,
+   "tubes_within": 15,
+   "n": 18,
+   "spearman": 0.7562906408615224,
+   "pass": false,
+   "max_abs_diff_pp": 3.409307648292959
+  },
+  "CD8 IL-4+": {
+   "major": false,
+   "tubes_within": 16,
+   "n": 18,
+   "spearman": 0.8278930412936035,
+   "pass": false,
+   "max_abs_diff_pp": 4.655172413793103
+  },
+  "CD8 IL-10+": {
+   "major": false,
+   "tubes_within": 16,
+   "n": 18,
+   "spearman": 0.42056785993917084,
+   "pass": false,
+   "max_abs_diff_pp": 0.7978723404255319
+  },
+  "CD8 IL-17+": {
+   "major": false,
+   "tubes_within": 15,
+   "n": 18,
+   "spearman": 0.6499022929833747,
+   "pass": false,
+   "max_abs_diff_pp": 5.555555555555555
+  }
+ },
+ "rows": [
+  {
+   "tube": "Specimen_001_C1_C01 Negative.fcs",
+   "pop": "Lymphocytes",
+   "mine": 40.411434678065724,
+   "mine_n": 7563,
+   "flowjo": 48.30884317392466,
+   "flowjo_n": 9041,
+   "tol": 5.0,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C1_C01 Negative.fcs",
+   "pop": "Singlets SSC",
+   "mine": 99.4182202829565,
+   "mine_n": 7519,
+   "flowjo": 99.33635659772149,
+   "flowjo_n": 8981,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C1_C01 Negative.fcs",
+   "pop": "Singlets FSC",
+   "mine": 99.50791328634126,
+   "mine_n": 7482,
+   "flowjo": 98.85313439483353,
+   "flowjo_n": 8878,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C1_C01 Negative.fcs",
+   "pop": "Live",
+   "mine": 95.38893344025662,
+   "mine_n": 7137,
+   "flowjo": 91.72110835773823,
+   "flowjo_n": 8143,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C1_C01 Negative.fcs",
+   "pop": "CD3+",
+   "mine": 70.75802157769371,
+   "mine_n": 5050,
+   "flowjo": 66.01989438781776,
+   "flowjo_n": 5376,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C1_C01 Negative.fcs",
+   "pop": "CD4 T",
+   "mine": 94.0990099009901,
+   "mine_n": 4752,
+   "flowjo": 93.65699404761905,
+   "flowjo_n": 5035,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C1_C01 Negative.fcs",
+   "pop": "CD8 T",
+   "mine": 4.6138613861386135,
+   "mine_n": 233,
+   "flowjo": 4.520089285714286,
+   "flowjo_n": 243,
+   "tol": 1.3560267857142856,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C1_C01 Negative.fcs",
+   "pop": "CD4 IFNg+",
+   "mine": 0.08417508417508418,
+   "mine_n": 4,
+   "flowjo": 0.7745779543197616,
+   "flowjo_n": 39,
+   "tol": 0.5,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C1_C01 Negative.fcs",
+   "pop": "CD4 IL-4+",
+   "mine": 0.021043771043771045,
+   "mine_n": 1,
+   "flowjo": 2.2442899702085404,
+   "flowjo_n": 113,
+   "tol": 0.6732869910625621,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C1_C01 Negative.fcs",
+   "pop": "CD4 IL-10+",
+   "mine": 0.06313131313131314,
+   "mine_n": 3,
+   "flowjo": 30.12909632571996,
+   "flowjo_n": 1517,
+   "tol": 5.0,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C1_C01 Negative.fcs",
+   "pop": "CD4 IL-17+",
+   "mine": 0.25252525252525254,
+   "mine_n": 12,
+   "flowjo": 3.65441906653426,
+   "flowjo_n": 184,
+   "tol": 1.096325719960278,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C1_C01 Negative.fcs",
+   "pop": "CD8 IFNg+",
+   "mine": 0,
+   "mine_n": 0,
+   "flowjo": 0.411522633744856,
+   "flowjo_n": 1,
+   "tol": 0.5,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C1_C01 Negative.fcs",
+   "pop": "CD8 IL-4+",
+   "mine": 0.4291845493562232,
+   "mine_n": 1,
+   "flowjo": 0.0,
+   "flowjo_n": 0,
+   "tol": 0.5,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C1_C01 Negative.fcs",
+   "pop": "CD8 IL-10+",
+   "mine": 0,
+   "mine_n": 0,
+   "flowjo": 0.0,
+   "flowjo_n": 0,
+   "tol": 0.5,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C1_C01 Negative.fcs",
+   "pop": "CD8 IL-17+",
+   "mine": 0.4291845493562232,
+   "mine_n": 1,
+   "flowjo": 0.823045267489712,
+   "flowjo_n": 2,
+   "tol": 0.5,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C2_C02 Peptide.fcs",
+   "pop": "Lymphocytes",
+   "mine": 42.52943875210277,
+   "mine_n": 11124,
+   "flowjo": 51.73191619513687,
+   "flowjo_n": 13531,
+   "tol": 5.0,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C2_C02 Peptide.fcs",
+   "pop": "Singlets SSC",
+   "mine": 99.42466738583244,
+   "mine_n": 11060,
+   "flowjo": 99.31268937994236,
+   "flowjo_n": 13438,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C2_C02 Peptide.fcs",
+   "pop": "Singlets FSC",
+   "mine": 99.32188065099457,
+   "mine_n": 10985,
+   "flowjo": 98.38517636553058,
+   "flowjo_n": 13221,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C2_C02 Peptide.fcs",
+   "pop": "Live",
+   "mine": 95.40282203004097,
+   "mine_n": 10480,
+   "flowjo": 92.25474623704712,
+   "flowjo_n": 12197,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C2_C02 Peptide.fcs",
+   "pop": "CD3+",
+   "mine": 70.84923664122137,
+   "mine_n": 7425,
+   "flowjo": 65.31934082151349,
+   "flowjo_n": 7967,
+   "tol": 5.0,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C2_C02 Peptide.fcs",
+   "pop": "CD4 T",
+   "mine": 93.45454545454545,
+   "mine_n": 6939,
+   "flowjo": 93.3852140077821,
+   "flowjo_n": 7440,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C2_C02 Peptide.fcs",
+   "pop": "CD8 T",
+   "mine": 4.915824915824916,
+   "mine_n": 365,
+   "flowjo": 4.744571356846994,
+   "flowjo_n": 378,
+   "tol": 1.4233714070540981,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C2_C02 Peptide.fcs",
+   "pop": "CD4 IFNg+",
+   "mine": 0.07205649228995532,
+   "mine_n": 5,
+   "flowjo": 1.5188172043010753,
+   "flowjo_n": 113,
+   "tol": 0.5,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C2_C02 Peptide.fcs",
+   "pop": "CD4 IL-4+",
+   "mine": 0.10087908920593745,
+   "mine_n": 7,
+   "flowjo": 3.024193548387097,
+   "flowjo_n": 225,
+   "tol": 0.907258064516129,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C2_C02 Peptide.fcs",
+   "pop": "CD4 IL-10+",
+   "mine": 0.6052745352356247,
+   "mine_n": 42,
+   "flowjo": 34.314516129032256,
+   "flowjo_n": 2553,
+   "tol": 5.0,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C2_C02 Peptide.fcs",
+   "pop": "CD4 IL-17+",
+   "mine": 0.31704856607580345,
+   "mine_n": 22,
+   "flowjo": 3.1989247311827955,
+   "flowjo_n": 238,
+   "tol": 0.9596774193548386,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C2_C02 Peptide.fcs",
+   "pop": "CD8 IFNg+",
+   "mine": 0.273972602739726,
+   "mine_n": 1,
+   "flowjo": 0.5291005291005291,
+   "flowjo_n": 2,
+   "tol": 0.5,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C2_C02 Peptide.fcs",
+   "pop": "CD8 IL-4+",
+   "mine": 0,
+   "mine_n": 0,
+   "flowjo": 0.0,
+   "flowjo_n": 0,
+   "tol": 0.5,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C2_C02 Peptide.fcs",
+   "pop": "CD8 IL-10+",
+   "mine": 0.273972602739726,
+   "mine_n": 1,
+   "flowjo": 0.26455026455026454,
+   "flowjo_n": 1,
+   "tol": 0.5,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C2_C02 Peptide.fcs",
+   "pop": "CD8 IL-17+",
+   "mine": 0.547945205479452,
+   "mine_n": 2,
+   "flowjo": 1.3227513227513228,
+   "flowjo_n": 5,
+   "tol": 0.5,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C3_C03 Positive.fcs",
+   "pop": "Lymphocytes",
+   "mine": 48.223002874218714,
+   "mine_n": 10570,
+   "flowjo": 53.419407819699806,
+   "flowjo_n": 11709,
+   "tol": 5.0,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C3_C03 Positive.fcs",
+   "pop": "Singlets SSC",
+   "mine": 99.2336802270577,
+   "mine_n": 10489,
+   "flowjo": 99.09471346827227,
+   "flowjo_n": 11603,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C3_C03 Positive.fcs",
+   "pop": "Singlets FSC",
+   "mine": 99.57097912098389,
+   "mine_n": 10444,
+   "flowjo": 98.73308627079204,
+   "flowjo_n": 11456,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C3_C03 Positive.fcs",
+   "pop": "Live",
+   "mine": 95.29873611643049,
+   "mine_n": 9953,
+   "flowjo": 91.16620111731844,
+   "flowjo_n": 10444,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C3_C03 Positive.fcs",
+   "pop": "CD3+",
+   "mine": 73.63608962121974,
+   "mine_n": 7329,
+   "flowjo": 67.76139410187668,
+   "flowjo_n": 7077,
+   "tol": 5.0,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C3_C03 Positive.fcs",
+   "pop": "CD4 T",
+   "mine": 61.00422977213808,
+   "mine_n": 4471,
+   "flowjo": 5.5814610710753145,
+   "flowjo_n": 395,
+   "tol": 5.0,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C3_C03 Positive.fcs",
+   "pop": "CD8 T",
+   "mine": 6.9723018147086915,
+   "mine_n": 511,
+   "flowjo": 6.5564504733644196,
+   "flowjo_n": 464,
+   "tol": 1.9669351420093257,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C3_C03 Positive.fcs",
+   "pop": "CD4 IFNg+",
+   "mine": 15.119660031312906,
+   "mine_n": 676,
+   "flowjo": 61.0126582278481,
+   "flowjo_n": 241,
+   "tol": 18.30379746835443,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C3_C03 Positive.fcs",
+   "pop": "CD4 IL-4+",
+   "mine": 4.450905837620219,
+   "mine_n": 199,
+   "flowjo": 38.9873417721519,
+   "flowjo_n": 154,
+   "tol": 11.69620253164557,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C3_C03 Positive.fcs",
+   "pop": "CD4 IL-10+",
+   "mine": 0,
+   "mine_n": 0,
+   "flowjo": 11.89873417721519,
+   "flowjo_n": 47,
+   "tol": 5.0,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C3_C03 Positive.fcs",
+   "pop": "CD4 IL-17+",
+   "mine": 0.5591590248266607,
+   "mine_n": 25,
+   "flowjo": 5.3164556962025316,
+   "flowjo_n": 21,
+   "tol": 1.5949367088607593,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C3_C03 Positive.fcs",
+   "pop": "CD8 IFNg+",
+   "mine": 38.35616438356164,
+   "mine_n": 196,
+   "flowjo": 38.793103448275865,
+   "flowjo_n": 180,
+   "tol": 11.63793103448276,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C3_C03 Positive.fcs",
+   "pop": "CD8 IL-4+",
+   "mine": 1.5655577299412915,
+   "mine_n": 8,
+   "flowjo": 1.7241379310344827,
+   "flowjo_n": 8,
+   "tol": 0.5172413793103448,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C3_C03 Positive.fcs",
+   "pop": "CD8 IL-10+",
+   "mine": 0,
+   "mine_n": 0,
+   "flowjo": 0.0,
+   "flowjo_n": 0,
+   "tol": 0.5,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C3_C03 Positive.fcs",
+   "pop": "CD8 IL-17+",
+   "mine": 0.3913894324853229,
+   "mine_n": 2,
+   "flowjo": 1.293103448275862,
+   "flowjo_n": 6,
+   "tol": 0.5,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C4_C04 Negative.fcs",
+   "pop": "Lymphocytes",
+   "mine": 22.48733671021061,
+   "mine_n": 1687,
+   "flowjo": 29.218874966675553,
+   "flowjo_n": 2192,
+   "tol": 5.0,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C4_C04 Negative.fcs",
+   "pop": "Singlets SSC",
+   "mine": 98.5180794309425,
+   "mine_n": 1662,
+   "flowjo": 98.54014598540147,
+   "flowjo_n": 2160,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C4_C04 Negative.fcs",
+   "pop": "Singlets FSC",
+   "mine": 99.63898916967509,
+   "mine_n": 1656,
+   "flowjo": 94.53703703703704,
+   "flowjo_n": 2042,
+   "tol": 5.0,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C4_C04 Negative.fcs",
+   "pop": "Live",
+   "mine": 91.36473429951691,
+   "mine_n": 1513,
+   "flowjo": 86.28795298726739,
+   "flowjo_n": 1762,
+   "tol": 5.0,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C4_C04 Negative.fcs",
+   "pop": "CD3+",
+   "mine": 82.61731658955718,
+   "mine_n": 1250,
+   "flowjo": 78.03632236095346,
+   "flowjo_n": 1375,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C4_C04 Negative.fcs",
+   "pop": "CD4 T",
+   "mine": 97.2,
+   "mine_n": 1215,
+   "flowjo": 96.14545454545454,
+   "flowjo_n": 1322,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C4_C04 Negative.fcs",
+   "pop": "CD8 T",
+   "mine": 1.36,
+   "mine_n": 17,
+   "flowjo": 1.309090909090909,
+   "flowjo_n": 18,
+   "tol": 0.5,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C4_C04 Negative.fcs",
+   "pop": "CD4 IFNg+",
+   "mine": 0.0823045267489712,
+   "mine_n": 1,
+   "flowjo": 6.656580937972769,
+   "flowjo_n": 88,
+   "tol": 1.9969742813918305,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C4_C04 Negative.fcs",
+   "pop": "CD4 IL-4+",
+   "mine": 0.24691358024691357,
+   "mine_n": 3,
+   "flowjo": 12.027231467473525,
+   "flowjo_n": 159,
+   "tol": 3.608169440242057,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C4_C04 Negative.fcs",
+   "pop": "CD4 IL-10+",
+   "mine": 2.3045267489711936,
+   "mine_n": 28,
+   "flowjo": 55.597579425113466,
+   "flowjo_n": 735,
+   "tol": 5.0,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C4_C04 Negative.fcs",
+   "pop": "CD4 IL-17+",
+   "mine": 0.0823045267489712,
+   "mine_n": 1,
+   "flowjo": 2.798789712556732,
+   "flowjo_n": 37,
+   "tol": 0.8396369137670195,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C4_C04 Negative.fcs",
+   "pop": "CD8 IFNg+",
+   "mine": 0,
+   "mine_n": 0,
+   "flowjo": 0.0,
+   "flowjo_n": 0,
+   "tol": 0.5,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C4_C04 Negative.fcs",
+   "pop": "CD8 IL-4+",
+   "mine": 0,
+   "mine_n": 0,
+   "flowjo": 0.0,
+   "flowjo_n": 0,
+   "tol": 0.5,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C4_C04 Negative.fcs",
+   "pop": "CD8 IL-10+",
+   "mine": 0,
+   "mine_n": 0,
+   "flowjo": 0.0,
+   "flowjo_n": 0,
+   "tol": 0.5,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C4_C04 Negative.fcs",
+   "pop": "CD8 IL-17+",
+   "mine": 0,
+   "mine_n": 0,
+   "flowjo": 5.555555555555555,
+   "flowjo_n": 1,
+   "tol": 1.6666666666666665,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C5_C05 Peptide.fcs",
+   "pop": "Lymphocytes",
+   "mine": 30.89257081774452,
+   "mine_n": 1734,
+   "flowjo": 39.515410653839304,
+   "flowjo_n": 2218,
+   "tol": 5.0,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C5_C05 Peptide.fcs",
+   "pop": "Singlets SSC",
+   "mine": 99.25028835063438,
+   "mine_n": 1721,
+   "flowjo": 98.96302975653742,
+   "flowjo_n": 2195,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C5_C05 Peptide.fcs",
+   "pop": "Singlets FSC",
+   "mine": 99.88378849506101,
+   "mine_n": 1719,
+   "flowjo": 95.71753986332574,
+   "flowjo_n": 2101,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C5_C05 Peptide.fcs",
+   "pop": "Live",
+   "mine": 90.16870273414776,
+   "mine_n": 1550,
+   "flowjo": 85.00713945740124,
+   "flowjo_n": 1786,
+   "tol": 5.0,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C5_C05 Peptide.fcs",
+   "pop": "CD3+",
+   "mine": 79.93548387096774,
+   "mine_n": 1239,
+   "flowjo": 74.18812989921612,
+   "flowjo_n": 1325,
+   "tol": 5.0,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C5_C05 Peptide.fcs",
+   "pop": "CD4 T",
+   "mine": 95.88377723970945,
+   "mine_n": 1188,
+   "flowjo": 95.47169811320755,
+   "flowjo_n": 1265,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C5_C05 Peptide.fcs",
+   "pop": "CD8 T",
+   "mine": 3.228410008071025,
+   "mine_n": 40,
+   "flowjo": 2.8679245283018866,
+   "flowjo_n": 38,
+   "tol": 0.860377358490566,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C5_C05 Peptide.fcs",
+   "pop": "CD4 IFNg+",
+   "mine": 0.3367003367003367,
+   "mine_n": 4,
+   "flowjo": 5.533596837944664,
+   "flowjo_n": 70,
+   "tol": 1.6600790513833992,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C5_C05 Peptide.fcs",
+   "pop": "CD4 IL-4+",
+   "mine": 0.5050505050505051,
+   "mine_n": 6,
+   "flowjo": 9.24901185770751,
+   "flowjo_n": 117,
+   "tol": 2.774703557312253,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C5_C05 Peptide.fcs",
+   "pop": "CD4 IL-10+",
+   "mine": 4.966329966329966,
+   "mine_n": 59,
+   "flowjo": 59.28853754940712,
+   "flowjo_n": 750,
+   "tol": 5.0,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C5_C05 Peptide.fcs",
+   "pop": "CD4 IL-17+",
+   "mine": 0,
+   "mine_n": 0,
+   "flowjo": 1.7391304347826086,
+   "flowjo_n": 22,
+   "tol": 0.5217391304347826,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C5_C05 Peptide.fcs",
+   "pop": "CD8 IFNg+",
+   "mine": 0,
+   "mine_n": 0,
+   "flowjo": 0.0,
+   "flowjo_n": 0,
+   "tol": 0.5,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C5_C05 Peptide.fcs",
+   "pop": "CD8 IL-4+",
+   "mine": 0,
+   "mine_n": 0,
+   "flowjo": 0.0,
+   "flowjo_n": 0,
+   "tol": 0.5,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C5_C05 Peptide.fcs",
+   "pop": "CD8 IL-10+",
+   "mine": 0,
+   "mine_n": 0,
+   "flowjo": 0.0,
+   "flowjo_n": 0,
+   "tol": 0.5,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C5_C05 Peptide.fcs",
+   "pop": "CD8 IL-17+",
+   "mine": 0,
+   "mine_n": 0,
+   "flowjo": 0.0,
+   "flowjo_n": 0,
+   "tol": 0.5,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C6_C06 Positive.fcs",
+   "pop": "Lymphocytes",
+   "mine": 43.45538013660284,
+   "mine_n": 3881,
+   "flowjo": 50.711006606203114,
+   "flowjo_n": 4529,
+   "tol": 5.0,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C6_C06 Positive.fcs",
+   "pop": "Singlets SSC",
+   "mine": 99.43313578974491,
+   "mine_n": 3859,
+   "flowjo": 98.96224332082137,
+   "flowjo_n": 4482,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C6_C06 Positive.fcs",
+   "pop": "Singlets FSC",
+   "mine": 99.53355791655869,
+   "mine_n": 3841,
+   "flowjo": 96.94332887103971,
+   "flowjo_n": 4345,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C6_C06 Positive.fcs",
+   "pop": "Live",
+   "mine": 93.51731319968758,
+   "mine_n": 3592,
+   "flowjo": 88.4234752589183,
+   "flowjo_n": 3842,
+   "tol": 5.0,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C6_C06 Positive.fcs",
+   "pop": "CD3+",
+   "mine": 79.03674832962137,
+   "mine_n": 2839,
+   "flowjo": 68.81832378969287,
+   "flowjo_n": 2644,
+   "tol": 5.0,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C6_C06 Positive.fcs",
+   "pop": "CD4 T",
+   "mine": 57.66114829165199,
+   "mine_n": 1637,
+   "flowjo": 16.263237518910742,
+   "flowjo_n": 430,
+   "tol": 5.0,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C6_C06 Positive.fcs",
+   "pop": "CD8 T",
+   "mine": 5.10743219443466,
+   "mine_n": 145,
+   "flowjo": 4.387291981845689,
+   "flowjo_n": 116,
+   "tol": 1.3161875945537065,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C6_C06 Positive.fcs",
+   "pop": "CD4 IFNg+",
+   "mine": 36.53023824068418,
+   "mine_n": 598,
+   "flowjo": 71.16279069767442,
+   "flowjo_n": 306,
+   "tol": 21.348837209302328,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C6_C06 Positive.fcs",
+   "pop": "CD4 IL-4+",
+   "mine": 20.586438607208308,
+   "mine_n": 337,
+   "flowjo": 56.74418604651163,
+   "flowjo_n": 244,
+   "tol": 17.023255813953487,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C6_C06 Positive.fcs",
+   "pop": "CD4 IL-10+",
+   "mine": 0.24434941967012827,
+   "mine_n": 4,
+   "flowjo": 24.41860465116279,
+   "flowjo_n": 105,
+   "tol": 5.0,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C6_C06 Positive.fcs",
+   "pop": "CD4 IL-17+",
+   "mine": 0.48869883934025654,
+   "mine_n": 8,
+   "flowjo": 1.8604651162790697,
+   "flowjo_n": 8,
+   "tol": 0.5581395348837209,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C6_C06 Positive.fcs",
+   "pop": "CD8 IFNg+",
+   "mine": 53.10344827586207,
+   "mine_n": 77,
+   "flowjo": 50.86206896551724,
+   "flowjo_n": 59,
+   "tol": 15.25862068965517,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C6_C06 Positive.fcs",
+   "pop": "CD8 IL-4+",
+   "mine": 4.827586206896552,
+   "mine_n": 7,
+   "flowjo": 9.482758620689655,
+   "flowjo_n": 11,
+   "tol": 2.8448275862068964,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C6_C06 Positive.fcs",
+   "pop": "CD8 IL-10+",
+   "mine": 0,
+   "mine_n": 0,
+   "flowjo": 0.0,
+   "flowjo_n": 0,
+   "tol": 0.5,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C6_C06 Positive.fcs",
+   "pop": "CD8 IL-17+",
+   "mine": 0,
+   "mine_n": 0,
+   "flowjo": 0.0,
+   "flowjo_n": 0,
+   "tol": 0.5,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C7_C07 Negative.fcs",
+   "pop": "Lymphocytes",
+   "mine": 59.046792393277045,
+   "mine_n": 14966,
+   "flowjo": 68.42105263157895,
+   "flowjo_n": 17342,
+   "tol": 5.0,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C7_C07 Negative.fcs",
+   "pop": "Singlets SSC",
+   "mine": 99.61913670987572,
+   "mine_n": 14909,
+   "flowjo": 99.52139314957905,
+   "flowjo_n": 17259,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C7_C07 Negative.fcs",
+   "pop": "Singlets FSC",
+   "mine": 99.4567040042927,
+   "mine_n": 14828,
+   "flowjo": 97.64181007010835,
+   "flowjo_n": 16852,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C7_C07 Negative.fcs",
+   "pop": "Live",
+   "mine": 97.59913676827624,
+   "mine_n": 14472,
+   "flowjo": 95.39520531687633,
+   "flowjo_n": 16076,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C7_C07 Negative.fcs",
+   "pop": "CD3+",
+   "mine": 90.47125483692648,
+   "mine_n": 13093,
+   "flowjo": 88.14381686986813,
+   "flowjo_n": 14170,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C7_C07 Negative.fcs",
+   "pop": "CD4 T",
+   "mine": 95.70763003131444,
+   "mine_n": 12531,
+   "flowjo": 95.65984474241355,
+   "flowjo_n": 13555,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C7_C07 Negative.fcs",
+   "pop": "CD8 T",
+   "mine": 2.6960971511494694,
+   "mine_n": 353,
+   "flowjo": 2.6534932956951307,
+   "flowjo_n": 376,
+   "tol": 0.7960479887085392,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C7_C07 Negative.fcs",
+   "pop": "CD4 IFNg+",
+   "mine": 0.015960418162955868,
+   "mine_n": 2,
+   "flowjo": 2.523054223533751,
+   "flowjo_n": 342,
+   "tol": 0.7569162670601254,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C7_C07 Negative.fcs",
+   "pop": "CD4 IL-4+",
+   "mine": 0,
+   "mine_n": 0,
+   "flowjo": 4.787901143489488,
+   "flowjo_n": 649,
+   "tol": 1.4363703430468462,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C7_C07 Negative.fcs",
+   "pop": "CD4 IL-10+",
+   "mine": 0.8219615353922273,
+   "mine_n": 103,
+   "flowjo": 46.39616377720398,
+   "flowjo_n": 6289,
+   "tol": 5.0,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C7_C07 Negative.fcs",
+   "pop": "CD4 IL-17+",
+   "mine": 0.07182188173330141,
+   "mine_n": 9,
+   "flowjo": 0.8041313168572483,
+   "flowjo_n": 109,
+   "tol": 0.5,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C7_C07 Negative.fcs",
+   "pop": "CD8 IFNg+",
+   "mine": 0,
+   "mine_n": 0,
+   "flowjo": 1.3297872340425532,
+   "flowjo_n": 5,
+   "tol": 0.5,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C7_C07 Negative.fcs",
+   "pop": "CD8 IL-4+",
+   "mine": 0,
+   "mine_n": 0,
+   "flowjo": 0.0,
+   "flowjo_n": 0,
+   "tol": 0.5,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C7_C07 Negative.fcs",
+   "pop": "CD8 IL-10+",
+   "mine": 0,
+   "mine_n": 0,
+   "flowjo": 0.7978723404255319,
+   "flowjo_n": 3,
+   "tol": 0.5,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C7_C07 Negative.fcs",
+   "pop": "CD8 IL-17+",
+   "mine": 0,
+   "mine_n": 0,
+   "flowjo": 0.0,
+   "flowjo_n": 0,
+   "tol": 0.5,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C8_C08 Peptide.fcs",
+   "pop": "Lymphocytes",
+   "mine": 64.57178769353825,
+   "mine_n": 22604,
+   "flowjo": 74.38724790035994,
+   "flowjo_n": 26040,
+   "tol": 5.0,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C8_C08 Peptide.fcs",
+   "pop": "Singlets SSC",
+   "mine": 99.5929923907273,
+   "mine_n": 22512,
+   "flowjo": 99.61597542242704,
+   "flowjo_n": 25940,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C8_C08 Peptide.fcs",
+   "pop": "Singlets FSC",
+   "mine": 99.46695095948827,
+   "mine_n": 22392,
+   "flowjo": 97.81033153430995,
+   "flowjo_n": 25372,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C8_C08 Peptide.fcs",
+   "pop": "Live",
+   "mine": 98.00375133976421,
+   "mine_n": 21945,
+   "flowjo": 95.9640548636292,
+   "flowjo_n": 24348,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C8_C08 Peptide.fcs",
+   "pop": "CD3+",
+   "mine": 90.7678286625655,
+   "mine_n": 19919,
+   "flowjo": 88.39740430425498,
+   "flowjo_n": 21523,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C8_C08 Peptide.fcs",
+   "pop": "CD4 T",
+   "mine": 93.89527586726241,
+   "mine_n": 18703,
+   "flowjo": 93.89025693444222,
+   "flowjo_n": 20208,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C8_C08 Peptide.fcs",
+   "pop": "CD8 T",
+   "mine": 4.3074451528691196,
+   "mine_n": 858,
+   "flowjo": 4.362774706128328,
+   "flowjo_n": 939,
+   "tol": 1.3088324118384984,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C8_C08 Peptide.fcs",
+   "pop": "CD4 IFNg+",
+   "mine": 0.5667539966850238,
+   "mine_n": 106,
+   "flowjo": 3.869754552652415,
+   "flowjo_n": 782,
+   "tol": 1.1609263657957245,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C8_C08 Peptide.fcs",
+   "pop": "CD4 IL-4+",
+   "mine": 0.15505533871571406,
+   "mine_n": 29,
+   "flowjo": 4.948535233570863,
+   "flowjo_n": 1000,
+   "tol": 1.4845605700712587,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C8_C08 Peptide.fcs",
+   "pop": "CD4 IL-10+",
+   "mine": 0.4063519221515265,
+   "mine_n": 76,
+   "flowjo": 40.56314330958036,
+   "flowjo_n": 8197,
+   "tol": 5.0,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C8_C08 Peptide.fcs",
+   "pop": "CD4 IL-17+",
+   "mine": 0.21921616852911296,
+   "mine_n": 41,
+   "flowjo": 1.1431116389548694,
+   "flowjo_n": 231,
+   "tol": 0.5,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C8_C08 Peptide.fcs",
+   "pop": "CD8 IFNg+",
+   "mine": 0,
+   "mine_n": 0,
+   "flowjo": 1.597444089456869,
+   "flowjo_n": 15,
+   "tol": 0.5,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C8_C08 Peptide.fcs",
+   "pop": "CD8 IL-4+",
+   "mine": 0,
+   "mine_n": 0,
+   "flowjo": 0.10649627263045794,
+   "flowjo_n": 1,
+   "tol": 0.5,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C8_C08 Peptide.fcs",
+   "pop": "CD8 IL-10+",
+   "mine": 0,
+   "mine_n": 0,
+   "flowjo": 0.21299254526091588,
+   "flowjo_n": 2,
+   "tol": 0.5,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C8_C08 Peptide.fcs",
+   "pop": "CD8 IL-17+",
+   "mine": 0,
+   "mine_n": 0,
+   "flowjo": 0.21299254526091588,
+   "flowjo_n": 2,
+   "tol": 0.5,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C9_C09 Positive.fcs",
+   "pop": "Lymphocytes",
+   "mine": 59.795007439246156,
+   "mine_n": 14468,
+   "flowjo": 66.57712018515457,
+   "flowjo_n": 16109,
+   "tol": 5.0,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C9_C09 Positive.fcs",
+   "pop": "Singlets SSC",
+   "mine": 99.57837987282278,
+   "mine_n": 14407,
+   "flowjo": 99.3854367123968,
+   "flowjo_n": 16010,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C9_C09 Positive.fcs",
+   "pop": "Singlets FSC",
+   "mine": 99.63212327340877,
+   "mine_n": 14354,
+   "flowjo": 97.73891317926297,
+   "flowjo_n": 15648,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C9_C09 Positive.fcs",
+   "pop": "Live",
+   "mine": 97.40142120663229,
+   "mine_n": 13981,
+   "flowjo": 95.29652351738241,
+   "flowjo_n": 14912,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C9_C09 Positive.fcs",
+   "pop": "CD3+",
+   "mine": 85.37300622273085,
+   "mine_n": 11936,
+   "flowjo": 76.40155579399142,
+   "flowjo_n": 11393,
+   "tol": 5.0,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C9_C09 Positive.fcs",
+   "pop": "CD4 T",
+   "mine": 69.78887399463807,
+   "mine_n": 8330,
+   "flowjo": 10.304572983410866,
+   "flowjo_n": 1174,
+   "tol": 5.0,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C9_C09 Positive.fcs",
+   "pop": "CD8 T",
+   "mine": 5.4373324396782845,
+   "mine_n": 649,
+   "flowjo": 5.485824629158255,
+   "flowjo_n": 625,
+   "tol": 1.6457473887474765,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C9_C09 Positive.fcs",
+   "pop": "CD4 IFNg+",
+   "mine": 25.102040816326532,
+   "mine_n": 2091,
+   "flowjo": 57.5809199318569,
+   "flowjo_n": 676,
+   "tol": 17.274275979557068,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C9_C09 Positive.fcs",
+   "pop": "CD4 IL-4+",
+   "mine": 9.567827130852342,
+   "mine_n": 797,
+   "flowjo": 37.393526405451446,
+   "flowjo_n": 439,
+   "tol": 11.218057921635433,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C9_C09 Positive.fcs",
+   "pop": "CD4 IL-10+",
+   "mine": 0.03601440576230492,
+   "mine_n": 3,
+   "flowjo": 13.373083475298126,
+   "flowjo_n": 157,
+   "tol": 5.0,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C9_C09 Positive.fcs",
+   "pop": "CD4 IL-17+",
+   "mine": 3.013205282112845,
+   "mine_n": 251,
+   "flowjo": 7.410562180579216,
+   "flowjo_n": 87,
+   "tol": 2.2231686541737647,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C9_C09 Positive.fcs",
+   "pop": "CD8 IFNg+",
+   "mine": 62.40369799691834,
+   "mine_n": 405,
+   "flowjo": 65.12,
+   "flowjo_n": 407,
+   "tol": 19.536,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C9_C09 Positive.fcs",
+   "pop": "CD8 IL-4+",
+   "mine": 2.157164869029276,
+   "mine_n": 14,
+   "flowjo": 2.72,
+   "flowjo_n": 17,
+   "tol": 0.8160000000000001,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C9_C09 Positive.fcs",
+   "pop": "CD8 IL-10+",
+   "mine": 0,
+   "mine_n": 0,
+   "flowjo": 0.0,
+   "flowjo_n": 0,
+   "tol": 0.5,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C9_C09 Positive.fcs",
+   "pop": "CD8 IL-17+",
+   "mine": 0.3081664098613251,
+   "mine_n": 2,
+   "flowjo": 0.8,
+   "flowjo_n": 5,
+   "tol": 0.5,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C10_C10 Negative.fcs",
+   "pop": "Lymphocytes",
+   "mine": 40.79360921948664,
+   "mine_n": 3115,
+   "flowjo": 44.525929806181246,
+   "flowjo_n": 3400,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C10_C10 Negative.fcs",
+   "pop": "Singlets SSC",
+   "mine": 99.26163723916532,
+   "mine_n": 3092,
+   "flowjo": 99.23529411764706,
+   "flowjo_n": 3374,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C10_C10 Negative.fcs",
+   "pop": "Singlets FSC",
+   "mine": 99.70892626131953,
+   "mine_n": 3083,
+   "flowjo": 99.25903971547125,
+   "flowjo_n": 3349,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C10_C10 Negative.fcs",
+   "pop": "Live",
+   "mine": 96.07525137852741,
+   "mine_n": 2962,
+   "flowjo": 93.43087488802628,
+   "flowjo_n": 3129,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C10_C10 Negative.fcs",
+   "pop": "CD3+",
+   "mine": 86.36056718433491,
+   "mine_n": 2558,
+   "flowjo": 83.98849472674976,
+   "flowjo_n": 2628,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C10_C10 Negative.fcs",
+   "pop": "CD4 T",
+   "mine": 76.23143080531665,
+   "mine_n": 1950,
+   "flowjo": 76.17960426179604,
+   "flowjo_n": 2002,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C10_C10 Negative.fcs",
+   "pop": "CD8 T",
+   "mine": 16.810007818608288,
+   "mine_n": 430,
+   "flowjo": 16.28614916286149,
+   "flowjo_n": 428,
+   "tol": 4.885844748858447,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C10_C10 Negative.fcs",
+   "pop": "CD4 IFNg+",
+   "mine": 0,
+   "mine_n": 0,
+   "flowjo": 0.7992007992007992,
+   "flowjo_n": 16,
+   "tol": 0.5,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C10_C10 Negative.fcs",
+   "pop": "CD4 IL-4+",
+   "mine": 0.05128205128205128,
+   "mine_n": 1,
+   "flowjo": 2.5474525474525476,
+   "flowjo_n": 51,
+   "tol": 0.7642357642357642,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C10_C10 Negative.fcs",
+   "pop": "CD4 IL-10+",
+   "mine": 0.05128205128205128,
+   "mine_n": 1,
+   "flowjo": 32.667332667332666,
+   "flowjo_n": 654,
+   "tol": 5.0,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C10_C10 Negative.fcs",
+   "pop": "CD4 IL-17+",
+   "mine": 0.10256410256410256,
+   "mine_n": 2,
+   "flowjo": 1.4985014985014986,
+   "flowjo_n": 30,
+   "tol": 0.5,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C10_C10 Negative.fcs",
+   "pop": "CD8 IFNg+",
+   "mine": 0,
+   "mine_n": 0,
+   "flowjo": 0.4672897196261682,
+   "flowjo_n": 2,
+   "tol": 0.5,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C10_C10 Negative.fcs",
+   "pop": "CD8 IL-4+",
+   "mine": 0,
+   "mine_n": 0,
+   "flowjo": 0.2336448598130841,
+   "flowjo_n": 1,
+   "tol": 0.5,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C10_C10 Negative.fcs",
+   "pop": "CD8 IL-10+",
+   "mine": 0,
+   "mine_n": 0,
+   "flowjo": 0.7009345794392523,
+   "flowjo_n": 3,
+   "tol": 0.5,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C10_C10 Negative.fcs",
+   "pop": "CD8 IL-17+",
+   "mine": 0.23255813953488372,
+   "mine_n": 1,
+   "flowjo": 0.4672897196261682,
+   "flowjo_n": 2,
+   "tol": 0.5,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C11_C11 Peptide.fcs",
+   "pop": "Lymphocytes",
+   "mine": 43.687095166915796,
+   "mine_n": 4384,
+   "flowjo": 47.553562531141004,
+   "flowjo_n": 4772,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C11_C11 Peptide.fcs",
+   "pop": "Singlets SSC",
+   "mine": 99.65784671532846,
+   "mine_n": 4369,
+   "flowjo": 99.55993294216262,
+   "flowjo_n": 4751,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C11_C11 Peptide.fcs",
+   "pop": "Singlets FSC",
+   "mine": 99.83978027008469,
+   "mine_n": 4362,
+   "flowjo": 99.53693959166492,
+   "flowjo_n": 4729,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C11_C11 Peptide.fcs",
+   "pop": "Live",
+   "mine": 96.30903255387437,
+   "mine_n": 4201,
+   "flowjo": 93.82533305138507,
+   "flowjo_n": 4437,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C11_C11 Peptide.fcs",
+   "pop": "CD3+",
+   "mine": 88.14567960009522,
+   "mine_n": 3703,
+   "flowjo": 85.50822627901735,
+   "flowjo_n": 3794,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C11_C11 Peptide.fcs",
+   "pop": "CD4 T",
+   "mine": 76.72157709964894,
+   "mine_n": 2841,
+   "flowjo": 76.46283605693199,
+   "flowjo_n": 2901,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C11_C11 Peptide.fcs",
+   "pop": "CD8 T",
+   "mine": 17.20226843100189,
+   "mine_n": 637,
+   "flowjo": 17.185028993147075,
+   "flowjo_n": 652,
+   "tol": 5.155508697944122,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C11_C11 Peptide.fcs",
+   "pop": "CD4 IFNg+",
+   "mine": 1.0559662090813093,
+   "mine_n": 30,
+   "flowjo": 2.412961047914512,
+   "flowjo_n": 70,
+   "tol": 0.7238883143743536,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C11_C11 Peptide.fcs",
+   "pop": "CD4 IL-4+",
+   "mine": 0.6335797254487856,
+   "mine_n": 18,
+   "flowjo": 2.9644950017235434,
+   "flowjo_n": 86,
+   "tol": 0.889348500517063,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C11_C11 Peptide.fcs",
+   "pop": "CD4 IL-10+",
+   "mine": 0.42238648363252373,
+   "mine_n": 12,
+   "flowjo": 32.71285763529817,
+   "flowjo_n": 949,
+   "tol": 5.0,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C11_C11 Peptide.fcs",
+   "pop": "CD4 IL-17+",
+   "mine": 0.0703977472720873,
+   "mine_n": 2,
+   "flowjo": 1.0685970355049983,
+   "flowjo_n": 31,
+   "tol": 0.5,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C11_C11 Peptide.fcs",
+   "pop": "CD8 IFNg+",
+   "mine": 0,
+   "mine_n": 0,
+   "flowjo": 0.15337423312883436,
+   "flowjo_n": 1,
+   "tol": 0.5,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C11_C11 Peptide.fcs",
+   "pop": "CD8 IL-4+",
+   "mine": 0,
+   "mine_n": 0,
+   "flowjo": 0.0,
+   "flowjo_n": 0,
+   "tol": 0.5,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C11_C11 Peptide.fcs",
+   "pop": "CD8 IL-10+",
+   "mine": 0,
+   "mine_n": 0,
+   "flowjo": 0.3067484662576687,
+   "flowjo_n": 2,
+   "tol": 0.5,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C11_C11 Peptide.fcs",
+   "pop": "CD8 IL-17+",
+   "mine": 0.15698587127158556,
+   "mine_n": 1,
+   "flowjo": 0.15337423312883436,
+   "flowjo_n": 1,
+   "tol": 0.5,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C12_C12 Positive.fcs",
+   "pop": "Lymphocytes",
+   "mine": 36.6685616827743,
+   "mine_n": 3225,
+   "flowjo": 41.98976691301876,
+   "flowjo_n": 3693,
+   "tol": 5.0,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C12_C12 Positive.fcs",
+   "pop": "Singlets SSC",
+   "mine": 99.16279069767442,
+   "mine_n": 3198,
+   "flowjo": 98.97102626590848,
+   "flowjo_n": 3655,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C12_C12 Positive.fcs",
+   "pop": "Singlets FSC",
+   "mine": 99.68730456535334,
+   "mine_n": 3188,
+   "flowjo": 98.82352941176471,
+   "flowjo_n": 3612,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C12_C12 Positive.fcs",
+   "pop": "Live",
+   "mine": 79.17189460476789,
+   "mine_n": 2524,
+   "flowjo": 73.2281284606866,
+   "flowjo_n": 2645,
+   "tol": 5.0,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C12_C12 Positive.fcs",
+   "pop": "CD3+",
+   "mine": 88.35182250396197,
+   "mine_n": 2230,
+   "flowjo": 80.1890359168242,
+   "flowjo_n": 2121,
+   "tol": 5.0,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C12_C12 Positive.fcs",
+   "pop": "CD4 T",
+   "mine": 63.54260089686099,
+   "mine_n": 1417,
+   "flowjo": 9.665252239509666,
+   "flowjo_n": 205,
+   "tol": 5.0,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C12_C12 Positive.fcs",
+   "pop": "CD8 T",
+   "mine": 19.192825112107624,
+   "mine_n": 428,
+   "flowjo": 18.48184818481848,
+   "flowjo_n": 392,
+   "tol": 5.544554455445544,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C12_C12 Positive.fcs",
+   "pop": "CD4 IFNg+",
+   "mine": 13.97318278052223,
+   "mine_n": 198,
+   "flowjo": 45.853658536585364,
+   "flowjo_n": 94,
+   "tol": 13.75609756097561,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C12_C12 Positive.fcs",
+   "pop": "CD4 IL-4+",
+   "mine": 3.2462949894142556,
+   "mine_n": 46,
+   "flowjo": 22.4390243902439,
+   "flowjo_n": 46,
+   "tol": 6.7317073170731705,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C12_C12 Positive.fcs",
+   "pop": "CD4 IL-10+",
+   "mine": 0,
+   "mine_n": 0,
+   "flowjo": 15.121951219512194,
+   "flowjo_n": 31,
+   "tol": 5.0,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C12_C12 Positive.fcs",
+   "pop": "CD4 IL-17+",
+   "mine": 0.2117148906139732,
+   "mine_n": 3,
+   "flowjo": 1.951219512195122,
+   "flowjo_n": 4,
+   "tol": 0.5853658536585366,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_C12_C12 Positive.fcs",
+   "pop": "CD8 IFNg+",
+   "mine": 34.345794392523366,
+   "mine_n": 147,
+   "flowjo": 37.755102040816325,
+   "flowjo_n": 148,
+   "tol": 11.326530612244897,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C12_C12 Positive.fcs",
+   "pop": "CD8 IL-4+",
+   "mine": 6.074766355140187,
+   "mine_n": 26,
+   "flowjo": 8.673469387755102,
+   "flowjo_n": 34,
+   "tol": 2.6020408163265305,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C12_C12 Positive.fcs",
+   "pop": "CD8 IL-10+",
+   "mine": 0.2336448598130841,
+   "mine_n": 1,
+   "flowjo": 0.25510204081632654,
+   "flowjo_n": 1,
+   "tol": 0.5,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_C12_C12 Positive.fcs",
+   "pop": "CD8 IL-17+",
+   "mine": 0.2336448598130841,
+   "mine_n": 1,
+   "flowjo": 0.25510204081632654,
+   "flowjo_n": 1,
+   "tol": 0.5,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_H1_H01 Negatice.fcs",
+   "pop": "Lymphocytes",
+   "mine": 50.82149971672423,
+   "mine_n": 27808,
+   "flowjo": 61.31001334137471,
+   "flowjo_n": 33547,
+   "tol": 5.0,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_H1_H01 Negatice.fcs",
+   "pop": "Singlets SSC",
+   "mine": 99.18368814729574,
+   "mine_n": 27581,
+   "flowjo": 99.21602527796823,
+   "flowjo_n": 33284,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_H1_H01 Negatice.fcs",
+   "pop": "Singlets FSC",
+   "mine": 99.60480040607665,
+   "mine_n": 27472,
+   "flowjo": 98.3235188078356,
+   "flowjo_n": 32726,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_H1_H01 Negatice.fcs",
+   "pop": "Live",
+   "mine": 96.41089108910892,
+   "mine_n": 26486,
+   "flowjo": 93.13084397726578,
+   "flowjo_n": 30478,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_H1_H01 Negatice.fcs",
+   "pop": "CD3+",
+   "mine": 81.5449671524579,
+   "mine_n": 21598,
+   "flowjo": 78.9684362490977,
+   "flowjo_n": 24068,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_H1_H01 Negatice.fcs",
+   "pop": "CD4 T",
+   "mine": 90.3092878970275,
+   "mine_n": 19505,
+   "flowjo": 90.68057171347847,
+   "flowjo_n": 21825,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_H1_H01 Negatice.fcs",
+   "pop": "CD8 T",
+   "mine": 6.403370682470599,
+   "mine_n": 1383,
+   "flowjo": 5.999667608442746,
+   "flowjo_n": 1444,
+   "tol": 1.7999002825328236,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_H1_H01 Negatice.fcs",
+   "pop": "CD4 IFNg+",
+   "mine": 0.22045629325813895,
+   "mine_n": 43,
+   "flowjo": 2.7353951890034365,
+   "flowjo_n": 597,
+   "tol": 0.8206185567010309,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_H1_H01 Negatice.fcs",
+   "pop": "CD4 IL-4+",
+   "mine": 0.02563445270443476,
+   "mine_n": 5,
+   "flowjo": 4.394043528064147,
+   "flowjo_n": 959,
+   "tol": 1.318213058419244,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_H1_H01 Negatice.fcs",
+   "pop": "CD4 IL-10+",
+   "mine": 0.5178159446295821,
+   "mine_n": 101,
+   "flowjo": 44.89805269186712,
+   "flowjo_n": 9799,
+   "tol": 5.0,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_H1_H01 Negatice.fcs",
+   "pop": "CD4 IL-17+",
+   "mine": 0.16918738784926943,
+   "mine_n": 33,
+   "flowjo": 1.6815578465063001,
+   "flowjo_n": 367,
+   "tol": 0.50446735395189,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_H1_H01 Negatice.fcs",
+   "pop": "CD8 IFNg+",
+   "mine": 0.07230657989877079,
+   "mine_n": 1,
+   "flowjo": 0.4155124653739612,
+   "flowjo_n": 6,
+   "tol": 0.5,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_H1_H01 Negatice.fcs",
+   "pop": "CD8 IL-4+",
+   "mine": 0,
+   "mine_n": 0,
+   "flowjo": 0.0,
+   "flowjo_n": 0,
+   "tol": 0.5,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_H1_H01 Negatice.fcs",
+   "pop": "CD8 IL-10+",
+   "mine": 0,
+   "mine_n": 0,
+   "flowjo": 0.2077562326869806,
+   "flowjo_n": 3,
+   "tol": 0.5,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_H1_H01 Negatice.fcs",
+   "pop": "CD8 IL-17+",
+   "mine": 0.21691973969631237,
+   "mine_n": 3,
+   "flowjo": 0.6925207756232687,
+   "flowjo_n": 10,
+   "tol": 0.5,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_H2_H02 Peptide.fcs",
+   "pop": "Lymphocytes",
+   "mine": 54.062258811422694,
+   "mine_n": 21014,
+   "flowjo": 64.7054283509133,
+   "flowjo_n": 25151,
+   "tol": 5.0,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_H2_H02 Peptide.fcs",
+   "pop": "Singlets SSC",
+   "mine": 99.26239649757305,
+   "mine_n": 20859,
+   "flowjo": 99.28829867599698,
+   "flowjo_n": 24972,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_H2_H02 Peptide.fcs",
+   "pop": "Singlets FSC",
+   "mine": 99.64044297425572,
+   "mine_n": 20784,
+   "flowjo": 98.54236745154573,
+   "flowjo_n": 24608,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_H2_H02 Peptide.fcs",
+   "pop": "Live",
+   "mine": 96.28560431100847,
+   "mine_n": 20012,
+   "flowjo": 93.1892067620286,
+   "flowjo_n": 22932,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_H2_H02 Peptide.fcs",
+   "pop": "CD3+",
+   "mine": 81.50609634219468,
+   "mine_n": 16311,
+   "flowjo": 78.77638234781092,
+   "flowjo_n": 18065,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_H2_H02 Peptide.fcs",
+   "pop": "CD4 T",
+   "mine": 91.50879774385385,
+   "mine_n": 14926,
+   "flowjo": 92.01217824522557,
+   "flowjo_n": 16622,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_H2_H02 Peptide.fcs",
+   "pop": "CD8 T",
+   "mine": 5.27864631230458,
+   "mine_n": 861,
+   "flowjo": 4.9211181843343486,
+   "flowjo_n": 889,
+   "tol": 1.4763354553003045,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_H2_H02 Peptide.fcs",
+   "pop": "CD4 IFNg+",
+   "mine": 0.10049577917727455,
+   "mine_n": 15,
+   "flowjo": 2.6230297196486583,
+   "flowjo_n": 436,
+   "tol": 0.7869089158945974,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_H2_H02 Peptide.fcs",
+   "pop": "CD4 IL-4+",
+   "mine": 0.06699718611818303,
+   "mine_n": 10,
+   "flowjo": 4.939237155576946,
+   "flowjo_n": 821,
+   "tol": 1.4817711466730838,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_H2_H02 Peptide.fcs",
+   "pop": "CD4 IL-10+",
+   "mine": 0.6163741122872839,
+   "mine_n": 92,
+   "flowjo": 44.23053784141499,
+   "flowjo_n": 7352,
+   "tol": 5.0,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_H2_H02 Peptide.fcs",
+   "pop": "CD4 IL-17+",
+   "mine": 0.11389521640091116,
+   "mine_n": 17,
+   "flowjo": 0.8482733726386716,
+   "flowjo_n": 141,
+   "tol": 0.5,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_H2_H02 Peptide.fcs",
+   "pop": "CD8 IFNg+",
+   "mine": 0,
+   "mine_n": 0,
+   "flowjo": 0.8998875140607424,
+   "flowjo_n": 8,
+   "tol": 0.5,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_H2_H02 Peptide.fcs",
+   "pop": "CD8 IL-4+",
+   "mine": 0,
+   "mine_n": 0,
+   "flowjo": 0.0,
+   "flowjo_n": 0,
+   "tol": 0.5,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_H2_H02 Peptide.fcs",
+   "pop": "CD8 IL-10+",
+   "mine": 0,
+   "mine_n": 0,
+   "flowjo": 0.2249718785151856,
+   "flowjo_n": 2,
+   "tol": 0.5,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_H2_H02 Peptide.fcs",
+   "pop": "CD8 IL-17+",
+   "mine": 0,
+   "mine_n": 0,
+   "flowjo": 0.3374578177727784,
+   "flowjo_n": 3,
+   "tol": 0.5,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_H3_H03 Positive.fcs",
+   "pop": "Lymphocytes",
+   "mine": 50.790513833992094,
+   "mine_n": 18504,
+   "flowjo": 58.5776240667545,
+   "flowjo_n": 21341,
+   "tol": 5.0,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_H3_H03 Positive.fcs",
+   "pop": "Singlets SSC",
+   "mine": 98.90293990488543,
+   "mine_n": 18301,
+   "flowjo": 98.91289067991191,
+   "flowjo_n": 21109,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_H3_H03 Positive.fcs",
+   "pop": "Singlets FSC",
+   "mine": 99.59565051090104,
+   "mine_n": 18227,
+   "flowjo": 98.10033634942441,
+   "flowjo_n": 20708,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_H3_H03 Positive.fcs",
+   "pop": "Live",
+   "mine": 93.65776046524387,
+   "mine_n": 17071,
+   "flowjo": 90.04732470542785,
+   "flowjo_n": 18647,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_H3_H03 Positive.fcs",
+   "pop": "CD3+",
+   "mine": 81.34848573604359,
+   "mine_n": 13887,
+   "flowjo": 74.18351477449455,
+   "flowjo_n": 13833,
+   "tol": 5.0,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_H3_H03 Positive.fcs",
+   "pop": "CD4 T",
+   "mine": 74.62374882984086,
+   "mine_n": 10363,
+   "flowjo": 22.30174221065568,
+   "flowjo_n": 3085,
+   "tol": 5.0,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_H3_H03 Positive.fcs",
+   "pop": "CD8 T",
+   "mine": 7.921077266508245,
+   "mine_n": 1100,
+   "flowjo": 7.388129834453842,
+   "flowjo_n": 1022,
+   "tol": 2.2164389503361526,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_H3_H03 Positive.fcs",
+   "pop": "CD4 IFNg+",
+   "mine": 39.91122261893274,
+   "mine_n": 4136,
+   "flowjo": 78.11993517017828,
+   "flowjo_n": 2410,
+   "tol": 23.435980551053483,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_H3_H03 Positive.fcs",
+   "pop": "CD4 IL-4+",
+   "mine": 9.83305992473222,
+   "mine_n": 1019,
+   "flowjo": 44.570502431118314,
+   "flowjo_n": 1375,
+   "tol": 13.371150729335493,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_H3_H03 Positive.fcs",
+   "pop": "CD4 IL-10+",
+   "mine": 0.2508925986683393,
+   "mine_n": 26,
+   "flowjo": 14.748784440842787,
+   "flowjo_n": 455,
+   "tol": 5.0,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_H3_H03 Positive.fcs",
+   "pop": "CD4 IL-17+",
+   "mine": 1.9974910740133167,
+   "mine_n": 207,
+   "flowjo": 6.6774716369529985,
+   "flowjo_n": 206,
+   "tol": 2.0032414910858996,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_H3_H03 Positive.fcs",
+   "pop": "CD8 IFNg+",
+   "mine": 67.9090909090909,
+   "mine_n": 747,
+   "flowjo": 70.64579256360078,
+   "flowjo_n": 722,
+   "tol": 21.193737769080233,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_H3_H03 Positive.fcs",
+   "pop": "CD8 IL-4+",
+   "mine": 0.7272727272727273,
+   "mine_n": 8,
+   "flowjo": 1.076320939334638,
+   "flowjo_n": 11,
+   "tol": 0.5,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_H3_H03 Positive.fcs",
+   "pop": "CD8 IL-10+",
+   "mine": 0,
+   "mine_n": 0,
+   "flowjo": 0.0,
+   "flowjo_n": 0,
+   "tol": 0.5,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_H3_H03 Positive.fcs",
+   "pop": "CD8 IL-17+",
+   "mine": 0.09090909090909091,
+   "mine_n": 1,
+   "flowjo": 0.09784735812133072,
+   "flowjo_n": 1,
+   "tol": 0.5,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_H7_H07 Negative.fcs",
+   "pop": "Lymphocytes",
+   "mine": 69.49837450247622,
+   "mine_n": 91496,
+   "flowjo": 75.09190897213867,
+   "flowjo_n": 98860,
+   "tol": 5.0,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_H7_H07 Negative.fcs",
+   "pop": "Singlets SSC",
+   "mine": 98.93984436478097,
+   "mine_n": 90526,
+   "flowjo": 98.95205340886102,
+   "flowjo_n": 97824,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_H7_H07 Negative.fcs",
+   "pop": "Singlets FSC",
+   "mine": 99.45209111194573,
+   "mine_n": 90030,
+   "flowjo": 98.75899574746484,
+   "flowjo_n": 96610,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_H7_H07 Negative.fcs",
+   "pop": "Live",
+   "mine": 98.66266799955571,
+   "mine_n": 88826,
+   "flowjo": 97.35120587930857,
+   "flowjo_n": 94051,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_H7_H07 Negative.fcs",
+   "pop": "CD3+",
+   "mine": 91.32573795960643,
+   "mine_n": 81121,
+   "flowjo": 89.8342388704001,
+   "flowjo_n": 84490,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_H7_H07 Negative.fcs",
+   "pop": "CD4 T",
+   "mine": 85.90993700767989,
+   "mine_n": 69691,
+   "flowjo": 85.63261924488106,
+   "flowjo_n": 72351,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_H7_H07 Negative.fcs",
+   "pop": "CD8 T",
+   "mine": 5.930646811553112,
+   "mine_n": 4811,
+   "flowjo": 6.270564563853711,
+   "flowjo_n": 5298,
+   "tol": 1.881169369156113,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_H7_H07 Negative.fcs",
+   "pop": "CD4 IFNg+",
+   "mine": 0.06313584250477106,
+   "mine_n": 44,
+   "flowjo": 1.1071028734917279,
+   "flowjo_n": 801,
+   "tol": 0.5,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_H7_H07 Negative.fcs",
+   "pop": "CD4 IL-4+",
+   "mine": 0.012914149603248626,
+   "mine_n": 9,
+   "flowjo": 2.4519357023399815,
+   "flowjo_n": 1774,
+   "tol": 0.7355807107019944,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_H7_H07 Negative.fcs",
+   "pop": "CD4 IL-10+",
+   "mine": 0.4706490077628388,
+   "mine_n": 328,
+   "flowjo": 37.70369448936435,
+   "flowjo_n": 27279,
+   "tol": 5.0,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_H7_H07 Negative.fcs",
+   "pop": "CD4 IL-17+",
+   "mine": 0.12340187398659798,
+   "mine_n": 86,
+   "flowjo": 0.9716520849746375,
+   "flowjo_n": 703,
+   "tol": 0.5,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_H7_H07 Negative.fcs",
+   "pop": "CD8 IFNg+",
+   "mine": 0.06235709831635834,
+   "mine_n": 3,
+   "flowjo": 0.3775009437523594,
+   "flowjo_n": 20,
+   "tol": 0.5,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_H7_H07 Negative.fcs",
+   "pop": "CD8 IL-4+",
+   "mine": 0,
+   "mine_n": 0,
+   "flowjo": 0.0,
+   "flowjo_n": 0,
+   "tol": 0.5,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_H7_H07 Negative.fcs",
+   "pop": "CD8 IL-10+",
+   "mine": 0,
+   "mine_n": 0,
+   "flowjo": 0.2453756134390336,
+   "flowjo_n": 13,
+   "tol": 0.5,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_H7_H07 Negative.fcs",
+   "pop": "CD8 IL-17+",
+   "mine": 0.16628559551028893,
+   "mine_n": 8,
+   "flowjo": 0.585126462816157,
+   "flowjo_n": 31,
+   "tol": 0.5,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_H8_H08 Peptide.fcs",
+   "pop": "Lymphocytes",
+   "mine": 66.34138632637338,
+   "mine_n": 100752,
+   "flowjo": 72.16285087805937,
+   "flowjo_n": 109593,
+   "tol": 5.0,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_H8_H08 Peptide.fcs",
+   "pop": "Singlets SSC",
+   "mine": 98.82781483245991,
+   "mine_n": 99571,
+   "flowjo": 98.81379285173323,
+   "flowjo_n": 108293,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_H8_H08 Peptide.fcs",
+   "pop": "Singlets FSC",
+   "mine": 99.48177682256882,
+   "mine_n": 99055,
+   "flowjo": 98.5733149880417,
+   "flowjo_n": 106748,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_H8_H08 Peptide.fcs",
+   "pop": "Live",
+   "mine": 98.50890919186311,
+   "mine_n": 97578,
+   "flowjo": 97.0022857571102,
+   "flowjo_n": 103548,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_H8_H08 Peptide.fcs",
+   "pop": "CD3+",
+   "mine": 91.62721105167148,
+   "mine_n": 89408,
+   "flowjo": 89.86750106230927,
+   "flowjo_n": 93056,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_H8_H08 Peptide.fcs",
+   "pop": "CD4 T",
+   "mine": 83.73411775232641,
+   "mine_n": 74865,
+   "flowjo": 83.72162998624484,
+   "flowjo_n": 77908,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_H8_H08 Peptide.fcs",
+   "pop": "CD8 T",
+   "mine": 7.835987831066571,
+   "mine_n": 7006,
+   "flowjo": 8.086528541953232,
+   "flowjo_n": 7525,
+   "tol": 2.4259585625859694,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_H8_H08 Peptide.fcs",
+   "pop": "CD4 IFNg+",
+   "mine": 0.05877245708942764,
+   "mine_n": 44,
+   "flowjo": 1.216819838784207,
+   "flowjo_n": 948,
+   "tol": 0.5,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_H8_H08 Peptide.fcs",
+   "pop": "CD4 IL-4+",
+   "mine": 0.0507580311226875,
+   "mine_n": 38,
+   "flowjo": 2.843096986188838,
+   "flowjo_n": 2215,
+   "tol": 0.8529290958566514,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_H8_H08 Peptide.fcs",
+   "pop": "CD4 IL-10+",
+   "mine": 0.5663527683163027,
+   "mine_n": 424,
+   "flowjo": 34.887302972737075,
+   "flowjo_n": 27180,
+   "tol": 5.0,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_H8_H08 Peptide.fcs",
+   "pop": "CD4 IL-17+",
+   "mine": 0.12956655312896548,
+   "mine_n": 97,
+   "flowjo": 1.033270010781948,
+   "flowjo_n": 805,
+   "tol": 0.5,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_H8_H08 Peptide.fcs",
+   "pop": "CD8 IFNg+",
+   "mine": 0.042820439623180134,
+   "mine_n": 3,
+   "flowjo": 0.5182724252491694,
+   "flowjo_n": 39,
+   "tol": 0.5,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_H8_H08 Peptide.fcs",
+   "pop": "CD8 IL-4+",
+   "mine": 0.014273479874393378,
+   "mine_n": 1,
+   "flowjo": 0.0664451827242525,
+   "flowjo_n": 5,
+   "tol": 0.5,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_H8_H08 Peptide.fcs",
+   "pop": "CD8 IL-10+",
+   "mine": 0.014273479874393378,
+   "mine_n": 1,
+   "flowjo": 0.33222591362126247,
+   "flowjo_n": 25,
+   "tol": 0.5,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_H8_H08 Peptide.fcs",
+   "pop": "CD8 IL-17+",
+   "mine": 0.2426491578646874,
+   "mine_n": 17,
+   "flowjo": 0.584717607973422,
+   "flowjo_n": 44,
+   "tol": 0.5,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_H9_H09 Positive.fcs",
+   "pop": "Lymphocytes",
+   "mine": 53.74732952248975,
+   "mine_n": 55851,
+   "flowjo": 58.29724579941105,
+   "flowjo_n": 60579,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_H9_H09 Positive.fcs",
+   "pop": "Singlets SSC",
+   "mine": 98.30262663157329,
+   "mine_n": 54903,
+   "flowjo": 98.42849832450189,
+   "flowjo_n": 59627,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_H9_H09 Positive.fcs",
+   "pop": "Singlets FSC",
+   "mine": 99.46086734786806,
+   "mine_n": 54607,
+   "flowjo": 98.07302061146795,
+   "flowjo_n": 58478,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_H9_H09 Positive.fcs",
+   "pop": "Live",
+   "mine": 97.74021645576575,
+   "mine_n": 53373,
+   "flowjo": 95.5607236909607,
+   "flowjo_n": 55882,
+   "tol": 5.0,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_H9_H09 Positive.fcs",
+   "pop": "CD3+",
+   "mine": 89.55651734022821,
+   "mine_n": 47799,
+   "flowjo": 82.50778425969006,
+   "flowjo_n": 46107,
+   "tol": 5.0,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_H9_H09 Positive.fcs",
+   "pop": "CD4 T",
+   "mine": 76.95558484487123,
+   "mine_n": 36784,
+   "flowjo": 17.554818140412518,
+   "flowjo_n": 8094,
+   "tol": 5.0,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_H9_H09 Positive.fcs",
+   "pop": "CD8 T",
+   "mine": 6.918554781480784,
+   "mine_n": 3307,
+   "flowjo": 7.094367449628039,
+   "flowjo_n": 3271,
+   "tol": 2.1283102348884118,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_H9_H09 Positive.fcs",
+   "pop": "CD4 IFNg+",
+   "mine": 58.08503697259678,
+   "mine_n": 21366,
+   "flowjo": 77.79836916234248,
+   "flowjo_n": 6297,
+   "tol": 23.339510748702743,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_H9_H09 Positive.fcs",
+   "pop": "CD4 IL-4+",
+   "mine": 10.338734232274902,
+   "mine_n": 3803,
+   "flowjo": 36.00197677291821,
+   "flowjo_n": 2914,
+   "tol": 10.800593031875463,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_H9_H09 Positive.fcs",
+   "pop": "CD4 IL-10+",
+   "mine": 0.17942583732057416,
+   "mine_n": 66,
+   "flowjo": 12.787249814677539,
+   "flowjo_n": 1035,
+   "tol": 5.0,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_H9_H09 Positive.fcs",
+   "pop": "CD4 IL-17+",
+   "mine": 0.7367333623314485,
+   "mine_n": 271,
+   "flowjo": 2.8663207314059798,
+   "flowjo_n": 232,
+   "tol": 0.859896219421794,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_H9_H09 Positive.fcs",
+   "pop": "CD8 IFNg+",
+   "mine": 41.457514363471425,
+   "mine_n": 1371,
+   "flowjo": 44.14552124732498,
+   "flowjo_n": 1444,
+   "tol": 13.243656374197494,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_H9_H09 Positive.fcs",
+   "pop": "CD8 IL-4+",
+   "mine": 0.3023888720895071,
+   "mine_n": 10,
+   "flowjo": 0.8254356465912565,
+   "flowjo_n": 27,
+   "tol": 0.5,
+   "pass": false
+  },
+  {
+   "tube": "Specimen_001_H9_H09 Positive.fcs",
+   "pop": "CD8 IL-10+",
+   "mine": 0,
+   "mine_n": 0,
+   "flowjo": 0.18343014368694588,
+   "flowjo_n": 6,
+   "tol": 0.5,
+   "pass": true
+  },
+  {
+   "tube": "Specimen_001_H9_H09 Positive.fcs",
+   "pop": "CD8 IL-17+",
+   "mine": 0.12095554883580284,
+   "mine_n": 4,
+   "flowjo": 0.42800366860287375,
+   "flowjo_n": 14,
+   "tol": 0.5,
+   "pass": true
+  }
+ ],
+ "calls": [
+  {
+   "donor": "Donor 4 (HC)",
+   "pop": "CD4 IFNg+",
+   "cond": "Peptide",
+   "mine": false,
+   "flowjo": false
+  },
+  {
+   "donor": "Donor 4 (HC)",
+   "pop": "CD4 IFNg+",
+   "cond": "Positive",
+   "mine": true,
+   "flowjo": true
+  },
+  {
+   "donor": "Donor 4 (HC)",
+   "pop": "CD4 IL-4+",
+   "cond": "Peptide",
+   "mine": true,
+   "flowjo": false
+  },
+  {
+   "donor": "Donor 4 (HC)",
+   "pop": "CD4 IL-4+",
+   "cond": "Positive",
+   "mine": true,
+   "flowjo": true
+  },
+  {
+   "donor": "Donor 4 (HC)",
+   "pop": "CD4 IL-10+",
+   "cond": "Peptide",
+   "mine": true,
+   "flowjo": false
+  },
+  {
+   "donor": "Donor 4 (HC)",
+   "pop": "CD4 IL-10+",
+   "cond": "Positive",
+   "mine": false,
+   "flowjo": false
+  },
+  {
+   "donor": "Donor 4 (HC)",
+   "pop": "CD4 IL-17+",
+   "cond": "Peptide",
+   "mine": false,
+   "flowjo": false
+  },
+  {
+   "donor": "Donor 4 (HC)",
+   "pop": "CD4 IL-17+",
+   "cond": "Positive",
+   "mine": true,
+   "flowjo": false
+  },
+  {
+   "donor": "Donor 4 (HC)",
+   "pop": "CD8 IFNg+",
+   "cond": "Peptide",
+   "mine": true,
+   "flowjo": false
+  },
+  {
+   "donor": "Donor 4 (HC)",
+   "pop": "CD8 IFNg+",
+   "cond": "Positive",
+   "mine": true,
+   "flowjo": true
+  },
+  {
+   "donor": "Donor 4 (HC)",
+   "pop": "CD8 IL-4+",
+   "cond": "Peptide",
+   "mine": false,
+   "flowjo": false
+  },
+  {
+   "donor": "Donor 4 (HC)",
+   "pop": "CD8 IL-4+",
+   "cond": "Positive",
+   "mine": true,
+   "flowjo": true
+  },
+  {
+   "donor": "Donor 4 (HC)",
+   "pop": "CD8 IL-10+",
+   "cond": "Peptide",
+   "mine": true,
+   "flowjo": true
+  },
+  {
+   "donor": "Donor 4 (HC)",
+   "pop": "CD8 IL-10+",
+   "cond": "Positive",
+   "mine": false,
+   "flowjo": false
+  },
+  {
+   "donor": "Donor 4 (HC)",
+   "pop": "CD8 IL-17+",
+   "cond": "Peptide",
+   "mine": false,
+   "flowjo": false
+  },
+  {
+   "donor": "Donor 4 (HC)",
+   "pop": "CD8 IL-17+",
+   "cond": "Positive",
+   "mine": false,
+   "flowjo": false
+  },
+  {
+   "donor": "Donor 5 (HC)",
+   "pop": "CD4 IFNg+",
+   "cond": "Peptide",
+   "mine": true,
+   "flowjo": false
+  },
+  {
+   "donor": "Donor 5 (HC)",
+   "pop": "CD4 IFNg+",
+   "cond": "Positive",
+   "mine": true,
+   "flowjo": true
+  },
+  {
+   "donor": "Donor 5 (HC)",
+   "pop": "CD4 IL-4+",
+   "cond": "Peptide",
+   "mine": true,
+   "flowjo": false
+  },
+  {
+   "donor": "Donor 5 (HC)",
+   "pop": "CD4 IL-4+",
+   "cond": "Positive",
+   "mine": true,
+   "flowjo": true
+  },
+  {
+   "donor": "Donor 5 (HC)",
+   "pop": "CD4 IL-10+",
+   "cond": "Peptide",
+   "mine": false,
+   "flowjo": false
+  },
+  {
+   "donor": "Donor 5 (HC)",
+   "pop": "CD4 IL-10+",
+   "cond": "Positive",
+   "mine": false,
+   "flowjo": false
+  },
+  {
+   "donor": "Donor 5 (HC)",
+   "pop": "CD4 IL-17+",
+   "cond": "Peptide",
+   "mine": true,
+   "flowjo": false
+  },
+  {
+   "donor": "Donor 5 (HC)",
+   "pop": "CD4 IL-17+",
+   "cond": "Positive",
+   "mine": true,
+   "flowjo": true
+  },
+  {
+   "donor": "Donor 5 (HC)",
+   "pop": "CD8 IFNg+",
+   "cond": "Peptide",
+   "mine": false,
+   "flowjo": false
+  },
+  {
+   "donor": "Donor 5 (HC)",
+   "pop": "CD8 IFNg+",
+   "cond": "Positive",
+   "mine": true,
+   "flowjo": true
+  },
+  {
+   "donor": "Donor 5 (HC)",
+   "pop": "CD8 IL-4+",
+   "cond": "Peptide",
+   "mine": false,
+   "flowjo": true
+  },
+  {
+   "donor": "Donor 5 (HC)",
+   "pop": "CD8 IL-4+",
+   "cond": "Positive",
+   "mine": true,
+   "flowjo": true
+  },
+  {
+   "donor": "Donor 5 (HC)",
+   "pop": "CD8 IL-10+",
+   "cond": "Peptide",
+   "mine": false,
+   "flowjo": false
+  },
+  {
+   "donor": "Donor 5 (HC)",
+   "pop": "CD8 IL-10+",
+   "cond": "Positive",
+   "mine": false,
+   "flowjo": false
+  },
+  {
+   "donor": "Donor 5 (HC)",
+   "pop": "CD8 IL-17+",
+   "cond": "Peptide",
+   "mine": false,
+   "flowjo": true
+  },
+  {
+   "donor": "Donor 5 (HC)",
+   "pop": "CD8 IL-17+",
+   "cond": "Positive",
+   "mine": true,
+   "flowjo": true
+  },
+  {
+   "donor": "Donor 6 (HC)",
+   "pop": "CD4 IFNg+",
+   "cond": "Peptide",
+   "mine": false,
+   "flowjo": false
+  },
+  {
+   "donor": "Donor 6 (HC)",
+   "pop": "CD4 IFNg+",
+   "cond": "Positive",
+   "mine": true,
+   "flowjo": true
+  },
+  {
+   "donor": "Donor 6 (HC)",
+   "pop": "CD4 IL-4+",
+   "cond": "Peptide",
+   "mine": false,
+   "flowjo": false
+  },
+  {
+   "donor": "Donor 6 (HC)",
+   "pop": "CD4 IL-4+",
+   "cond": "Positive",
+   "mine": true,
+   "flowjo": true
+  },
+  {
+   "donor": "Donor 6 (HC)",
+   "pop": "CD4 IL-10+",
+   "cond": "Peptide",
+   "mine": false,
+   "flowjo": false
+  },
+  {
+   "donor": "Donor 6 (HC)",
+   "pop": "CD4 IL-10+",
+   "cond": "Positive",
+   "mine": false,
+   "flowjo": false
+  },
+  {
+   "donor": "Donor 6 (HC)",
+   "pop": "CD4 IL-17+",
+   "cond": "Peptide",
+   "mine": false,
+   "flowjo": false
+  },
+  {
+   "donor": "Donor 6 (HC)",
+   "pop": "CD4 IL-17+",
+   "cond": "Positive",
+   "mine": true,
+   "flowjo": true
+  },
+  {
+   "donor": "Donor 6 (HC)",
+   "pop": "CD8 IFNg+",
+   "cond": "Peptide",
+   "mine": false,
+   "flowjo": false
+  },
+  {
+   "donor": "Donor 6 (HC)",
+   "pop": "CD8 IFNg+",
+   "cond": "Positive",
+   "mine": true,
+   "flowjo": true
+  },
+  {
+   "donor": "Donor 6 (HC)",
+   "pop": "CD8 IL-4+",
+   "cond": "Peptide",
+   "mine": false,
+   "flowjo": true
+  },
+  {
+   "donor": "Donor 6 (HC)",
+   "pop": "CD8 IL-4+",
+   "cond": "Positive",
+   "mine": true,
+   "flowjo": true
+  },
+  {
+   "donor": "Donor 6 (HC)",
+   "pop": "CD8 IL-10+",
+   "cond": "Peptide",
+   "mine": false,
+   "flowjo": false
+  },
+  {
+   "donor": "Donor 6 (HC)",
+   "pop": "CD8 IL-10+",
+   "cond": "Positive",
+   "mine": false,
+   "flowjo": false
+  },
+  {
+   "donor": "Donor 6 (HC)",
+   "pop": "CD8 IL-17+",
+   "cond": "Peptide",
+   "mine": false,
+   "flowjo": false
+  },
+  {
+   "donor": "Donor 6 (HC)",
+   "pop": "CD8 IL-17+",
+   "cond": "Positive",
+   "mine": false,
+   "flowjo": false
+  },
+  {
+   "donor": "Donor 1 (ALS)",
+   "pop": "CD4 IFNg+",
+   "cond": "Peptide",
+   "mine": true,
+   "flowjo": false
+  },
+  {
+   "donor": "Donor 1 (ALS)",
+   "pop": "CD4 IFNg+",
+   "cond": "Positive",
+   "mine": true,
+   "flowjo": true
+  },
+  {
+   "donor": "Donor 1 (ALS)",
+   "pop": "CD4 IL-4+",
+   "cond": "Peptide",
+   "mine": true,
+   "flowjo": false
+  },
+  {
+   "donor": "Donor 1 (ALS)",
+   "pop": "CD4 IL-4+",
+   "cond": "Positive",
+   "mine": true,
+   "flowjo": true
+  },
+  {
+   "donor": "Donor 1 (ALS)",
+   "pop": "CD4 IL-10+",
+   "cond": "Peptide",
+   "mine": true,
+   "flowjo": false
+  },
+  {
+   "donor": "Donor 1 (ALS)",
+   "pop": "CD4 IL-10+",
+   "cond": "Positive",
+   "mine": false,
+   "flowjo": false
+  },
+  {
+   "donor": "Donor 1 (ALS)",
+   "pop": "CD4 IL-17+",
+   "cond": "Peptide",
+   "mine": false,
+   "flowjo": false
+  },
+  {
+   "donor": "Donor 1 (ALS)",
+   "pop": "CD4 IL-17+",
+   "cond": "Positive",
+   "mine": true,
+   "flowjo": false
+  },
+  {
+   "donor": "Donor 1 (ALS)",
+   "pop": "CD8 IFNg+",
+   "cond": "Peptide",
+   "mine": false,
+   "flowjo": false
+  },
+  {
+   "donor": "Donor 1 (ALS)",
+   "pop": "CD8 IFNg+",
+   "cond": "Positive",
+   "mine": true,
+   "flowjo": true
+  },
+  {
+   "donor": "Donor 1 (ALS)",
+   "pop": "CD8 IL-4+",
+   "cond": "Peptide",
+   "mine": false,
+   "flowjo": false
+  },
+  {
+   "donor": "Donor 1 (ALS)",
+   "pop": "CD8 IL-4+",
+   "cond": "Positive",
+   "mine": true,
+   "flowjo": true
+  },
+  {
+   "donor": "Donor 1 (ALS)",
+   "pop": "CD8 IL-10+",
+   "cond": "Peptide",
+   "mine": false,
+   "flowjo": false
+  },
+  {
+   "donor": "Donor 1 (ALS)",
+   "pop": "CD8 IL-10+",
+   "cond": "Positive",
+   "mine": false,
+   "flowjo": false
+  },
+  {
+   "donor": "Donor 1 (ALS)",
+   "pop": "CD8 IL-17+",
+   "cond": "Peptide",
+   "mine": false,
+   "flowjo": false
+  },
+  {
+   "donor": "Donor 1 (ALS)",
+   "pop": "CD8 IL-17+",
+   "cond": "Positive",
+   "mine": false,
+   "flowjo": false
+  },
+  {
+   "donor": "Donor 2 (ALS)",
+   "pop": "CD4 IFNg+",
+   "cond": "Peptide",
+   "mine": true,
+   "flowjo": true
+  },
+  {
+   "donor": "Donor 2 (ALS)",
+   "pop": "CD4 IFNg+",
+   "cond": "Positive",
+   "mine": true,
+   "flowjo": true
+  },
+  {
+   "donor": "Donor 2 (ALS)",
+   "pop": "CD4 IL-4+",
+   "cond": "Peptide",
+   "mine": true,
+   "flowjo": false
+  },
+  {
+   "donor": "Donor 2 (ALS)",
+   "pop": "CD4 IL-4+",
+   "cond": "Positive",
+   "mine": true,
+   "flowjo": true
+  },
+  {
+   "donor": "Donor 2 (ALS)",
+   "pop": "CD4 IL-10+",
+   "cond": "Peptide",
+   "mine": true,
+   "flowjo": false
+  },
+  {
+   "donor": "Donor 2 (ALS)",
+   "pop": "CD4 IL-10+",
+   "cond": "Positive",
+   "mine": false,
+   "flowjo": false
+  },
+  {
+   "donor": "Donor 2 (ALS)",
+   "pop": "CD4 IL-17+",
+   "cond": "Peptide",
+   "mine": false,
+   "flowjo": false
+  },
+  {
+   "donor": "Donor 2 (ALS)",
+   "pop": "CD4 IL-17+",
+   "cond": "Positive",
+   "mine": true,
+   "flowjo": false
+  },
+  {
+   "donor": "Donor 2 (ALS)",
+   "pop": "CD8 IFNg+",
+   "cond": "Peptide",
+   "mine": false,
+   "flowjo": false
+  },
+  {
+   "donor": "Donor 2 (ALS)",
+   "pop": "CD8 IFNg+",
+   "cond": "Positive",
+   "mine": true,
+   "flowjo": true
+  },
+  {
+   "donor": "Donor 2 (ALS)",
+   "pop": "CD8 IL-4+",
+   "cond": "Peptide",
+   "mine": false,
+   "flowjo": false
+  },
+  {
+   "donor": "Donor 2 (ALS)",
+   "pop": "CD8 IL-4+",
+   "cond": "Positive",
+   "mine": true,
+   "flowjo": true
+  },
+  {
+   "donor": "Donor 2 (ALS)",
+   "pop": "CD8 IL-10+",
+   "cond": "Peptide",
+   "mine": false,
+   "flowjo": false
+  },
+  {
+   "donor": "Donor 2 (ALS)",
+   "pop": "CD8 IL-10+",
+   "cond": "Positive",
+   "mine": true,
+   "flowjo": false
+  },
+  {
+   "donor": "Donor 2 (ALS)",
+   "pop": "CD8 IL-17+",
+   "cond": "Peptide",
+   "mine": false,
+   "flowjo": false
+  },
+  {
+   "donor": "Donor 2 (ALS)",
+   "pop": "CD8 IL-17+",
+   "cond": "Positive",
+   "mine": false,
+   "flowjo": false
+  },
+  {
+   "donor": "Donor 3 (ALS)",
+   "pop": "CD4 IFNg+",
+   "cond": "Peptide",
+   "mine": false,
+   "flowjo": false
+  },
+  {
+   "donor": "Donor 3 (ALS)",
+   "pop": "CD4 IFNg+",
+   "cond": "Positive",
+   "mine": true,
+   "flowjo": true
+  },
+  {
+   "donor": "Donor 3 (ALS)",
+   "pop": "CD4 IL-4+",
+   "cond": "Peptide",
+   "mine": false,
+   "flowjo": false
+  },
+  {
+   "donor": "Donor 3 (ALS)",
+   "pop": "CD4 IL-4+",
+   "cond": "Positive",
+   "mine": true,
+   "flowjo": true
+  },
+  {
+   "donor": "Donor 3 (ALS)",
+   "pop": "CD4 IL-10+",
+   "cond": "Peptide",
+   "mine": false,
+   "flowjo": false
+  },
+  {
+   "donor": "Donor 3 (ALS)",
+   "pop": "CD4 IL-10+",
+   "cond": "Positive",
+   "mine": false,
+   "flowjo": false
+  },
+  {
+   "donor": "Donor 3 (ALS)",
+   "pop": "CD4 IL-17+",
+   "cond": "Peptide",
+   "mine": false,
+   "flowjo": false
+  },
+  {
+   "donor": "Donor 3 (ALS)",
+   "pop": "CD4 IL-17+",
+   "cond": "Positive",
+   "mine": true,
+   "flowjo": true
+  },
+  {
+   "donor": "Donor 3 (ALS)",
+   "pop": "CD8 IFNg+",
+   "cond": "Peptide",
+   "mine": false,
+   "flowjo": true
+  },
+  {
+   "donor": "Donor 3 (ALS)",
+   "pop": "CD8 IFNg+",
+   "cond": "Positive",
+   "mine": true,
+   "flowjo": true
+  },
+  {
+   "donor": "Donor 3 (ALS)",
+   "pop": "CD8 IL-4+",
+   "cond": "Peptide",
+   "mine": false,
+   "flowjo": false
+  },
+  {
+   "donor": "Donor 3 (ALS)",
+   "pop": "CD8 IL-4+",
+   "cond": "Positive",
+   "mine": true,
+   "flowjo": true
+  },
+  {
+   "donor": "Donor 3 (ALS)",
+   "pop": "CD8 IL-10+",
+   "cond": "Peptide",
+   "mine": false,
+   "flowjo": false
+  },
+  {
+   "donor": "Donor 3 (ALS)",
+   "pop": "CD8 IL-10+",
+   "cond": "Positive",
+   "mine": false,
+   "flowjo": false
+  },
+  {
+   "donor": "Donor 3 (ALS)",
+   "pop": "CD8 IL-17+",
+   "cond": "Peptide",
+   "mine": false,
+   "flowjo": false
+  },
+  {
+   "donor": "Donor 3 (ALS)",
+   "pop": "CD8 IL-17+",
+   "cond": "Positive",
+   "mine": false,
+   "flowjo": false
+  }
+ ],
+ "calls_agree": 77,
+ "calls_total": 96
+}

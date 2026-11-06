@@ -1,0 +1,1645 @@
+{
+ "type": "wsp",
+ "wsp": "Exp MSD_16_OPC stained.1.wsp",
+ "flowjoVersion": "10.8.1",
+ "parseWarnings": [],
+ "importWarnings": [
+  "In FlowMate a sample belongs to one group; these were in several and joined the first: 05012023_OPC_OB39_ALL_023.fcs (All stained, Exp MSD_16 - OPC staining); 05012023_OPC_OB3A_ALL_013.fcs (All stained, Exp MSD_16 - OPC staining); 05012023_OPC_OB40_ALL_025.fcs (All stained, Exp MSD_16 - OPC staining); 05012023_OPC_OB4_ALL_015.fcs (All stained, Exp MSD_16 - OPC staining); 05012023_OPC_OB15_ALL_017.fcs (All stained, Exp MSD_16 - OPC staining); 05012023_OPC_OB16_ALL_019.fcs (All stained, Exp MSD_16 - OPC staining); 05012023_OPC_OB1_ALL_009.fcs (All stained, Exp MSD_16 - OPC staining); 05012023_OPC_OB2B_ALL_011.fcs (All stained, Exp MSD_16 - OPC staining); 05012023_OPC_OB32_ALL_021.fcs (All stained, Exp MSD_16 - OPC staining)."
+ ],
+ "missing": [],
+ "matched": 31,
+ "gates": 31,
+ "compensation": "cm5mqefp",
+ "gateTypes": {
+  "polygon": 50,
+  "rect": 56
+ },
+ "transformTypes": {
+  "lin": 220,
+  "biex": 435
+ },
+ "loadErrors": [],
+ "flowjoTotals": {
+  "05012023_OPC_OB32_DAPI_020.fcs": 30000,
+  "05012023_OPC_OB39_ALL_023.fcs": 30000,
+  "05012023_OPC_OB39_DAPI_022.fcs": 30000,
+  "05012023_OPC_OB3A_ALL_013.fcs": 30000,
+  "05012023_OPC_OB3A_DAPI_012.fcs": 30000,
+  "05012023_OPC_OB40_ALL_025.fcs": 30000,
+  "05012023_OPC_OB40_DAPI_024.fcs": 30000,
+  "05012023_OPC_OB4_ALL_015.fcs": 30000,
+  "05012023_OPC_OB4_DAPI_014.fcs": 30000,
+  "concat_1.fcs": 134440,
+  "05012023_OPC_Comp_FITC_005.fcs": 10000,
+  "05012023_OPC_Comp_PE-Vio770_001.fcs": 10000,
+  "05012023_OPC_Comp_PE_003.fcs": 10000,
+  "05012023_OPC_OB15_ALL_017.fcs": 30000,
+  "05012023_OPC_OB15_DAPI_016.fcs": 30000,
+  "05012023_OPC_OB16_ALL_019.fcs": 30000,
+  "05012023_OPC_OB16_DAPI_018.fcs": 30000,
+  "05012023_OPC_OB1_ALL_009.fcs": 30000,
+  "05012023_OPC_OB1_DAPI_008.fcs": 30000,
+  "05012023_OPC_OB2B_ALL_011.fcs": 30000,
+  "05012023_OPC_Comp_APC_006.fcs": 10000,
+  "05012023_OPC_Comp_BUV395_CELLS_007.fcs": 10000,
+  "05012023_OPC_Comp_BUV395_cells_OK_028.fcs": 10000,
+  "05012023_OPC_Comp_BV605_002.fcs": 10000,
+  "05012023_OPC_Comp_BV605_cells_OK_030.fcs": 10000,
+  "05012023_OPC_Comp_BV786_026.fcs": 10000,
+  "05012023_OPC_Comp_BV786_cells_004.fcs": 10000,
+  "05012023_OPC_Comp_BV786_cells_OK_029.fcs": 10000,
+  "05012023_OPC_Comp_cells_neg_027.fcs": 10000,
+  "05012023_OPC_OB2B_DAPI_010.fcs": 30000,
+  "05012023_OPC_OB32_ALL_021.fcs": 30000
+ },
+ "ms": 0,
+ "wspReplace": null,
+ "clampedRects": 28,
+ "compActive": "cm5mqefp",
+ "compensated": [
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  false
+ ],
+ "popErrors": [
+  {
+   "gcoitke": "Parameter \"tSNE_of_concat_1.fcs_1\" not found in concat_1.fcs",
+   "gn3iy59": "Parameter \"tSNE_of_concat_1.fcs_1\" not found in concat_1.fcs",
+   "gikuqe8": "Parameter \"tSNE_of_concat_1.fcs_1\" not found in concat_1.fcs",
+   "gh108c6": "Parameter \"tSNE_of_concat_1.fcs_1\" not found in concat_1.fcs",
+   "ge6bhnw": "Parameter \"tSNE_of_concat_1.fcs_1\" not found in concat_1.fcs",
+   "gmrh753": "Parameter \"tSNE_of_concat_1.fcs_1\" not found in concat_1.fcs",
+   "gn5tw8w": "Parameter \"tSNE_of_concat_1.fcs_1\" not found in concat_1.fcs",
+   "gs9z8wf": "Parameter \"tSNE_of_concat_1.fcs_1\" not found in concat_1.fcs",
+   "g9651cc": "Parameter \"tSNE_of_concat_1.fcs_1\" not found in concat_1.fcs"
+  }
+ ],
+ "samples": [
+  {
+   "name": "05012023_OPC_Comp_APC_006.fcs",
+   "key": "05012023_OPC_Comp_APC_006.fcs",
+   "events": 10000,
+   "params": [
+    "FSC-A",
+    "FSC-H",
+    "FSC-W",
+    "SSC-A",
+    "SSC-H",
+    "SSC-W",
+    "PE-YG-A",
+    "PE-Cy7-A",
+    "FITC-A",
+    "BUV395-A",
+    "DAPI-A",
+    "BV605-A",
+    "BV786-A",
+    "APC-A",
+    "BV711-A",
+    "Alexa Fluor 405-A",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.1",
+   "spill": null,
+   "cyt": "LSRII",
+   "datatype": "F",
+   "src": "BD FACSDiva Software Version 8.0.1"
+  },
+  {
+   "name": "05012023_OPC_Comp_BUV395_CELLS_007.fcs",
+   "key": "05012023_OPC_Comp_BUV395_CELLS_007.fcs",
+   "events": 10000,
+   "params": [
+    "FSC-A",
+    "FSC-H",
+    "FSC-W",
+    "SSC-A",
+    "SSC-H",
+    "SSC-W",
+    "PE-YG-A",
+    "PE-Cy7-A",
+    "FITC-A",
+    "BUV395-A",
+    "DAPI-A",
+    "BV605-A",
+    "BV786-A",
+    "APC-A",
+    "BV711-A",
+    "Alexa Fluor 405-A",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.1",
+   "spill": null,
+   "cyt": "LSRII",
+   "datatype": "F",
+   "src": "BD FACSDiva Software Version 8.0.1"
+  },
+  {
+   "name": "05012023_OPC_Comp_BUV395_cells_OK_028.fcs",
+   "key": "05012023_OPC_Comp_BUV395_cells_OK_028.fcs",
+   "events": 10000,
+   "params": [
+    "FSC-A",
+    "FSC-H",
+    "FSC-W",
+    "SSC-A",
+    "SSC-H",
+    "SSC-W",
+    "PE-YG-A",
+    "PE-Cy7-A",
+    "FITC-A",
+    "BUV395-A",
+    "DAPI-A",
+    "BV605-A",
+    "BV786-A",
+    "APC-A",
+    "BV711-A",
+    "Alexa Fluor 405-A",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.1",
+   "spill": null,
+   "cyt": "LSRII",
+   "datatype": "F",
+   "src": "BD FACSDiva Software Version 8.0.1"
+  },
+  {
+   "name": "05012023_OPC_Comp_BV605_002.fcs",
+   "key": "05012023_OPC_Comp_BV605_002.fcs",
+   "events": 10000,
+   "params": [
+    "FSC-A",
+    "FSC-H",
+    "FSC-W",
+    "SSC-A",
+    "SSC-H",
+    "SSC-W",
+    "PE-YG-A",
+    "PE-Cy7-A",
+    "FITC-A",
+    "BUV395-A",
+    "DAPI-A",
+    "BV605-A",
+    "BV786-A",
+    "APC-A",
+    "BV711-A",
+    "Alexa Fluor 405-A",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.1",
+   "spill": null,
+   "cyt": "LSRII",
+   "datatype": "F",
+   "src": "BD FACSDiva Software Version 8.0.1"
+  },
+  {
+   "name": "05012023_OPC_Comp_BV605_cells_OK_030.fcs",
+   "key": "05012023_OPC_Comp_BV605_cells_OK_030.fcs",
+   "events": 10000,
+   "params": [
+    "FSC-A",
+    "FSC-H",
+    "FSC-W",
+    "SSC-A",
+    "SSC-H",
+    "SSC-W",
+    "PE-YG-A",
+    "PE-Cy7-A",
+    "FITC-A",
+    "BUV395-A",
+    "DAPI-A",
+    "BV605-A",
+    "BV786-A",
+    "APC-A",
+    "BV711-A",
+    "Alexa Fluor 405-A",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.1",
+   "spill": null,
+   "cyt": "LSRII",
+   "datatype": "F",
+   "src": "BD FACSDiva Software Version 8.0.1"
+  },
+  {
+   "name": "05012023_OPC_Comp_BV786_026.fcs",
+   "key": "05012023_OPC_Comp_BV786_026.fcs",
+   "events": 10000,
+   "params": [
+    "FSC-A",
+    "FSC-H",
+    "FSC-W",
+    "SSC-A",
+    "SSC-H",
+    "SSC-W",
+    "PE-YG-A",
+    "PE-Cy7-A",
+    "FITC-A",
+    "BUV395-A",
+    "DAPI-A",
+    "BV605-A",
+    "BV786-A",
+    "APC-A",
+    "BV711-A",
+    "Alexa Fluor 405-A",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.1",
+   "spill": null,
+   "cyt": "LSRII",
+   "datatype": "F",
+   "src": "BD FACSDiva Software Version 8.0.1"
+  },
+  {
+   "name": "05012023_OPC_Comp_BV786_cells_004.fcs",
+   "key": "05012023_OPC_Comp_BV786_cells_004.fcs",
+   "events": 10000,
+   "params": [
+    "FSC-A",
+    "FSC-H",
+    "FSC-W",
+    "SSC-A",
+    "SSC-H",
+    "SSC-W",
+    "PE-YG-A",
+    "PE-Cy7-A",
+    "FITC-A",
+    "BUV395-A",
+    "DAPI-A",
+    "BV605-A",
+    "BV786-A",
+    "APC-A",
+    "BV711-A",
+    "Alexa Fluor 405-A",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.1",
+   "spill": null,
+   "cyt": "LSRII",
+   "datatype": "F",
+   "src": "BD FACSDiva Software Version 8.0.1"
+  },
+  {
+   "name": "05012023_OPC_Comp_BV786_cells_OK_029.fcs",
+   "key": "05012023_OPC_Comp_BV786_cells_OK_029.fcs",
+   "events": 10000,
+   "params": [
+    "FSC-A",
+    "FSC-H",
+    "FSC-W",
+    "SSC-A",
+    "SSC-H",
+    "SSC-W",
+    "PE-YG-A",
+    "PE-Cy7-A",
+    "FITC-A",
+    "BUV395-A",
+    "DAPI-A",
+    "BV605-A",
+    "BV786-A",
+    "APC-A",
+    "BV711-A",
+    "Alexa Fluor 405-A",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.1",
+   "spill": null,
+   "cyt": "LSRII",
+   "datatype": "F",
+   "src": "BD FACSDiva Software Version 8.0.1"
+  },
+  {
+   "name": "05012023_OPC_Comp_FITC_005.fcs",
+   "key": "05012023_OPC_Comp_FITC_005.fcs",
+   "events": 10000,
+   "params": [
+    "FSC-A",
+    "FSC-H",
+    "FSC-W",
+    "SSC-A",
+    "SSC-H",
+    "SSC-W",
+    "PE-YG-A",
+    "PE-Cy7-A",
+    "FITC-A",
+    "BUV395-A",
+    "DAPI-A",
+    "BV605-A",
+    "BV786-A",
+    "APC-A",
+    "BV711-A",
+    "Alexa Fluor 405-A",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.1",
+   "spill": null,
+   "cyt": "LSRII",
+   "datatype": "F",
+   "src": "BD FACSDiva Software Version 8.0.1"
+  },
+  {
+   "name": "05012023_OPC_Comp_PE-Vio770_001.fcs",
+   "key": "05012023_OPC_Comp_PE-Vio770_001.fcs",
+   "events": 10000,
+   "params": [
+    "FSC-A",
+    "FSC-H",
+    "FSC-W",
+    "SSC-A",
+    "SSC-H",
+    "SSC-W",
+    "PE-YG-A",
+    "PE-Cy7-A",
+    "FITC-A",
+    "BUV395-A",
+    "DAPI-A",
+    "BV605-A",
+    "BV786-A",
+    "APC-A",
+    "BV711-A",
+    "Alexa Fluor 405-A",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.1",
+   "spill": null,
+   "cyt": "LSRII",
+   "datatype": "F",
+   "src": "BD FACSDiva Software Version 8.0.1"
+  },
+  {
+   "name": "05012023_OPC_Comp_PE_003.fcs",
+   "key": "05012023_OPC_Comp_PE_003.fcs",
+   "events": 10000,
+   "params": [
+    "FSC-A",
+    "FSC-H",
+    "FSC-W",
+    "SSC-A",
+    "SSC-H",
+    "SSC-W",
+    "PE-YG-A",
+    "PE-Cy7-A",
+    "FITC-A",
+    "BUV395-A",
+    "DAPI-A",
+    "BV605-A",
+    "BV786-A",
+    "APC-A",
+    "BV711-A",
+    "Alexa Fluor 405-A",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.1",
+   "spill": null,
+   "cyt": "LSRII",
+   "datatype": "F",
+   "src": "BD FACSDiva Software Version 8.0.1"
+  },
+  {
+   "name": "05012023_OPC_Comp_cells_neg_027.fcs",
+   "key": "05012023_OPC_Comp_cells_neg_027.fcs",
+   "events": 10000,
+   "params": [
+    "FSC-A",
+    "FSC-H",
+    "FSC-W",
+    "SSC-A",
+    "SSC-H",
+    "SSC-W",
+    "PE-YG-A",
+    "PE-Cy7-A",
+    "FITC-A",
+    "BUV395-A",
+    "DAPI-A",
+    "BV605-A",
+    "BV786-A",
+    "APC-A",
+    "BV711-A",
+    "Alexa Fluor 405-A",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.1",
+   "spill": null,
+   "cyt": "LSRII",
+   "datatype": "F",
+   "src": "BD FACSDiva Software Version 8.0.1"
+  },
+  {
+   "name": "05012023_OPC_OB15_ALL_017.fcs",
+   "key": "05012023_OPC_OB15_ALL_017.fcs",
+   "events": 30000,
+   "params": [
+    "FSC-A",
+    "FSC-H",
+    "FSC-W",
+    "SSC-A",
+    "SSC-H",
+    "SSC-W",
+    "PE-YG-A",
+    "PE-Cy7-A",
+    "FITC-A",
+    "BUV395-A",
+    "DAPI-A",
+    "BV605-A",
+    "BV786-A",
+    "APC-A",
+    "BV711-A",
+    "Alexa Fluor 405-A",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.1",
+   "spill": null,
+   "cyt": "LSRII",
+   "datatype": "F",
+   "src": "BD FACSDiva Software Version 8.0.1"
+  },
+  {
+   "name": "05012023_OPC_OB15_DAPI_016.fcs",
+   "key": "05012023_OPC_OB15_DAPI_016.fcs",
+   "events": 30000,
+   "params": [
+    "FSC-A",
+    "FSC-H",
+    "FSC-W",
+    "SSC-A",
+    "SSC-H",
+    "SSC-W",
+    "PE-YG-A",
+    "PE-Cy7-A",
+    "FITC-A",
+    "BUV395-A",
+    "DAPI-A",
+    "BV605-A",
+    "BV786-A",
+    "APC-A",
+    "BV711-A",
+    "Alexa Fluor 405-A",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.1",
+   "spill": null,
+   "cyt": "LSRII",
+   "datatype": "F",
+   "src": "BD FACSDiva Software Version 8.0.1"
+  },
+  {
+   "name": "05012023_OPC_OB16_ALL_019.fcs",
+   "key": "05012023_OPC_OB16_ALL_019.fcs",
+   "events": 30000,
+   "params": [
+    "FSC-A",
+    "FSC-H",
+    "FSC-W",
+    "SSC-A",
+    "SSC-H",
+    "SSC-W",
+    "PE-YG-A",
+    "PE-Cy7-A",
+    "FITC-A",
+    "BUV395-A",
+    "DAPI-A",
+    "BV605-A",
+    "BV786-A",
+    "APC-A",
+    "BV711-A",
+    "Alexa Fluor 405-A",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.1",
+   "spill": null,
+   "cyt": "LSRII",
+   "datatype": "F",
+   "src": "BD FACSDiva Software Version 8.0.1"
+  },
+  {
+   "name": "05012023_OPC_OB16_DAPI_018.fcs",
+   "key": "05012023_OPC_OB16_DAPI_018.fcs",
+   "events": 30000,
+   "params": [
+    "FSC-A",
+    "FSC-H",
+    "FSC-W",
+    "SSC-A",
+    "SSC-H",
+    "SSC-W",
+    "PE-YG-A",
+    "PE-Cy7-A",
+    "FITC-A",
+    "BUV395-A",
+    "DAPI-A",
+    "BV605-A",
+    "BV786-A",
+    "APC-A",
+    "BV711-A",
+    "Alexa Fluor 405-A",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.1",
+   "spill": null,
+   "cyt": "LSRII",
+   "datatype": "F",
+   "src": "BD FACSDiva Software Version 8.0.1"
+  },
+  {
+   "name": "05012023_OPC_OB1_ALL_009.fcs",
+   "key": "05012023_OPC_OB1_ALL_009.fcs",
+   "events": 30000,
+   "params": [
+    "FSC-A",
+    "FSC-H",
+    "FSC-W",
+    "SSC-A",
+    "SSC-H",
+    "SSC-W",
+    "PE-YG-A",
+    "PE-Cy7-A",
+    "FITC-A",
+    "BUV395-A",
+    "DAPI-A",
+    "BV605-A",
+    "BV786-A",
+    "APC-A",
+    "BV711-A",
+    "Alexa Fluor 405-A",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.1",
+   "spill": null,
+   "cyt": "LSRII",
+   "datatype": "F",
+   "src": "BD FACSDiva Software Version 8.0.1"
+  },
+  {
+   "name": "05012023_OPC_OB1_DAPI_008.fcs",
+   "key": "05012023_OPC_OB1_DAPI_008.fcs",
+   "events": 30000,
+   "params": [
+    "FSC-A",
+    "FSC-H",
+    "FSC-W",
+    "SSC-A",
+    "SSC-H",
+    "SSC-W",
+    "PE-YG-A",
+    "PE-Cy7-A",
+    "FITC-A",
+    "BUV395-A",
+    "DAPI-A",
+    "BV605-A",
+    "BV786-A",
+    "APC-A",
+    "BV711-A",
+    "Alexa Fluor 405-A",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.1",
+   "spill": null,
+   "cyt": "LSRII",
+   "datatype": "F",
+   "src": "BD FACSDiva Software Version 8.0.1"
+  },
+  {
+   "name": "05012023_OPC_OB2B_ALL_011.fcs",
+   "key": "05012023_OPC_OB2B_ALL_011.fcs",
+   "events": 30000,
+   "params": [
+    "FSC-A",
+    "FSC-H",
+    "FSC-W",
+    "SSC-A",
+    "SSC-H",
+    "SSC-W",
+    "PE-YG-A",
+    "PE-Cy7-A",
+    "FITC-A",
+    "BUV395-A",
+    "DAPI-A",
+    "BV605-A",
+    "BV786-A",
+    "APC-A",
+    "BV711-A",
+    "Alexa Fluor 405-A",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.1",
+   "spill": null,
+   "cyt": "LSRII",
+   "datatype": "F",
+   "src": "BD FACSDiva Software Version 8.0.1"
+  },
+  {
+   "name": "05012023_OPC_OB2B_DAPI_010.fcs",
+   "key": "05012023_OPC_OB2B_DAPI_010.fcs",
+   "events": 30000,
+   "params": [
+    "FSC-A",
+    "FSC-H",
+    "FSC-W",
+    "SSC-A",
+    "SSC-H",
+    "SSC-W",
+    "PE-YG-A",
+    "PE-Cy7-A",
+    "FITC-A",
+    "BUV395-A",
+    "DAPI-A",
+    "BV605-A",
+    "BV786-A",
+    "APC-A",
+    "BV711-A",
+    "Alexa Fluor 405-A",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.1",
+   "spill": null,
+   "cyt": "LSRII",
+   "datatype": "F",
+   "src": "BD FACSDiva Software Version 8.0.1"
+  },
+  {
+   "name": "05012023_OPC_OB32_ALL_021.fcs",
+   "key": "05012023_OPC_OB32_ALL_021.fcs",
+   "events": 30000,
+   "params": [
+    "FSC-A",
+    "FSC-H",
+    "FSC-W",
+    "SSC-A",
+    "SSC-H",
+    "SSC-W",
+    "PE-YG-A",
+    "PE-Cy7-A",
+    "FITC-A",
+    "BUV395-A",
+    "DAPI-A",
+    "BV605-A",
+    "BV786-A",
+    "APC-A",
+    "BV711-A",
+    "Alexa Fluor 405-A",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.1",
+   "spill": null,
+   "cyt": "LSRII",
+   "datatype": "F",
+   "src": "BD FACSDiva Software Version 8.0.1"
+  },
+  {
+   "name": "05012023_OPC_OB32_DAPI_020.fcs",
+   "key": "05012023_OPC_OB32_DAPI_020.fcs",
+   "events": 30000,
+   "params": [
+    "FSC-A",
+    "FSC-H",
+    "FSC-W",
+    "SSC-A",
+    "SSC-H",
+    "SSC-W",
+    "PE-YG-A",
+    "PE-Cy7-A",
+    "FITC-A",
+    "BUV395-A",
+    "DAPI-A",
+    "BV605-A",
+    "BV786-A",
+    "APC-A",
+    "BV711-A",
+    "Alexa Fluor 405-A",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.1",
+   "spill": null,
+   "cyt": "LSRII",
+   "datatype": "F",
+   "src": "BD FACSDiva Software Version 8.0.1"
+  },
+  {
+   "name": "05012023_OPC_OB39_ALL_023.fcs",
+   "key": "05012023_OPC_OB39_ALL_023.fcs",
+   "events": 30000,
+   "params": [
+    "FSC-A",
+    "FSC-H",
+    "FSC-W",
+    "SSC-A",
+    "SSC-H",
+    "SSC-W",
+    "PE-YG-A",
+    "PE-Cy7-A",
+    "FITC-A",
+    "BUV395-A",
+    "DAPI-A",
+    "BV605-A",
+    "BV786-A",
+    "APC-A",
+    "BV711-A",
+    "Alexa Fluor 405-A",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.1",
+   "spill": null,
+   "cyt": "LSRII",
+   "datatype": "F",
+   "src": "BD FACSDiva Software Version 8.0.1"
+  },
+  {
+   "name": "05012023_OPC_OB39_DAPI_022.fcs",
+   "key": "05012023_OPC_OB39_DAPI_022.fcs",
+   "events": 30000,
+   "params": [
+    "FSC-A",
+    "FSC-H",
+    "FSC-W",
+    "SSC-A",
+    "SSC-H",
+    "SSC-W",
+    "PE-YG-A",
+    "PE-Cy7-A",
+    "FITC-A",
+    "BUV395-A",
+    "DAPI-A",
+    "BV605-A",
+    "BV786-A",
+    "APC-A",
+    "BV711-A",
+    "Alexa Fluor 405-A",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.1",
+   "spill": null,
+   "cyt": "LSRII",
+   "datatype": "F",
+   "src": "BD FACSDiva Software Version 8.0.1"
+  },
+  {
+   "name": "05012023_OPC_OB3A_ALL_013.fcs",
+   "key": "05012023_OPC_OB3A_ALL_013.fcs",
+   "events": 30000,
+   "params": [
+    "FSC-A",
+    "FSC-H",
+    "FSC-W",
+    "SSC-A",
+    "SSC-H",
+    "SSC-W",
+    "PE-YG-A",
+    "PE-Cy7-A",
+    "FITC-A",
+    "BUV395-A",
+    "DAPI-A",
+    "BV605-A",
+    "BV786-A",
+    "APC-A",
+    "BV711-A",
+    "Alexa Fluor 405-A",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.1",
+   "spill": null,
+   "cyt": "LSRII",
+   "datatype": "F",
+   "src": "BD FACSDiva Software Version 8.0.1"
+  },
+  {
+   "name": "05012023_OPC_OB3A_DAPI_012.fcs",
+   "key": "05012023_OPC_OB3A_DAPI_012.fcs",
+   "events": 30000,
+   "params": [
+    "FSC-A",
+    "FSC-H",
+    "FSC-W",
+    "SSC-A",
+    "SSC-H",
+    "SSC-W",
+    "PE-YG-A",
+    "PE-Cy7-A",
+    "FITC-A",
+    "BUV395-A",
+    "DAPI-A",
+    "BV605-A",
+    "BV786-A",
+    "APC-A",
+    "BV711-A",
+    "Alexa Fluor 405-A",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.1",
+   "spill": null,
+   "cyt": "LSRII",
+   "datatype": "F",
+   "src": "BD FACSDiva Software Version 8.0.1"
+  },
+  {
+   "name": "05012023_OPC_OB40_ALL_025.fcs",
+   "key": "05012023_OPC_OB40_ALL_025.fcs",
+   "events": 30000,
+   "params": [
+    "FSC-A",
+    "FSC-H",
+    "FSC-W",
+    "SSC-A",
+    "SSC-H",
+    "SSC-W",
+    "PE-YG-A",
+    "PE-Cy7-A",
+    "FITC-A",
+    "BUV395-A",
+    "DAPI-A",
+    "BV605-A",
+    "BV786-A",
+    "APC-A",
+    "BV711-A",
+    "Alexa Fluor 405-A",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.1",
+   "spill": null,
+   "cyt": "LSRII",
+   "datatype": "F",
+   "src": "BD FACSDiva Software Version 8.0.1"
+  },
+  {
+   "name": "05012023_OPC_OB40_DAPI_024.fcs",
+   "key": "05012023_OPC_OB40_DAPI_024.fcs",
+   "events": 30000,
+   "params": [
+    "FSC-A",
+    "FSC-H",
+    "FSC-W",
+    "SSC-A",
+    "SSC-H",
+    "SSC-W",
+    "PE-YG-A",
+    "PE-Cy7-A",
+    "FITC-A",
+    "BUV395-A",
+    "DAPI-A",
+    "BV605-A",
+    "BV786-A",
+    "APC-A",
+    "BV711-A",
+    "Alexa Fluor 405-A",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.1",
+   "spill": null,
+   "cyt": "LSRII",
+   "datatype": "F",
+   "src": "BD FACSDiva Software Version 8.0.1"
+  },
+  {
+   "name": "05012023_OPC_OB4_ALL_015.fcs",
+   "key": "05012023_OPC_OB4_ALL_015.fcs",
+   "events": 30000,
+   "params": [
+    "FSC-A",
+    "FSC-H",
+    "FSC-W",
+    "SSC-A",
+    "SSC-H",
+    "SSC-W",
+    "PE-YG-A",
+    "PE-Cy7-A",
+    "FITC-A",
+    "BUV395-A",
+    "DAPI-A",
+    "BV605-A",
+    "BV786-A",
+    "APC-A",
+    "BV711-A",
+    "Alexa Fluor 405-A",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.1",
+   "spill": null,
+   "cyt": "LSRII",
+   "datatype": "F",
+   "src": "BD FACSDiva Software Version 8.0.1"
+  },
+  {
+   "name": "05012023_OPC_OB4_DAPI_014.fcs",
+   "key": "05012023_OPC_OB4_DAPI_014.fcs",
+   "events": 30000,
+   "params": [
+    "FSC-A",
+    "FSC-H",
+    "FSC-W",
+    "SSC-A",
+    "SSC-H",
+    "SSC-W",
+    "PE-YG-A",
+    "PE-Cy7-A",
+    "FITC-A",
+    "BUV395-A",
+    "DAPI-A",
+    "BV605-A",
+    "BV786-A",
+    "APC-A",
+    "BV711-A",
+    "Alexa Fluor 405-A",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.1",
+   "spill": null,
+   "cyt": "LSRII",
+   "datatype": "F",
+   "src": "BD FACSDiva Software Version 8.0.1"
+  },
+  {
+   "name": "concat_1.fcs",
+   "key": "concat_1.fcs",
+   "events": 134440,
+   "params": [
+    "SampleID",
+    "FSC-A",
+    "FSC-H",
+    "FSC-W",
+    "SSC-A",
+    "SSC-H",
+    "SSC-W",
+    "FJComp-APC-A",
+    "FJComp-BUV395-A",
+    "FJComp-BV605-A",
+    "FJComp-BV786-A",
+    "FJComp-FITC-A",
+    "FJComp-PE-Cy7-A",
+    "FJComp-PE-YG-A",
+    "DAPI-A",
+    "PE-YG-A",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.1",
+   "spill": null,
+   "cyt": "LSRII",
+   "datatype": "F",
+   "src": "BD FACSDiva Software Version 8.0.1"
+  }
+ ],
+ "compare": [
+  {
+   "file": "05012023_OPC_OB32_DAPI_020.fcs",
+   "path": "Cells",
+   "flowjo": 23196,
+   "ours": 23202
+  },
+  {
+   "file": "05012023_OPC_OB32_DAPI_020.fcs",
+   "path": "Cells/Single Cells",
+   "flowjo": 21720,
+   "ours": 21722
+  },
+  {
+   "file": "05012023_OPC_OB32_DAPI_020.fcs",
+   "path": "Cells/Single Cells/Live",
+   "flowjo": 19075,
+   "ours": 19084
+  },
+  {
+   "file": "05012023_OPC_OB39_ALL_023.fcs",
+   "path": "Cells",
+   "flowjo": 19780,
+   "ours": 19759
+  },
+  {
+   "file": "05012023_OPC_OB39_ALL_023.fcs",
+   "path": "Cells/Single Cells",
+   "flowjo": 19189,
+   "ours": 19190
+  },
+  {
+   "file": "05012023_OPC_OB39_ALL_023.fcs",
+   "path": "Cells/Single Cells/Live",
+   "flowjo": 16960,
+   "ours": 16962
+  },
+  {
+   "file": "05012023_OPC_OB39_ALL_023.fcs",
+   "path": "Cells/Single Cells/Live/Lin-",
+   "flowjo": 16694,
+   "ours": 16697
+  },
+  {
+   "file": "05012023_OPC_OB39_DAPI_022.fcs",
+   "path": "Cells",
+   "flowjo": 20057,
+   "ours": 20035
+  },
+  {
+   "file": "05012023_OPC_OB39_DAPI_022.fcs",
+   "path": "Cells/Single Cells",
+   "flowjo": 19431,
+   "ours": 19440
+  },
+  {
+   "file": "05012023_OPC_OB39_DAPI_022.fcs",
+   "path": "Cells/Single Cells/Live",
+   "flowjo": 17481,
+   "ours": 17498
+  },
+  {
+   "file": "05012023_OPC_OB3A_ALL_013.fcs",
+   "path": "Cells",
+   "flowjo": 22035,
+   "ours": 22028
+  },
+  {
+   "file": "05012023_OPC_OB3A_ALL_013.fcs",
+   "path": "Cells/Single Cells",
+   "flowjo": 17989,
+   "ours": 17881
+  },
+  {
+   "file": "05012023_OPC_OB3A_ALL_013.fcs",
+   "path": "Cells/Single Cells/Live",
+   "flowjo": 15235,
+   "ours": 15170
+  },
+  {
+   "file": "05012023_OPC_OB3A_ALL_013.fcs",
+   "path": "Cells/Single Cells/Live/Lin-",
+   "flowjo": 15008,
+   "ours": 14945
+  },
+  {
+   "file": "05012023_OPC_OB3A_DAPI_012.fcs",
+   "path": "Cells",
+   "flowjo": 16817,
+   "ours": 16814
+  },
+  {
+   "file": "05012023_OPC_OB3A_DAPI_012.fcs",
+   "path": "Cells/Single Cells",
+   "flowjo": 13521,
+   "ours": 13386
+  },
+  {
+   "file": "05012023_OPC_OB3A_DAPI_012.fcs",
+   "path": "Cells/Single Cells/Live",
+   "flowjo": 10800,
+   "ours": 10706
+  },
+  {
+   "file": "05012023_OPC_OB40_ALL_025.fcs",
+   "path": "Cells",
+   "flowjo": 17488,
+   "ours": 17455
+  },
+  {
+   "file": "05012023_OPC_OB40_ALL_025.fcs",
+   "path": "Cells/Single Cells",
+   "flowjo": 15594,
+   "ours": 15633
+  },
+  {
+   "file": "05012023_OPC_OB40_ALL_025.fcs",
+   "path": "Cells/Single Cells/Live",
+   "flowjo": 10663,
+   "ours": 10705
+  },
+  {
+   "file": "05012023_OPC_OB40_ALL_025.fcs",
+   "path": "Cells/Single Cells/Live/Lin-",
+   "flowjo": 10302,
+   "ours": 10341
+  },
+  {
+   "file": "05012023_OPC_OB40_DAPI_024.fcs",
+   "path": "Cells",
+   "flowjo": 18776,
+   "ours": 18756
+  },
+  {
+   "file": "05012023_OPC_OB40_DAPI_024.fcs",
+   "path": "Cells/Single Cells",
+   "flowjo": 16475,
+   "ours": 16508
+  },
+  {
+   "file": "05012023_OPC_OB40_DAPI_024.fcs",
+   "path": "Cells/Single Cells/Live",
+   "flowjo": 12666,
+   "ours": 12691
+  },
+  {
+   "file": "05012023_OPC_OB4_ALL_015.fcs",
+   "path": "Cells",
+   "flowjo": 24167,
+   "ours": 24177
+  },
+  {
+   "file": "05012023_OPC_OB4_ALL_015.fcs",
+   "path": "Cells/Single Cells",
+   "flowjo": 20528,
+   "ours": 20408
+  },
+  {
+   "file": "05012023_OPC_OB4_ALL_015.fcs",
+   "path": "Cells/Single Cells/Live",
+   "flowjo": 18035,
+   "ours": 17968
+  },
+  {
+   "file": "05012023_OPC_OB4_ALL_015.fcs",
+   "path": "Cells/Single Cells/Live/Lin-",
+   "flowjo": 17344,
+   "ours": 17282
+  },
+  {
+   "file": "05012023_OPC_OB4_DAPI_014.fcs",
+   "path": "Cells",
+   "flowjo": 24687,
+   "ours": 24688
+  },
+  {
+   "file": "05012023_OPC_OB4_DAPI_014.fcs",
+   "path": "Cells/Single Cells",
+   "flowjo": 21174,
+   "ours": 21068
+  },
+  {
+   "file": "05012023_OPC_OB4_DAPI_014.fcs",
+   "path": "Cells/Single Cells/Live",
+   "flowjo": 19171,
+   "ours": 19095
+  },
+  {
+   "file": "concat_1.fcs",
+   "path": "OB1",
+   "flowjo": 16983,
+   "ours": 0
+  },
+  {
+   "file": "concat_1.fcs",
+   "path": "OB2B",
+   "flowjo": 10958,
+   "ours": 0
+  },
+  {
+   "file": "concat_1.fcs",
+   "path": "OB3A",
+   "flowjo": 15008,
+   "ours": 0
+  },
+  {
+   "file": "concat_1.fcs",
+   "path": "OB4",
+   "flowjo": 17344,
+   "ours": 0
+  },
+  {
+   "file": "concat_1.fcs",
+   "path": "OB15",
+   "flowjo": 22889,
+   "ours": 0
+  },
+  {
+   "file": "concat_1.fcs",
+   "path": "OB16",
+   "flowjo": 6657,
+   "ours": 0
+  },
+  {
+   "file": "concat_1.fcs",
+   "path": "OB32",
+   "flowjo": 17605,
+   "ours": 0
+  },
+  {
+   "file": "concat_1.fcs",
+   "path": "OB39",
+   "flowjo": 16694,
+   "ours": 0
+  },
+  {
+   "file": "concat_1.fcs",
+   "path": "OB40",
+   "flowjo": 10302,
+   "ours": 0
+  },
+  {
+   "file": "05012023_OPC_Comp_FITC_005.fcs",
+   "path": "Beads",
+   "flowjo": 9819,
+   "ours": 9819
+  },
+  {
+   "file": "05012023_OPC_Comp_FITC_005.fcs",
+   "path": "Beads/Single Beads",
+   "flowjo": 9620,
+   "ours": 9678
+  },
+  {
+   "file": "05012023_OPC_Comp_FITC_005.fcs",
+   "path": "Beads/Single Beads/FITC+",
+   "flowjo": 5399,
+   "ours": 5448
+  },
+  {
+   "file": "05012023_OPC_Comp_FITC_005.fcs",
+   "path": "Beads/Single Beads/FITC-",
+   "flowjo": 2735,
+   "ours": 2740
+  },
+  {
+   "file": "05012023_OPC_Comp_PE-Vio770_001.fcs",
+   "path": "Beads",
+   "flowjo": 9769,
+   "ours": 9769
+  },
+  {
+   "file": "05012023_OPC_Comp_PE-Vio770_001.fcs",
+   "path": "Beads/Single Beads",
+   "flowjo": 9512,
+   "ours": 9596
+  },
+  {
+   "file": "05012023_OPC_Comp_PE-Vio770_001.fcs",
+   "path": "Beads/Single Beads/PE-Vio770+",
+   "flowjo": 5103,
+   "ours": 5171
+  },
+  {
+   "file": "05012023_OPC_Comp_PE-Vio770_001.fcs",
+   "path": "Beads/Single Beads/PE-Vio770-",
+   "flowjo": 2241,
+   "ours": 2265
+  },
+  {
+   "file": "05012023_OPC_Comp_PE_003.fcs",
+   "path": "Beads",
+   "flowjo": 9787,
+   "ours": 9787
+  },
+  {
+   "file": "05012023_OPC_Comp_PE_003.fcs",
+   "path": "Beads/PE-YG-A+",
+   "flowjo": 5289,
+   "ours": 5289
+  },
+  {
+   "file": "05012023_OPC_Comp_PE_003.fcs",
+   "path": "Beads/Single Beads",
+   "flowjo": 9517,
+   "ours": 9583
+  },
+  {
+   "file": "05012023_OPC_Comp_PE_003.fcs",
+   "path": "Beads/Single Beads/PE+",
+   "flowjo": 5184,
+   "ours": 5240
+  },
+  {
+   "file": "05012023_OPC_Comp_PE_003.fcs",
+   "path": "Beads/Single Beads/PE-",
+   "flowjo": 2613,
+   "ours": 2611
+  },
+  {
+   "file": "05012023_OPC_OB15_ALL_017.fcs",
+   "path": "Cells",
+   "flowjo": 26962,
+   "ours": 26957
+  },
+  {
+   "file": "05012023_OPC_OB15_ALL_017.fcs",
+   "path": "Cells/Single Cells",
+   "flowjo": 24519,
+   "ours": 24454
+  },
+  {
+   "file": "05012023_OPC_OB15_ALL_017.fcs",
+   "path": "Cells/Single Cells/Live",
+   "flowjo": 23390,
+   "ours": 23343
+  },
+  {
+   "file": "05012023_OPC_OB15_ALL_017.fcs",
+   "path": "Cells/Single Cells/Live/Lin-",
+   "flowjo": 22889,
+   "ours": 22845
+  },
+  {
+   "file": "05012023_OPC_OB15_DAPI_016.fcs",
+   "path": "Cells",
+   "flowjo": 27227,
+   "ours": 27234
+  },
+  {
+   "file": "05012023_OPC_OB15_DAPI_016.fcs",
+   "path": "Cells/Single Cells",
+   "flowjo": 24923,
+   "ours": 24852
+  },
+  {
+   "file": "05012023_OPC_OB15_DAPI_016.fcs",
+   "path": "Cells/Single Cells/Live",
+   "flowjo": 24029,
+   "ours": 23981
+  },
+  {
+   "file": "05012023_OPC_OB16_ALL_019.fcs",
+   "path": "Cells",
+   "flowjo": 9616,
+   "ours": 9599
+  },
+  {
+   "file": "05012023_OPC_OB16_ALL_019.fcs",
+   "path": "Cells/Single Cells",
+   "flowjo": 9016,
+   "ours": 9011
+  },
+  {
+   "file": "05012023_OPC_OB16_ALL_019.fcs",
+   "path": "Cells/Single Cells/Live",
+   "flowjo": 6802,
+   "ours": 6799
+  },
+  {
+   "file": "05012023_OPC_OB16_ALL_019.fcs",
+   "path": "Cells/Single Cells/Live/Lin-",
+   "flowjo": 6657,
+   "ours": 6656
+  },
+  {
+   "file": "05012023_OPC_OB16_DAPI_018.fcs",
+   "path": "Cells",
+   "flowjo": 12017,
+   "ours": 12014
+  },
+  {
+   "file": "05012023_OPC_OB16_DAPI_018.fcs",
+   "path": "Cells/Single Cells",
+   "flowjo": 11069,
+   "ours": 11073
+  },
+  {
+   "file": "05012023_OPC_OB16_DAPI_018.fcs",
+   "path": "Cells/Single Cells/Live",
+   "flowjo": 9045,
+   "ours": 9051
+  },
+  {
+   "file": "05012023_OPC_OB1_ALL_009.fcs",
+   "path": "Cells",
+   "flowjo": 22654,
+   "ours": 22657
+  },
+  {
+   "file": "05012023_OPC_OB1_ALL_009.fcs",
+   "path": "Cells/Single Cells",
+   "flowjo": 18943,
+   "ours": 18977
+  },
+  {
+   "file": "05012023_OPC_OB1_ALL_009.fcs",
+   "path": "Cells/Single Cells/Live",
+   "flowjo": 17989,
+   "ours": 18015
+  },
+  {
+   "file": "05012023_OPC_OB1_ALL_009.fcs",
+   "path": "Cells/Single Cells/Live/Lin-",
+   "flowjo": 16983,
+   "ours": 17009
+  },
+  {
+   "file": "05012023_OPC_OB1_DAPI_008.fcs",
+   "path": "Cells",
+   "flowjo": 24204,
+   "ours": 24209
+  },
+  {
+   "file": "05012023_OPC_OB1_DAPI_008.fcs",
+   "path": "Cells/Single Cells",
+   "flowjo": 20639,
+   "ours": 20662
+  },
+  {
+   "file": "05012023_OPC_OB1_DAPI_008.fcs",
+   "path": "Cells/Single Cells/Live",
+   "flowjo": 19923,
+   "ours": 19943
+  },
+  {
+   "file": "05012023_OPC_OB2B_ALL_011.fcs",
+   "path": "Cells",
+   "flowjo": 17989,
+   "ours": 17974
+  },
+  {
+   "file": "05012023_OPC_OB2B_ALL_011.fcs",
+   "path": "Cells/Single Cells",
+   "flowjo": 17220,
+   "ours": 17189
+  },
+  {
+   "file": "05012023_OPC_OB2B_ALL_011.fcs",
+   "path": "Cells/Single Cells/Live",
+   "flowjo": 12036,
+   "ours": 12036
+  },
+  {
+   "file": "05012023_OPC_OB2B_ALL_011.fcs",
+   "path": "Cells/Single Cells/Live/Lin-",
+   "flowjo": 10958,
+   "ours": 10956
+  },
+  {
+   "file": "05012023_OPC_Comp_APC_006.fcs",
+   "path": "Beads",
+   "flowjo": 9866,
+   "ours": 9866
+  },
+  {
+   "file": "05012023_OPC_Comp_APC_006.fcs",
+   "path": "Beads/Single Beads",
+   "flowjo": 9727,
+   "ours": 9766
+  },
+  {
+   "file": "05012023_OPC_Comp_APC_006.fcs",
+   "path": "Beads/Single Beads/APC+",
+   "flowjo": 2996,
+   "ours": 3018
+  },
+  {
+   "file": "05012023_OPC_Comp_APC_006.fcs",
+   "path": "Beads/Single Beads/APC-",
+   "flowjo": 4204,
+   "ours": 4212
+  },
+  {
+   "file": "05012023_OPC_Comp_BUV395_CELLS_007.fcs",
+   "path": "Cells",
+   "flowjo": 4205,
+   "ours": 4223
+  },
+  {
+   "file": "05012023_OPC_Comp_BUV395_CELLS_007.fcs",
+   "path": "Cells/Single Cells",
+   "flowjo": 3808,
+   "ours": 3831
+  },
+  {
+   "file": "05012023_OPC_Comp_BUV395_cells_OK_028.fcs",
+   "path": "Cells",
+   "flowjo": 8724,
+   "ours": 8721
+  },
+  {
+   "file": "05012023_OPC_Comp_BUV395_cells_OK_028.fcs",
+   "path": "Cells/BUV395-A+",
+   "flowjo": 8085,
+   "ours": 8082
+  },
+  {
+   "file": "05012023_OPC_Comp_BUV395_cells_OK_028.fcs",
+   "path": "Cells/Single Cells",
+   "flowjo": 7650,
+   "ours": 7658
+  },
+  {
+   "file": "05012023_OPC_Comp_BUV395_cells_OK_028.fcs",
+   "path": "Cells/Single Cells/BUV395+",
+   "flowjo": 6986,
+   "ours": 6996
+  },
+  {
+   "file": "05012023_OPC_Comp_BUV395_cells_OK_028.fcs",
+   "path": "Cells/Single Cells/BUV395-",
+   "flowjo": 354,
+   "ours": 350
+  },
+  {
+   "file": "05012023_OPC_Comp_BV605_cells_OK_030.fcs",
+   "path": "Cells",
+   "flowjo": 8796,
+   "ours": 8800
+  },
+  {
+   "file": "05012023_OPC_Comp_BV605_cells_OK_030.fcs",
+   "path": "Cells/Single Cells",
+   "flowjo": 7519,
+   "ours": 7511
+  },
+  {
+   "file": "05012023_OPC_Comp_BV605_cells_OK_030.fcs",
+   "path": "Cells/Single Cells/BV605+",
+   "flowjo": 6885,
+   "ours": 6873
+  },
+  {
+   "file": "05012023_OPC_Comp_BV786_cells_OK_029.fcs",
+   "path": "Cells",
+   "flowjo": 8839,
+   "ours": 8841
+  },
+  {
+   "file": "05012023_OPC_Comp_BV786_cells_OK_029.fcs",
+   "path": "Cells/Single Cells",
+   "flowjo": 7870,
+   "ours": 7866
+  },
+  {
+   "file": "05012023_OPC_Comp_BV786_cells_OK_029.fcs",
+   "path": "Cells/Single Cells/BV786+",
+   "flowjo": 6744,
+   "ours": 6737
+  },
+  {
+   "file": "05012023_OPC_Comp_cells_neg_027.fcs",
+   "path": "Cells",
+   "flowjo": 8724,
+   "ours": 8728
+  },
+  {
+   "file": "05012023_OPC_Comp_cells_neg_027.fcs",
+   "path": "Cells/Single Cells",
+   "flowjo": 7736,
+   "ours": 7721
+  },
+  {
+   "file": "05012023_OPC_Comp_cells_neg_027.fcs",
+   "path": "Cells/Single Cells/BV605-",
+   "flowjo": 7643,
+   "ours": 7630
+  },
+  {
+   "file": "05012023_OPC_Comp_cells_neg_027.fcs",
+   "path": "Cells/Single Cells/BV786-",
+   "flowjo": 7684,
+   "ours": 7703
+  },
+  {
+   "file": "05012023_OPC_OB2B_DAPI_010.fcs",
+   "path": "Cells",
+   "flowjo": 19934,
+   "ours": 19933
+  },
+  {
+   "file": "05012023_OPC_OB2B_DAPI_010.fcs",
+   "path": "Cells/Single Cells",
+   "flowjo": 18832,
+   "ours": 18818
+  },
+  {
+   "file": "05012023_OPC_OB2B_DAPI_010.fcs",
+   "path": "Cells/Single Cells/Live",
+   "flowjo": 13887,
+   "ours": 13903
+  },
+  {
+   "file": "05012023_OPC_OB32_ALL_021.fcs",
+   "path": "Cells",
+   "flowjo": 22885,
+   "ours": 22878
+  },
+  {
+   "file": "05012023_OPC_OB32_ALL_021.fcs",
+   "path": "Cells/Single Cells",
+   "flowjo": 21525,
+   "ours": 21536
+  },
+  {
+   "file": "05012023_OPC_OB32_ALL_021.fcs",
+   "path": "Cells/Single Cells/Live",
+   "flowjo": 18435,
+   "ours": 18455
+  },
+  {
+   "file": "05012023_OPC_OB32_ALL_021.fcs",
+   "path": "Cells/Single Cells/Live/Lin-",
+   "flowjo": 17605,
+   "ours": 17623
+  }
+ ],
+ "members": []
+}

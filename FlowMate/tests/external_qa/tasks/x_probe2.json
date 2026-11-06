@@ -1,0 +1,59 @@
+{
+ "type": "wsp",
+ "dir": "../public_large/external_qa/als_ics2/",
+ "fcs": [
+  "ALS Specimen_001_C10_C10 Negative.fcs",
+  "ALS Specimen_001_C11_C11 Peptide.fcs",
+  "ALS Specimen_001_C12_C12 Positive.fcs",
+  "ALS Specimen_001_C4_C04 Negative.fcs",
+  "ALS Specimen_001_C5_C05 Peptide.fcs",
+  "ALS Specimen_001_C6_C06 Positive.fcs",
+  "ALS Specimen_001_H1_H01 Negatice.fcs",
+  "ALS Specimen_001_H2_H02 Peptide.fcs",
+  "ALS Specimen_001_H3_H03 Positive.fcs",
+  "HC Specimen_001_C1_C01 Negative.fcs",
+  "HC Specimen_001_C2_C02 Peptide.fcs",
+  "HC Specimen_001_C3_C03 Positive.fcs",
+  "HC Specimen_001_C7_C07 Negative.fcs",
+  "HC Specimen_001_C8_C08 Peptide.fcs",
+  "HC Specimen_001_C9_C09 Positive.fcs",
+  "HC Specimen_001_H7_H07 Negative.fcs",
+  "HC Specimen_001_H8_H08 Peptide.fcs",
+  "HC Specimen_001_H9_H09 Positive.fcs"
+ ],
+ "gates": [],
+ "wsp": "2-Week ICS #2.wsp",
+ "names": {
+  "ALS Specimen_001_C10_C10 Negative.fcs": "Specimen_001_C10_C10 Negative.fcs",
+  "ALS Specimen_001_C11_C11 Peptide.fcs": "Specimen_001_C11_C11 Peptide.fcs",
+  "ALS Specimen_001_C12_C12 Positive.fcs": "Specimen_001_C12_C12 Positive.fcs",
+  "ALS Specimen_001_C4_C04 Negative.fcs": "Specimen_001_C4_C04 Negative.fcs",
+  "ALS Specimen_001_C5_C05 Peptide.fcs": "Specimen_001_C5_C05 Peptide.fcs",
+  "ALS Specimen_001_C6_C06 Positive.fcs": "Specimen_001_C6_C06 Positive.fcs",
+  "ALS Specimen_001_H1_H01 Negatice.fcs": "Specimen_001_H1_H01 Negatice.fcs",
+  "ALS Specimen_001_H2_H02 Peptide.fcs": "Specimen_001_H2_H02 Peptide.fcs",
+  "ALS Specimen_001_H3_H03 Positive.fcs": "Specimen_001_H3_H03 Positive.fcs",
+  "HC Specimen_001_C1_C01 Negative.fcs": "Specimen_001_C1_C01 Negative.fcs",
+  "HC Specimen_001_C2_C02 Peptide.fcs": "Specimen_001_C2_C02 Peptide.fcs",
+  "HC Specimen_001_C3_C03 Positive.fcs": "Specimen_001_C3_C03 Positive.fcs",
+  "HC Specimen_001_C7_C07 Negative.fcs": "Specimen_001_C7_C07 Negative.fcs",
+  "HC Specimen_001_C8_C08 Peptide.fcs": "Specimen_001_C8_C08 Peptide.fcs",
+  "HC Specimen_001_C9_C09 Positive.fcs": "Specimen_001_C9_C09 Positive.fcs",
+  "HC Specimen_001_H7_H07 Negative.fcs": "Specimen_001_H7_H07 Negative.fcs",
+  "HC Specimen_001_H8_H08 Peptide.fcs": "Specimen_001_H8_H08 Peptide.fcs",
+  "HC Specimen_001_H9_H09 Positive.fcs": "Specimen_001_H9_H09 Positive.fcs"
+ },
+ "wspReplace": [
+  [
+   "data-type:name=\"LIVE_DEAD",
+   "data-type:name=\"LIVE/DEAD"
+  ],
+  [
+   "data-type:name=\"Comp-LIVE_DEAD",
+   "data-type:name=\"Comp-LIVE/DEAD"
+  ]
+ ],
+ "members": [],
+ "gatesOut": false,
+ "probe": "\nconst s = ws.samples.find(x => x.name === 'Specimen_001_C7_C07 Negative.fcs');\nconst e = 145, o = {};\ns.params.forEach(p => { o[p.name] = [s.raw ? s.raw[p.name][e] : null, s.data[p.name][e], s.raw ? s.raw[p.name] === s.data[p.name] : null]; });\nreturn { compMatrix: s.compMatrix, spill: s.spill && s.spill.params, compKey: s._compKey && s._compKey.slice(0, 200), active: ws.doc.comp.active, values: o };\n"
+}

@@ -1,0 +1,75 @@
+{
+ "spec1": {
+  "n": 549,
+  "fk": {
+   "exact": 468,
+   "boundary": 77,
+   "mismatch": 4
+  },
+  "fk0": 0,
+  "fk0_gates": [],
+  "rest": 4,
+  "rest_FM_higher": 4,
+  "rest_max_rel_pct": 0.47,
+  "rest_first": [
+   "CD3+, CD14-"
+  ],
+  "fj_pp": {
+   "median": 0.01,
+   "p95": 0.06,
+   "max": 0.6
+  }
+ },
+ "spec4": {
+  "n": 576,
+  "fk": {
+   "exact": 360,
+   "boundary": 150,
+   "mismatch": 66
+  },
+  "fk0": 39,
+  "fk0_gates": [
+   "CCR6-",
+   "Q1: Comp-PE-Cy7-A- , Comp-PE-A+",
+   "Q2: Comp-PE-Cy7-A+ , Comp-PE-A+",
+   "Q3: Comp-PE-Cy7-A+ , Comp-PE-A-"
+  ],
+  "rest": 27,
+  "rest_FM_higher": 27,
+  "rest_max_rel_pct": 6.67,
+  "rest_first": [
+   "CD19,CD14-",
+   "CD3+, CD14-",
+   "T:M"
+  ],
+  "fj_pp": {
+   "median": 0.64,
+   "p95": 7.48,
+   "max": 63.8
+  }
+ },
+ "spec5": {
+  "n": 576,
+  "fk": {
+   "exact": 308,
+   "boundary": 205,
+   "mismatch": 63
+  },
+  "fk0": 0,
+  "fk0_gates": [],
+  "rest": 63,
+  "rest_FM_higher": 63,
+  "rest_max_rel_pct": 18.29,
+  "rest_first": [
+   "CD19,CD14-",
+   "CD3+, CD14-",
+   "T:M",
+   "cd45+, SSC-A subset"
+  ],
+  "fj_pp": {
+   "median": 0.49,
+   "p95": 5.0,
+   "max": 17.6
+  }
+ }
+}

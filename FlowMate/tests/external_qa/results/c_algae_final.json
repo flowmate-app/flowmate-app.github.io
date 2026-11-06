@@ -1,0 +1,717 @@
+{
+ "type": "gate",
+ "loadErrors": [],
+ "samples": [
+  {
+   "name": "H1.fcs",
+   "key": "D1",
+   "events": 46308,
+   "params": [
+    "FSC-H",
+    "FSC-A",
+    "SSC-H",
+    "SSC-A",
+    "FL1-H",
+    "FL1-A",
+    "FL2-H",
+    "FL2-A",
+    "FL3-H",
+    "FL3-A",
+    "FL4-H",
+    "FL4-A",
+    "FSC-Width",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.0",
+   "spill": [
+    "FL1-H",
+    "FL2-H",
+    "FL3-H",
+    "FL4-H",
+    "FL1-A",
+    "FL2-A",
+    "FL3-A",
+    "FL4-A"
+   ],
+   "cyt": "CytoFLEX",
+   "datatype": "F",
+   "src": null
+  },
+  {
+   "name": "H2.fcs",
+   "key": "D2",
+   "events": 18429,
+   "params": [
+    "FSC-H",
+    "FSC-A",
+    "SSC-H",
+    "SSC-A",
+    "FL1-H",
+    "FL1-A",
+    "FL2-H",
+    "FL2-A",
+    "FL3-H",
+    "FL3-A",
+    "FL4-H",
+    "FL4-A",
+    "FSC-Width",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.0",
+   "spill": [
+    "FL1-H",
+    "FL2-H",
+    "FL3-H",
+    "FL4-H",
+    "FL1-A",
+    "FL2-A",
+    "FL3-A",
+    "FL4-A"
+   ],
+   "cyt": "CytoFLEX",
+   "datatype": "F",
+   "src": null
+  },
+  {
+   "name": "H3.fcs",
+   "key": "D3",
+   "events": 24133,
+   "params": [
+    "FSC-H",
+    "FSC-A",
+    "SSC-H",
+    "SSC-A",
+    "FL1-H",
+    "FL1-A",
+    "FL2-H",
+    "FL2-A",
+    "FL3-H",
+    "FL3-A",
+    "FL4-H",
+    "FL4-A",
+    "FSC-Width",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.0",
+   "spill": [
+    "FL1-H",
+    "FL2-H",
+    "FL3-H",
+    "FL4-H",
+    "FL1-A",
+    "FL2-A",
+    "FL3-A",
+    "FL4-A"
+   ],
+   "cyt": "CytoFLEX",
+   "datatype": "F",
+   "src": null
+  },
+  {
+   "name": "L1.fcs",
+   "key": "D8",
+   "events": 52912,
+   "params": [
+    "FSC-H",
+    "FSC-A",
+    "SSC-H",
+    "SSC-A",
+    "FL1-H",
+    "FL1-A",
+    "FL2-H",
+    "FL2-A",
+    "FL3-H",
+    "FL3-A",
+    "FL4-H",
+    "FL4-A",
+    "FSC-Width",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.0",
+   "spill": [
+    "FL1-H",
+    "FL2-H",
+    "FL3-H",
+    "FL4-H",
+    "FL1-A",
+    "FL2-A",
+    "FL3-A",
+    "FL4-A"
+   ],
+   "cyt": "CytoFLEX",
+   "datatype": "F",
+   "src": null
+  },
+  {
+   "name": "L2.fcs",
+   "key": "D9",
+   "events": 21596,
+   "params": [
+    "FSC-H",
+    "FSC-A",
+    "SSC-H",
+    "SSC-A",
+    "FL1-H",
+    "FL1-A",
+    "FL2-H",
+    "FL2-A",
+    "FL3-H",
+    "FL3-A",
+    "FL4-H",
+    "FL4-A",
+    "FSC-Width",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.0",
+   "spill": [
+    "FL1-H",
+    "FL2-H",
+    "FL3-H",
+    "FL4-H",
+    "FL1-A",
+    "FL2-A",
+    "FL3-A",
+    "FL4-A"
+   ],
+   "cyt": "CytoFLEX",
+   "datatype": "F",
+   "src": null
+  },
+  {
+   "name": "L3.fcs",
+   "key": "D10",
+   "events": 27630,
+   "params": [
+    "FSC-H",
+    "FSC-A",
+    "SSC-H",
+    "SSC-A",
+    "FL1-H",
+    "FL1-A",
+    "FL2-H",
+    "FL2-A",
+    "FL3-H",
+    "FL3-A",
+    "FL4-H",
+    "FL4-A",
+    "FSC-Width",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.0",
+   "spill": [
+    "FL1-H",
+    "FL2-H",
+    "FL3-H",
+    "FL4-H",
+    "FL1-A",
+    "FL2-A",
+    "FL3-A",
+    "FL4-A"
+   ],
+   "cyt": "CytoFLEX",
+   "datatype": "F",
+   "src": null
+  },
+  {
+   "name": "M1.fcs",
+   "key": "D5",
+   "events": 17173,
+   "params": [
+    "FSC-H",
+    "FSC-A",
+    "SSC-H",
+    "SSC-A",
+    "FL1-H",
+    "FL1-A",
+    "FL2-H",
+    "FL2-A",
+    "FL3-H",
+    "FL3-A",
+    "FL4-H",
+    "FL4-A",
+    "FSC-Width",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.0",
+   "spill": [
+    "FL1-H",
+    "FL2-H",
+    "FL3-H",
+    "FL4-H",
+    "FL1-A",
+    "FL2-A",
+    "FL3-A",
+    "FL4-A"
+   ],
+   "cyt": "CytoFLEX",
+   "datatype": "F",
+   "src": null
+  },
+  {
+   "name": "M2.fcs",
+   "key": "D6",
+   "events": 76265,
+   "params": [
+    "FSC-H",
+    "FSC-A",
+    "SSC-H",
+    "SSC-A",
+    "FL1-H",
+    "FL1-A",
+    "FL2-H",
+    "FL2-A",
+    "FL3-H",
+    "FL3-A",
+    "FL4-H",
+    "FL4-A",
+    "FSC-Width",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.0",
+   "spill": [
+    "FL1-H",
+    "FL2-H",
+    "FL3-H",
+    "FL4-H",
+    "FL1-A",
+    "FL2-A",
+    "FL3-A",
+    "FL4-A"
+   ],
+   "cyt": "CytoFLEX",
+   "datatype": "F",
+   "src": null
+  },
+  {
+   "name": "M3.fcs",
+   "key": "D7",
+   "events": 31167,
+   "params": [
+    "FSC-H",
+    "FSC-A",
+    "SSC-H",
+    "SSC-A",
+    "FL1-H",
+    "FL1-A",
+    "FL2-H",
+    "FL2-A",
+    "FL3-H",
+    "FL3-A",
+    "FL4-H",
+    "FL4-A",
+    "FSC-Width",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.0",
+   "spill": [
+    "FL1-H",
+    "FL2-H",
+    "FL3-H",
+    "FL4-H",
+    "FL1-A",
+    "FL2-A",
+    "FL3-A",
+    "FL4-A"
+   ],
+   "cyt": "CytoFLEX",
+   "datatype": "F",
+   "src": null
+  },
+  {
+   "name": "WT1.fcs",
+   "key": "B1",
+   "events": 23133,
+   "params": [
+    "FSC-H",
+    "FSC-A",
+    "SSC-H",
+    "SSC-A",
+    "FL1-H",
+    "FL1-A",
+    "FL2-H",
+    "FL2-A",
+    "FL3-H",
+    "FL3-A",
+    "FL4-H",
+    "FL4-A",
+    "FSC-Width",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.0",
+   "spill": [
+    "FL1-H",
+    "FL2-H",
+    "FL3-H",
+    "FL4-H",
+    "FL1-A",
+    "FL2-A",
+    "FL3-A",
+    "FL4-A"
+   ],
+   "cyt": "CytoFLEX",
+   "datatype": "F",
+   "src": null
+  },
+  {
+   "name": "WT2.fcs",
+   "key": "C1",
+   "events": 84802,
+   "params": [
+    "FSC-H",
+    "FSC-A",
+    "SSC-H",
+    "SSC-A",
+    "FL1-H",
+    "FL1-A",
+    "FL2-H",
+    "FL2-A",
+    "FL3-H",
+    "FL3-A",
+    "FL4-H",
+    "FL4-A",
+    "FSC-Width",
+    "Time"
+   ],
+   "fcsVersion": "FCS3.0",
+   "spill": [
+    "FL1-H",
+    "FL2-H",
+    "FL3-H",
+    "FL4-H",
+    "FL1-A",
+    "FL2-A",
+    "FL3-A",
+    "FL4-A"
+   ],
+   "cyt": "CytoFLEX",
+   "datatype": "F",
+   "src": null
+  }
+ ],
+ "gates": [
+  {
+   "name": "Viable",
+   "parentName": null,
+   "frozen": {
+    "type": "range",
+    "x": "FL3-A",
+    "y": null,
+    "xScale": {
+     "type": "logicle",
+     "T": 4000000,
+     "W": 1.4,
+     "M": 6.5,
+     "A": 0
+    },
+    "yScale": null,
+    "range": {
+     "lo": 770000,
+     "hi": 753258846.548284
+    },
+    "name": "Viable"
+   }
+  },
+  {
+   "name": "Top 20% GFP",
+   "parentName": "Viable",
+   "frozen": {
+    "type": "range",
+    "x": "FL1-A",
+    "y": null,
+    "xScale": {
+     "type": "logicle",
+     "T": 4000000,
+     "W": 0.5,
+     "M": 3.6,
+     "A": 0
+    },
+    "yScale": null,
+    "range": {
+     "lo": 0,
+     "hi": 72570664.87956585
+    },
+    "name": "Top 20% GFP",
+    "perWell": {
+     "B1": {
+      "range": {
+       "lo": 38292.61953125,
+       "hi": 72570664.87956585
+      },
+      "rev": 3
+     },
+     "C1": {
+      "range": {
+       "lo": 40230.73984375,
+       "hi": 72570664.87956585
+      },
+      "rev": 4
+     },
+     "D1": {
+      "range": {
+       "lo": 640670.9375,
+       "hi": 72570664.87956585
+      },
+      "rev": 5
+     },
+     "D2": {
+      "range": {
+       "lo": 648240.775,
+       "hi": 72570664.87956585
+      },
+      "rev": 6
+     },
+     "D3": {
+      "range": {
+       "lo": 776341.2000000001,
+       "hi": 72570664.87956585
+      },
+      "rev": 7
+     },
+     "D5": {
+      "range": {
+       "lo": 172501.48124999998,
+       "hi": 72570664.87956585
+      },
+      "rev": 8
+     },
+     "D6": {
+      "range": {
+       "lo": 33659.96484375,
+       "hi": 72570664.87956585
+      },
+      "rev": 9
+     },
+     "D7": {
+      "range": {
+       "lo": 79309.45781250003,
+       "hi": 72570664.87956585
+      },
+      "rev": 10
+     },
+     "D8": {
+      "range": {
+       "lo": 26908.725781250003,
+       "hi": 72570664.87956585
+      },
+      "rev": 11
+     },
+     "D9": {
+      "range": {
+       "lo": 29690.743359375003,
+       "hi": 72570664.87956585
+      },
+      "rev": 12
+     },
+     "D10": {
+      "range": {
+       "lo": 91422.25468750003,
+       "hi": 72570664.87956585
+      },
+      "rev": 13
+     }
+    }
+   }
+  }
+ ],
+ "comp": "file",
+ "rows": [
+  {
+   "sample": "WT1.fcs",
+   "total": 23133,
+   "pops": {
+    "Viable": {
+     "count": 2892,
+     "pct": 12.501621060822202,
+     "median(FL1-A)": 25764.416015625,
+     "median(FL3-A)": 1101167.9375
+    },
+    "Top 20% GFP": {
+     "count": 579,
+     "pct": 20.020746887966805,
+     "median(FL1-A)": 47490.890625,
+     "median(FL3-A)": 1974593.5
+    }
+   }
+  },
+  {
+   "sample": "WT2.fcs",
+   "total": 84802,
+   "pops": {
+    "Viable": {
+     "count": 14140,
+     "pct": 16.674135043984812,
+     "median(FL1-A)": 29994.7978515625,
+     "median(FL3-A)": 1083461
+    },
+    "Top 20% GFP": {
+     "count": 2828,
+     "pct": 20,
+     "median(FL1-A)": 47358.044921875,
+     "median(FL3-A)": 1750515.875
+    }
+   }
+  },
+  {
+   "sample": "H1.fcs",
+   "total": 46308,
+   "pops": {
+    "Viable": {
+     "count": 7946,
+     "pct": 17.159022199188044,
+     "median(FL1-A)": 425305.046875,
+     "median(FL3-A)": 1044205.71875
+    },
+    "Top 20% GFP": {
+     "count": 1590,
+     "pct": 20.01006795872137,
+     "median(FL1-A)": 799725.09375,
+     "median(FL3-A)": 1492123.9375
+    }
+   }
+  },
+  {
+   "sample": "H2.fcs",
+   "total": 18429,
+   "pops": {
+    "Viable": {
+     "count": 2263,
+     "pct": 12.279559390091704,
+     "median(FL1-A)": 448954.6875,
+     "median(FL3-A)": 999812.25
+    },
+    "Top 20% GFP": {
+     "count": 453,
+     "pct": 20.01767565178966,
+     "median(FL1-A)": 783765.1875,
+     "median(FL3-A)": 1236435.5
+    }
+   }
+  },
+  {
+   "sample": "H3.fcs",
+   "total": 24133,
+   "pops": {
+    "Viable": {
+     "count": 3520,
+     "pct": 14.585836820950565,
+     "median(FL1-A)": 506982.59375,
+     "median(FL3-A)": 1089991.4375
+    },
+    "Top 20% GFP": {
+     "count": 704,
+     "pct": 20,
+     "median(FL1-A)": 989621.3125,
+     "median(FL3-A)": 1567004
+    }
+   }
+  },
+  {
+   "sample": "M1.fcs",
+   "total": 17173,
+   "pops": {
+    "Viable": {
+     "count": 1302,
+     "pct": 7.5816688988528504,
+     "median(FL1-A)": 136458.953125,
+     "median(FL3-A)": 924961.5
+    },
+    "Top 20% GFP": {
+     "count": 261,
+     "pct": 20.046082949308754,
+     "median(FL1-A)": 197364.375,
+     "median(FL3-A)": 1142789.75
+    }
+   }
+  },
+  {
+   "sample": "M2.fcs",
+   "total": 76265,
+   "pops": {
+    "Viable": {
+     "count": 4991,
+     "pct": 6.544286369894447,
+     "median(FL1-A)": 23484.677734375,
+     "median(FL3-A)": 887668.9375
+    },
+    "Top 20% GFP": {
+     "count": 999,
+     "pct": 20.01602885193348,
+     "median(FL1-A)": 46070.4765625,
+     "median(FL3-A)": 974674.25
+    }
+   }
+  },
+  {
+   "sample": "M3.fcs",
+   "total": 31167,
+   "pops": {
+    "Viable": {
+     "count": 2597,
+     "pct": 8.332531202874836,
+     "median(FL1-A)": 51938.1328125,
+     "median(FL3-A)": 924122.1875
+    },
+    "Top 20% GFP": {
+     "count": 520,
+     "pct": 20.023103581055064,
+     "median(FL1-A)": 98297.9375,
+     "median(FL3-A)": 1081099.6875
+    }
+   }
+  },
+  {
+   "sample": "L1.fcs",
+   "total": 52912,
+   "pops": {
+    "Viable": {
+     "count": 5678,
+     "pct": 10.731025098276383,
+     "median(FL1-A)": 21423.1083984375,
+     "median(FL3-A)": 912262.21875
+    },
+    "Top 20% GFP": {
+     "count": 1136,
+     "pct": 20.00704473406129,
+     "median(FL1-A)": 31826.830078125,
+     "median(FL3-A)": 1084944.75
+    }
+   }
+  },
+  {
+   "sample": "L2.fcs",
+   "total": 21596,
+   "pops": {
+    "Viable": {
+     "count": 1767,
+     "pct": 8.182070753843304,
+     "median(FL1-A)": 23736.353515625,
+     "median(FL3-A)": 920636.5625
+    },
+    "Top 20% GFP": {
+     "count": 354,
+     "pct": 20.0339558573854,
+     "median(FL1-A)": 33894.056640625,
+     "median(FL3-A)": 1300151.125
+    }
+   }
+  },
+  {
+   "sample": "L3.fcs",
+   "total": 27630,
+   "pops": {
+    "Viable": {
+     "count": 3212,
+     "pct": 11.62504524068042,
+     "median(FL1-A)": 55611.9375,
+     "median(FL3-A)": 1056591.5625
+    },
+    "Top 20% GFP": {
+     "count": 643,
+     "pct": 20.0186799501868,
+     "median(FL1-A)": 121174.2265625,
+     "median(FL3-A)": 1589941.125
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "type": "wsp",
+ "dir": "../public_large/external_qa/als_spectral/",
+ "fcs": [
+  "A1 7114 ALS.fcs",
+  "A2 6910 ALS.fcs",
+  "A3 6989 ALS.fcs",
+  "A4 3549 HC.fcs",
+  "A5 3550 HC.fcs",
+  "A6 7102 HC.fcs"
+ ],
+ "wsp": "#2 Spectral.wsp",
+ "names": {
+  "A1 7114 ALS.fcs": "A1 7114.fcs",
+  "A2 6910 ALS.fcs": "A2 6910.fcs",
+  "A3 6989 ALS.fcs": "A3 6989.fcs",
+  "A4 3549 HC.fcs": "A4 3549.fcs",
+  "A5 3550 HC.fcs": "A5 3550.fcs",
+  "A6 7102 HC.fcs": "A6 7102.fcs"
+ },
+ "clampRects": true
+}

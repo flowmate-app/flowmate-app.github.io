@@ -1,0 +1,21 @@
+# FlowMate
+
+> FlowMate is free, open-source flow cytometry analysis that runs in a web browser. It gates every well of a plate at once, compensates, imports FlowJo workspaces, and reports statistics (t tests, ANOVA, Tukey/Dunnett, nested mixed models). Data never leaves the user's computer. Made by Shir Harel; MIT licence; version 0.2.0.
+
+## Links
+
+- [Open the app](https://rlshir302010-cpu.github.io/flowmate/app/): runs in Chrome, Edge or Firefox, nothing to install
+- [Source code](https://github.com/rlshir302010-cpu/flowmate): plain JavaScript, MIT licence
+- [Validation report](https://github.com/rlshir302010-cpu/flowmate/blob/main/VALIDATION.md): checked against FlowKit, Beckman CytExpert, GraphPad Prism and R on public data
+- [Contact](mailto:rlshir302010@gmail.com): rlshir302010@gmail.com — to contribute, report a problem or build it together
+
+## Facts
+
+- **Is FlowMate free?** Yes. FlowMate is free and open source under the MIT licence: no account, no licence key, no limits on files or events. You may copy and adapt the code.
+- **Is my data uploaded anywhere?** No. FCS files are read inside your browser tab and never leave your computer; FlowMate has no server. Saved analyses are kept in your browser. You can also download FlowMate as one HTML file and use it offline.
+- **Which files can FlowMate open?** FCS 2.0, 3.0 and 3.1 files from any cytometer, FlowJo 10 workspaces (.wsp) with their gates, groups and compensation, and Gating-ML 2.0. It can export Gating-ML, CSV tables, PNG/SVG figures and an HTML report.
+- **Is FlowMate a FlowJo alternative?** For gating, compensation, per-well statistics and plate experiments, yes: it imports FlowJo workspaces and shows FlowJo's count next to its own for every population. It does not (yet) do dimensionality reduction (tSNE/UMAP) or clustering. FlowMate is independent and not affiliated with FlowJo or BD.
+- **How accurate is it?** FCS values are bit-identical to FlowKit, an independent open-source reader; compensated values match FlowKit and Beckman CytExpert to about 1e-7. Gate counts are compared population by population with FlowKit on published data sets, and the statistics with GraphPad Prism and R. The full validation report, with its protocol and failures, is public.
+- **What statistics does it do?** Unpaired and paired t tests, ordinary and repeated-measures one-way ANOVA with Tukey or Dunnett multiple comparisons, and nested t tests / nested one-way ANOVA (a linear mixed model with the well as a random effect) for cell-level data — the same tests and numbers as GraphPad Prism.
+- **Does it do compensation and spectral unmixing?** Compensation uses the matrix stored in the files, one computed from single-stain controls, or an imported matrix. Spectral unmixing from single-stain controls is available as a beta tool.
+- **Can I contribute or build my own version?** Yes — fork it on GitHub and adapt it, or email rlshir302010@gmail.com to build it together: new features, more instruments, or validation on your data.

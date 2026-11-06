@@ -985,7 +985,7 @@
       $('.about-btn').click(); await settle();
       eq(FM.ui.step, 'about');
       const text = $('.ab-wrap').textContent;
-      assert(/never uploaded/.test(text) && text.includes(FM.project.email) && /beta/.test(text), 'what it says');
+      assert(/never uploaded/.test(text) && text.includes(FM.project.email), 'what it says');
       assert($('.planner-btn .beta'), 'the Planner is marked beta in the top bar');
       btn('Send feedback', $('.ab-wrap')).click(); await settle();
       assert(/Report a bug/.test($('.modal').textContent), 'feedback from About');

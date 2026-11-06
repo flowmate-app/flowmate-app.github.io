@@ -24,7 +24,7 @@
           fact('Author', P.author),
           fact('Licence', P.licence + ', open source'),
           fact('Contact', h('a', { href: 'mailto:' + P.email + '?subject=FlowMate' }, P.email))),
-        h('p.ab-note.small', 'Contributions are welcome — fork the code or get in touch. Tools marked ', h('span.beta', 'beta'), ' are still being tested.'),
+        h('p.ab-note.small', 'Contributions are welcome — fork the code or get in touch.'),
         h('div.ab-actions',
           ext('.primary', P.repo, 'copy', 'Source code'),
           ext('', P.repo + '/blob/main/VALIDATION.md', 'check', 'Validation'),

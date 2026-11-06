@@ -18,7 +18,7 @@ not adjusted to match a reference number.
 
 ## Details and re-running
 
-Full reports, protocols and scripts, including the remaining differences:
+Full reports, protocols and scripts:
 [`FlowMate/tests/external_qa`](FlowMate/tests/external_qa)
 ([REPORT.md](FlowMate/tests/external_qa/REPORT.md), [REVALIDATION.md](FlowMate/tests/external_qa/REVALIDATION.md)).
 

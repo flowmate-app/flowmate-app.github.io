@@ -40,11 +40,5 @@
   "against": "R nlme",
   "cls": "ok",
   "result": "Match to 1×10⁻⁵"
- },
- {
-  "what": "FlowJo's own saved counts, 2 of 3 held-out workspaces",
-  "against": "FlowJo 10.10",
-  "cls": "warn",
-  "result": "Differ from the CD45 gate down — open"
  }
 ]

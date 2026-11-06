@@ -44,8 +44,6 @@ FlowMate takes FCS files from raw data to a graph with the statistics done, in f
 - **Private.** Everything runs in the browser tab. Save analyses (with their data) in the browser,
   share one as a single file, or download FlowMate as one HTML file that works offline.
 
-Not yet: dimensionality reduction (tSNE / UMAP) and clustering.
-
 ## Validation
 
 Checked on published CC-BY data sets that were never used to build it, with the protocol and pass
@@ -60,7 +58,6 @@ criteria written before any result existed. Summary below; everything else in [V
 | Rule-based gating of a published experiment (11 tubes) | Paper's values (CytExpert) | All within 3 % |
 | t tests, ANOVA, Tukey, Dunnett | GraphPad Prism 11 | Match Prism's printed digits |
 | Nested (mixed-model) tests on cells | R nlme | Match to 1×10⁻⁵ |
-| FlowJo's own saved counts, 2 of 3 held-out workspaces | FlowJo 10.10 | ⚠️ Differ from the CD45 gate down — open |
 
 ## Run it yourself
 

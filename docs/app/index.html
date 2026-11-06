@@ -1236,27 +1236,11 @@ b.st-adjusted, b.st-inherited { color: var(--warn); }
 
 /* About */
 .view-about { overflow: auto; }
-.ab-wrap { max-width: 980px; margin: 0 auto; padding: 28px 24px 60px; display: flex; flex-direction: column; gap: 28px; }
-.ab-head { display: flex; align-items: flex-start; gap: 18px; }
-.ab-title { flex: 1; min-width: 0; }
-.ab-title h1 { font: 700 30px/1.15 var(--cond); margin: 4px 0 6px; color: var(--ink); }
-.ab-lead { font-size: 16px; line-height: 1.55; color: var(--ink-2); margin: 0; max-width: 62ch; }
-.ab-wrap h2 { font: 650 19px/1.3 var(--cond); margin: 0 0 8px; color: var(--ink); }
-.ab-wrap p { line-height: 1.6; color: var(--ink-2); margin: 0 0 8px; max-width: 72ch; }
-.ab-mission { padding: 22px 24px; border-radius: 12px; background: var(--accent-soft); border: 1px solid var(--accent-line); }
-.ab-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
-.ab-card { display: flex; gap: 12px; padding: 16px; border: 1px solid var(--line); border-radius: 10px; background: var(--panel); }
-.ab-card h3 { margin: 0 0 4px; font-size: 15px; color: var(--ink); }
-.ab-card p { margin: 0; font-size: 13.5px; }
-.ab-ic { width: 36px; height: 36px; flex: none; border-radius: 9px; display: grid; place-items: center; background: var(--sunk); color: var(--accent); }
-.ab-ic svg { width: 18px; height: 18px; }
-.ab-beta ul { margin: 6px 0 0; padding-left: 20px; line-height: 1.7; color: var(--ink-2); }
-.ab-contact .row { gap: 8px; flex-wrap: wrap; margin-top: 6px; }
-.ab-join { padding: 20px 24px; border-radius: 12px; border: 1px solid var(--line); background: var(--panel); }
-.ab-join .row { gap: 8px; flex-wrap: wrap; margin-top: 6px; }
+.ab-wrap { max-width: 680px; margin: 0 auto; padding: 28px 24px 60px; }
+.ab-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 12px; }
+.ab-head h1 { font: 650 20px/1.3 var(--cond); margin: 0; color: var(--ink); }
+.ab-wrap p { line-height: 1.6; color: var(--ink-2); margin: 0 0 10px; }
 a.btn { text-decoration: none; }
-.ab-foot { border-top: 1px solid var(--line-soft); padding-top: 14px; }
-@media (max-width: 760px) { .ab-grid { grid-template-columns: minmax(0, 1fr); } .ab-head { flex-wrap: wrap; } }
 
 /* Feedback */
 .fb-fab { position: fixed; right: 14px; bottom: 14px; z-index: 60; display: inline-flex; align-items: center; gap: 0; height: 38px; min-width: 38px; padding: 0 10px;
@@ -22622,53 +22606,22 @@ FM.guideMedia = {"load":{"src":"data:image/webp;base64,UklGRuy1AwBXRUJQVlA4WAoAA
 
   let root = null, returnTo = 'load';
 
-  const card = (ic, title, ...body) => h('div.ab-card', h('div.ab-ic', icon(ic)), h('div', h('h3', title), ...body));
+  const link = (href, text) => h('a', { href, target: '_blank', rel: 'noopener' }, text);
 
   function render() {
     if (!root) return;
     clear(root);
     const back = FM.STEPS.find(s => s.id === returnTo);
+    const P = FM.project;
     root.appendChild(h('div.ab-wrap',
       h('header.ab-head',
-        FM.brand.mark(44),
-        h('div.ab-title', h('div.eyebrow', 'FlowMate ' + FM.version + ' · free and open source'), h('h1', 'About FlowMate'),
-          h('p.ab-lead', 'Free flow cytometry analysis that runs in your browser: load a plate, gate every well at once, measure, and graph the result with the statistics done.')),
-        h('button.btn', { on: { click: () => FM.go(back ? returnTo : 'load') } }, icon('left'), 'Back to ' + (back ? back.label : 'the app'))),
-
-      h('section.ab-mission',
-        h('h2', 'Built by a scientist, for scientists'),
-        h('p', 'Good flow cytometry software is often locked behind licences that many labs cannot afford — and that gap decides whose data gets analysed well. FlowMate is a free alternative: it opens in a browser with nothing to install, keeps your data on your own computer, and its results are checked against established tools.'),
-        h('p', 'FlowMate is made by ', h('strong', FM.project.author), ' as an open-source project, released under the ', FM.project.licence, ' licence.')),
-
-      h('section.ab-grid',
-        card('ban', 'Your data stays with you', h('p', 'Your FCS files are read inside this browser tab. Nothing is uploaded — there is no server to upload to. Saved analyses live in this browser, and FlowMate keeps working offline.')),
-        card('check', 'Numbers you can check', h('p', 'Gate counts are checked against FlowKit, and the t tests, ANOVA and multiple comparisons in Analysis against GraphPad Prism. Every test, comparison and n is shown next to its graph.')),
-        card('target', 'One gate, every well', h('p', 'Draw a gate once and the whole plate is gated with it; adjust a single well where it needs it, and that is marked wherever it shows.')),
-        card('sigma', 'Free', h('p', 'No licence, no account, no limits on files or events. Share an analysis with a colleague as one file.'))),
-
-      h('section.ab-beta',
-        h('h2', 'Beta tools'),
-        h('p', 'Some tools are marked ', h('span.beta', 'beta'), ': they work, but they are new and still being checked on more instruments and data. Use them, look at their results critically, and tell us what you find.'),
-        h('ul',
-          h('li', h('strong', 'Unmixing'), ' — compensation and spectral unmixing from single-stain controls, or a matrix file. Open it from the Gate step.'),
-          h('li', h('strong', 'Panel planner'), ' — choose dyes for your lasers and detectors and see where they overlap. Open it from the top bar.'))),
-
-      h('section.ab-join',
-        h('h2', 'Make it yours, or build it with me'),
-        h('p', 'FlowMate’s code is open. Copy it and adapt it for your lab, your instrument or your course — that is exactly what it is for. If you would rather build it together — new features, more instruments, validation on your own data — get in touch and join the effort.'),
-        h('div.row',
-          h('a.btn.primary', { href: 'mailto:' + FM.project.email + '?subject=' + encodeURIComponent('FlowMate'), target: '_blank', rel: 'noopener' }, icon('mail'), 'Email ' + FM.project.email),
-          h('a.btn', { href: FM.project.repo, target: '_blank', rel: 'noopener' }, icon('copy'), 'Code on GitHub — fork it'),
-          h('a.btn.ghost', { href: FM.project.repo + '/blob/main/VALIDATION.md', target: '_blank', rel: 'noopener' }, icon('check'), 'How it is validated'))),
-
-      h('section.ab-contact',
-        h('h2', 'Tell me what to fix or build next'),
-        h('p', 'Found a bug, missing a feature, or have a question? The Feedback button in the corner of every page sends it straight to the project.'),
-        h('div.row', h('button.btn.primary', { on: { click: () => FM.feedback.open('bug') } }, icon('alert'), 'Report a bug'),
-          h('button.btn', { on: { click: () => FM.feedback.open('idea') } }, icon('star'), 'Request a feature'),
-          h('button.btn.ghost', { on: { click: () => FM.openGuide() } }, icon('help'), 'Read the guide'))),
-
-      h('footer.ab-foot.muted.small', 'FlowMate ' + FM.version + ' · © ' + FM.project.author + ' · ' + FM.project.licence + ' licence · ', h('a', { href: FM.project.repo, target: '_blank', rel: 'noopener' }, 'source code'))));
+        h('h1', 'About'),
+        h('button.btn.sm', { on: { click: () => FM.go(back ? returnTo : 'load') } }, icon('left'), 'Back')),
+      h('p', 'FlowMate ' + FM.version + ' is free flow cytometry analysis software that runs in the browser. Files are processed locally and are not uploaded.'),
+      h('p', 'Made by ' + P.author + '. Open source under the ' + P.licence + ' licence: ', link(P.repo, 'source code'), ', ',
+        link(P.repo + '/blob/main/VALIDATION.md', 'validation'), '. Tools marked ', h('span.beta', 'beta'), ' are still being tested.'),
+      h('p', 'Contact, or to contribute: ', h('a', { href: 'mailto:' + P.email + '?subject=FlowMate' }, P.email), '. Bugs and requests: ',
+        h('a', { href: '#', on: { click: e => { e.preventDefault(); FM.feedback.open('bug'); } } }, 'feedback'), '.')));
   }
 
   function mount(el) { root = el; render(); }

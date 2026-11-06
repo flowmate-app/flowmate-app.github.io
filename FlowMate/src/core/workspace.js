@@ -1262,7 +1262,7 @@
     const base = defaultDoc();
     const next = Object.assign(base, clone(doc));
     next.settings = Object.assign(defaultDoc().settings, doc.settings || {});
-    // FlowMotion 0.1 had one switch: compensate with the files' matrices, or not
+    // documents with only a compensate on/off setting
     if (!doc.comp) next.comp = { active: doc.settings && doc.settings.compensate === false ? 'none' : 'file', matrices: [] };
     compOf(next);
     delete next.settings.compensate;

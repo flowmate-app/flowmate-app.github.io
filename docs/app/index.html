@@ -4584,8 +4584,7 @@ FM.project = {
   licence: 'MIT',
 };
 
-/* Browser storage under flowmate.*. It still reads what FlowMotion (flowmotion.*) and
- * Gatewell (gatewell.*) saved, so preferences, autosaves and panels survive the renames.
+/* Browser storage under flowmate.* (two older key prefixes are also read).
  * Every call is guarded: storage can be missing, full or blocked. */
 FM.store = (function () {
   const LEGACY = ['flowmotion.', 'gatewell.'];
@@ -7971,7 +7970,7 @@ FM.store = (function () {
     const base = defaultDoc();
     const next = Object.assign(base, clone(doc));
     next.settings = Object.assign(defaultDoc().settings, doc.settings || {});
-    // FlowMotion 0.1 had one switch: compensate with the files' matrices, or not
+    // documents with only a compensate on/off setting
     if (!doc.comp) next.comp = { active: doc.settings && doc.settings.compensate === false ? 'none' : 'file', matrices: [] };
     compOf(next);
     delete next.settings.compensate;
@@ -12957,7 +12956,7 @@ FM.spectraData = {"source": "FPbase (https://www.fpbase.org) · Lambert TJ, Nat 
     }));
     return { lasers: Object.keys(spec).map(Number).sort((a, b) => a - b), detectors };
   }
-  // This lab's CytoFLEX LX (serial BA39013), exactly as recorded in the 17-Sep-2026 FCS files.
+  // CytoFLEX LX, 5 lasers: detectors as recorded in its FCS files.
   const LX_DETECTORS = [
     ['FL1', 355, 405, 30], ['FL2', 355, 525, 40], ['FL3', 355, 675, 30],
     ['FL4', 405, 450, 45], ['FL5', 405, 525, 40], ['FL6', 405, 610, 20], ['FL7', 405, 660, 10], ['FL8', 405, 763, 43],
@@ -12967,7 +12966,7 @@ FM.spectraData = {"source": "FPbase (https://www.fpbase.org) · Lambert TJ, Nat 
   ];
   const CHECK = 'Beckman’s standard configuration. Filters can be moved, so check yours.';
   const INSTRUMENTS = [
-    { id: 'cytoflex-lx', name: 'CytoFLEX LX · 5 lasers (your lab)', note: 'As recorded in the 17-Sep-2026 plate files (serial BA39013).',
+    { id: 'cytoflex-lx', name: 'CytoFLEX LX · 5 lasers', note: 'UV, violet, blue, yellow-green and red lasers. Filters can be moved, so check yours.',
       lasers: [355, 405, 488, 561, 638], detectors: LX_DETECTORS.map(([id, laser, center, width]) => ({ id, laser, center, width, type: 'bp' })) },
     Object.assign({ id: 'cytoflex-v5b5r3', name: 'CytoFLEX V5-B5-R3 · 3 lasers', note: CHECK },
       config({ 405: ['450/45', '525/40', '610/20', '660/10', '780/60'], 488: ['525/40', '585/42', '610/20', '690/50', '780/60'], 638: ['660/10', '712/25', '780/60'] })),
@@ -13139,7 +13138,7 @@ FM.spectraData = {"source": "FPbase (https://www.fpbase.org) · Lambert TJ, Nat 
   // ---------------------------------------------------------------- panels
   const PANEL_PRESETS = [
     { id: 'phagocytosis', name: 'Phagocytosis: blue beads, pHrodo Red, viability', instrument: 'cytoflex-lx',
-      description: 'Blue FluoSpheres read on the UV laser (355 nm · 405/30, the channel your 17-Sep plate used), pHrodo Red to show particles that reached acidic phagosomes, and Zombie NIR to leave out dead cells.',
+      description: 'Blue FluoSpheres read on the UV laser (355 nm · 405/30), pHrodo Red to show particles that reached acidic phagosomes, and Zombie NIR to leave out dead cells.',
       dyes: [{ ref: 'fsblue', target: 'Beads' }, { ref: 'phrodored', target: 'Acidified phagosomes' }, { ref: 'zombienir', target: 'Dead cells' }] },
   ];
   function entry(e) {

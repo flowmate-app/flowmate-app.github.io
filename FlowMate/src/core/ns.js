@@ -14,8 +14,7 @@ FM.project = {
   licence: 'MIT',
 };
 
-/* Browser storage under flowmate.*. It still reads what FlowMotion (flowmotion.*) and
- * Gatewell (gatewell.*) saved, so preferences, autosaves and panels survive the renames.
+/* Browser storage under flowmate.* (two older key prefixes are also read).
  * Every call is guarded: storage can be missing, full or blocked. */
 FM.store = (function () {
   const LEGACY = ['flowmotion.', 'gatewell.'];

@@ -53,7 +53,7 @@ criteria written before any result existed. Summary below; everything else in [V
 |---|---|---|
 | Reading FCS files (FCS 3.0 / 3.1; BD, Cytek) | FlowKit 1.3.2 | Bit-identical |
 | Compensation, event by event | FlowKit · Beckman CytExpert | Equal to 6×10⁻⁸ · 1.2×10⁻⁷ |
-| Gate counts on held-out FlowJo workspaces (1,701 counts) | FlowKit 1.3.2 | 92 % exact or within 2 events / 0.1 % |
+| Gate counts on FlowJo workspaces (1,701 counts) | FlowKit 1.3.2 | 92 % exact or within 2 events / 0.1 % |
 | FlowJo import: compensation and errors | — | 25/25 compensated · 0 hidden errors |
 | Rule-based gating of a published experiment (11 tubes) | Paper's values (CytExpert) | All within 3 % |
 | t tests, ANOVA, Tukey, Dunnett | GraphPad Prism 11 | Match Prism's printed digits |

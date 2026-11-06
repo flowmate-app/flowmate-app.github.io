@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>FlowMate — free, open-source flow cytometry analysis in your browser</title>
 <meta name="description" content="FlowMate is free, open-source flow cytometry analysis that runs in your browser. Gate every well of a plate at once, compensate, measure and graph with t tests and ANOVA. Opens FCS files and FlowJo workspaces. Validated against FlowKit and CytExpert. Your data never leaves your computer.">
-<meta name="keywords" content="flow cytometry software, free flow cytometry analysis, FlowJo alternative, FCS file viewer, gating software, open source cytometry, compensation, plate analysis, FlowKit">
+<meta name="keywords" content="flow cytometry software, free flow cytometry analysis, FlowJo alternative, free FlowJo alternative, online flow cytometry analysis, FCS file viewer, open FCS file, gating software, open source cytometry, compensation, plate analysis, 96-well plate flow cytometry">
 <meta name="author" content="Shir Harel">
 <link rel="canonical" href="https://flowmate-app.github.io/">
 <link rel="icon" href="icon.svg" type="image/svg+xml">
@@ -18,13 +18,19 @@
 <meta property="og:image" content="https://flowmate-app.github.io/og.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="FlowMate gating a 96-well plate: one gate, every well updates live">
+<meta property="og:image:alt" content="FlowMate gating a plate: one gate, every well updates live">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="FlowMate — free flow cytometry analysis in your browser">
 <meta name="twitter:description" content="Free, open-source, validated flow cytometry analysis. Runs in your browser; your data stays on your computer.">
 <meta name="twitter:image" content="https://flowmate-app.github.io/og.png">
 <script type="application/ld+json">
 [
+ {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "FlowMate",
+  "url": "https://flowmate-app.github.io/"
+ },
  {
   "@context": "https://schema.org",
   "@type": "SoftwareApplication",
@@ -49,7 +55,7 @@
    "t tests, one-way ANOVA, Tukey and Dunnett, nested mixed-model tests",
    "Local processing: data never leaves the computer"
   ],
-  "screenshot": "https://flowmate-app.github.io/screens/gate.png",
+  "screenshot": "https://flowmate-app.github.io/screens/worksheet.png",
   "image": "https://flowmate-app.github.io/og.png",
   "license": "https://github.com/flowmate-app/flowmate-app.github.io/blob/main/LICENSE",
   "author": {
@@ -75,6 +81,60 @@
  },
  {
   "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Analyse a flow cytometry plate with FlowMate",
+  "tool": [
+   {
+    "@type": "HowToTool",
+    "name": "FlowMate (web browser)"
+   }
+  ],
+  "supply": [
+   {
+    "@type": "HowToSupply",
+    "name": "FCS files"
+   }
+  ],
+  "step": [
+   {
+    "@type": "HowToStep",
+    "position": 1,
+    "name": "Load",
+    "text": "Drop the FCS files or a folder; wells are read from the file names.",
+    "url": "https://flowmate-app.github.io/#how"
+   },
+   {
+    "@type": "HowToStep",
+    "position": 2,
+    "name": "Plate",
+    "text": "Select wells, name each condition, and mark controls.",
+    "url": "https://flowmate-app.github.io/#how"
+   },
+   {
+    "@type": "HowToStep",
+    "position": 3,
+    "name": "Gate",
+    "text": "Accept the suggested gates or draw your own; every well updates live.",
+    "url": "https://flowmate-app.github.io/#how"
+   },
+   {
+    "@type": "HowToStep",
+    "position": 4,
+    "name": "Measure",
+    "text": "Choose populations and statistics, one row per well.",
+    "url": "https://flowmate-app.github.io/#how"
+   },
+   {
+    "@type": "HowToStep",
+    "position": 5,
+    "name": "Analysis",
+    "text": "Graph by condition with t tests, ANOVA, Tukey or Dunnett.",
+    "url": "https://flowmate-app.github.io/#how"
+   }
+  ]
+ },
+ {
+  "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
    {
@@ -95,6 +155,22 @@
    },
    {
     "@type": "Question",
+    "name": "Can I save my analysis?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "Yes. File → Save (Ctrl+S) keeps the analysis — data, gates, conditions, tables and graphs — under My analyses in your browser, and it keeps saving as you work. Reopen it any time from the start page. To move it to another computer or a colleague, File → Share writes it as one .flowmate file."
+    }
+   },
+   {
+    "@type": "Question",
+    "name": "How do I analyse a plate, step by step?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "1. Load: drop the FCS files or a folder; wells are read from the file names. 2. Plate: select wells and name each condition, and mark controls. 3. Gate: accept the suggested Cells, Singlets and positive gates or draw your own; every well updates live. 4. Measure: choose populations and statistics, one row per well. 5. Analysis: make a graph by condition and pick the comparisons; the test and P values appear beside it. The Guide in the app walks through this on a demo plate."
+    }
+   },
+   {
+    "@type": "Question",
     "name": "Which files can FlowMate open?",
     "acceptedAnswer": {
      "@type": "Answer",
@@ -106,7 +182,7 @@
     "name": "Is FlowMate a FlowJo alternative?",
     "acceptedAnswer": {
      "@type": "Answer",
-     "text": "For gating, compensation, per-well statistics and plate experiments, yes: it imports FlowJo workspaces and shows FlowJo's count next to its own for every population. It does not (yet) do dimensionality reduction (tSNE/UMAP) or clustering. FlowMate is independent and not affiliated with FlowJo or BD."
+     "text": "For gating, compensation, per-well statistics and plate experiments, yes: it imports FlowJo workspaces and shows FlowJo's count next to its own for every population. FlowMate is independent and not affiliated with FlowJo or BD."
     }
    },
    {
@@ -114,7 +190,7 @@
     "name": "How accurate is it?",
     "acceptedAnswer": {
      "@type": "Answer",
-     "text": "FCS values are bit-identical to FlowKit, an independent open-source reader; compensated values match FlowKit and Beckman CytExpert to about 1e-7. Gate counts are compared population by population with FlowKit on published data sets, and the statistics with GraphPad Prism and R. The full validation report, with its protocol and failures, is public."
+     "text": "FCS values are bit-identical to FlowKit, an independent open-source reader; compensated values match FlowKit and Beckman CytExpert to about 1e-7. Gate counts are compared population by population with FlowKit on published data sets, and the statistics with GraphPad Prism and R. The full validation report is public."
     }
    },
    {
@@ -172,7 +248,7 @@ nav.links a:hover { color: var(--accent); }
 .btn.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
 @media (prefers-color-scheme: dark) { .btn.primary { color: #16122e; } }
 .btn.primary:hover { background: var(--accent-2); }
-.hero { padding: 64px 0 36px; text-align: center; }
+.hero { padding: 56px 0 28px; text-align: center; }
 .eyebrow { font-size: 13px; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); font-weight: 700; }
 h1 { font-size: clamp(32px, 5vw, 52px); line-height: 1.08; letter-spacing: -.025em; margin: 12px auto 16px; max-width: 22ch; }
 .lead { font-size: clamp(17px, 2vw, 20px); color: var(--ink-2); max-width: 60ch; margin: 0 auto 26px; }
@@ -181,10 +257,15 @@ h1 { font-size: clamp(32px, 5vw, 52px); line-height: 1.08; letter-spacing: -.025
 .trust span::before { content: "✓ "; color: var(--ok); font-weight: 700; }
 .shot { margin: 34px auto 0; border-radius: var(--radius); overflow: hidden; border: 1px solid var(--line); box-shadow: 0 20px 60px rgba(30, 30, 80, .16); max-width: 1040px; }
 .shot img { display: block; width: 100%; height: auto; }
-section { padding: 56px 0; }
+section { padding: 44px 0; }
 h2 { font-size: clamp(25px, 3vw, 34px); letter-spacing: -.02em; line-height: 1.15; margin: 0 0 12px; }
 .sub { color: var(--ink-2); max-width: 65ch; margin: 0 0 28px; }
-.grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+.steps { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 12px; counter-reset: s; }
+.steps li { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px; counter-increment: s; }
+.steps li::before { content: counter(s); display: grid; place-items: center; width: 26px; height: 26px; border-radius: 50%; background: var(--accent-soft); color: var(--accent); font-weight: 700; font-size: 13px; margin-bottom: 10px; }
+.steps b { display: block; font-size: 16px; margin-bottom: 2px; }
+.steps span { color: var(--ink-2); font-size: 14px; line-height: 1.45; display: block; }
+.two { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 36px; align-items: start; }
 .card { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px; }
 .card h3 { margin: 0 0 6px; font-size: 17px; }
 .card p { margin: 0; color: var(--ink-2); font-size: 15px; }
@@ -194,77 +275,75 @@ table { width: 100%; border-collapse: collapse; font-size: 15px; background: var
 th, td { text-align: left; padding: 11px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
 th { font-size: 13px; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); }
 tr:last-child td { border-bottom: 0; }
-td.ok { color: var(--ok); font-weight: 600; white-space: nowrap; }
+.vs { font-size: 13px; color: var(--muted); }
+td.ok { color: var(--ok); font-weight: 600; min-width: 9em; }
 td.warn { color: var(--warn); font-weight: 600; white-space: nowrap; }
 .note { font-size: 14px; color: var(--muted); margin-top: 12px; }
 details { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 14px 18px; margin-bottom: 10px; }
 summary { cursor: pointer; font-weight: 600; }
 details p { margin: 10px 0 2px; color: var(--ink-2); }
-.join { background: var(--accent-soft); border: 1px solid color-mix(in srgb, var(--accent) 30%, transparent); border-radius: 18px; padding: 34px; }
+.join { display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap; background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 22px 26px; }
+.join p { margin: 0; color: var(--ink-2); }
+.join .cta { justify-content: flex-start; }
 footer { border-top: 1px solid var(--line); padding: 28px 0 40px; color: var(--muted); font-size: 14px; }
 footer .wrap { display: flex; gap: 18px; flex-wrap: wrap; justify-content: space-between; }
-@media (max-width: 860px) { .grid { grid-template-columns: 1fr; } .split { grid-template-columns: 1fr; } nav.links { display: none; } }
+@media (max-width: 860px) { .steps { grid-template-columns: 1fr 1fr; } .two { grid-template-columns: 1fr; } nav.links { display: none; } }
 </style>
 </head>
 <body>
 <header class="top"><div class="wrap">
   <a class="logo" href="./"><img src="icon.svg" alt="" width="30" height="30">FlowMate</a>
-  <nav class="links" aria-label="Sections"><a href="#features">Features</a><a href="#validation">Validation</a><a href="#faq">FAQ</a><a href="#about">About</a><a href="https://github.com/flowmate-app/flowmate-app.github.io">GitHub</a></nav>
+  <nav class="links" aria-label="Sections"><a href="#how">How it works</a><a href="#validation">Validation</a><a href="#faq">FAQ</a><a href="#about">About</a><a href="https://github.com/flowmate-app/flowmate-app.github.io">GitHub</a></nav>
   <a class="btn primary" href="app/">Open FlowMate</a>
 </div></header>
 
 <main>
 <section class="hero"><div class="wrap">
   <div class="eyebrow">Free · open source · runs in your browser</div>
-  <h1>Flow cytometry analysis that gates your whole plate at once</h1>
-  <p class="lead">FlowMate takes FCS files from raw data to a graph with the statistics done. Draw a gate once and every well updates live. Compensate, measure and compare conditions with t tests and ANOVA — with nothing to install, and your data never leaving your computer.</p>
-  <div class="cta"><a class="btn primary" href="app/">Open FlowMate — free</a><a class="btn" href="https://github.com/flowmate-app/flowmate-app.github.io">View the source on GitHub</a></div>
-  <div class="trust"><span>No account</span><span>No upload — data stays on your computer</span><span>Opens FlowJo workspaces</span><span>Validated against FlowKit and CytExpert</span></div>
-  <div class="shot"><img src="screens/gate.png" alt="FlowMate's Gate step: a gate on one well, every well of the plate and the filmstrip updating live" width="1422" height="804"></div>
+  <h1>Flow cytometry analysis for the whole plate</h1>
+  <p class="lead">Gate every well at once, compensate, and get graphs with the statistics done. Nothing to install; your data stays on your computer.</p>
+  <div class="cta"><a class="btn primary" href="app/">Open FlowMate</a><a class="btn" href="https://github.com/flowmate-app/flowmate-app.github.io">Source on GitHub</a></div>
+  <div class="trust"><span>No account</span><span>No upload</span><span>Opens FlowJo workspaces</span><span>Same statistics as Prism</span></div>
+  <div class="shot"><img src="screens/worksheet.png" alt="FlowMate's gating worksheet: every gating plot of a well side by side, with a statistics table and the plate overview" width="1422" height="804"></div>
 </div></section>
 
-<section id="features"><div class="wrap">
-  <h2>What FlowMate does</h2>
-  <p class="sub">Five steps — Load, Plate, Gate, Measure, Analysis — built around how plate experiments are actually run.</p>
-  <div class="grid">
-    <div class="card"><h3>One gate, every well</h3><p>Polygon, rectangle, ellipse, quadrant and range gates, plus And / Or / Not. Drag a gate and the whole plate, its heat map and a filmstrip of every well follow live. Adjust one well where it needs it.</p></div>
-    <div class="card"><h3>Knows about plates</h3><p>Paint conditions onto wells, mark controls, exclude a bad well with a reason, and measure one row per well. Tubes work too.</p></div>
-    <div class="card"><h3>Compensation</h3><p>The files' own matrix, a matrix computed from single-stain controls, or one you import. Spectral unmixing from single stains is in beta.</p></div>
-    <div class="card"><h3>Statistics done for you</h3><p>Bar, dot, box or paired graphs with SD or SEM, the right test chosen for you — t test, one-way ANOVA, Tukey or Dunnett — and a nested option that uses every cell without counting cells as replicates.</p></div>
-    <div class="card"><h3>Opens FlowJo and Gating-ML</h3><p>Import FlowJo 10 workspaces (.wsp) with their gates, groups and compensation; the import report shows FlowJo's count next to FlowMate's for every population. Gating-ML 2.0 in and out.</p></div>
-    <div class="card"><h3>Private and offline</h3><p>FCS files are read inside your browser tab — there is no server. Save analyses with their data in the browser, or download FlowMate as one HTML file that works offline.</p></div>
+<section id="how"><div class="wrap">
+  <h2>How it works</h2>
+  <p class="sub">Five steps, from FCS files to a figure. The demo plate in the app walks through them.</p>
+  <ol class="steps">
+    <li><b>Load</b><span>Drop FCS files or a folder. Wells are read from the file names.</span></li>
+    <li><b>Plate</b><span>Select wells and name conditions. Mark controls.</span></li>
+    <li><b>Gate</b><span>Draw or accept suggested gates. Every well updates live.</span></li>
+    <li><b>Measure</b><span>Pick populations and statistics, one row per well.</span></li>
+    <li><b>Analysis</b><span>Graph by condition with t tests, ANOVA, Tukey or Dunnett.</span></li>
+  </ol>
+</div></section>
+
+<section id="validation"><div class="wrap two">
+  <div>
+    <h2>Validated</h2>
+    <p class="sub">Checked against independent tools on published data sets that FlowMate was not built on, with the pass criteria set in advance.</p>
+    <p class="note"><a href="https://github.com/flowmate-app/flowmate-app.github.io/blob/main/VALIDATION.md">Full validation report</a></p>
   </div>
-</div></section>
-
-<section><div class="wrap split">
-  <div><h2>From gates to a figure with the P values</h2><p class="sub">Pick a Measure column, choose the graph and the comparisons, and FlowMate runs the test GraphPad Prism would, with the same numbers. Every n, test and adjusted P value sits next to the graph; export it as PNG or SVG, or send the table to PlotMate.</p><a class="btn" href="app/">Try it on the demo plate</a></div>
-  <img src="screens/analysis.png" alt="FlowMate's Analysis step: bead uptake by antibody, one-way ANOVA with Tukey's test" width="1422" height="804" loading="lazy">
-</div></section>
-
-<section id="validation"><div class="wrap">
-  <h2>Validated on public data it was never built on</h2>
-  <p class="sub">Software that counts your cells has to be right. FlowMate's results are checked against independent tools on published, CC-BY data sets — with the protocol and pass criteria written before any result existed, and failures reported as found.</p>
-  <table><thead><tr><th>What was checked</th><th>Against</th><th>Result</th></tr></thead><tbody><tr><td>Reading FCS files (FCS 3.0 / 3.1; BD, Cytek)</td><td>FlowKit 1.3.2</td><td class="ok">Bit-identical</td></tr><tr><td>Compensation, event by event</td><td>FlowKit · Beckman CytExpert</td><td class="ok">Equal to 6×10⁻⁸ · 1.2×10⁻⁷</td></tr><tr><td>Gate counts on FlowJo workspaces (1,701 counts)</td><td>FlowKit 1.3.2</td><td class="ok">92 % exact or within 2 events / 0.1 %</td></tr><tr><td>FlowJo import: compensation and errors</td><td>—</td><td class="ok">25/25 compensated · 0 hidden errors</td></tr><tr><td>Rule-based gating of a published experiment (11 tubes)</td><td>Paper&#x27;s values (CytExpert)</td><td class="ok">All within 3 %</td></tr><tr><td>t tests, ANOVA, Tukey, Dunnett</td><td>GraphPad Prism 11</td><td class="ok">Match Prism&#x27;s printed digits</td></tr><tr><td>Nested (mixed-model) tests on cells</td><td>R nlme</td><td class="ok">Match to 1×10⁻⁵</td></tr></tbody></table>
-  <p class="note">Full report, protocol and the scripts to re-run it: <a href="https://github.com/flowmate-app/flowmate-app.github.io/blob/main/VALIDATION.md">VALIDATION.md</a>. The statistics are checked against GraphPad Prism 11 and R.</p>
+  <table><tbody><tr><td>Reading FCS files (FCS 3.0 / 3.1; BD, Cytek)<div class="vs">vs FlowKit 1.3.2</div></td><td class="ok">Bit-identical</td></tr><tr><td>Compensation, event by event<div class="vs">vs FlowKit · Beckman CytExpert</div></td><td class="ok">Equal to 6×10⁻⁸ · 1.2×10⁻⁷</td></tr><tr><td>Gate counts on FlowJo workspaces (1,701 counts)<div class="vs">vs FlowKit 1.3.2</div></td><td class="ok">92 % exact or within 2 events / 0.1 %</td></tr><tr><td>Rule-based gating of a published experiment (11 tubes)<div class="vs">vs Paper&#x27;s values (CytExpert)</div></td><td class="ok">All within 3 %</td></tr><tr><td>t tests, ANOVA, Tukey, Dunnett<div class="vs">vs GraphPad Prism 11</div></td><td class="ok">Match Prism&#x27;s printed digits</td></tr><tr><td>Nested (mixed-model) tests on cells<div class="vs">vs R nlme</div></td><td class="ok">Match to 1×10⁻⁵</td></tr></tbody></table>
 </div></section>
 
 <section id="faq"><div class="wrap">
   <h2>Questions</h2>
-  <details><summary>Is FlowMate free?</summary><p>Yes. FlowMate is free and open source under the MIT licence: no account, no licence key, no limits on files or events. You may copy and adapt the code.</p></details><details><summary>Is my data uploaded anywhere?</summary><p>No. FCS files are read inside your browser tab and never leave your computer; FlowMate has no server. Saved analyses are kept in your browser. You can also download FlowMate as one HTML file and use it offline.</p></details><details><summary>Which files can FlowMate open?</summary><p>FCS 2.0, 3.0 and 3.1 files from any cytometer, FlowJo 10 workspaces (.wsp) with their gates, groups and compensation, and Gating-ML 2.0. It can export Gating-ML, CSV tables, PNG/SVG figures and an HTML report.</p></details><details><summary>Is FlowMate a FlowJo alternative?</summary><p>For gating, compensation, per-well statistics and plate experiments, yes: it imports FlowJo workspaces and shows FlowJo&#x27;s count next to its own for every population. It does not (yet) do dimensionality reduction (tSNE/UMAP) or clustering. FlowMate is independent and not affiliated with FlowJo or BD.</p></details><details><summary>How accurate is it?</summary><p>FCS values are bit-identical to FlowKit, an independent open-source reader; compensated values match FlowKit and Beckman CytExpert to about 1e-7. Gate counts are compared population by population with FlowKit on published data sets, and the statistics with GraphPad Prism and R. The full validation report, with its protocol and failures, is public.</p></details><details><summary>What statistics does it do?</summary><p>Unpaired and paired t tests, ordinary and repeated-measures one-way ANOVA with Tukey or Dunnett multiple comparisons, and nested t tests / nested one-way ANOVA (a linear mixed model with the well as a random effect) for cell-level data — the same tests and numbers as GraphPad Prism.</p></details><details><summary>Does it do compensation and spectral unmixing?</summary><p>Compensation uses the matrix stored in the files, one computed from single-stain controls, or an imported matrix. Spectral unmixing from single-stain controls is available as a beta tool.</p></details><details><summary>Can I contribute or build my own version?</summary><p>Yes — fork it on GitHub and adapt it, or email rlshir302010@gmail.com to build it together: new features, more instruments, or validation on your data.</p></details>
+  <details><summary>Is FlowMate free?</summary><p>Yes. FlowMate is free and open source under the MIT licence: no account, no licence key, no limits on files or events. You may copy and adapt the code.</p></details><details><summary>Is my data uploaded anywhere?</summary><p>No. FCS files are read inside your browser tab and never leave your computer; FlowMate has no server. Saved analyses are kept in your browser. You can also download FlowMate as one HTML file and use it offline.</p></details><details><summary>Can I save my analysis?</summary><p>Yes. File → Save (Ctrl+S) keeps the analysis — data, gates, conditions, tables and graphs — under My analyses in your browser, and it keeps saving as you work. Reopen it any time from the start page. To move it to another computer or a colleague, File → Share writes it as one .flowmate file.</p></details><details><summary>How do I analyse a plate, step by step?</summary><p>1. Load: drop the FCS files or a folder; wells are read from the file names. 2. Plate: select wells and name each condition, and mark controls. 3. Gate: accept the suggested Cells, Singlets and positive gates or draw your own; every well updates live. 4. Measure: choose populations and statistics, one row per well. 5. Analysis: make a graph by condition and pick the comparisons; the test and P values appear beside it. The Guide in the app walks through this on a demo plate.</p></details><details><summary>Which files can FlowMate open?</summary><p>FCS 2.0, 3.0 and 3.1 files from any cytometer, FlowJo 10 workspaces (.wsp) with their gates, groups and compensation, and Gating-ML 2.0. It can export Gating-ML, CSV tables, PNG/SVG figures and an HTML report.</p></details><details><summary>Is FlowMate a FlowJo alternative?</summary><p>For gating, compensation, per-well statistics and plate experiments, yes: it imports FlowJo workspaces and shows FlowJo&#x27;s count next to its own for every population. FlowMate is independent and not affiliated with FlowJo or BD.</p></details><details><summary>How accurate is it?</summary><p>FCS values are bit-identical to FlowKit, an independent open-source reader; compensated values match FlowKit and Beckman CytExpert to about 1e-7. Gate counts are compared population by population with FlowKit on published data sets, and the statistics with GraphPad Prism and R. The full validation report is public.</p></details><details><summary>What statistics does it do?</summary><p>Unpaired and paired t tests, ordinary and repeated-measures one-way ANOVA with Tukey or Dunnett multiple comparisons, and nested t tests / nested one-way ANOVA (a linear mixed model with the well as a random effect) for cell-level data — the same tests and numbers as GraphPad Prism.</p></details><details><summary>Does it do compensation and spectral unmixing?</summary><p>Compensation uses the matrix stored in the files, one computed from single-stain controls, or an imported matrix. Spectral unmixing from single-stain controls is available as a beta tool.</p></details><details><summary>Can I contribute or build my own version?</summary><p>Yes — fork it on GitHub and adapt it, or email rlshir302010@gmail.com to build it together: new features, more instruments, or validation on your data.</p></details>
 </div></section>
 
 <section id="about"><div class="wrap">
   <div class="join">
-    <h2>Make it yours, or build it with me</h2>
-    <p class="sub">FlowMate is made by <strong>Shir Harel</strong> as a free, open-source project (MIT licence). Good analysis software shouldn't depend on whether a lab can afford a licence. Copy the code and adapt it for your lab, your instrument or your course — that is what it is for. Or join the effort: new features, more instruments, validation on your data.</p>
-    <div class="cta" style="justify-content:flex-start"><a class="btn primary" href="mailto:rlshir302010@gmail.com?subject=FlowMate">Email rlshir302010@gmail.com</a><a class="btn" href="https://github.com/flowmate-app/flowmate-app.github.io">Fork it on GitHub</a><a class="btn" href="https://github.com/flowmate-app/flowmate-app.github.io/issues">Report a bug or request a feature</a></div>
+    <p>Made by <strong>Shir Harel</strong>. Open source under the MIT licence — fork it, adapt it, or get in touch to contribute.</p>
+    <div class="cta"><a class="btn primary" href="mailto:rlshir302010@gmail.com?subject=FlowMate">Email</a><a class="btn" href="https://github.com/flowmate-app/flowmate-app.github.io">GitHub</a></div>
   </div>
 </div></section>
 </main>
 
 <footer><div class="wrap">
-  <div>© 2026 Shir Harel · FlowMate 0.2.0 · <a href="https://github.com/flowmate-app/flowmate-app.github.io/blob/main/LICENSE">MIT licence</a> · <a href="https://github.com/flowmate-app/flowmate-app.github.io">source code</a></div>
-  <div>FlowJo is a trademark of its owner; FlowMate is independent and not affiliated with or endorsed by FlowJo or BD.</div>
+  <div>© 2026 Shir Harel · FlowMate 0.2.0 · <a href="https://github.com/flowmate-app/flowmate-app.github.io/blob/main/LICENSE">MIT licence</a></div>
+  <div>FlowJo is a trademark of its owner; FlowMate is not affiliated with FlowJo or BD.</div>
 </div></footer>
 </body>
 </html>

@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>FlowMate — free, open-source flow cytometry analysis in your browser</title>
 <meta name="description" content="FlowMate is free, open-source flow cytometry analysis that runs in your browser. Gate every well of a plate at once, compensate, measure and graph with t tests and ANOVA. Opens FCS files and FlowJo workspaces. Validated against FlowKit and CytExpert. Your data never leaves your computer.">
-<meta name="keywords" content="flow cytometry software, free flow cytometry analysis, FlowJo alternative, FCS file viewer, gating software, open source cytometry, compensation, plate analysis, FlowKit">
+<meta name="keywords" content="flow cytometry software, free flow cytometry analysis, FlowJo alternative, free FlowJo alternative, online flow cytometry analysis, FCS file viewer, open FCS file, gating software, open source cytometry, compensation, plate analysis, 96-well plate flow cytometry">
 <meta name="author" content="{{AUTHOR}}">
 <link rel="canonical" href="{{SITE}}">
 <link rel="icon" href="icon.svg" type="image/svg+xml">
@@ -18,7 +18,7 @@
 <meta property="og:image" content="{{SITE}}og.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="FlowMate gating a 96-well plate: one gate, every well updates live">
+<meta property="og:image:alt" content="FlowMate gating a plate: one gate, every well updates live">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="FlowMate — free flow cytometry analysis in your browser">
 <meta name="twitter:description" content="Free, open-source, validated flow cytometry analysis. Runs in your browser; your data stays on your computer.">
@@ -53,7 +53,7 @@ nav.links a:hover { color: var(--accent); }
 .btn.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
 @media (prefers-color-scheme: dark) { .btn.primary { color: #16122e; } }
 .btn.primary:hover { background: var(--accent-2); }
-.hero { padding: 64px 0 36px; text-align: center; }
+.hero { padding: 56px 0 28px; text-align: center; }
 .eyebrow { font-size: 13px; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); font-weight: 700; }
 h1 { font-size: clamp(32px, 5vw, 52px); line-height: 1.08; letter-spacing: -.025em; margin: 12px auto 16px; max-width: 22ch; }
 .lead { font-size: clamp(17px, 2vw, 20px); color: var(--ink-2); max-width: 60ch; margin: 0 auto 26px; }
@@ -62,10 +62,15 @@ h1 { font-size: clamp(32px, 5vw, 52px); line-height: 1.08; letter-spacing: -.025
 .trust span::before { content: "✓ "; color: var(--ok); font-weight: 700; }
 .shot { margin: 34px auto 0; border-radius: var(--radius); overflow: hidden; border: 1px solid var(--line); box-shadow: 0 20px 60px rgba(30, 30, 80, .16); max-width: 1040px; }
 .shot img { display: block; width: 100%; height: auto; }
-section { padding: 56px 0; }
+section { padding: 44px 0; }
 h2 { font-size: clamp(25px, 3vw, 34px); letter-spacing: -.02em; line-height: 1.15; margin: 0 0 12px; }
 .sub { color: var(--ink-2); max-width: 65ch; margin: 0 0 28px; }
-.grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+.steps { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 12px; counter-reset: s; }
+.steps li { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px; counter-increment: s; }
+.steps li::before { content: counter(s); display: grid; place-items: center; width: 26px; height: 26px; border-radius: 50%; background: var(--accent-soft); color: var(--accent); font-weight: 700; font-size: 13px; margin-bottom: 10px; }
+.steps b { display: block; font-size: 16px; margin-bottom: 2px; }
+.steps span { color: var(--ink-2); font-size: 14px; line-height: 1.45; display: block; }
+.two { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 36px; align-items: start; }
 .card { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px; }
 .card h3 { margin: 0 0 6px; font-size: 17px; }
 .card p { margin: 0; color: var(--ink-2); font-size: 15px; }
@@ -75,58 +80,57 @@ table { width: 100%; border-collapse: collapse; font-size: 15px; background: var
 th, td { text-align: left; padding: 11px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
 th { font-size: 13px; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); }
 tr:last-child td { border-bottom: 0; }
-td.ok { color: var(--ok); font-weight: 600; white-space: nowrap; }
+.vs { font-size: 13px; color: var(--muted); }
+td.ok { color: var(--ok); font-weight: 600; min-width: 9em; }
 td.warn { color: var(--warn); font-weight: 600; white-space: nowrap; }
 .note { font-size: 14px; color: var(--muted); margin-top: 12px; }
 details { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 14px 18px; margin-bottom: 10px; }
 summary { cursor: pointer; font-weight: 600; }
 details p { margin: 10px 0 2px; color: var(--ink-2); }
-.join { background: var(--accent-soft); border: 1px solid color-mix(in srgb, var(--accent) 30%, transparent); border-radius: 18px; padding: 34px; }
+.join { display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap; background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 22px 26px; }
+.join p { margin: 0; color: var(--ink-2); }
+.join .cta { justify-content: flex-start; }
 footer { border-top: 1px solid var(--line); padding: 28px 0 40px; color: var(--muted); font-size: 14px; }
 footer .wrap { display: flex; gap: 18px; flex-wrap: wrap; justify-content: space-between; }
-@media (max-width: 860px) { .grid { grid-template-columns: 1fr; } .split { grid-template-columns: 1fr; } nav.links { display: none; } }
+@media (max-width: 860px) { .steps { grid-template-columns: 1fr 1fr; } .two { grid-template-columns: 1fr; } nav.links { display: none; } }
 </style>
 </head>
 <body>
 <header class="top"><div class="wrap">
   <a class="logo" href="./"><img src="icon.svg" alt="" width="30" height="30">FlowMate</a>
-  <nav class="links" aria-label="Sections"><a href="#features">Features</a><a href="#validation">Validation</a><a href="#faq">FAQ</a><a href="#about">About</a><a href="{{REPO}}">GitHub</a></nav>
+  <nav class="links" aria-label="Sections"><a href="#how">How it works</a><a href="#validation">Validation</a><a href="#faq">FAQ</a><a href="#about">About</a><a href="{{REPO}}">GitHub</a></nav>
   <a class="btn primary" href="app/">Open FlowMate</a>
 </div></header>
 
 <main>
 <section class="hero"><div class="wrap">
   <div class="eyebrow">Free · open source · runs in your browser</div>
-  <h1>Flow cytometry analysis that gates your whole plate at once</h1>
-  <p class="lead">FlowMate takes FCS files from raw data to a graph with the statistics done. Draw a gate once and every well updates live. Compensate, measure and compare conditions with t tests and ANOVA — with nothing to install, and your data never leaving your computer.</p>
-  <div class="cta"><a class="btn primary" href="app/">Open FlowMate — free</a><a class="btn" href="{{REPO}}">View the source on GitHub</a></div>
-  <div class="trust"><span>No account</span><span>No upload — data stays on your computer</span><span>Opens FlowJo workspaces</span><span>Validated against FlowKit and CytExpert</span></div>
-  <div class="shot"><img src="screens/gate.png" alt="FlowMate's Gate step: a gate on one well, every well of the plate and the filmstrip updating live" width="1422" height="804"></div>
+  <h1>Flow cytometry analysis for the whole plate</h1>
+  <p class="lead">Gate every well at once, compensate, and get graphs with the statistics done. Nothing to install; your data stays on your computer.</p>
+  <div class="cta"><a class="btn primary" href="app/">Open FlowMate</a><a class="btn" href="{{REPO}}">Source on GitHub</a></div>
+  <div class="trust"><span>No account</span><span>No upload</span><span>Opens FlowJo workspaces</span><span>Same statistics as Prism</span></div>
+  <div class="shot"><img src="screens/worksheet.png" alt="FlowMate's gating worksheet: every gating plot of a well side by side, with a statistics table and the plate overview" width="1422" height="804"></div>
 </div></section>
 
-<section id="features"><div class="wrap">
-  <h2>What FlowMate does</h2>
-  <p class="sub">Five steps — Load, Plate, Gate, Measure, Analysis — built around how plate experiments are actually run.</p>
-  <div class="grid">
-    <div class="card"><h3>One gate, every well</h3><p>Polygon, rectangle, ellipse, quadrant and range gates, plus And / Or / Not. Drag a gate and the whole plate, its heat map and a filmstrip of every well follow live. Adjust one well where it needs it.</p></div>
-    <div class="card"><h3>Knows about plates</h3><p>Paint conditions onto wells, mark controls, exclude a bad well with a reason, and measure one row per well. Tubes work too.</p></div>
-    <div class="card"><h3>Compensation</h3><p>The files' own matrix, a matrix computed from single-stain controls, or one you import. Spectral unmixing from single stains is in beta.</p></div>
-    <div class="card"><h3>Statistics done for you</h3><p>Bar, dot, box or paired graphs with SD or SEM, the right test chosen for you — t test, one-way ANOVA, Tukey or Dunnett — and a nested option that uses every cell without counting cells as replicates.</p></div>
-    <div class="card"><h3>Opens FlowJo and Gating-ML</h3><p>Import FlowJo 10 workspaces (.wsp) with their gates, groups and compensation; the import report shows FlowJo's count next to FlowMate's for every population. Gating-ML 2.0 in and out.</p></div>
-    <div class="card"><h3>Private and offline</h3><p>FCS files are read inside your browser tab — there is no server. Save analyses with their data in the browser, or download FlowMate as one HTML file that works offline.</p></div>
+<section id="how"><div class="wrap">
+  <h2>How it works</h2>
+  <p class="sub">Five steps, from FCS files to a figure. The demo plate in the app walks through them.</p>
+  <ol class="steps">
+    <li><b>Load</b><span>Drop FCS files or a folder. Wells are read from the file names.</span></li>
+    <li><b>Plate</b><span>Select wells and name conditions. Mark controls.</span></li>
+    <li><b>Gate</b><span>Draw or accept suggested gates. Every well updates live.</span></li>
+    <li><b>Measure</b><span>Pick populations and statistics, one row per well.</span></li>
+    <li><b>Analysis</b><span>Graph by condition with t tests, ANOVA, Tukey or Dunnett.</span></li>
+  </ol>
+</div></section>
+
+<section id="validation"><div class="wrap two">
+  <div>
+    <h2>Validated</h2>
+    <p class="sub">Checked against independent tools on published data sets that FlowMate was not built on, with the pass criteria set in advance.</p>
+    <p class="note"><a href="{{REPO}}/blob/main/VALIDATION.md">Full validation report</a></p>
   </div>
-</div></section>
-
-<section><div class="wrap split">
-  <div><h2>From gates to a figure with the P values</h2><p class="sub">Pick a Measure column, choose the graph and the comparisons, and FlowMate runs the test GraphPad Prism would, with the same numbers. Every n, test and adjusted P value sits next to the graph; export it as PNG or SVG, or send the table to PlotMate.</p><a class="btn" href="app/">Try it on the demo plate</a></div>
-  <img src="screens/analysis.png" alt="FlowMate's Analysis step: bead uptake by antibody, one-way ANOVA with Tukey's test" width="1422" height="804" loading="lazy">
-</div></section>
-
-<section id="validation"><div class="wrap">
-  <h2>Validated on public data it was never built on</h2>
-  <p class="sub">Software that counts your cells has to be right. FlowMate's results are checked against independent tools on published, CC-BY data sets — with the protocol and pass criteria written before any result existed, and failures reported as found.</p>
   {{VALIDATION}}
-  <p class="note">Full report, protocol and the scripts to re-run it: <a href="{{REPO}}/blob/main/VALIDATION.md">VALIDATION.md</a>. The statistics are checked against GraphPad Prism 11 and R.</p>
 </div></section>
 
 <section id="faq"><div class="wrap">
@@ -136,16 +140,15 @@ footer .wrap { display: flex; gap: 18px; flex-wrap: wrap; justify-content: space
 
 <section id="about"><div class="wrap">
   <div class="join">
-    <h2>Make it yours, or build it with me</h2>
-    <p class="sub">FlowMate is made by <strong>{{AUTHOR}}</strong> as a free, open-source project (MIT licence). Good analysis software shouldn't depend on whether a lab can afford a licence. Copy the code and adapt it for your lab, your instrument or your course — that is what it is for. Or join the effort: new features, more instruments, validation on your data.</p>
-    <div class="cta" style="justify-content:flex-start"><a class="btn primary" href="mailto:{{EMAIL}}?subject=FlowMate">Email {{EMAIL}}</a><a class="btn" href="{{REPO}}">Fork it on GitHub</a><a class="btn" href="{{REPO}}/issues">Report a bug or request a feature</a></div>
+    <p>Made by <strong>{{AUTHOR}}</strong>. Open source under the MIT licence — fork it, adapt it, or get in touch to contribute.</p>
+    <div class="cta"><a class="btn primary" href="mailto:{{EMAIL}}?subject=FlowMate">Email</a><a class="btn" href="{{REPO}}">GitHub</a></div>
   </div>
 </div></section>
 </main>
 
 <footer><div class="wrap">
-  <div>© {{YEAR}} {{AUTHOR}} · FlowMate {{VERSION}} · <a href="{{REPO}}/blob/main/LICENSE">MIT licence</a> · <a href="{{REPO}}">source code</a></div>
-  <div>FlowJo is a trademark of its owner; FlowMate is independent and not affiliated with or endorsed by FlowJo or BD.</div>
+  <div>© {{YEAR}} {{AUTHOR}} · FlowMate {{VERSION}} · <a href="{{REPO}}/blob/main/LICENSE">MIT licence</a></div>
+  <div>FlowJo is a trademark of its owner; FlowMate is not affiliated with FlowJo or BD.</div>
 </div></footer>
 </body>
 </html>

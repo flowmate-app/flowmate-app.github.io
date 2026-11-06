@@ -14,7 +14,7 @@ with nothing to install, and your data never leaving your computer.</p>
 <a href="mailto:rlshir302010@gmail.com">Contact</a>
 </p>
 
-![FlowMate gating a plate: one gate, every well updates live](site/screens/gate.png)
+![FlowMate gating worksheet: every gating plot of a well side by side, with the plate overview](site/screens/worksheet.png)
 
 ## Why
 

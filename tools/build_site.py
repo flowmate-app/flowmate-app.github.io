@@ -19,12 +19,16 @@ FAQ = [
      'Yes. FlowMate is free and open source under the MIT licence: no account, no licence key, no limits on files or events. You may copy and adapt the code.'),
     ('Is my data uploaded anywhere?',
      'No. FCS files are read inside your browser tab and never leave your computer; FlowMate has no server. Saved analyses are kept in your browser. You can also download FlowMate as one HTML file and use it offline.'),
+    ('Can I save my analysis?',
+     'Yes. File → Save (Ctrl+S) keeps the analysis — data, gates, conditions, tables and graphs — under My analyses in your browser, and it keeps saving as you work. Reopen it any time from the start page. To move it to another computer or a colleague, File → Share writes it as one .flowmate file.'),
+    ('How do I analyse a plate, step by step?',
+     '1. Load: drop the FCS files or a folder; wells are read from the file names. 2. Plate: select wells and name each condition, and mark controls. 3. Gate: accept the suggested Cells, Singlets and positive gates or draw your own; every well updates live. 4. Measure: choose populations and statistics, one row per well. 5. Analysis: make a graph by condition and pick the comparisons; the test and P values appear beside it. The Guide in the app walks through this on a demo plate.'),
     ('Which files can FlowMate open?',
      'FCS 2.0, 3.0 and 3.1 files from any cytometer, FlowJo 10 workspaces (.wsp) with their gates, groups and compensation, and Gating-ML 2.0. It can export Gating-ML, CSV tables, PNG/SVG figures and an HTML report.'),
     ('Is FlowMate a FlowJo alternative?',
-     'For gating, compensation, per-well statistics and plate experiments, yes: it imports FlowJo workspaces and shows FlowJo\'s count next to its own for every population. It does not (yet) do dimensionality reduction (tSNE/UMAP) or clustering. FlowMate is independent and not affiliated with FlowJo or BD.'),
+     'For gating, compensation, per-well statistics and plate experiments, yes: it imports FlowJo workspaces and shows FlowJo\'s count next to its own for every population. FlowMate is independent and not affiliated with FlowJo or BD.'),
     ('How accurate is it?',
-     'FCS values are bit-identical to FlowKit, an independent open-source reader; compensated values match FlowKit and Beckman CytExpert to about 1e-7. Gate counts are compared population by population with FlowKit on published data sets, and the statistics with GraphPad Prism and R. The full validation report, with its protocol and failures, is public.'),
+     'FCS values are bit-identical to FlowKit, an independent open-source reader; compensated values match FlowKit and Beckman CytExpert to about 1e-7. Gate counts are compared population by population with FlowKit on published data sets, and the statistics with GraphPad Prism and R. The full validation report is public.'),
     ('What statistics does it do?',
      'Unpaired and paired t tests, ordinary and repeated-measures one-way ANOVA with Tukey or Dunnett multiple comparisons, and nested t tests / nested one-way ANOVA (a linear mixed model with the well as a random effect) for cell-level data — the same tests and numbers as GraphPad Prism.'),
     ('Does it do compensation and spectral unmixing?',
@@ -33,12 +37,21 @@ FAQ = [
      'Yes — fork it on GitHub and adapt it, or email ' + EMAIL + ' to build it together: new features, more instruments, or validation on your data.'),
 ]
 
+STEPS = [
+    ('Load', 'Drop the FCS files or a folder; wells are read from the file names.'),
+    ('Plate', 'Select wells, name each condition, and mark controls.'),
+    ('Gate', 'Accept the suggested gates or draw your own; every well updates live.'),
+    ('Measure', 'Choose populations and statistics, one row per well.'),
+    ('Analysis', 'Graph by condition with t tests, ANOVA, Tukey or Dunnett.'),
+]
+
 
 def validation_html():
     """The validation summary on the landing page (numbers from VALIDATION.md)."""
     rows = json.loads((SITE_SRC / 'validation.json').read_text(encoding='utf-8'))
-    tr = ''.join('<tr><td>%s</td><td>%s</td><td class="%s">%s</td></tr>' % (html.escape(r['what']), html.escape(r['against']), r['cls'], html.escape(r['result'])) for r in rows)
-    return '<table><thead><tr><th>What was checked</th><th>Against</th><th>Result</th></tr></thead><tbody>' + tr + '</tbody></table>'
+    tr = ''.join('<tr><td>%s<div class="vs">vs %s</div></td><td class="%s">%s</td></tr>' % (html.escape(r['what']), html.escape(r['against']), r['cls'], html.escape(r['result']))
+                 for r in rows if r['against'] != '—')
+    return '<table><tbody>' + tr + '</tbody></table>'
 
 
 def jsonld(version):
@@ -51,15 +64,19 @@ def jsonld(version):
         'featureList': ['Gate every well of a plate at once', 'Polygon, rectangle, ellipse, quadrant, range and Boolean gates',
                         'Compensation from files, single stains or imported matrices', 'FlowJo 10 workspace (.wsp) and Gating-ML 2.0 import',
                         't tests, one-way ANOVA, Tukey and Dunnett, nested mixed-model tests', 'Local processing: data never leaves the computer'],
-        'screenshot': SITE + 'screens/gate.png', 'image': SITE + 'og.png', 'license': REPO + '/blob/main/LICENSE',
+        'screenshot': SITE + 'screens/worksheet.png', 'image': SITE + 'og.png', 'license': REPO + '/blob/main/LICENSE',
         'author': {'@type': 'Person', 'name': AUTHOR, 'email': 'mailto:' + EMAIL},
         'sameAs': [REPO],
     }
     code = {'@context': 'https://schema.org', '@type': 'SoftwareSourceCode', 'name': 'FlowMate', 'codeRepository': REPO,
             'programmingLanguage': 'JavaScript', 'license': 'https://opensource.org/licenses/MIT', 'author': {'@type': 'Person', 'name': AUTHOR}}
+    howto = {'@context': 'https://schema.org', '@type': 'HowTo', 'name': 'Analyse a flow cytometry plate with FlowMate',
+             'tool': [{'@type': 'HowToTool', 'name': 'FlowMate (web browser)'}], 'supply': [{'@type': 'HowToSupply', 'name': 'FCS files'}],
+             'step': [{'@type': 'HowToStep', 'position': i + 1, 'name': n, 'text': t, 'url': SITE + '#how'} for i, (n, t) in enumerate(STEPS)]}
+    site = {'@context': 'https://schema.org', '@type': 'WebSite', 'name': 'FlowMate', 'url': SITE}
     faq = {'@context': 'https://schema.org', '@type': 'FAQPage',
            'mainEntity': [{'@type': 'Question', 'name': q, 'acceptedAnswer': {'@type': 'Answer', 'text': a}} for q, a in FAQ]}
-    return json.dumps([app, code, faq], indent=1, ensure_ascii=False).replace('</', '<\\/')
+    return json.dumps([site, app, code, howto, faq], indent=1, ensure_ascii=False).replace('</', '<\\/')
 
 
 def llms_txt(version):
@@ -107,7 +124,7 @@ def main():
     (OUT / 'app').mkdir()
     (OUT / 'app' / 'index.html').write_text(app, encoding='utf-8')
 
-    for name in ('icon.svg', 'og.png'):
+    for name in ['icon.svg', 'og.png'] + [p.name for p in SITE_SRC.glob('*.txt') if len(p.stem) == 32]:   # + the IndexNow key
         shutil.copy2(SITE_SRC / name, OUT / name)
     shutil.copytree(SITE_SRC / 'screens', OUT / 'screens')
     (OUT / '.nojekyll').write_text('', encoding='utf-8')

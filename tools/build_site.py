@@ -124,7 +124,7 @@ def main():
     (OUT / 'app').mkdir()
     (OUT / 'app' / 'index.html').write_text(app, encoding='utf-8')
 
-    for name in ['icon.svg', 'og.png'] + [p.name for p in SITE_SRC.glob('*.txt') if len(p.stem) == 32]:   # + the IndexNow key
+    for name in ['icon.svg', 'og.png'] + [p.name for p in SITE_SRC.glob('*.txt') if len(p.stem) == 32] + [p.name for p in SITE_SRC.glob('google*.html')]:   # + IndexNow key, Search Console file
         shutil.copy2(SITE_SRC / name, OUT / name)
     shutil.copytree(SITE_SRC / 'screens', OUT / 'screens')
     (OUT / '.nojekyll').write_text('', encoding='utf-8')

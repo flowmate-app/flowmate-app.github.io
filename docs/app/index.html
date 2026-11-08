@@ -13779,6 +13779,16 @@ FM.spectraData = {"source": "FPbase (https://www.fpbase.org) · Lambert TJ, Nat 
    * A label reads name · % · events; the count is drawn only where the item carries one, in
    * lighter ink, because a percentage without the events behind it cannot be judged.
    */
+  /**
+   * A label the user has moved sits where they put it: gate.labelPos is its top-left corner as a
+   * fraction of the plot area, so it keeps its place at any plot size. Otherwise it stays at (bx, by).
+   */
+  function placeLabel(it, L, bx, by, w, h) {
+    const p = it.labelPos || (it.gate && it.gate.labelPos);
+    if (p && Number.isFinite(p[0]) && Number.isFinite(p[1])) { bx = L.x0 + p[0] * (L.x1 - L.x0); by = L.y0 + p[1] * (L.y1 - L.y0); }
+    return [Math.max(L.x0 + 1, Math.min(L.x1 - w - 1, bx)), Math.max(L.y0 + 1, Math.min(L.y1 - h - 1, by))];
+  }
+
   function drawGates(ctx, L, items, opts) {
     const th = theme();
     opts = opts || {};
@@ -13838,7 +13848,7 @@ FM.spectraData = {"source": "FPbase (https://www.fpbase.org) · Lambert TJ, Nat 
         ctx.font = '500 11px ' + th.font;
         const nw = name ? ctx.measureText(name).width + 8 : 0;
         const w = pw + nw + cw + (L.compact ? 6 : 12), h = L.compact ? 13 : 20;
-        const bx = right ? L.x1 - w - 3 : L.x0 + 3, by = upper ? L.y0 + 3 : L.y1 - h - 3;
+        const [bx, by] = placeLabel(it, L, right ? L.x1 - w - 3 : L.x0 + 3, upper ? L.y0 + 3 : L.y1 - h - 3, w, h);
         ctx.fillStyle = th.tagBg; ctx.globalAlpha = 0.92; roundRect(ctx, bx, by, w, h, 3); ctx.fill(); ctx.globalAlpha = 1;
         if (!L.compact) { ctx.strokeStyle = it.selected ? th.gateSel : th.frame; ctx.lineWidth = it.selected ? 1.4 : 0.8; roundRect(ctx, bx, by, w, h, 3); ctx.stroke(); }
         ctx.textBaseline = 'middle'; ctx.textAlign = 'left';
@@ -13859,10 +13869,11 @@ FM.spectraData = {"source": "FPbase (https://www.fpbase.org) · Lambert TJ, Nat 
       if (L.compact) {
         ctx.font = '600 10px ' + th.mono;
         const tw = ctx.measureText(pct).width;
-        const bx = Math.min(L.x1 - tw - 6, Math.max(L.x0 + 1, ax + 2)), by = Math.max(L.y0 + 1, Math.min(L.y1 - 14, ay - 14));
+        const [bx, by] = placeLabel(it, L, ax + 2, ay - 14, tw + 6, 13);
         ctx.fillStyle = th.tagBg; ctx.globalAlpha = 0.9; ctx.fillRect(bx, by, tw + 6, 13); ctx.globalAlpha = 1;
         ctx.fillStyle = it.selected ? th.gateSel : th.text; ctx.textAlign = 'left'; ctx.textBaseline = 'middle';
         ctx.fillText(pct, bx + 3, by + 7);
+        it.labelBox = [bx, by, tw + 6, 13];
         return;
       }
       const name = L.dense ? '' : (it.label || it.gate.name);
@@ -13876,8 +13887,7 @@ FM.spectraData = {"source": "FPbase (https://www.fpbase.org) · Lambert TJ, Nat 
       const w = nw + pw + cw + (name ? 18 : 12), h = L.dense ? 17 : 20;
       let bx = ax + 4, by = ay - h - 4;
       if (o.type === 'range') { bx = ax - w / 2; by = L.y0 + 22; }
-      bx = Math.max(L.x0 + 2, Math.min(L.x1 - w - 2, bx));
-      by = Math.max(L.y0 + 2, Math.min(L.y1 - h - 2, by));
+      [bx, by] = placeLabel(it, L, bx, by, w, h);
       ctx.fillStyle = th.tagBg; ctx.globalAlpha = 0.94;
       roundRect(ctx, bx, by, w, h, 3); ctx.fill(); ctx.globalAlpha = 1;
       ctx.strokeStyle = it.selected ? th.gateSel : th.frame; ctx.lineWidth = it.selected ? 1.4 : 0.8;
@@ -16716,7 +16726,8 @@ FM.spectraData = {"source": "FPbase (https://www.fpbase.org) · Lambert TJ, Nat 
     const sel = FM.ui.gateId;
     const items = this.visibleGates().map(g => {
       const gg = this.gateForDraw(g);
-      return { gate: gg, id: g.id, outline: P.gateOutline(gg, L, xSpec, ySpec), pct: this.pctFor(g), count: this.countFor(g), selected: g.id === sel, hover: this.hover && this.hover.gateId === g.id };
+      const lp = this.drag && this.drag.kind === 'label' && this.drag.gateId === g.id ? this.drag.pos : null;
+      return { gate: gg, id: g.id, outline: P.gateOutline(gg, L, xSpec, ySpec), pct: this.pctFor(g), count: this.countFor(g), selected: g.id === sel, hover: this.hover && this.hover.gateId === g.id, labelPos: lp };
     });
     this.items = items;
     P.drawGates(ctx, L, items);
@@ -16875,7 +16886,7 @@ FM.spectraData = {"source": "FPbase (https://www.fpbase.org) · Lambert TJ, Nat 
     for (const it of order) {
       if (it.labelBox) {
         const [bx, by, bw, bh] = it.labelBox;
-        if (px >= bx && px <= bx + bw && py >= by && py <= by + bh) return { gateId: it.id, kind: 'body' };
+        if (px >= bx && px <= bx + bw && py >= by && py <= by + bh) return { gateId: it.id, kind: 'label', box: it.labelBox.slice() };
       }
     }
     for (const it of order) {
@@ -16993,6 +17004,16 @@ FM.spectraData = {"source": "FPbase (https://www.fpbase.org) · Lambert TJ, Nat 
       else FM.dom.toast('A polygon needs at least 3 points');
       return;
     }
+    if (hit.kind === 'label') {
+      // the label moves on its own; the gate and its events stay where they are
+      // where the label starts, as a fraction of the plot: selecting the gate can redraw the plot at
+      // another size, so pixel positions taken now would not hold
+      const L = this.L, fw = L.x1 - L.x0, fh = L.y1 - L.y0;
+      this.drag = { kind: 'label', gateId: g.id, start: [(hit.box[0] - L.x0) / fw, (hit.box[1] - L.y0) / fh], startPx: [px, py], pos: null, moved: false };
+      this.capture(e);
+      this.drawOverlay();
+      return;
+    }
     this.drag = { kind: hit.kind, gateId: g.id, vertex: hit.vertex, edge: hit.edge, frame: hit.frame, box: this.frame ? this.frame.inner.slice() : null, startPx: [px, py],
       start: [tx, ty], orig: JSON.parse(JSON.stringify(g)), moved: false };
     this.capture(e);
@@ -17037,13 +17058,21 @@ FM.spectraData = {"source": "FPbase (https://www.fpbase.org) · Lambert TJ, Nat 
       this.render();
       return;
     }
+    if (this.drag && this.drag.kind === 'label') {
+      const d = this.drag, L = this.L;
+      if (Math.abs(px - d.startPx[0]) + Math.abs(py - d.startPx[1]) > 2) d.moved = true;
+      if (!d.moved) return;
+      d.pos = [d.start[0] + (px - d.startPx[0]) / (L.x1 - L.x0), d.start[1] + (py - d.startPx[1]) / (L.y1 - L.y0)];
+      this.drawOverlay();
+      return;
+    }
     if (this.drag) { this.lastPx = [px, py]; this.dragTo(tx, ty, e); return; }
 
     if (tool === 'select') {
       const hit = this.hitTest(px, py);
       const prev = this.hover;
       this.hover = hit ? { gateId: hit.gateId, vertex: hit.kind === 'vertex' ? hit.vertex : -1, frame: hit.kind === 'frame' ? hit.frame : -1 } : null;
-      this.overCv.style.cursor = !hit ? (P.zoomed(this.L) && this.inPlot(px, py) ? 'grab' : 'default') : hit.kind === 'vertex' ? 'grab' : hit.kind === 'frame' ? FRAME[hit.frame].cur : hit.kind === 'edge' ? 'ew-resize' : 'move';
+      this.overCv.style.cursor = !hit ? (P.zoomed(this.L) && this.inPlot(px, py) ? 'grab' : 'default') : hit.kind === 'vertex' ? 'grab' : hit.kind === 'frame' ? FRAME[hit.frame].cur : hit.kind === 'edge' ? 'ew-resize' : hit.kind === 'label' ? 'grab' : 'move';
       if (JSON.stringify(prev) !== JSON.stringify(this.hover)) this.drawOverlay();
     } else {
       this.overCv.style.cursor = 'crosshair';
@@ -17191,6 +17220,19 @@ FM.spectraData = {"source": "FPbase (https://www.fpbase.org) · Lambert TJ, Nat 
       if ((d.type === 'rect' || d.type === 'ellipse') && d.b && Math.abs(d.b[0] - d.a[0]) > 0.01 && Math.abs(d.b[1] - d.a[1]) > 0.01) this.finishDraft();
       else if (d.type === 'range' && d.b != null && Math.abs(d.b - d.a) > 0.005) this.finishDraft();
       else { this.draft = null; this.drawOverlay(); }
+      return;
+    }
+    if (this.drag && this.drag.kind === 'label') {
+      const d = this.drag;
+      this.drag = null;
+      if (d.moved && d.pos) {
+        // store where the label was drawn (after keeping it inside the plot)
+        const it = (this.items || []).find(i => i.id === d.gateId), L = this.L;
+        const b = it && it.labelBox ? it.labelBox : null;
+        const pos = b ? [(b[0] - L.x0) / (L.x1 - L.x0), (b[1] - L.y0) / (L.y1 - L.y0)] : d.pos;
+        FM.ws.updateGate(d.gateId, { labelPos: pos.map(v => Math.round(v * 1e4) / 1e4) }, { label: 'Move label' });
+      }
+      this.drawOverlay();
       return;
     }
     if (this.drag) {
@@ -20276,7 +20318,7 @@ FM.spectraData = {"source": "FPbase (https://www.fpbase.org) · Lambert TJ, Nat 
     // select-mode tips live in the population panel's footer; the plot only hints while drawing
     const foot = root && root.querySelector('.tree-foot');
     if (foot) foot.textContent = FM.ui.gateId
-      ? 'Drag the gate or its handles · the small squares on the dashed frame resize it: sides for width or height, corners for both (Shift keeps the proportions) · Alt-click a handle removes it · double-click an edge adds one · Delete removes the gate'
+      ? 'Drag the gate or its handles · drag its label to move just the label · the small squares on the dashed frame resize it: sides for width or height, corners for both (Shift keeps the proportions) · Alt-click a handle removes it · double-click an edge adds one · Delete removes the gate'
       : 'Click a gate to edit it · double-click to open the population inside it · wheel to zoom';
     const hint = {
       select: '',
@@ -20744,6 +20786,7 @@ FM.spectraData = {"source": "FPbase (https://www.fpbase.org) · Lambert TJ, Nat 
     ];
     if (g.type !== 'bool' && g.type !== 'quad') items.push({ label: g.outside ? 'Keep the events inside' : 'Keep the events outside', icon: 'ban',
       fn: () => ws.updateGate(id, { outside: !g.outside }, { label: (g.outside ? 'Inside ' : 'Outside ') + g.name }) });
+    if (g.labelPos) items.push({ label: 'Reset label position', icon: 'undo', fn: () => ws.updateGate(id, { labelPos: null }, { label: 'Reset label of ' + g.name }) });
     const grp = ws.groupOf(s.key);
     items.push('sep', { heading: 'Applies to · now ' + ws.scopeText(g) },
       { label: 'Every sample', icon: FM.scope.isScoped(g) ? null : 'check', fn: () => ws.setGateScope(id, null) },

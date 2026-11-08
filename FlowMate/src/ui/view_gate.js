@@ -656,7 +656,7 @@
     // select-mode tips live in the population panel's footer; the plot only hints while drawing
     const foot = root && root.querySelector('.tree-foot');
     if (foot) foot.textContent = FM.ui.gateId
-      ? 'Drag the gate or its handles · the small squares on the dashed frame resize it: sides for width or height, corners for both (Shift keeps the proportions) · Alt-click a handle removes it · double-click an edge adds one · Delete removes the gate'
+      ? 'Drag the gate or its handles · drag its label to move just the label · the small squares on the dashed frame resize it: sides for width or height, corners for both (Shift keeps the proportions) · Alt-click a handle removes it · double-click an edge adds one · Delete removes the gate'
       : 'Click a gate to edit it · double-click to open the population inside it · wheel to zoom';
     const hint = {
       select: '',
@@ -1124,6 +1124,7 @@
     ];
     if (g.type !== 'bool' && g.type !== 'quad') items.push({ label: g.outside ? 'Keep the events inside' : 'Keep the events outside', icon: 'ban',
       fn: () => ws.updateGate(id, { outside: !g.outside }, { label: (g.outside ? 'Inside ' : 'Outside ') + g.name }) });
+    if (g.labelPos) items.push({ label: 'Reset label position', icon: 'undo', fn: () => ws.updateGate(id, { labelPos: null }, { label: 'Reset label of ' + g.name }) });
     const grp = ws.groupOf(s.key);
     items.push('sep', { heading: 'Applies to · now ' + ws.scopeText(g) },
       { label: 'Every sample', icon: FM.scope.isScoped(g) ? null : 'check', fn: () => ws.setGateScope(id, null) },

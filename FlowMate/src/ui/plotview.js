@@ -274,7 +274,8 @@
     const sel = FM.ui.gateId;
     const items = this.visibleGates().map(g => {
       const gg = this.gateForDraw(g);
-      return { gate: gg, id: g.id, outline: P.gateOutline(gg, L, xSpec, ySpec), pct: this.pctFor(g), count: this.countFor(g), selected: g.id === sel, hover: this.hover && this.hover.gateId === g.id };
+      const lp = this.drag && this.drag.kind === 'label' && this.drag.gateId === g.id ? this.drag.pos : null;
+      return { gate: gg, id: g.id, outline: P.gateOutline(gg, L, xSpec, ySpec), pct: this.pctFor(g), count: this.countFor(g), selected: g.id === sel, hover: this.hover && this.hover.gateId === g.id, labelPos: lp };
     });
     this.items = items;
     P.drawGates(ctx, L, items);
@@ -433,7 +434,7 @@
     for (const it of order) {
       if (it.labelBox) {
         const [bx, by, bw, bh] = it.labelBox;
-        if (px >= bx && px <= bx + bw && py >= by && py <= by + bh) return { gateId: it.id, kind: 'body' };
+        if (px >= bx && px <= bx + bw && py >= by && py <= by + bh) return { gateId: it.id, kind: 'label', box: it.labelBox.slice() };
       }
     }
     for (const it of order) {
@@ -551,6 +552,16 @@
       else FM.dom.toast('A polygon needs at least 3 points');
       return;
     }
+    if (hit.kind === 'label') {
+      // the label moves on its own; the gate and its events stay where they are
+      // where the label starts, as a fraction of the plot: selecting the gate can redraw the plot at
+      // another size, so pixel positions taken now would not hold
+      const L = this.L, fw = L.x1 - L.x0, fh = L.y1 - L.y0;
+      this.drag = { kind: 'label', gateId: g.id, start: [(hit.box[0] - L.x0) / fw, (hit.box[1] - L.y0) / fh], startPx: [px, py], pos: null, moved: false };
+      this.capture(e);
+      this.drawOverlay();
+      return;
+    }
     this.drag = { kind: hit.kind, gateId: g.id, vertex: hit.vertex, edge: hit.edge, frame: hit.frame, box: this.frame ? this.frame.inner.slice() : null, startPx: [px, py],
       start: [tx, ty], orig: JSON.parse(JSON.stringify(g)), moved: false };
     this.capture(e);
@@ -595,13 +606,21 @@
       this.render();
       return;
     }
+    if (this.drag && this.drag.kind === 'label') {
+      const d = this.drag, L = this.L;
+      if (Math.abs(px - d.startPx[0]) + Math.abs(py - d.startPx[1]) > 2) d.moved = true;
+      if (!d.moved) return;
+      d.pos = [d.start[0] + (px - d.startPx[0]) / (L.x1 - L.x0), d.start[1] + (py - d.startPx[1]) / (L.y1 - L.y0)];
+      this.drawOverlay();
+      return;
+    }
     if (this.drag) { this.lastPx = [px, py]; this.dragTo(tx, ty, e); return; }
 
     if (tool === 'select') {
       const hit = this.hitTest(px, py);
       const prev = this.hover;
       this.hover = hit ? { gateId: hit.gateId, vertex: hit.kind === 'vertex' ? hit.vertex : -1, frame: hit.kind === 'frame' ? hit.frame : -1 } : null;
-      this.overCv.style.cursor = !hit ? (P.zoomed(this.L) && this.inPlot(px, py) ? 'grab' : 'default') : hit.kind === 'vertex' ? 'grab' : hit.kind === 'frame' ? FRAME[hit.frame].cur : hit.kind === 'edge' ? 'ew-resize' : 'move';
+      this.overCv.style.cursor = !hit ? (P.zoomed(this.L) && this.inPlot(px, py) ? 'grab' : 'default') : hit.kind === 'vertex' ? 'grab' : hit.kind === 'frame' ? FRAME[hit.frame].cur : hit.kind === 'edge' ? 'ew-resize' : hit.kind === 'label' ? 'grab' : 'move';
       if (JSON.stringify(prev) !== JSON.stringify(this.hover)) this.drawOverlay();
     } else {
       this.overCv.style.cursor = 'crosshair';
@@ -749,6 +768,19 @@
       if ((d.type === 'rect' || d.type === 'ellipse') && d.b && Math.abs(d.b[0] - d.a[0]) > 0.01 && Math.abs(d.b[1] - d.a[1]) > 0.01) this.finishDraft();
       else if (d.type === 'range' && d.b != null && Math.abs(d.b - d.a) > 0.005) this.finishDraft();
       else { this.draft = null; this.drawOverlay(); }
+      return;
+    }
+    if (this.drag && this.drag.kind === 'label') {
+      const d = this.drag;
+      this.drag = null;
+      if (d.moved && d.pos) {
+        // store where the label was drawn (after keeping it inside the plot)
+        const it = (this.items || []).find(i => i.id === d.gateId), L = this.L;
+        const b = it && it.labelBox ? it.labelBox : null;
+        const pos = b ? [(b[0] - L.x0) / (L.x1 - L.x0), (b[1] - L.y0) / (L.y1 - L.y0)] : d.pos;
+        FM.ws.updateGate(d.gateId, { labelPos: pos.map(v => Math.round(v * 1e4) / 1e4) }, { label: 'Move label' });
+      }
+      this.drawOverlay();
       return;
     }
     if (this.drag) {

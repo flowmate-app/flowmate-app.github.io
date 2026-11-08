@@ -461,6 +461,16 @@
    * A label reads name · % · events; the count is drawn only where the item carries one, in
    * lighter ink, because a percentage without the events behind it cannot be judged.
    */
+  /**
+   * A label the user has moved sits where they put it: gate.labelPos is its top-left corner as a
+   * fraction of the plot area, so it keeps its place at any plot size. Otherwise it stays at (bx, by).
+   */
+  function placeLabel(it, L, bx, by, w, h) {
+    const p = it.labelPos || (it.gate && it.gate.labelPos);
+    if (p && Number.isFinite(p[0]) && Number.isFinite(p[1])) { bx = L.x0 + p[0] * (L.x1 - L.x0); by = L.y0 + p[1] * (L.y1 - L.y0); }
+    return [Math.max(L.x0 + 1, Math.min(L.x1 - w - 1, bx)), Math.max(L.y0 + 1, Math.min(L.y1 - h - 1, by))];
+  }
+
   function drawGates(ctx, L, items, opts) {
     const th = theme();
     opts = opts || {};
@@ -520,7 +530,7 @@
         ctx.font = '500 11px ' + th.font;
         const nw = name ? ctx.measureText(name).width + 8 : 0;
         const w = pw + nw + cw + (L.compact ? 6 : 12), h = L.compact ? 13 : 20;
-        const bx = right ? L.x1 - w - 3 : L.x0 + 3, by = upper ? L.y0 + 3 : L.y1 - h - 3;
+        const [bx, by] = placeLabel(it, L, right ? L.x1 - w - 3 : L.x0 + 3, upper ? L.y0 + 3 : L.y1 - h - 3, w, h);
         ctx.fillStyle = th.tagBg; ctx.globalAlpha = 0.92; roundRect(ctx, bx, by, w, h, 3); ctx.fill(); ctx.globalAlpha = 1;
         if (!L.compact) { ctx.strokeStyle = it.selected ? th.gateSel : th.frame; ctx.lineWidth = it.selected ? 1.4 : 0.8; roundRect(ctx, bx, by, w, h, 3); ctx.stroke(); }
         ctx.textBaseline = 'middle'; ctx.textAlign = 'left';
@@ -541,10 +551,11 @@
       if (L.compact) {
         ctx.font = '600 10px ' + th.mono;
         const tw = ctx.measureText(pct).width;
-        const bx = Math.min(L.x1 - tw - 6, Math.max(L.x0 + 1, ax + 2)), by = Math.max(L.y0 + 1, Math.min(L.y1 - 14, ay - 14));
+        const [bx, by] = placeLabel(it, L, ax + 2, ay - 14, tw + 6, 13);
         ctx.fillStyle = th.tagBg; ctx.globalAlpha = 0.9; ctx.fillRect(bx, by, tw + 6, 13); ctx.globalAlpha = 1;
         ctx.fillStyle = it.selected ? th.gateSel : th.text; ctx.textAlign = 'left'; ctx.textBaseline = 'middle';
         ctx.fillText(pct, bx + 3, by + 7);
+        it.labelBox = [bx, by, tw + 6, 13];
         return;
       }
       const name = L.dense ? '' : (it.label || it.gate.name);
@@ -558,8 +569,7 @@
       const w = nw + pw + cw + (name ? 18 : 12), h = L.dense ? 17 : 20;
       let bx = ax + 4, by = ay - h - 4;
       if (o.type === 'range') { bx = ax - w / 2; by = L.y0 + 22; }
-      bx = Math.max(L.x0 + 2, Math.min(L.x1 - w - 2, bx));
-      by = Math.max(L.y0 + 2, Math.min(L.y1 - h - 2, by));
+      [bx, by] = placeLabel(it, L, bx, by, w, h);
       ctx.fillStyle = th.tagBg; ctx.globalAlpha = 0.94;
       roundRect(ctx, bx, by, w, h, 3); ctx.fill(); ctx.globalAlpha = 1;
       ctx.strokeStyle = it.selected ? th.gateSel : th.frame; ctx.lineWidth = it.selected ? 1.4 : 0.8;

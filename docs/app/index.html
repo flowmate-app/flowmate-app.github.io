@@ -4,7 +4,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="generator" content="FlowMate 0.2.0">
-<title>FlowMate</title>
+<title>FlowMate app — free flow cytometry analysis</title>
+<meta name="description" content="Open FCS files and analyse them in your browser: plate-wide gating, compensation, FlowJo workspace import and statistics. Free and open source; data never leaves your computer.">
+<link rel="canonical" href="https://flowmate-app.github.io/app/">
+<meta property="og:title" content="FlowMate — free flow cytometry analysis">
+<meta property="og:image" content="https://flowmate-app.github.io/og.png">
+<meta property="og:url" content="https://flowmate-app.github.io/app/">
 <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%20width%3D%2264%22%20height%3D%2264%22%20role%3D%22img%22%20aria-label%3D%22FlowMate%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bmflowmate9g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%235B3FD9%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%230EA5C6%22%2F%3E%3C%2FlinearGradient%3E%3ClinearGradient%20id%3D%22bmflowmate9h%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23fff%22%20stop-opacity%3D%22.22%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%23fff%22%20stop-opacity%3D%220%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Cpath%20d%3D%22M62.00%2032.00L61.97%2041.17L61.89%2044.38L61.75%2046.74L61.55%2048.67L61.30%2050.32L60.98%2051.76L60.61%2053.04L60.18%2054.19L59.69%2055.23L59.13%2056.18L58.50%2057.03L57.80%2057.80L57.03%2058.50L56.18%2059.13L55.23%2059.69L54.19%2060.18L53.04%2060.61L51.76%2060.98L50.32%2061.30L48.67%2061.55L46.74%2061.75L44.38%2061.89L41.17%2061.97L32.00%2062.00L22.83%2061.97L19.62%2061.89L17.26%2061.75L15.33%2061.55L13.68%2061.30L12.24%2060.98L10.96%2060.61L9.81%2060.18L8.77%2059.69L7.82%2059.13L6.97%2058.50L6.20%2057.80L5.50%2057.03L4.87%2056.18L4.31%2055.23L3.82%2054.19L3.39%2053.04L3.02%2051.76L2.70%2050.32L2.45%2048.67L2.25%2046.74L2.11%2044.38L2.03%2041.17L2.00%2032.00L2.03%2022.83L2.11%2019.62L2.25%2017.26L2.45%2015.33L2.70%2013.68L3.02%2012.24L3.39%2010.96L3.82%209.81L4.31%208.77L4.87%207.82L5.50%206.97L6.20%206.20L6.97%205.50L7.82%204.87L8.77%204.31L9.81%203.82L10.96%203.39L12.24%203.02L13.68%202.70L15.33%202.45L17.26%202.25L19.62%202.11L22.83%202.03L32.00%202.00L41.17%202.03L44.38%202.11L46.74%202.25L48.67%202.45L50.32%202.70L51.76%203.02L53.04%203.39L54.19%203.82L55.23%204.31L56.18%204.87L57.03%205.50L57.80%206.20L58.50%206.97L59.13%207.82L59.69%208.77L60.18%209.81L60.61%2010.96L60.98%2012.24L61.30%2013.68L61.55%2015.33L61.75%2017.26L61.89%2019.62L61.97%2022.83Z%22%20fill%3D%22url%28%23bmflowmate9g%29%22%2F%3E%3Cpath%20d%3D%22M62.00%2032.00L61.97%2041.17L61.89%2044.38L61.75%2046.74L61.55%2048.67L61.30%2050.32L60.98%2051.76L60.61%2053.04L60.18%2054.19L59.69%2055.23L59.13%2056.18L58.50%2057.03L57.80%2057.80L57.03%2058.50L56.18%2059.13L55.23%2059.69L54.19%2060.18L53.04%2060.61L51.76%2060.98L50.32%2061.30L48.67%2061.55L46.74%2061.75L44.38%2061.89L41.17%2061.97L32.00%2062.00L22.83%2061.97L19.62%2061.89L17.26%2061.75L15.33%2061.55L13.68%2061.30L12.24%2060.98L10.96%2060.61L9.81%2060.18L8.77%2059.69L7.82%2059.13L6.97%2058.50L6.20%2057.80L5.50%2057.03L4.87%2056.18L4.31%2055.23L3.82%2054.19L3.39%2053.04L3.02%2051.76L2.70%2050.32L2.45%2048.67L2.25%2046.74L2.11%2044.38L2.03%2041.17L2.00%2032.00L2.03%2022.83L2.11%2019.62L2.25%2017.26L2.45%2015.33L2.70%2013.68L3.02%2012.24L3.39%2010.96L3.82%209.81L4.31%208.77L4.87%207.82L5.50%206.97L6.20%206.20L6.97%205.50L7.82%204.87L8.77%204.31L9.81%203.82L10.96%203.39L12.24%203.02L13.68%202.70L15.33%202.45L17.26%202.25L19.62%202.11L22.83%202.03L32.00%202.00L41.17%202.03L44.38%202.11L46.74%202.25L48.67%202.45L50.32%202.70L51.76%203.02L53.04%203.39L54.19%203.82L55.23%204.31L56.18%204.87L57.03%205.50L57.80%206.20L58.50%206.97L59.13%207.82L59.69%208.77L60.18%209.81L60.61%2010.96L60.98%2012.24L61.30%2013.68L61.55%2015.33L61.75%2017.26L61.89%2019.62L61.97%2022.83Z%22%20fill%3D%22url%28%23bmflowmate9h%29%22%2F%3E%3Cpath%20d%3D%22M11%2021C21%2021%2023.5%2033%2033.5%2033M11%2045C21%2045%2023.5%2033%2033.5%2033M11%2033H53%22%20fill%3D%22none%22%20stroke%3D%22%23fff%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20stroke-width%3D%224.4%22%2F%3E%3Cpath%20d%3D%22M41%2024.5V41.5%22%20fill%3D%22none%22%20stroke%3D%22%23fff%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20stroke-width%3D%222.4%22%20opacity%3D%22.7%22%2F%3E%3Ccircle%20cx%3D%2241%22%20cy%3D%2233%22%20r%3D%227.6%22%20fill%3D%22none%22%20stroke%3D%22%23fff%22%20stroke-width%3D%221.6%22%20opacity%3D%22.38%22%2F%3E%3Ccircle%20cx%3D%2241%22%20cy%3D%2233%22%20r%3D%224.4%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%2247%22%20cy%3D%2217%22%20r%3D%226.2%22%20fill%3D%22%23FFC83D%22%2F%3E%3Ccircle%20cx%3D%2245.2%22%20cy%3D%2215.3%22%20r%3D%221.9%22%20fill%3D%22%23fff%22%20opacity%3D%22.55%22%2F%3E%3C%2Fsvg%3E">
 <style>
 @font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:400;font-display:swap;src:url(data:font/woff2;base64,d09GMgABAAAAADl0ABEAAAAAoSAAADkQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGkwbhlIchlYGYACEWAhACYJzERAKgookgetwC4QyAAE2AiQDiGAEIAWDOgeJaQyDNBuPjiXK7ZMCdAeAD68sLSjYNundjkTR3nNoNDKCjQOAInu97P+/JVdjCJwDXssGi7RT4d0UwZnUNdUwngYdnIhTjm3xpqZBorepuK3epk0zfJa4FPNnVGS4lHCoehdRll7Qn31wcTmIpZXxTzgcttddaS+/XhLlMX94Qqag4o209rojNPZJLpfgeZvavL8yHtMqgCg7SFKAHQCujzvAkiql0xE0bYCrQ/L+PJ7+n5t0GaAMctdBzig8UXmwi48BmtN/2iRYMI0TURKifhdRIhchSAhBtIJJ9ZfKK9Xt14RuVAUY20p9UhGZeW1av9T17kr2/z9vpbkqqVOlBKq4Ipbh7COfM+NMPOmB7FYqmhBU4RJbxitd/dsD0oxmNCNYrWAk3mXt3fLx3gfA6NsOEuCIIzt65SDyy174HRKGnyo3hc7sIPIjnv5i+/4Bn9nR6elBSTNNYUVxoE1gTRSIvQYEyBJ4pUv3Uu7Od0aEA88rJAOpTJcUndOaQW8ixADPLlR4ySq0QQpjlgGyMASuRk75f+sv5fn/7vlt+BBO1loBBgcs4WQE5glGlEFwll/BGX5/qXYIcWtbWhJDo0Jbq2ft+yA90P9aOnv/Hp+SvlR9jlKF+zdrTspNcqmbZGfiKF3VZktXwWg04zMIiVCRKKzl53Waq75dHcNWoP1uWApIW28vPH0psawvGVi2dXbCjg9kCINTYnIIz3VKhCPBMAFPU9eReOqwzvX/W+oX7ftKrZ7Z3JK9wn1qUwJQznQmUxPYfnpW/VapVP4+PZO1KWlzcKlaPrIke2KiG9EClNjCxQvYEraYDBzi6cdaXlwSyU5KxGrC/9w9LNp0onfzTmnUQkgM/ULOTAf6r101d7eyGYRW3t8EjajxZb90LyB43KGNTGlUZP2a/4nT2qfgQmg8NTRVZPqVZZQMIbzjtNdbxvS/z+3l81a3xUFLBGQlDGl/IIC7AUiEIOusCBvIkFPIpELmFLJcITsUcvK/ogDUBnj4kQmHgHYsyfBK5/zljC89h/Ygb5Ej+8hgAIp3MWwp0QrIcv6BzEuxSAR/icXfEBhAEIDiYWRA8RER1omBf7z0s3deeOQO2h0XnXbUfu/c6XV/ZKfN1lpuzkRiQEMTPR5ttmlAjL07qpS8luZ5BMXP0rj6aYLjVbsU6gckrEzGNXa4wBZDvIiZXUrbrwAGJ6x5VVCKPrsQ7DnDNWrKA4wItANKuKUEAk6AoBIlcyDHhlhlrWmDwgzmsIDl11oRBSZZ4TGrCBTTQkG+xwNQE0C0IAeIzvFasOFU5wvFDYvGqgybF5vHeHexkQzs2oXteVlus58KDRIHmH0sT4bpW/uJlcXZnVC8AF7+0wkdydhiiFt8ggW+hylcrPAMXsUBRxiscUKtNspxMyyB8AO9kBQXIUGQNKNhKRM29ILmECAhmB9Q2BvT1Ej7tfYrpouik/MRICzsOMLAT+itgAxBkMiWLXsPSHyZw3Xf/r2iq36eijUIncPj6N5D/NkCEhxaDDE4byAifTW+lcybPTGowXvHSCFMmktapEdGZJK6JEQ4LMQQR863kyMyVnFvnDALg9hyAx0o8E0E2gwtRzh9UjBiCD/AZHB1ENURgyYlUoR8DySfQZx5mkIUJ6v9SJwYogYi2DKlS40cMd/kpQ8E8pYRxyCaoilEVclYek/WviYOPE0h6u6QMGdMnzZ1yuShxAvnj8WRJUOafkopbr5mr/2iuPhUFemdculNcaRXmZCXDrGXpSmaoimaoimaoilEBRCCHdp24MiJCwLImniiCBypdS0FBNAEYTRqXxgGFTbARTsp7WJkFaeXoCocyPgQw5GCCAchTVrqEBhsh8JSmgiBgp3FcTLEigUHLChibiJBjoCoIwL3mz6MFfhAej4FgXnsX0Ws5xxRawKWlmNhAlj2I7AdGACAOeuCfMpJ0GOmU/7/PSgFGmyMQa8BUgn/BsjhQAIy4GE4BDyMkZ4FOjHxIYB7mHHAFC9NnSb/T9mGN02kc+leepBNIZQ4ZJRHjWmqpmumzb65aZ4l7C0T25+XV/fI6IaP30W4B8mcI3cJKPWWhxee9JGKJWLwjPClBk3aFBu6a65fMeJIBNAMivug2AYoqkH3jG5Rd9dtwP//x8T8f+PqcMDV01XiVc1V9FXClTtX5l2JXqm6XHvZBQHMANYDO4BDakCMAkAMsc4fYlBwjf9zi4fFCVKhSxamQImSlKvmj8UHxU+ARg2aJHCXLF2KSt64pkiVLU1VssVq16lNtxy52JoUidbKQ4G/Zqh1xVUcX8jT7P+Yz4rFeOOlt+Jttclm222xzQ477bfHXvscdsBBh+x2xAlHHXPKcXVOuuCsc8676IxV+vXoNajPgCHDJowaM27WlGkzRsxbZsGiFZbUW269NdZaZ4PVTPVR37mrFFmkaPK6RZZabIllHjNJxWirzXDMIR2er485llqJuwupu2OO5titORZpjoOaU4mbPnF3usk0GLQ1tC2uXox4udaIYgFQeeZjbciG9YMbYlCed+ys1GPj4IY0qCEGlAc3ZIPyznrWu3NptWctfz73c7Y+n+/Md2zaWi/1dpjTFrqerw3N65ZVd/aFl1fL9Wm1p15LdNVqEwY3lFRoS1AIZM93SWt3MVb9PxtNg+YhwazP4uqSav3Cs0/Vp1VqT5XLeUf9K9cH9ZVcrtUKjM2FZEQ5u/Px4qIWc/MAK7Yq4Jc5fprNVHv+ec7fs1y/4LJz33M4ObSGrwZrGuhp1gZlkVnvjkZcWOzPX4DwVA/e4E21p9Z4lcENbYPmLat2VBKoHq3BAsEJvqbiHQ8Qj0MaRvTnoTtS6R+gvwD/C554A7wgO/TiiSdM4d2Rw6S1KLiJhCdRYk0IRY7MJZoxtHg0Z9lMbYWvl+0KgAaKzS+TaVhUmTC7MJfKGe4q8kx0QInOnzccYeSv4GFjY0XFZslGlK3AzrxISxYhQURn3nFV9NV1g6HhT1Wf287w29FZV0itxWQxDnqgJvfxoukPh01Ow6YYNYQrlm037tpBO5q2hJl2xapumuGwLaIpqHabG0kXlXZA6cC13GnqkNZQP2O2rlAZliSc392JNldbanoThlGc224V50ErXR251HNdbib8A0t/93OutV3onC/O5oxFF9q5m2ohC8fRTj8KQp/eK22UCoQSuSx6V2uZ9ZK2qXaM1rFe8XieUWpmURhRuJIeSibA6Ap3vmSeTaTmNjbWdzxwnqEXrJck3BP0LKwi2L27o8BhQvMw3Vti3BWAunUDaK2EN2GJkIZqWGZv7G6GB/gvUQKZg2eh7yBkQQ68ILm0PY9wfWdD9+IzAeGLIkeXRa4nzvaX/fmDGyo8ZmS5xVJZaV1dAcyHgMy7RWtyvB1mFA5vlQcs5ZMJxJTymlNd8rndRDZtTBQUdpNCT/yFEDOecL8M+nufaMahMzXZC8okgfMeIN4DTBSU1kCZycwIFK54xjVzb8twDugyB4bWK09mqhT+LbnW3Ai2AG86kdiwjTqGOBeOlcTLMnJDLBxg9gSBeQy2UyG51qXQdqcRmAVVaNpyuRi1FaEGjeGKwSzK2tE13QpowxXKmjvAihecsT0k9wZYZIiv6uVnVLY5BVk0MD0dIDOT21OjKYbz9CqPsnsZrxv+qQ1/kR7fnABmKRdYMvODyljqLbzGZW17HQODojpOGeMWkicTSRKDRYymNJTSUo1QIMdGUn9Wm6o0ReeMVn1ZM9cRfEGKSUvCjWFLxy3Z27KYyvgk5jI1gzsOLuzs53c0rTkAKgOMCEiVKcrzhxNnHjB2d00Aqnxzb8lV+Hr374k4EbLRkcSWDFm6JVFlQ9e1K3OfPJBs22BRaIxCLMpWm3D7MBO8uY3+JW6eMJn16baN2JR2Nw7GWANUDhghUXjDyAukJLCmAPIU0T5xLHEdWooVno0KnD6iXx3nR4pn4Oxa1gb4K87/vvJb+cPDiQYSBri7g0tNAndXb86xkzbjJzK9/EJcNYon+/Bih82FRXLR6lfGoRgRYvCApqrjKzcUlmtfLcTC3pH2+cl0u/hwSGWJPZJMpGwgDtqFgmXRUny51a95amC4bR0H0gmrlVi1ObPNM9MdVbRgYDj7ttZlRMngcAMQXn4UOH5O4s6mz+2K2U7A3HRg7V/7wdT8YAXq1/946FLpR+xccFSYlrBsuOmYQHOr0ZpcnkK11enDNk7uV0Hyp0L+VLp/r31e9kv5ae55B5FHrSGYgbGaV3cpf7S52jvMIrp5R6zGCX8M5k/Cp6/Z4utw+OESEd/MGctpogjJl1x7S10UO4vo+c6CMw+ArW53/oWFYPFGt6QnAS6H5jAnYUtxO3VvqKwdKprDoMDAuNzaxBaWbX32lBmTU5GkocsU1UG9vL7GlqyA5gElIle+k8FbYQb70hK1XFeueIPkaLSoVrClqeOmLFvH35SSsWID58hKGdJP1efcUDCh3IlGXV/zExnR761NmvQVIVfDe+cq/mdKxUtGuxnXPPsSBwpFrfHRPqcFfzruillsqSt0hBMBkjNo56ZfsWgJC0LtgmFZBBskKjow5zgXbIvctj4Y0q30D2cwQQhD1J1tOkB5dIGBFtSrQUJt6mGhXtPO9JXDJrQvyAvu+u8byhfBA7jfcJk1TLK0kN++st4MHTAZg5NzdLr6S2eMidzeSt8W/TIM2UEaNKHUErnyqnR9URYaRz9id91Zh/5+REru/5wCZD0o2PvZ2tFL7rDlT85SFo5aZa7z93y0/g9nh8uelOyd3jd7ABfvmdqbGza071xZwCJ4t+qtiLMm6BegqwFJFXT+Orwo0CgiJKqma7HGWs6FxxGbD/FBD1nJyPi/PIrGlsNbZIXmKd3tg0wDLY43hnlzyOEAhuNIGIFESwC8VgqcwaWYUItXXLB3hZ4gQ4jBmlNGj0oosKompr6GAdmf3Mi6qF8crrK+eHSXwS4Ley8lJ1C8BDYBraQ8q1BSCSaUJVyU/VLI/j6rjNCKE0IvaArM92o0rDtAxOKW9PCdX/JoZaFNz6RvPntveA6OIrB2Wu2/mllrrkbJWqGquai6FOusMtb6H/wZvh2Eqt806aRqNueKfteWAgkiFEX4swA1sGGran/J79Ur61/SSrFnDxfqjr+Ax6RMbntDq85rP0Ox0Cc7vCwCEr5twchyjXGydjxfv34nFRLHsDF/qIWb+NUmCzogk5sGxoZHen/y3JkAVzbE5k07sFD19zPn2AHP16tCqW56fK1SQP6BtFtOOOmw4NfPTT2RdPVAEChJgRPEfH6nSfIGajCi5TbS3POswylweCDjkEpk5+Zci33aPqYpGYOjLCc050ZSCrSy6C1AYMe7u4xcIJ2vtJ8B+1rJmevoGw6ZXf8UsqxXEgKU9XgNZ/uyuo9/6+GOqyKD36qGSKGpur/6hX43FQX3bcqMofmD1Q3XOVAHTwj/uSdjR+t8jnHM3br2BzdDw9/8sFCIwMgiWIbmyUZr8qCx2ICd4qREseTsHzs5XSxXMqMSqrojcoxXiVUH+/upT3LSLQLdA3EQVteyU9fAohGrm4Tw2MHuXYWM5t5l5V9EW7u4s6Ys8I90OhSVcKn7n1u0pMrylDTGNzhVSZ3ESYweT5bEojpiLzHmT+oQBWks2q1WdiXUGM4eBmmqkdFyKgn6JjxORBK3t6F5FDst6xz8Idjyg401hBEgJLOvThf3zQbvhYpUgdVAWXlPMtNLwZ3l0oQndaPMsD+v9FSORLe/GeojCI0HLuNyM7OpC3eT+yBjzjLwEibCVDuzBZz5poVghrsr5WEycnYFH77Pek0dm7Altl88Owokc7U/72Q/0DxlrHjKPKirG7yCQjma7JYKlDoOSjepQS7nHHNQ9y+GRmrfvnwdemten5MHfGYdf3NVXr4JHao+ta/skKpdGg5UHVxvtxx+dVBqibuuZYfMsRNb0NmKrNccpXJFtqPcFuWW535kc6Oj4TBdQZ+yy8jr37V1+6kyhaxjem/rlyUzxZJJGHuV+KVEkSGS5GuK+utoEKMwc26PQp1eHVMzt2OWfen+icMUmVRbf2925xaI33QFRjjng3S6PJAYMxUK794gHXnhe+3+NkNRWzc5Jknsvj4t7JE+DaC+VaWvaW/pvs995XliEZLyku4rtr63Vf5L0WwAkWTla9xhr8Vc7+iYJpC9VQh1dH5gdTbmV1ppY6kHYzaSxXhOUJ/lm2bW0ajZ9EVLdnrhvHBLuHFozhyGDfarC4dccNd8OfpfuRE1jjLK/0Ub7ZAxGE5jbsVzl5DouC4PbWJ8x+fOXBVS6qcqDLioSoWPKow+isRWroN+u61lcUm1JQxikMgo6SQLgSLZYLQSAPKwcYSuF08gIVIapKiNBVUqNTGqMvopIiFEUejxpRLqrDxiyeIPyUJbkWwk2qh33y3oWlxPjKMjiSazockD7O8fBUcbhWKdYh94eeNlZtIn/fFWrtw51zpvoFmnZn7cmxSaiaKbeuAvhW4JDa1zWvLZ8qMJuBPEsLGddAKrY9AwOrU1n50889ChtRXXk3MfUVqrS6xWPT5LfUTII7o0TqODOeFRLuRgOYNKZefk7joX0dstb21lvCO4I7UVNpfKpAKVefclvvxaV5OtgzSRk5YzQUJScN54/ziYeHI/OBqtmf8XCAO9/vwe804GSR3rIQ/UP3ddh5dAezZV3fzsZ1n0AjLo+sgVLQaOlh0F4VuPgqMmMdyqhH88xmJPALBrKo6GGfDUWkv028mEbmafO4FEWHR6RqrgLihv3TSxkGI/RWnEV6lV+KjALor5JaMqNb6qiAgE3MWQFQpGwD3WCpgLaszjxLiuT20ntbY/6suVnPqksQNr+teA38xD/BMEDWZXxAAV6x5fAA+08pDudvFQhTHAUCvtTE7W91veZriQwz+pSUzat522DLaxlmXkLvmwSkFUaRn03Ij4qSOPPEzU0eltMijEOqF1LzgHBaIWOo7/AP7Qz4dZ/YFXI91CqFoX3NXw5yjMbbld/C28Zd5xR2EgFmaSf5wQ+DgIPmF74A1OWL37QLz3QH2v6lPE+L+VjmaVD67w2ZvLJv6ZjK30d8vdcKnb2911DeZ6177AdWM91g52y4Yu/+nx37afhqNY0Oewt+rBdY06AHqfys+9wozAzbHpD3RCZULEdbE6MPZTqCbi0ShN/8H22ewWJtpCAXF05G9muU4gZoh0Qvnmf5frRJ9wadxPRSu+btEj5/SPHTjACc3hGvLROV+YCIPdKZMEr2ugobWhStBLmEzpHjQRvsxGG/KBirHTcwYO7NuHOHNOf2KGoLbG5kY8eaEmui00vt8S+sFpcb4MWQKh8VFL9Q9Gi1Hl+KgMMb/DziO3Tjux92jP2GyeKZ+Vs8dEGKxPuYqHnAMNzaJUf/F2Fmhz68yrgaclzs4jyjQVNA4J04TVLHMgYL9wP3Dwgbc9HkMUYk0RG4rtqvOkWovTQPjnW7Aytdaw7x+LJskX7XgCjUPNsNK2i29qXlL+Xl0V7R6HZtosonPlD+NX1Y5F4x9WOMabewWxVbv1446Z221xdvt41092NxEWUlvKVZSiF/h96EGBnWh5gMnn15j1pjEzV5SmQaJWYZqvdAVzvDyfsFWUBhUFQuP/RWoawmHuPbKbPnOnaAdPyNsh2un7frijHV1aitEu5oVyZzmT3ek2RcYbkgNrPtnojeyHBp37AjXeuEPsil2M6SPGxP+3OGYGA1nRBdZMzgvxNPZig0aw1oR0JNFB0ipMQeVApAlqlRC3n3UX6Uw2hbJoiSXJmkQ3kLZhiZFZLVHfjJnQzO8sVItqeGxYgChe28LjtaxFFAuGoeXOlDaOw081mfxUjiOlzbnc+MelsZKqMmscwhpXVea/NAaGxGM2zPKUa/GleytK98anXMMst4jHeqCt8dDWLk3Ys6R0DbxiTWBJ2fPoLV/YNehfCvct9Q6W3Ya6pmb8OlIZPQZthvs3R49V/DqSEaK/tS2h9Fpu2f5H2eStiUkHbekz0n22g8wBAxRQWcYL0p6snKw9JPsPXthnuSCIOzAMH907f+aopTT/mv/bq2xdpThJowN1WlCLsKI3M8vtaIHQha3BWArpOYblS9mndvV5k1dazFpBnNQokUlBbuCXM8EifSaL7cjZSNAxiQYT+jj8bGj9UhqbaH0RxIo5xszI4te/3Lhajy2wOgFNvNoOOLzmSO/ioJX9de+P9Yb6xWUXk/fAwy9nSDMT41a9lXLsmC68UyDAQw8CBdJCMFPX8/qXG5PBfwlmu8MQb3A4LPxIvTEhb3Z/oBApCZCVICGqdnIWmWeU+Hc3Lwo6AIhd+aNuiVuq49iwXbhinqAA+tJfIDKanQ5TvMkZzJM7pG5f2kz+PNvn16zI6SYWUlWKO4uzsMwO76/xrVpI6eqoaGxkk0s5Jd8a/6vDa2bhLDdDOKXR6tUpc5Qenc3mYTC0bvGBRpk4RWyW6fVmAC5pTu6Yk7PIMiOYo5HrXS3YsXU4J19AgB78pOR+P37YnbOf9DtIjhELzzfQUSduxHiOkG1s6sUkXS6loGrT2SpdwSUpjW1kxacNxHxAK5lmLkHUwqL4IcBGK+laO9izPOyvRVz3qTlGlo5UtO/qA4qZlSo2aY6fnd5nr+Wra1Hr6ttxGxXhIF2hhCgiXV5I2G6SIdbdK1SZaqdPN9WpcpBtb+yIPJ8x4iqxL1ozV55azbRamco+5zh5hLqOOkJm7gRUwM7B9QiICOUqEq1PrLlIa9CarNj5Cm00YwoqAzWFYUeSG2GkiRzsnhlj927mkq2OWTi3NQvIRlzKtmfjRM8BYdZcXOZzUcL553ZJLu5zra5Fqzdad/a5GTZZJKiz3x37Ao0gmEN+wZKmLvPR357ogzf7TP3N99MMMCe5dpQLa2AVFRjdII5SU7zJB4vowRSpXiJXmnTXrOgV8iZrPgaUORzKn29RmuMmtU/SY5ag+0uxhTAobbOVbXEftPvltQWdWr82wAaH3IPuzbbyc7izZy+JsYPyze6tDjDBre4ttjJ0+GTxvDz19djrakbnG+/pQFEvZm4madAj75KWwL5MoxqIoFPtBA1EatqXsCXS/3aiNaTNzIPqTx2MvpeIRwTmMBVOHWYSHiFe9jEcn6pNeW9k13rnf+vo3UhIyeLs0/PM7Mw+xkr8O2bewjLviUxU3p1RvSc4A0t6p6xORJ7k8rmT5P7euvExD8BGZL+HsfjF84zzsuNX1BnrDKjwJZHy9VTyZxZLNpsTzGd/03aLKvuPQW1m/+bJsbgEXJkFQtSRAXp4Z8z7rNVXnsBiX4hJbrze5FdFroL7RA+Px/z9mGDR98Xm1FCqWchK1zSzXT5Oj8PO6RUYiIYHmOwOjVm8rwV+ilpPKhEoBQE2ODQrWLkDJRGLq9LtcYfN3C9g9hE0hradIWOuYuBUd3BTtewWVglVj8aj9TQa8/iopyYjUzFAfCreUBA7lVeMy8IV86Zix78IMfQxH+ZnFM3OtrGpBqwSlReXhyJLfqrZ/p2f84Tj/25Ork67AKZdoM7lzo7xwJ0bnBvgMZ7ZvXurCz7Kg39YUyRewBY7eWYLxukg/fjhyuZFmR9htGadajdVeuA95oncRJ6KfhjHWM8qs3vDPggK22xQGPJBYauQfYulYN1i2137WNPJd3/aTCZv/uku2YvUcFrY7BbODxXwfZ9EZa27y9pvWty365wuS3dOc8d6xzMbr/tIbHH/nvTVt/9PvyJnwXz9csptS++YhW9iKBPVpm9xEz44Zjy62hdKFLfyDNU6ubIjE9uSar+YVmqIKqiyg0fSIcRQrJcuZjeaIAtCdfUCeOGqfdYCTZUCPgBzEWvO99bzdpgz13yqANa77dtjxuojUkTc50/39qn7JM5/KwOqtrz5/vkQhwHFu/a99VZdiHeZvmyoygXFNIfMZn2/W2gnlzUGNBViCpsAO8HsM47JheCXiFxWp3A12HHKMlDe0FBu+VP7vq8WCiECvVir1S8Ordh1zcyZmflMTaoemjGjZqgsqUFdp4W7tZrfTsmrV+zYhxgs9ukAeN1uk0LiCS0JSTyKtuPfCQb8wm6eEszF5YmuF4Zvyr4xvCA4lDITnqZ0LzTgj4N/WAZtDSvIQFEyDR0xOLdlAUwO3nHejxO76tVTfxy1Fsr0dp2DkaE78JnhOCkT/6z74h3EHFc0J9EDb9HzJpXFPBARlRrIq3BEX3NlRWytuhaEV0s9Pw6DrKxXN+gG0nY8KdjcUBNXq+7t5i3UJ/947C/5gPi8AfnX14BuxAqOjY8ZhiY7yk90wFe+1FiGDMIT9lTnUqTMYrM6Q86ARgTsoFL3XNO2feCYgmPfRsDkWiLNWdzZIZ6ab+KWFGX+XJ/qWt+5N0rBCywKA+yeXpycx+0/mg0JJec5qYx/ucMcHmgmniSa+8N3UZl6qX4vVZXqrVNWEClZ2AghG/+8J4fx/b7gkis5mcvSUt57/0gyUJpcPTT9nP850fr5ab/yZ7mjsBw1Q7e0b3GTNEBSAvgKhQJfIQUcpCJVsaSLN6QPr6kylJVqEkxsaFaiWVOu7T4BuG1Oo9NtA1xfuAG4KF6hyaT5Kma35ofEF6fRhab8c2r7pA97jqqD9fLvv86O/+R7nE6zcll0y4EieqHR3+gPBrpbpO810cwBCwv5oTQTy/hMHaseRoO89PepxowqtSojSjW+Ty/UcnAwL8Bg2qydHeK3+WZukJPxifmxa33tUgFiX+203N1riw17NgSK9z6pjW0Ph4XkYkBUiVbqQX3IrzHlA2XS2jTwwPOUk0M3V+p/zuySXFi7flyhi2NOw87fNho2/rXT8BY3UDt9cMZSff/Z3Pn3BSJRj7oyp7nObRLQmFJ3bNtZYYXWmmKX1sWcOAdc3cSJ61T9dEg7FDedhSydzik+oqjZlDfbfdzuDM1eTZm1c6+IGOp+s5ViIp3n2NcHL31S/NRbCub0Hdi3j51zUstS5A3IzfT5OppHCHF9daFxaOXuSE1jWRkPPbJ7w4vdomGukDss2h2NnP/SpVralfcFDbwof2FC8PlVCZdwtiPwWO/GeQfM/JaEBvH/BrSgpopfesycJptbfz4FHYtKIZAKurzu4vhHOLVOyS0UardUWi8G8guo9lx4PhOH7bqxLf40X2bmscl3X8Oy0XSeXa6X3GY8vdlHok7HxkocbME0VrVBHfJ6oDfICI+3LMijPGWpWE8p/dnJFekfJyYkfpz+Sz1vYmPF18HCviYJiPXyfy09vGNGSagIkbkbhfpxnWHbKZFsEZ1ZbLfLj/JfB8jVwvV/PznOJmATc+NyxQUkPonwTXpc1m1U0aKV+eFC8X/0gsEz8JcnSGxQ1G3cPawYuu55XMQt0qpm7IbN3NXEqOb33Js8m4zFF6BhKBUm91C3KWniimBrfDvigz8JnJt8AaDzFlYrAZOSPF04Vh54RQtsCLqGl5PYI1wBqDuAVaORaDX22x0WaFgwVytpfyUeyNNqWNVqrZhJ7HoDHxVhqVdlsqtUrGgU/qaLyLwqqzqP/TY7LvtbLGbHrMGjchNyUfiza7vV+L3DfjgNoyL1fU79ILMjL8xC6HZDwhO8lS1b9RAroVnliFUHMRy1GalYiD3ldv8T+9frX33+lQRE5U/gT4hKwkqf/9dLl4rKTgW8lfYoyv2mPzE5fdOPcdevkN7kzt1yMg9cyl5qwK/LSslah7djN3Dx2HyzBNplJpLGv+lhKyYhlf8zbdml9pnfL6F6liZv68/58P28Nc8rMwP9IyoH9SPa/hg4Mv+IV6EnWkh/UVWxE3VqyaXd18kyKvmprp3bWxd6/2mhvsvNWd08cEtW1xnZW5AZycjzscc0FNxJ94sd4fzMuGjdPTw53LH+1v7lGn9algfm0bdMHR4/bq43xXDHtz7pjyytTQnwf/cij6waHCz7+chgk8lY3x0jigBGNHECVTGnn7JvQ0NcdTplWEXPe9PPOhYLLJD68AFaXszxYrKeYf/BwL8pSQQe28HvX4ngF0IQ0g7/kYNwo6Ad+e2pSJ3n+opqP9Jg1Hm1GTIibam6ROkhgXRwflpKnmRLrvwHf0BEOEnyJBtcTEY4ueRJNrgN8Wz8rE/iFUieZEsu/kAuwumWPMkGt6WECsD2VaLhSi2lVNIjsdoMuwSQHa4FqaWEgnbEBamlhIIBBAylK7WUUkHAXLpSSwnlrHu3+qLbBGjK+KzFQ1MjfqS/Hqb5sf5GmOYn+uv6G/qbYZqf6m+Faf0zfq6/ob+lvxOm6UXBGfnTfZP/Mps5xK3Mf+H+/XoMAwn+O33FVCzv9avguf7qrRjeSiz6fYS86JvoTMlwuW0xD0u35nLsSS+E0xuvKJEyTc7gth7+7EdOoOYBSu0uBVJnGjee/jgrs1l9magZMp3+fedGUDqjqjs8KLuIdPrX3cBxHkg9kE7/uhvwqN34L91R1cxR3czJ0s+52zMlXuJgvI6dPGK4G0HHNpWOhDyuqoM0ITsGHnlvFviKmkcuyNO4+FprLmb8yP2AUaQrgR+5H8CGUib/hH1fJkKJ8YjB3V4eFErxscOP3A/YniRIs1BqKoNo/7InezQnxrsnoypw4r27eJTKR1F6UJSkahvGnaIjDRgck0VTajQ9bhQ3kkXZhHz8Knkr55xe/gbFOe/DD+gCfOFX4LkfwPrTAPT3D2gAmRoFoS025+1X/3/phY0tFpmiPM8ZWSHWYzRBC/4dW9bhNylMrupMRatFQXUWv/wHmjnyQoRlBKDmQujAyBhBRkj1K3KWnRUiPUKT3/JnzrIiJRAEpSuQQlDGQgoUkdQzSaiHVGT1WyT7JXktD5ZKM7lNpFC7pcNUSby2YPQN4QMNHqQg/SBoldGb0SUzZoJBT6ArvRUqiMWq8YQlyUKoqgrUuKpAkjO/TCZJFeT9uJr5ULxC5ckqoj3KUDSOslMA6kmpnCvyWsAllmwrkPOgmRXEe/wSjGdB/AslpKw/o3ZNa2Dyq9bYpqq6R2SP9YnMf66Hnqj4MpavY8E7nRB9dHL6Lyp+4eRjJ/hEyRdO0LZLsovjmTKiVy8gw+uCPGOadW3i/ZyS/oTclut5hy6wQPIj/8CZpzP1pKW66rVFCjcJlX9OuAyA3S8x9r0+aaGlH/hBdHCmFyJ1aEfGwHldulp5Evcq+KBWToeQeRaU5s3xoo0dADn9DilSLJfcok7swK/wzwUiyHnCrq5GizDRSGX/aWFiupbzvbZhxhFE7NAwKvoLGrQGnplsRWQMq50QVkh5qZIPCYliLPRgfWhwjV06gYJQZMNcuIAslGkKgM6I9WNx35NFyBvHAYL7CGDI7/l8kvuUGU712zASbuQ78QxSN+JZm9nSZTCI31XkTTa1VokdsD8cOTjORmYTow0zs2y09MI3AhIEHSMbuY+VUfcY8/3KSP9gvcjQqMcXjOxN7Hlhw+JewkRmiWzF7wXaHoOKhstDRna/TWkrha28AsAjeEHipl63IK2K+H64tWA/rvgCAoLY2sc5GroT03px/ee4MYFd1jC+8qzHtdCA8DWx4PFI9NPJgoElPcG5/Qyx6B+ArJgy84L7IzPMFUFiBxz+/AsuHtnEoe8D7212cl5kzpHHk30gmsqPcBo3wF/FqtwOimCeOD5nb5xbKH/B0q3l1VnrLHlWmJpdqApdo3Y+nIegHyig4AnLN/V0Akg/JspMmUlgtoDalPRAcUOTX18wZafSpcNnzEDEwDZ0RBSFCZ8MwNPQObKds3WaCAIEygrZouCO2AjnHZ4PsiDlxz/dWOoN1bCY26BFawHXJerZTtgiV9uc+hDARHOiMRUzvmeXikh2VRF34vbPhq0ow/C7UfIAgs4HtvojP0N8bqPt8fjtkDGLFBPG3eqp04slxu/uWjCfd/MwdJEQThLBZiCQs5cTZ95mlQ2F/krCxkxFmCMiaSIQRpdgZozZQjzFc8pDs4+pyZBpZ2U44treMVIfhpWKE821CKoDI4/Rtv0UqezWpHYNxXDBFwOTHypHgEWTDfxyIOV7UyOBgRdGvKwgq2XdTstLMcsSdVLzVKbyop8I3EtlmSbcjwltguxLJzA0S2LKAWtHQgGn8XFm5YziDWIJvxtDjLJ0WisB9K+rppEYO8DIjePg6+Yc2yVMOLBaCwOPDxg5ZZTF/V+Yn1xwH9eiHpjYJswlWyqE83FCs/tJQi6etZyDz5UdwBYC41gBOGzlOzpl3K7jekcMLKInzGvqQQQ/dzAhFRkVAr7Ksm7C+8YEKwB78UoLhfAW3vJEDVFdCJfK3ANXzrqaU1wMCkw8xfaVawH1xpceo3R6qQZ/+zK2ZQcf4vvnKRcHT8jkCkEw0kSjDTS3iSRQ8fVuUBGbDZaJw6IkIDHRu964Jb/fp0lnQls/T4LEFSYl3XEVdV0Z8VdUQG1Ef+CLob5Q3ZgsyLsFX4m5EvJ2XBbTUOp4bmFJM8yiYaqeLbC/mzo+bq27bHp5MuRSjeytnF0bTINRUk8AgKoQmKrkQDJpVHAOsahExKQVLigAzGFUjLl74zatshV5e3sSR7APBN2e2I8mZOuJf5tQK7cimfnKpIxpHAGKstD1xmOcy2IYD93KWLeSeBcouKhS77sTzzJo16vhuijY2I3SoX1gbQXXY6FrhDY/nJ7kaaAWxk5uestj6SwCEm6lWPXZUe9MHd0dY4G19CQdJJ2e66kEgOqpzDkaQ+lJT92R1O7mKEoJ+XWUEb47sGNt7l7b3SFXPsOBuhu8AKCsH9FvIfLfm30dm3d5EzTMYNto2LfOjF6jMquJoHRvrK7iXbygONh9+iqGzd7cCC1sU9ZojRvNM8VL1dELBG04HGym+pCF4RU5UbALUrazC0gSsNfh8tz/xWzONYLdm1cDvYtnIlYNTy0PrRVbDnVrRuPxeEJVwn05wD354L46WPcGefzFqamkkq8bBmKUdswXhdDVPJGOFeptKJMleQSBspcsHGgRoKLPoCJe18KX6FVgD+NUD8GcfcWHrtw5uXYktG5ckdkag0nqwziHJ/Ok10sTHrhFh1t1o0M3OoTwTrKm4Fic84QSxo0OASlYB0cMABLxVhG7iZM45p0zwHpXJhl9hEZ840Rrp13qpSVq42Sj9RZTaV1ZtK0yTd24W5AGaNk1rFtmgnEwKEnPGV09D2D2/CLmODaRTqyFLWfOaW59wkI81Sz0KscVCOl5WIF4kyLAeldlalGEFqzvprWuNOifPNTG2pP+pQtfuPCSkl2Ax0Wv52KIoYHchr/fGULzZwCeY8SnVjwv26UnKJT7UXT2S4NazjbTqksscf9YOih7z+vskCR7yj1lcK98wpMTuWO37pLy8HxW7D2WMo5a80n/S9HwUO+XjD/hi6fR3ZC8WrswIsWbrY1+/L+PvAL41m/hkyIZPyEOI5APPCkrOTmAcKtpv4hVtDrpeyc97tWF3rl3MesXDqB63vQDhxVWG1AsWhGpyVKWJXjMCWIKAAfUfqsgiO1gVq8QEhS1z97Ehn4iSh5qQJl88dH2qanOn07XnTd5XmvKSDNZjWRWGjCeccuok1hTyASB6rZIBXmVOzc0hFtdBPrgYwAYiAgQz/gFF9nIQ47dRrszIpEK/+XhgUZbwyJZs5AJSSUmChA+KX8gyRzim/K037BYK5khHXOidSeiwNNDULASTrckXFDtcqHq3bBR26iQMfD/DLmgqsLGqdMA/zN//4TD3u9SjnGS34kpg1VOYubyIQCXAlYEpGZtGysRIj3F5djUF6z9yTkIcBmh4PL5LqaeG9ajxguu8b1k8dZ3bbTSPT3sogTAczmhHvYInT1JkMUcfjCsjLBAQwTx3d9gcCS4go6Ahmi2+i1WOhRXbstAiq4GKv5sJOoqV/ulpLwO/VMMmssOl0c97KV2XTphYMClynz4GHhzL0ydNOvqjYwJhVBHi3/S+BhPV4sSJNRiwBVKVKXCKbKuNvPYb8HCchcGFZtuXgn4i1+KirXYE/zTeNsQLxf+iwy9QfxL5mis9zE1QwJ05sz5ovmfDbkNBcBSgkBrOU5bTsgOuO1g1cyFS7C6b7fJnvzGC58ITNJ8ymxgxNxJsMXK55y5odaN7AGYAM5nE26nAZZl+jzxdjw3aKYKEpuIeidAWghu4OmCNgioc71a6im/SL3G+RhSqm/bvcqL1dJPTKP3Agn6gdatNaKphJSVX0DaJl2c2UmyxK4JPN+GXD2ra2PPotZ7FyRsdUKNl/hB3I4KR3ex47UDsJOLk5iGYiE4/J1ygvGUasb6Y8jGbr67GptERj11cLw6jVjUrG9e5eFMP284rLwv2NnbGGpaxM5Mm74hdJhGOyT3cl+NkrDcO7eui3avNqneQIkH3wJxJAyXeEfnVJ281ztzOXgpxXcX8pGC+6x3K8ZL072nAehB0GcxzfpndL7uXNRY/stQAGFmWY9zFSLBJWtlN3R5xz42PixyALOSvrvElAt1pZOftw7xd+9CC1/np2GyRmBsJdtcV5KqXi7VBWMbryr4DbQvOb3zqk/9ynv1EHgbhgVl0tCRxhE/wpZFX0kbGHaZ2ZZsSMWhoQSjCaX/w969J5RCe7+f34SlAav3y91KPHKsfxKxw0CMWMXoMUEl17izVqrLcQHkKvXmYgTvnibePcpVBNQO53ckTXHgxJy718hTefBTkzYQzStZNQm5UGhZgV2A1lm9+FA7u6A9ysyHn+nSjNKVFmQbt2Wyw9rLFQoWpyQYCM2q1O7h3XMvSII1vdUS10IihbgBvTtMxJRgvi8BIGNSapk0Vp31FM3exyKZyrhuEyyDbdGQholPy1xPIlbqkHjsoaeWIYweO/sFdjlHIcsRopglqdEWAYO6nCOY3fF92TdaKNtWFFozsMZtXfUbkP7suNZbkVY6pBxJyOWlLS1n0vmxT6J7Ez15cgACLTmzHgKYM6LwXUKbzy2EEAGuZ0wtiebmxqyxWzbg2kb+BtQ/jIr/Mh4zcDHk4z1GzVzI0z1STnOiJzNmoLAmMME6Z+nnADCW433OGErHKV81rIAKRBsGwH0hwvz0quozqjapIJKhU60CpqUppdzoTTxqM6xjoEJa0nfHAnpOT3YdQTJFZD0Bi1mPEFZzHOFOiq+TGrOAByWgvb5WZ9bxx9O5AebySYaBVvh5eK9udVrOiPNUqQ5xKUJbH3Y9NbO/lnGI13Aoquna4BfInId0yBnT33weBgxzc4PfVualVusRK54OvnKDfk5hSsfGJi5ew8WmksGu5O1KPbKMXIEUVKy8DGveNd6H3gYYLGbturprDH30do2PXMc18PaHdM6YsYTtTXenoAdw4+UzeBCYQTxJgwc4xXeNd+iEm5hhvFgGD/acap7WXNxXgNJc+Q3be/z+VzSurHnxC4PwWuzo+0WzH504icGerN32522P3sRRm9eCfeUW9tcV617D3csKHweOyFqUfx1skCEIY+jiTwNmfcwMwDK+lgolZBIMb1hyunKt2rNr00uQGsGKdcWixaG1hGfEPOIeUWx56Od/hOpFUYvXQtEPCGj0z92IAkC8Blxj5Dqfk8ELjw4Y14bCmvAWaqHJ19z2G+0HSstdHHMS+x0/iM7bECFS0R2qYBO4jzHiWWx9gdu1O/jTeOAJx771Q4ipJh5l8rFAUD2P8QX9e3xujEuTj7WxWLgyPqcJygvI4Aa7tIvnlZV0SOQ09QjVbEimW+HzQXk/9UEZ4D3w1MEaE23tkhX/EUgAwNynMsyss/InBS9vvTggvT+6bUb0Da7bGKgFB9spk2XmhHp76IRJ2RQ2kXl7qESNVQ27HKVIohCAQNjWTsui6KBKk+XudVJb3mUnsDce16rILd5J/4eAgOT0887er+l9yt95AvkP4NKSvUNc+biNdf/z3/YtKoWBNhhAgH9c+naqZpJ/DPoMmZ+Kx1MQyQ6vpxQOtATE4qjSqFwDV8RB9AnT46CiKaOFoyLigxeMUSYhi5QLFCtNd8CgphSbDnbyg5GRoKSHSyGKjkdkiVaMZCmfOhssysQ4nnUWNr9Ez5TY3pj9TnvMY1q+hN3OswLyDEIcLmr0VLizoTM0L2NgSkJvjBtbjA5pllhqrh+sxkoajfCpGk+Dy/jgWQ6L7CBGQnw5b9FDYiC8BGCpRuWvValIEZOiVvilMtYpWg5eFmNnzmKhxSCuxaQpQij0l1xMuirrbbPGTrvtM2JH8zC/6XzUHsp7Mqz3pkanHLrADstN+d8h/fb76ej0bVCU6NDkhhX2Ot9VvabqFjVrtOsUcAw43x8gHo+3mHIREEA7SPD34RDQKgsOlRwAq3GXFUTJswpGzI0Kzt5chcFQSYWPnPgKQZd1EXMnYIeKZbqEI7PT5dKVyU1LhRk1VV4K5PcUK5PNTAhvgfywBAlVIFONIMWKFDMRLlO2SgXSlImWqUy5XMWKkCyZspLbIUc75Ggxco264zT6CKcsr3N3zap40GGJ2qo2sk2wUryr5izYIWVWCaXMt2qK5K5AAZLcKOdKpsgsVe44g+nh5WtFO2dwUNkc/TigkqngxZsPX378BQgUJFiIUGHCRYgUJVqMWHHiJUiURJsOXXr0GTBkxJgJU2YFbsGSFWs2bD09QnH2F6XJkCX322zWbrX/ownSIhEY7LQLi6RNVIlTI4TPXvvstsdpZxx1zAYbrcKwkiZhIlwxJUslxc3hwEFAine69OjXZ8CiJe1BIBtEEdylEfPVuG9GkdRpOKXbakd0JA468ZuSK1+BPEUKLVfsgxJlypW6q0KVapWJhxq16jWos0KjHXp90aRFq2afHHTBOZQt0m01IiMJ8F6m8y665LIrrromC+26bDeN2ma7z265LccdH0377neP/4MwLdtxn6LijxEZiiVSGSNXKHupUveq1xqtzsjYxNTM3MJSb+Wsu91rmSGA/z3Ese4Rrq2dvYOjC5euXLtx687JvSc8SUcPSPti/4i8qtbNR4bxWMe+ncO4T4HO1Aj+9jjJ3e/29/RZilfe1A/j7y9tcMvBpiNt/4031jxNxt86fV+X+7QfF872D8ju6Gj77Gx6785jlK1t54l6Uhh/1sd+8ec2bec+1eepNgLdIBA1EfFEENQP4UQEIl5V7+Md9w4HjlxwyRXXPMWGp3mGZ3lubOfra6/T92k9OrALNnsOXLFlM65PP8fdXlXv7PraDhZu2nL0SBdX/cvcGNd1r7T3q4sOa2/fuWdr1/85ho7CgrTLcVM85RB732eOTf1q11heaPs4N6wn3Z09O4t9cFrDapWEmnkoH6yY0vZErhO9eXYUDHSDtAQ2MMaJwFz06c3xZMeIOmmgdeCXRDHZMKBGSuBVHSGJAjgxJBejI0wYD9Z0KbAALkeUV4ypIcDgyrJcIcmgMp9QLFZ0VAQIZvSKFXki6IifBV1aZEkIAQHBmINRW6IjQYY0KZEmLHQkZFS1JCz6QmFhAVyZs3YdJEYQ/8AG+IgMRcYxSUFHJbZJTEdwg0kJy28J6u2Gj0lGRrCM5VyjZC0mt6RSOA7zXaGJt6OiLwMAAAA=) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
@@ -1231,24 +1236,21 @@ b.st-adjusted, b.st-inherited { color: var(--warn); }
 
 /* About */
 .view-about { overflow: auto; }
-.ab-wrap { max-width: 980px; margin: 0 auto; padding: 28px 24px 60px; display: flex; flex-direction: column; gap: 28px; }
-.ab-head { display: flex; align-items: flex-start; gap: 18px; }
-.ab-title { flex: 1; min-width: 0; }
-.ab-title h1 { font: 700 30px/1.15 var(--cond); margin: 4px 0 6px; color: var(--ink); }
-.ab-lead { font-size: 16px; line-height: 1.55; color: var(--ink-2); margin: 0; max-width: 62ch; }
-.ab-wrap h2 { font: 650 19px/1.3 var(--cond); margin: 0 0 8px; color: var(--ink); }
-.ab-wrap p { line-height: 1.6; color: var(--ink-2); margin: 0 0 8px; max-width: 72ch; }
-.ab-mission { padding: 22px 24px; border-radius: 12px; background: var(--accent-soft); border: 1px solid var(--accent-line); }
-.ab-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
-.ab-card { display: flex; gap: 12px; padding: 16px; border: 1px solid var(--line); border-radius: 10px; background: var(--panel); }
-.ab-card h3 { margin: 0 0 4px; font-size: 15px; color: var(--ink); }
-.ab-card p { margin: 0; font-size: 13.5px; }
-.ab-ic { width: 36px; height: 36px; flex: none; border-radius: 9px; display: grid; place-items: center; background: var(--sunk); color: var(--accent); }
-.ab-ic svg { width: 18px; height: 18px; }
-.ab-beta ul { margin: 6px 0 0; padding-left: 20px; line-height: 1.7; color: var(--ink-2); }
-.ab-contact .row { gap: 8px; flex-wrap: wrap; margin-top: 6px; }
-.ab-foot { border-top: 1px solid var(--line-soft); padding-top: 14px; }
-@media (max-width: 760px) { .ab-grid { grid-template-columns: minmax(0, 1fr); } .ab-head { flex-wrap: wrap; } }
+.ab-wrap { max-width: 560px; margin: 0 auto; padding: 32px 16px 60px; }
+.ab-back { margin: 0 0 12px -8px; }
+.ab-card { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 28px; box-shadow: 0 1px 2px rgba(0,0,0,.04), 0 8px 24px -12px rgba(0,0,0,.12); }
+.ab-head { display: flex; align-items: center; gap: 14px; }
+.ab-head h1 { font: 700 24px/1.15 var(--cond); margin: 0 0 2px; color: var(--ink); letter-spacing: -.01em; }
+.ab-lead { font-size: 15px; line-height: 1.55; color: var(--ink-2); margin: 18px 0 20px; }
+.ab-facts { margin: 0; border-top: 1px solid var(--line-soft); }
+.ab-fact { display: grid; grid-template-columns: 96px minmax(0, 1fr); gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--line-soft); font-size: 13.5px; }
+.ab-fact dt { color: var(--ink-2); opacity: .75; }
+.ab-fact dd { margin: 0; color: var(--ink); overflow-wrap: anywhere; }
+.ab-fact a { color: var(--accent); text-decoration: none; }
+.ab-fact a:hover { text-decoration: underline; }
+.ab-note { color: var(--ink-2); line-height: 1.55; margin: 16px 0 20px; }
+.ab-actions { display: flex; flex-wrap: wrap; gap: 8px; }
+a.btn { text-decoration: none; }
 
 /* Feedback */
 .fb-fab { position: fixed; right: 14px; bottom: 14px; z-index: 60; display: inline-flex; align-items: center; gap: 0; height: 38px; min-width: 38px; padding: 0 10px;
@@ -1271,6 +1273,7 @@ b.st-adjusted, b.st-inherited { color: var(--warn); }
 .g-beta-card h3 svg { width: 16px; height: 16px; color: var(--accent); }
 .g-beta-card p { line-height: 1.55; color: var(--ink-2); margin: 0 0 10px; font-size: 13.5px; }
 @media (max-width: 760px) { .g-beta-grid { grid-template-columns: minmax(0, 1fr); } }
+.seg button:disabled { opacity: .45; cursor: not-allowed; }
 
 /* --- styles/results.css --- */
 /* ================================================================ measure */
@@ -3148,6 +3151,179 @@ var PM = window.PM = window.PM || {};
   };
 })(PM);
 
+/* --- PlotMate/src/core/linalg.js --- */
+/* Small dense linear algebra for regression, ANOVA and PCA (matrices are arrays of row arrays). */
+(function (PM) {
+  'use strict';
+
+  function zeros(r, c) { const m = new Array(r); for (let i = 0; i < r; i++) m[i] = new Float64Array(c); return m; }
+  function eye(n) { const m = zeros(n, n); for (let i = 0; i < n; i++) m[i][i] = 1; return m; }
+  function transpose(A) { const r = A.length, c = A[0].length, T = zeros(c, r); for (let i = 0; i < r; i++) for (let j = 0; j < c; j++) T[j][i] = A[i][j]; return T; }
+  function mul(A, B) {
+    const r = A.length, n = B.length, c = B[0].length, C = zeros(r, c);
+    for (let i = 0; i < r; i++) for (let k = 0; k < n; k++) { const a = A[i][k]; if (a === 0) continue; const Bk = B[k]; const Ci = C[i]; for (let j = 0; j < c; j++) Ci[j] += a * Bk[j]; }
+    return C;
+  }
+  function mulVec(A, v) { return A.map(row => { let s = 0; for (let j = 0; j < v.length; j++) s += row[j] * v[j]; return s; }); }
+  function dot(a, b) { let s = 0; for (let i = 0; i < a.length; i++) s += a[i] * b[i]; return s; }
+  /** XᵀWX and XᵀWy (W diagonal weights, default 1). */
+  function normalEq(X, y, w) {
+    const n = X.length, p = X[0].length;
+    const XtX = zeros(p, p), Xty = new Float64Array(p);
+    for (let i = 0; i < n; i++) {
+      const wi = w ? w[i] : 1, xi = X[i];
+      for (let a = 0; a < p; a++) {
+        const v = wi * xi[a];
+        if (v === 0) continue;
+        Xty[a] += v * y[i];
+        for (let b = a; b < p; b++) XtX[a][b] += v * xi[b];
+      }
+    }
+    for (let a = 0; a < p; a++) for (let b = 0; b < a; b++) XtX[a][b] = XtX[b][a];
+    return { XtX, Xty };
+  }
+
+  /** Cholesky factor L (A = L Lᵀ) of a symmetric positive-definite matrix, or null. */
+  function cholesky(A) {
+    const n = A.length, L = zeros(n, n);
+    for (let i = 0; i < n; i++) {
+      for (let j = 0; j <= i; j++) {
+        let s = A[i][j];
+        for (let k = 0; k < j; k++) s -= L[i][k] * L[j][k];
+        if (i === j) { if (!(s > 0)) return null; L[i][i] = Math.sqrt(s); }
+        else L[i][j] = s / L[j][j];
+      }
+    }
+    return L;
+  }
+  function solveSPD(A, b) {
+    const L = cholesky(A);
+    if (!L) return null;
+    const n = A.length, y = new Float64Array(n), x = new Float64Array(n);
+    for (let i = 0; i < n; i++) { let s = b[i]; for (let k = 0; k < i; k++) s -= L[i][k] * y[k]; y[i] = s / L[i][i]; }
+    for (let i = n - 1; i >= 0; i--) { let s = y[i]; for (let k = i + 1; k < n; k++) s -= L[k][i] * x[k]; x[i] = s / L[i][i]; }
+    return x;
+  }
+  /** Inverse by Gauss–Jordan with partial pivoting (null when singular). */
+  function inverse(A) {
+    const n = A.length;
+    const M = A.map((r, i) => { const row = new Float64Array(2 * n); for (let j = 0; j < n; j++) row[j] = r[j]; row[n + i] = 1; return row; });
+    let scale = 0; A.forEach(r => r.forEach(v => { scale = Math.max(scale, Math.abs(v)); }));
+    for (let c = 0; c < n; c++) {
+      let piv = c;
+      for (let r = c + 1; r < n; r++) if (Math.abs(M[r][c]) > Math.abs(M[piv][c])) piv = r;
+      if (Math.abs(M[piv][c]) <= 1e-13 * (scale || 1)) return null;
+      [M[c], M[piv]] = [M[piv], M[c]];
+      const d = M[c][c];
+      for (let j = 0; j < 2 * n; j++) M[c][j] /= d;
+      for (let r = 0; r < n; r++) if (r !== c) { const f = M[r][c]; if (f) for (let j = 0; j < 2 * n; j++) M[r][j] -= f * M[c][j]; }
+    }
+    return M.map(r => Array.from(r.slice(n)));
+  }
+  function inverseSPD(A) { return inverse(A); }
+
+  /**
+   * Least squares by Householder QR with column pivoting: beta for min ||y − Xb||² (weighted
+   * by w if given). Returns {beta, rank, rss, fitted, cov: (XᵀWX)⁻¹ (unscaled), pivot}.
+   * Rank-deficient columns get beta = NaN.
+   */
+  function lstsq(X, y, w) {
+    const n = X.length, p = X[0].length;
+    const sw = w ? w.map(Math.sqrt) : null;
+    const A = X.map((r, i) => Float64Array.from(r, v => sw ? v * sw[i] : v));
+    const b = Float64Array.from(y, (v, i) => sw ? v * sw[i] : v);
+    const piv = PM.range(p);
+    const norms = PM.range(p).map(j => { let s = 0; for (let i = 0; i < n; i++) s += A[i][j] * A[i][j]; return s; });
+    const tol = 1e-10 * Math.sqrt(Math.max(...norms, 0));
+    let rank = 0;
+    const Rd = new Float64Array(p);
+    for (let k = 0; k < Math.min(n, p); k++) {
+      // pivot the column with the largest remaining norm
+      let best = k, bn = -1;
+      for (let j = k; j < p; j++) { let s = 0; for (let i = k; i < n; i++) s += A[i][j] * A[i][j]; if (s > bn) { bn = s; best = j; } }
+      if (Math.sqrt(bn) <= tol) break;
+      if (best !== k) { for (let i = 0; i < n; i++) { const t = A[i][k]; A[i][k] = A[i][best]; A[i][best] = t; } [piv[k], piv[best]] = [piv[best], piv[k]]; }
+      let alpha = Math.sqrt(bn);
+      if (A[k][k] > 0) alpha = -alpha;
+      const v = new Float64Array(n);
+      v[k] = A[k][k] - alpha;
+      for (let i = k + 1; i < n; i++) v[i] = A[i][k];
+      let vn = 0; for (let i = k; i < n; i++) vn += v[i] * v[i];
+      if (vn > 0) {
+        for (let j = k; j < p; j++) {
+          let s = 0; for (let i = k; i < n; i++) s += v[i] * A[i][j];
+          const f = 2 * s / vn;
+          for (let i = k; i < n; i++) A[i][j] -= f * v[i];
+        }
+        let s = 0; for (let i = k; i < n; i++) s += v[i] * b[i];
+        const f = 2 * s / vn;
+        for (let i = k; i < n; i++) b[i] -= f * v[i];
+      }
+      Rd[k] = A[k][k];
+      rank++;
+    }
+    // back-substitute R[0:rank,0:rank] z = (Qᵀb)[0:rank]
+    const z = new Float64Array(p).fill(NaN);
+    for (let i = rank - 1; i >= 0; i--) {
+      let s = b[i];
+      for (let j = i + 1; j < rank; j++) s -= A[i][j] * z[j];
+      z[i] = s / A[i][i];
+    }
+    const beta = new Array(p).fill(NaN);
+    for (let k = 0; k < rank; k++) beta[piv[k]] = z[k];
+    let rss = 0;
+    for (let i = rank; i < n; i++) rss += b[i] * b[i];
+    // (RᵀR)⁻¹ for the estimable block, mapped back through the pivot
+    const Rinv = zeros(rank, rank);
+    for (let i = rank - 1; i >= 0; i--) {
+      Rinv[i][i] = 1 / A[i][i];
+      for (let j = i + 1; j < rank; j++) { let s = 0; for (let k = i + 1; k <= j; k++) s += A[i][k] * Rinv[k][j]; Rinv[i][j] = -s / A[i][i]; }
+    }
+    const cov = zeros(p, p);
+    for (let a = 0; a < p; a++) for (let c = 0; c < p; c++) cov[a][c] = NaN;
+    for (let a = 0; a < rank; a++) for (let c = 0; c < rank; c++) {
+      let s = 0; for (let k = Math.max(a, c); k < rank; k++) s += Rinv[a][k] * Rinv[c][k];
+      cov[piv[a]][piv[c]] = s;
+    }
+    const fitted = X.map(r => { let s = 0; for (let j = 0; j < p; j++) if (Number.isFinite(beta[j])) s += r[j] * beta[j]; return s; });
+    return { beta, rank, rss, fitted, cov, pivot: piv };
+  }
+
+  /** Symmetric eigen-decomposition (cyclic Jacobi): values descending, vectors as columns. */
+  function eigSym(Ain) {
+    const n = Ain.length;
+    const A = Ain.map(r => Float64Array.from(r));
+    const V = eye(n);
+    for (let sweep = 0; sweep < 100; sweep++) {
+      let off = 0;
+      for (let i = 0; i < n; i++) for (let j = i + 1; j < n; j++) off += A[i][j] * A[i][j];
+      if (off < 1e-30) break;
+      for (let p = 0; p < n; p++) for (let q = p + 1; q < n; q++) {
+        if (Math.abs(A[p][q]) < 1e-300) continue;
+        const theta = (A[q][q] - A[p][p]) / (2 * A[p][q]);
+        const t = Math.sign(theta || 1) / (Math.abs(theta) + Math.sqrt(theta * theta + 1));
+        const c = 1 / Math.sqrt(t * t + 1), s = t * c;
+        for (let k = 0; k < n; k++) {
+          const akp = A[k][p], akq = A[k][q];
+          A[k][p] = c * akp - s * akq; A[k][q] = s * akp + c * akq;
+        }
+        for (let k = 0; k < n; k++) {
+          const apk = A[p][k], aqk = A[q][k];
+          A[p][k] = c * apk - s * aqk; A[q][k] = s * apk + c * aqk;
+        }
+        for (let k = 0; k < n; k++) {
+          const vkp = V[k][p], vkq = V[k][q];
+          V[k][p] = c * vkp - s * vkq; V[k][q] = s * vkp + c * vkq;
+        }
+      }
+    }
+    const order = PM.range(n).sort((i, j) => A[j][j] - A[i][i]);
+    return { values: order.map(i => A[i][i]), vectors: V.map(row => order.map(i => row[i])) };
+  }
+
+  PM.linalg = { zeros, eye, transpose, mul, mulVec, dot, normalEq, cholesky, solveSPD, inverse, inverseSPD, lstsq, eigSym };
+})(PM);
+
 /* --- PlotMate/src/core/describe.js --- */
 /* Descriptive statistics, as Prism's "Column statistics" reports them.
  *
@@ -4285,6 +4461,112 @@ var PM = window.PM = window.PM || {};
   PM.posthoc = { pairsFor, compare, applyMethod, welchFamily, pairedFamily, cld, dunn, dunnFriedman, adjust, bkyReject, psmm, qsmm };
 })(PM);
 
+/* --- PlotMate/src/core/nested.js --- */
+/* Nested designs (Prism's Nested table): replicates nested in subjects nested in groups.
+ *
+ * One-random-factor linear mixed model fitted by REML (as nlme::lme(y ~ group, random = ~1|subject)):
+ *   y = μ_group + u_subject + ε,   u ~ N(0, σ²_subject),   ε ~ N(0, σ²)
+ * The variance ratio γ = σ²_subject/σ² is found by maximising the restricted likelihood (golden
+ * section on log γ, plus the γ = 0 boundary); fixed effects by GLS. Group differences are tested
+ * with denominator df = subjects − groups (nlme's between-subject df). "Does nesting matter?" is
+ * the REML likelihood-ratio test of the subject variance (as anova(gls, lme)).
+ */
+(function (PM) {
+  'use strict';
+  const D = () => PM.dist;
+
+  /** groups[g][s] = values. Returns the REML fit and tests. */
+  function fit(groups, opts) {
+    opts = opts || {};
+    const level = opts.ciLevel || 0.95;
+    const G = groups.length;
+    const clusters = [];
+    groups.forEach((g, gi) => g.forEach(vals => { const v = vals.filter(Number.isFinite); if (v.length) clusters.push({ g: gi, y: v }); }));
+    const S = clusters.length, N = clusters.reduce((s, c) => s + c.y.length, 0);
+    if (S <= G) return { error: 'Each group needs at least one subject, and there must be more subjects than groups.' };
+    const p = G;
+    const reml = (gamma) => {
+      // XᵀV⁻¹X and XᵀV⁻¹y with V = σ²(I + γJ) per cluster; X = group indicators
+      const XtX = PM.range(p).map(() => new Array(p).fill(0)), Xty = new Array(p).fill(0);
+      let logdet = 0;
+      clusters.forEach(c => {
+        const n = c.y.length, sum = PM.sum(c.y);
+        const k = gamma / (1 + gamma * n);
+        // V⁻¹ = I − kJ ; for an indicator column: 1ᵀV⁻¹1 = n − k n², 1ᵀV⁻¹y = sum − k n sum
+        XtX[c.g][c.g] += n - k * n * n;
+        Xty[c.g] += sum - k * n * sum;
+        logdet += Math.log(1 + gamma * n);
+      });
+      const beta = Xty.map((v, g) => v / XtX[g][g]);
+      let Q = 0;
+      clusters.forEach(c => {
+        const n = c.y.length, k = gamma / (1 + gamma * n);
+        const r = c.y.map(v => v - beta[c.g]);
+        const rs = PM.sum(r);
+        Q += r.reduce((s, v) => s + v * v, 0) - k * rs * rs;
+      });
+      const s2 = Q / (N - p);
+      const ldX = XtX.reduce((s, row, g) => s + Math.log(row[g]), 0);
+      const ll = -0.5 * ((N - p) * Math.log(s2) + logdet + ldX + (N - p) * (1 + Math.log(2 * Math.PI)));
+      return { ll, beta, s2, XtX };
+    };
+    // maximise over log γ, then compare with the boundary γ = 0
+    let a = -20, b = 12;
+    const f = (lg) => -reml(Math.exp(lg)).ll;
+    const gr = (Math.sqrt(5) - 1) / 2;
+    let x1 = b - gr * (b - a), x2 = a + gr * (b - a), f1 = f(x1), f2 = f(x2);
+    for (let i = 0; i < 200 && b - a > 1e-12; i++) {
+      if (f1 < f2) { b = x2; x2 = x1; f2 = f1; x1 = b - gr * (b - a); f1 = f(x1); }
+      else { a = x1; x1 = x2; f1 = f2; x2 = a + gr * (b - a); f2 = f(x2); }
+    }
+    let gamma = Math.exp((a + b) / 2);
+    const r0 = reml(0);
+    let best = reml(gamma);
+    if (r0.ll >= best.ll) { gamma = 0; best = r0; }
+    const sigma2 = best.s2, tau2 = gamma * sigma2;
+    const cov = best.XtX.map((row, g) => row.map((v, h) => g === h ? sigma2 / v : 0));
+    const ddf = S - G;
+    const groupMeans = best.beta;
+    const se = groupMeans.map((_, g) => Math.sqrt(cov[g][g]));
+    const tq = D().qt(1 - (1 - level) / 2, ddf);
+    // overall F for equal group means: contrasts g vs first
+    let F = NaN, pF = NaN;
+    if (G >= 2) {
+      const L = PM.range(G - 1).map(i => PM.range(G).map(g => g === 0 ? -1 : g === i + 1 ? 1 : 0));
+      const Lb = L.map(r => r.reduce((s, v, g) => s + v * groupMeans[g], 0));
+      const LCL = L.map(r1 => L.map(r2 => r1.reduce((s, v, g) => s + v * r2[g] * cov[g][g], 0)));
+      const inv = PM.linalg.inverse(LCL);
+      let q = 0; Lb.forEach((u, i) => Lb.forEach((w, j) => { q += u * inv[i][j] * w; }));
+      F = q / (G - 1); pF = D().pfUpper(F, G - 1, ddf);
+    }
+    const lrt = 2 * (best.ll - r0.ll);
+    const out = {
+      G, subjects: S, N, groupMeans, groupSE: se, groupCI: groupMeans.map((m, g) => [m - tq * se[g], m + tq * se[g]]),
+      sigma2Subject: tau2, sigma2Residual: sigma2, pctSubject: 100 * tau2 / (tau2 + sigma2), pctResidual: 100 * sigma2 / (tau2 + sigma2),
+      F, dfn: G - 1, dfd: ddf, p: pF, logLik: best.ll, logLik0: r0.ll,
+      nesting: { chi2: Math.max(0, lrt), df: 1, p: D().pchisqUpper(Math.max(0, lrt), 1) }, cov, ciLevel: level,
+    };
+    if (G === 2) {
+      const diff = groupMeans[1] - groupMeans[0];
+      const sed = Math.sqrt(cov[0][0] + cov[1][1]);
+      out.t = { diff, se: sed, t: diff / sed, df: ddf, p: D().pt2(diff / sed, ddf), ciLo: diff - tq * sed, ciHi: diff + tq * sed };
+    }
+    return out;
+  }
+
+  /** Multiple comparisons between group means of a nested fit. */
+  function compare(res, opts) {
+    opts = opts || {};
+    const names = opts.names || PM.range(res.G).map(g => PM.table.letter(g));
+    const pairs = PM.posthoc.pairsFor(res.G, opts.compare === 'control' ? 'control' : 'all', opts.control || 0);
+    const rows = pairs.map(([a, b]) => ({ a, b, label: names[a] + ' vs. ' + names[b], diff: res.groupMeans[a] - res.groupMeans[b],
+      se: Math.sqrt(res.cov[a][a] + res.cov[b][b]), df: res.dfd, set: 'all', v0: res.cov[a][a], vi: res.cov[b][b] }));
+    return PM.posthoc.applyMethod(rows, { method: opts.method || 'tukey', alpha: opts.alpha, ciLevel: opts.ciLevel, k: res.G, pStyle: opts.pStyle });
+  }
+
+  PM.nested = { fit, compare };
+})(PM);
+
 /* --- core/ns.js --- */
 /* FlowMate — global namespace. Every module attaches to FM.
  * No bundler: files are concatenated in order by build.py into one offline HTML file,
@@ -4293,9 +4575,16 @@ var FM = (typeof globalThis !== 'undefined' ? globalThis : window).FM || {};
 (typeof globalThis !== 'undefined' ? globalThis : window).FM = FM;
 FM.version = '0.2.0';
 FM.appName = 'FlowMate';
+/* The project: one place for its links and its author. */
+FM.project = {
+  author: 'Shir Harel',
+  email: 'rlshir302010@gmail.com',
+  repo: 'https://github.com/flowmate-app/flowmate-app.github.io',
+  site: 'https://flowmate-app.github.io/',
+  licence: 'MIT',
+};
 
-/* Browser storage under flowmate.*. It still reads what FlowMotion (flowmotion.*) and
- * Gatewell (gatewell.*) saved, so preferences, autosaves and panels survive the renames.
+/* Browser storage under flowmate.* (two older key prefixes are also read).
  * Every call is guarded: storage can be missing, full or blocked. */
 FM.store = (function () {
   const LEGACY = ['flowmotion.', 'gatewell.'];
@@ -5147,11 +5436,11 @@ FM.store = (function () {
    * A whole parameter column in display units for `spec`, cached on the sample.
    * Logicle needs a Newton solve per value, so plots and polygon gates share this.
    */
-  function displayColumn(sample, param, spec) {
-    const col = sample.data[param];
+  function displayColumn(sample, param, spec, raw) {
+    const col = (raw ? sample.raw || sample.data : sample.data)[param];
     if (!col) return null;
     sample._disp = sample._disp || new Map();
-    const key = param + '|' + specKey(spec);
+    const key = (raw ? 'raw|' : '') + param + '|' + specKey(spec);
     let hit = sample._disp.get(key);
     if (hit) return hit;
     if (sample._disp.size > 48) sample._disp.clear();
@@ -5436,9 +5725,12 @@ FM.store = (function () {
   }
 
   function filterShape(gate, sample, idx) {
-    const xc = sample.data[gate.x];
+    // gate.uncomp: axes evaluated on the uncompensated values (a FlowJo gate drawn on raw channels)
+    const rawX = !!(gate.uncomp && gate.uncomp.indexOf('x') >= 0), rawY = !!(gate.uncomp && gate.uncomp.indexOf('y') >= 0);
+    const colOf = (p, raw) => (raw ? sample.raw || sample.data : sample.data)[p];
+    const xc = colOf(gate.x, rawX);
     if (!xc) throw new Error('Parameter "' + gate.x + '" not found in ' + sample.name);
-    const yc = gate.y ? sample.data[gate.y] : null;
+    const yc = gate.y ? colOf(gate.y, rawY) : null;
     if (gate.y && !yc) throw new Error('Parameter "' + gate.y + '" not found in ' + sample.name);
     const out = new Uint32Array(idx.length);
     let k = 0;
@@ -5485,8 +5777,8 @@ FM.store = (function () {
       }
       // display columns are cached per (param, scale), so re-filtering while a vertex is
       // dragged costs only the point-in-polygon tests
-      const dx = T.displayColumn(sample, gate.x, gate.xScale);
-      const dy = T.displayColumn(sample, gate.y, gate.yScale);
+      const dx = T.displayColumn(sample, gate.x, gate.xScale, rawX);
+      const dy = T.displayColumn(sample, gate.y, gate.yScale, rawY);
       for (let i = 0; i < idx.length; i++) {
         const e = idx[i];
         const tx = dx[e];
@@ -5499,8 +5791,8 @@ FM.store = (function () {
       const d = ellipseDisplay(gate);
       const c = Math.cos(d.angle), s = Math.sin(d.angle);
       const irx2 = 1 / (d.rx * d.rx), iry2 = 1 / (d.ry * d.ry), R = Math.max(d.rx, d.ry);
-      const dx = T.displayColumn(sample, gate.x, gate.xScale);
-      const dy = T.displayColumn(sample, gate.y, gate.yScale);
+      const dx = T.displayColumn(sample, gate.x, gate.xScale, rawX);
+      const dy = T.displayColumn(sample, gate.y, gate.yScale, rawY);
       for (let i = 0; i < idx.length; i++) {
         const e = idx[i];
         const u = dx[e] - d.tcx;
@@ -7678,7 +7970,7 @@ FM.store = (function () {
     const base = defaultDoc();
     const next = Object.assign(base, clone(doc));
     next.settings = Object.assign(defaultDoc().settings, doc.settings || {});
-    // FlowMotion 0.1 had one switch: compensate with the files' matrices, or not
+    // documents with only a compensate on/off setting
     if (!doc.comp) next.comp = { active: doc.settings && doc.settings.compensate === false ? 'none' : 'file', matrices: [] };
     compOf(next);
     delete next.settings.compensate;
@@ -8779,6 +9071,12 @@ FM.store = (function () {
  *                  (all pairs) or Dunnett (vs one)    | Geisser–Greenhouse correction, then the same
  *                                                     | families with individual variances
  *
+ * Per cell (spec.nested): each well's cells are nested in the well, and the well — the replicate —
+ * is a random effect: a linear mixed model fitted by REML (PM.nested, checked against R's nlme),
+ * reported as Prism's nested t test (2 conditions) or nested one-way ANOVA (3 or more), then Tukey
+ * or Dunnett on the model's means. Cells are never counted as independent replicates: the test's
+ * degrees of freedom come from the number of wells.
+ *
  * The arithmetic is PlotMate's (PM.ttest, PM.anova1, PM.posthoc — checked against Prism 11),
  * inlined into FlowMate's build; this module only arranges the data and the wording. With two
  * conditions the t test is the comparison, as it is in Prism (Tukey with two means is that test).
@@ -8815,7 +9113,8 @@ FM.store = (function () {
    */
   const cache = new Map();           // the multiple-comparison P values are slow to work out; the same data gives the same answer
   function run(spec) {
-    const key = JSON.stringify([spec.groups, !!spec.paired, spec.compare || 'all', spec.control || 0]);
+    const key = JSON.stringify([spec.nested ? spec.groups.map(g => ({ name: g.name, values: g.values, cells: g.cells.map(sig) })) : spec.groups,
+      !!spec.paired, !!spec.nested, spec.compare || 'all', spec.control || 0]);
     if (cache.has(key)) return cache.get(key);
     const res = compute(spec);
     cache.set(key, res);
@@ -8823,7 +9122,11 @@ FM.store = (function () {
     return res;
   }
 
+  /** A well's cells, cheaply: count, sum and sum of squares (the cache key; arrays can be huge). */
+  function sig(c) { let s = 0, q = 0; for (let i = 0; i < c.length; i++) { s += c[i]; q += c[i] * c[i]; } return [c.length, s, q]; }
+
   function compute(spec) {
+    if (spec.nested) return computeNested(spec);
     const groups = spec.groups || [];
     const paired = !!spec.paired;
     const compare = spec.compare || 'all';
@@ -8898,6 +9201,56 @@ FM.store = (function () {
     return out;
   }
 
+  /**
+   * spec.groups: [{ name, values: [well value], cells: [[cell value] per well] }] — values are what
+   * the graph shows (one per well); cells are what is tested.
+   */
+  function computeNested(spec) {
+    const groups = spec.groups || [];
+    const compare = spec.compare || 'all';
+    const summary = groups.map(g => {
+      const wells = (g.cells || []).filter(c => c.length);
+      return Object.assign(describe(g.name, g.values || []), { wells: wells.length, cells: wells.reduce((a, c) => a + c.length, 0) });
+    });
+    const notes = [];
+    const out = { summary, tested: [], test: null, comparisons: [], notes, pairs: null, method: null, nested: true };
+    let tested = summary.map((s, i) => i).filter(i => summary[i].wells >= 2);
+    const left = summary.filter((s, i) => tested.indexOf(i) < 0).map(s => s.name);
+    if (left.length) notes.push(listNames(left) + (left.length === 1 ? ' has' : ' have') + ' fewer than 2 wells with cells, so ' + (left.length === 1 ? 'it is' : 'they are') +
+      ' not in the test: cells of one well are not independent replicates, so a condition needs at least 2 wells.');
+    out.tested = tested;
+    if (tested.length < 2) {
+      if (groups.length >= 2 && !notes.length) notes.push('There is nothing to compare yet.');
+      return out;
+    }
+    const k = tested.length;
+    const names = tested.map(i => summary[i].name);
+    const fit = PM().nested.fit(tested.map(i => groups[i].cells.filter(c => c.length).map(c => Array.from(c))));
+    if (fit.error) { notes.push(fit.error); return out; }
+    out.fit = { means: fit.groupMeans, pctBetweenWells: fit.pctSubject, nesting: fit.nesting, wells: fit.subjects, cells: fit.N };
+    let ctrl = 0;
+    if (compare === 'control') {
+      ctrl = tested.indexOf(spec.control || 0);
+      if (ctrl < 0) notes.push('The condition to compare against is not in the test, so there are no comparisons.');
+    }
+    const wantPairs = compare !== 'none' && !(compare === 'control' && ctrl < 0);
+    const back = r => ({ a: tested[r.a], b: tested[r.b], label: summary[tested[r.a]].name + ' vs. ' + summary[tested[r.b]].name, diff: r.diff, p: r.padj, stars: stars(r.padj) });
+    if (k === 2) {
+      const t = fit.t;
+      out.test = { kind: 'nested-t', name: 'Nested t test', t: t.t, df: t.df, p: t.p,
+        text: 'Nested t test: t(' + sig4(t.df) + ') = ' + sig4(Math.abs(t.t)) + ', ' + pPhrase(t.p) };
+      out.method = out.test.name;
+      if (wantPairs) out.comparisons = [back({ a: 0, b: 1, diff: fit.groupMeans[0] - fit.groupMeans[1], padj: t.p })];
+      return out;
+    }
+    const method = compare === 'control' ? 'dunnett' : 'tukey';
+    out.test = { kind: 'nested-anova', name: 'Nested one-way ANOVA', F: fit.F, dfn: fit.dfn, dfd: fit.dfd, p: fit.p };
+    out.test.text = 'Nested one-way ANOVA: F(' + sig4(fit.dfn) + ', ' + sig4(fit.dfd) + ') = ' + sig4(fit.F) + ', ' + pPhrase(fit.p);
+    if (wantPairs) out.comparisons = PM().nested.compare(fit, { method, names, compare: compare === 'control' ? 'control' : 'all', control: Math.max(0, ctrl) }).map(back);
+    out.method = wantPairs ? (method === 'tukey' ? 'Tukey’s multiple comparisons test' : 'Dunnett’s multiple comparisons test') : null;
+    return out;
+  }
+
   FM.groupStats = { run, describe, pText, stars };
 })(FM);
 
@@ -8906,10 +9259,17 @@ FM.store = (function () {
  *
  *   doc.graphs = [{ id, name, src: { table, col }, kind: 'bar'|'dot'|'box'|'paired',
  *                   error: 'sd'|'sem', groups: [groupId] | null (every condition), compare: 'all'|'control'|'none',
- *                   control: groupId, pairBy: 'order'|'row'|'col', showNs, showValues, pText: 'stars'|'exact', yLabel }]
+ *                   control: groupId, pairBy: 'order'|'row'|'col', showNs, showValues, pText: 'stars'|'exact', yLabel,
+ *                   unit: 'well' | 'cell' }]
  *
  * compute() turns one into what the view shows: the chart model (render/statchart.js) and the
- * statistics (core/groupstats.js). Each well is one value; excluded wells never take part.
+ * statistics (core/groupstats.js). Each well is one value on the graph; excluded wells never take part.
+ *
+ * unit 'cell' tests the cells themselves for an intensity column (mean, median or geometric mean of a
+ * channel in a population): every event of the population in every well, nested in its well, by a
+ * mixed model with the well as the random effect (groupstats.js). Mean columns are tested on the
+ * channel's values; median and geometric mean columns on log10 of them, the scale those statistics
+ * live on (events at or below zero have no log and are left out, and counted in a note).
  */
 (function (FM) {
   'use strict';
@@ -8952,11 +9312,35 @@ FM.store = (function () {
     return ws.doc.groups.filter(g => g.role !== 'gate' && g.role !== 'comp' && g.role !== 'unstained' && ws.samplesIn(g.id).length).map(g => g.id);
   }
 
+  const CELL_STATS = { mean: 'linear', median: 'log', gmean: 'log' };
+  /** Can this column be tested per cell? → null, or why not. */
+  function cellsUnavailable(col, kind) {
+    if (kind === 'paired') return 'Per-cell tests are for unpaired conditions; paired graphs compare matched wells.';
+    if (!col || T().isFormula(col) || !CELL_STATS[col.stat] || !col.param) return 'Per-cell tests need a column that is a mean, median or geometric mean of a channel — a value every cell has.';
+    return null;
+  }
+  /** One well's cells for the column, on the scale they are tested on. → { values, dropped } */
+  function cellValues(ws, key, col) {
+    const s = ws.sample(key);
+    const data = s && s.data[col.param];
+    if (!data) return { values: new Float64Array(0), dropped: 0 };
+    const idx = ws.indices(s, col.pop || null);
+    const log = CELL_STATS[col.stat] === 'log';
+    const out = new Float64Array(idx.length);
+    let n = 0, dropped = 0;
+    for (let i = 0; i < idx.length; i++) {
+      const v = data[idx[i]];
+      if (!finite(v)) { dropped++; continue; }
+      if (log) { if (v > 0) out[n++] = Math.log10(v); else dropped++; } else out[n++] = v;
+    }
+    return { values: out.subarray(0, n), dropped };
+  }
+
   /** A new graph of `src` with the defaults: bar, SD, every pair compared. */
   function create(ws, src) {
     const ids = defaultGroups(ws);
     return { name: '', src: { table: src.table, col: src.col }, kind: 'bar', error: 'sd', groups: null, compare: 'all',
-      control: ids[0] || null, pairBy: 'order', showNs: false, pText: 'stars', yLabel: '' };
+      control: ids[0] || null, pairBy: 'order', showNs: false, pText: 'stars', yLabel: '', unit: 'well' };
   }
 
   /** The conditions on the graph, in its order (null: every default condition). */
@@ -9019,8 +9403,22 @@ FM.store = (function () {
     } else {
       statGroups = shown.map(e => ({ name: e.group.name, values: e.rows.map(r => r.value) }));
     }
+    // per cell: each well's events instead of its one value (the graph still shows one dot per well)
+    const why = cellsUnavailable(col, g.kind);
+    const nested = g.unit === 'cell' && !why;
+    let cellScale = null;
+    if (g.unit === 'cell' && why) notes.push(why + ' Tested per well instead.');
+    if (nested) {
+      cellScale = CELL_STATS[col.stat];
+      let dropped = 0;
+      statGroups = shown.map(e => {
+        const rows = e.rows.filter(r => finite(r.value));
+        return { name: e.group.name, values: rows.map(r => r.value), cells: rows.map(r => { const c = cellValues(ws, r.key, col); dropped += c.dropped; return c.values; }) };
+      });
+      if (dropped) notes.push(dropped.toLocaleString('en-US') + ' event' + (dropped === 1 ? ' is' : 's are') + ' at or below zero on ' + col.param + ' and ' + (dropped === 1 ? 'is' : 'are') + ' left out of the per-cell test (the test uses log10 of each cell’s value).');
+    }
     const ci = ids.indexOf(g.control);
-    const stats = FM.groupStats.run({ groups: statGroups, paired, compare: g.compare === 'control' && ci < 0 ? 'none' : g.compare, control: Math.max(0, ci) });
+    const stats = FM.groupStats.run({ groups: statGroups, paired, nested, compare: g.compare === 'control' && ci < 0 ? 'none' : g.compare, control: Math.max(0, ci) });
     if (g.compare === 'control' && ci < 0) notes.push('Pick the condition to compare against.');
     const yLabel = g.yLabel || label;
     const model = {
@@ -9028,7 +9426,7 @@ FM.store = (function () {
       groups: shown.map((e, i) => ({ name: e.group.name, color: e.group.color,
         values: e.rows.filter(r => finite(r.value)).map(r => ({ v: r.value, label: r.name })), summary: stats.summary[i] })),
     };
-    return { table, col, label, yLabel, shown: shown.map(e => e.group), hidden, model, stats, notes: Array.from(new Set(notes.concat(stats.notes))) };
+    return { table, col, label, yLabel, shown: shown.map(e => e.group), hidden, model, stats, nested, cellScale, cellsWhy: why, notes: Array.from(new Set(notes.concat(stats.notes))) };
   }
 
   /** The graph's data for PlotMate: one Column table, a data set per condition (rows = matched sets when paired). */
@@ -9048,7 +9446,7 @@ FM.store = (function () {
       tables: [{ kind: 'column', title: r.yLabel, notes: r.label + ' per well, by condition, from FlowMate “' + ws.doc.name + '”. Excluded wells are left out.' + (paired ? ' Each row is a matched set.' : ''), sets }] });
   }
 
-  FM.graphs = { KINDS, PAIR_BY, shortLabel, sources, defaultGroups, create, shownIds, compute, handoff };
+  FM.graphs = { KINDS, PAIR_BY, CELL_STATS, cellsUnavailable, cellValues, shortLabel, sources, defaultGroups, create, shownIds, compute, handoff };
 })(FM);
 
 /* --- core/bundle.js --- */
@@ -9577,7 +9975,7 @@ FM.store = (function () {
     }
     xforms.forEach((tid, body) => head.push('<transforms:transformation transforms:id="' + tid + '">' + body + '</transforms:transformation>'));
     const xml = '<?xml version="1.0" encoding="UTF-8"?>\n<gating:Gating-ML xmlns:gating="' + GML_NS + '" xmlns:transforms="' + TR_NS + '" xmlns:data-type="' + DT_NS + '">\n' +
-      '<data-type:custom_info>Exported from ' + e(FM.appName || 'FlowMate') + ' ' + e(FM.version) + ' (BenchMate) · ' + e(ws.doc.name) + '</data-type:custom_info>\n' +
+      '<data-type:custom_info>Exported from ' + e(FM.appName || 'FlowMate') + ' ' + e(FM.version) + ' · ' + e(ws.doc.name) + '</data-type:custom_info>\n' +
       head.concat(out).join('\n') + '\n</gating:Gating-ML>\n';
     return { xml, warnings };
   }
@@ -9613,6 +10011,14 @@ FM.store = (function () {
  *   - "Comp-" parameters read the workspace's compensation
  *   - ellipses, stored by FlowJo as foci and edge points in 256-bin display space, become
  *     ellipses; eventsInside="0" becomes an "outside" gate; And/Or/Not nodes become Boolean gates
+ *
+ * Three FlowJo conventions are followed (found by the external QA, tests/external_qa/REPORT.md):
+ *   - FlowJo writes "/" in a channel name as "_" ("LIVE/DEAD Aqua-A" → "LIVE_DEAD Aqua-A"):
+ *     every name in the workspace is mapped back to the loaded files' channel names
+ *   - rectangle and range gates are tested on the axis (display) scale, where events below the
+ *     axis floor sit on the floor: an edge at or below the floor is open
+ *   - a gate on a channel without the "Comp-" prefix was drawn on uncompensated data and is
+ *     evaluated there (gate.uncomp)
  *
  * The report compares every population's FlowMate count with FlowJo's, sample by sample.
  * Parsing follows FlowKit's (BSD-3) reading of the format.
@@ -9764,26 +10170,37 @@ FM.store = (function () {
   function toGate(node, sample, rangeOf) {
     const g = node.gate;
     if (g.type === 'bool') return { type: 'bool', x: null, y: null, xScale: null, yScale: null };
-    const scaleOf = name => sample.transforms[name] || sample.transforms[(sample.comp ? sample.comp.prefix : 'Comp-') + name] || { type: 'lin', min: 0, max: (rangeOf && rangeOf(name)) || 262144 };
+    const pre = sample.comp ? sample.comp.prefix : 'Comp-', suf = sample.comp ? sample.comp.suffix : '';
+    const fallback = name => ({ type: 'lin', min: 0, max: (rangeOf && rangeOf(name)) || 262144 });
+    const scaleOf = dim => (dim.comped ? sample.transforms[pre + dim.name + suf] || sample.transforms[dim.name] : sample.transforms[dim.name] || sample.transforms[pre + dim.name + suf]) || fallback(dim.name);
     const d = g.dims;
     const out = { outside: g.outside || undefined };
+    // FlowJo tests rectangles and ranges on the axis, where every event below the axis floor is
+    // drawn on the floor: an edge at or below the floor takes them all in (FlowJo, and FlowKit)
+    const floor = (v, dim) => (v != null && Number.isFinite(v) && T().makeScale(scaleOf(dim)).fwd(v) <= 0 ? null : v);
     if (g.type === 'rect') {
       out.openMax = true;
-      if (d.length === 1) Object.assign(out, { type: 'range', x: d[0].name, y: null, xScale: scaleOf(d[0].name), yScale: null, range: { lo: d[0].min, hi: d[0].max } });
+      if (d.length === 1) Object.assign(out, { type: 'range', x: d[0].name, y: null, xScale: scaleOf(d[0]), yScale: null, range: { lo: floor(d[0].min, d[0]), hi: d[0].max } });
       else {
-        Object.assign(out, { type: 'rect', x: d[0].name, y: d[1].name, xScale: scaleOf(d[0].name), yScale: scaleOf(d[1].name),
-          rect: { x0: d[0].min, x1: d[0].max, y0: d[1].min, y1: d[1].max } });
+        Object.assign(out, { type: 'rect', x: d[0].name, y: d[1].name, xScale: scaleOf(d[0]), yScale: scaleOf(d[1]),
+          rect: { x0: floor(d[0].min, d[0]), x1: d[0].max, y0: floor(d[1].min, d[1]), y1: d[1].max } });
         if (d.length > 2) out.extra = d.slice(2).map(k => ({ p: k.name, lo: k.min, hi: k.max }));
       }
     } else if (g.type === 'polygon') {
-      Object.assign(out, { type: 'polygon', x: d[0].name, y: d[1].name, xScale: scaleOf(d[0].name), yScale: scaleOf(d[1].name), verts: g.verts.map(v => [v[0], v[1]]) });
+      Object.assign(out, { type: 'polygon', x: d[0].name, y: d[1].name, xScale: scaleOf(d[0]), yScale: scaleOf(d[1]), verts: g.verts.map(v => [v[0], v[1]]) });
     } else if (g.type === 'ellipse') {
-      const xs = scaleOf(d[0].name), ys = scaleOf(d[1].name);
+      const xs = scaleOf(d[0]), ys = scaleOf(d[1]);
       const el = ellipseFromFlowJo(g.foci, g.edge);
       Object.assign(out, { type: 'ellipse', x: d[0].name, y: d[1].name, xScale: xs, yScale: ys,
         ellipse: { cx: T().makeScale(xs).inv(el.tcx), cy: T().makeScale(ys).inv(el.tcy), rx: el.rx, ry: el.ry, angle: el.angle } });
     }
     if (!out.outside) delete out.outside;
+    // drawn on a channel without FlowJo's "Comp-" prefix while the sample has a matrix: FlowJo
+    // evaluated it on the uncompensated values (typical for compensation controls)
+    if (sample.comp) {
+      const raw = ['x', 'y'].filter((a, i) => d[i] && !d[i].comped && sample.comp.params.indexOf(d[i].name) >= 0);
+      if (raw.length) out.uncomp = raw;
+    }
     return out;
   }
 
@@ -9794,9 +10211,39 @@ FM.store = (function () {
    * decides how they are drawn. */
   const scaled = g => g.type === 'polygon' || g.type === 'ellipse';
   const geomKey = g => JSON.stringify(GEOM_KEYS.filter(k => g[k] !== undefined).map(k => [k, round(g[k])])
-    .concat([['outside', !!g.outside], ['extra', round(g.extra || null)]])
+    .concat([['outside', !!g.outside], ['extra', round(g.extra || null)], ['uncomp', g.uncomp || null]])
     .concat(scaled(g) ? [['scales', T().specKey(g.xScale), T().specKey(g.yScale)]] : []));
-  const shapeKey = g => JSON.stringify([g.type, g.x, g.y]);
+  const shapeKey = g => JSON.stringify([g.type, g.x, g.y, g.uncomp || null]);
+
+  /**
+   * The loaded files' name for a channel the workspace names: itself when the files have it,
+   * else the file channel FlowJo rewrote ("/" → "_"). Unknown names are returned unchanged.
+   */
+  function channelResolver(names) {
+    const have = new Set(names);
+    const flowjoForm = new Map();
+    names.forEach(n => { const f = n.replace(/\//g, '_'); if (f !== n && !have.has(f)) flowjoForm.set(f, n); });
+    const fix = n => (n == null || have.has(n) ? n : flowjoForm.get(n) || n);
+    fix.renamed = () => Array.from(flowjoForm.values());
+    return fix;
+  }
+
+  /** The parsed workspace with every channel name mapped to the loaded files' names. */
+  function resolveChannels(parsed, fix) {
+    const prefixed = (n, comp) => {
+      const pre = comp ? comp.prefix : 'Comp-', suf = comp ? comp.suffix : '';
+      const bare = bareName(n, comp);
+      return bare !== n ? pre + fix(bare) + suf : fix(n);
+    };
+    parsed.samples.forEach(ps => {
+      if (ps.comp) ps.comp.params = ps.comp.params.map(fix);
+      const t = {};
+      Object.keys(ps.transforms).forEach(k => { t[prefixed(k, ps.comp)] = ps.transforms[k]; });
+      ps.transforms = t;
+      ps.pops.forEach(n => { if (n.gate && n.gate.dims) n.gate.dims.forEach(d => { d.name = fix(d.name); }); });
+    });
+    return parsed;
+  }
 
   /** Match workspace samples to loaded ones by file name, then by $FIL. */
   function matchSamples(ws, parsed) {
@@ -9814,7 +10261,7 @@ FM.store = (function () {
    */
   function importInto(ws, text, opts) {
     opts = opts || {};
-    const parsed = typeof text === 'string' ? parse(text) : text;
+    const parsed = resolveChannels(typeof text === 'string' ? parse(text) : text, channelResolver(ws.paramNames()));
     const warnings = parsed.warnings.slice();
     const pairs = matchSamples(ws, parsed);
     const matched = pairs.filter(p => p.s);
@@ -9970,8 +10417,14 @@ FM.store = (function () {
       });
     }, { kind: 'gates' });
 
+    const renamed = channelResolver(ws.paramNames()).renamed().filter(n => parsed.samples.some(ps => ps.pops.some(p => p.gate && p.gate.dims && p.gate.dims.some(dm => dm.name === n)) || (ps.comp && ps.comp.params.indexOf(n) >= 0)));
+    if (renamed.length) warnings.push('FlowJo writes “/” in channel names as “_”; mapped back to the files’ names: ' + renamed.join(', ') + '.');
+    const uncomp = created.filter(g => g.uncomp);
+    if (uncomp.length) warnings.push(uncomp.length + ' gate' + (uncomp.length > 1 ? 's were' : ' was') + ' drawn in FlowJo on uncompensated channels (no “Comp-” prefix) and ' + (uncomp.length > 1 ? 'are' : 'is') +
+      ' evaluated on uncompensated values, as FlowJo does: ' + uncomp.slice(0, 6).map(g => g.name).join(', ') + (uncomp.length > 6 ? '…' : '') + '.');
     const report = { matched: matched.map(p => ({ file: p.ps.file, key: p.s.key })), missing, gates: created.length,
-      groups: flowjoGroups.length, warnings, compensation: compActive, flowjoVersion: parsed.version, compare: [] };
+      groups: flowjoGroups.length, warnings, compensation: compActive, flowjoVersion: parsed.version, compare: [],
+      compensatedSamples: matched.filter(p => p.s.compensated).length };
     report.compare = compare(ws, parsed, created);
     // every imported population by its FlowJo path ("Time/Singlets/CD3+"), for lookups
     report.paths = {};
@@ -9989,16 +10442,20 @@ FM.store = (function () {
         if (!(node.count >= 0)) return;
         const id = idOf.get(node.path.join(SEP));
         if (!id) return;
-        const ours = ws.count(s, id);
-        const diff = ours - node.count;
-        rows.push({ sample: s.key, file: ps.file, path: node.path.join('/'), gateId: id, flowjo: node.count, ours, diff,
-          diffPct: node.count ? 100 * diff / node.count : (ours ? 100 : 0) });
+        const n = ws.count(s, id);
+        // a population FlowMate cannot compute (a missing parameter, a FlowJo-derived one like
+        // tSNE) is "not available" — never a count of 0
+        const error = (s._popErrors && s._popErrors[id]) || null;
+        const ours = error || !Number.isFinite(n) ? null : n;
+        const diff = ours == null ? null : ours - node.count;
+        rows.push({ sample: s.key, file: ps.file, path: node.path.join('/'), gateId: id, flowjo: node.count, ours, diff, error,
+          diffPct: diff == null ? null : node.count ? 100 * diff / node.count : (ours ? 100 : 0) });
       });
     });
     return rows;
   }
 
-  FM.wsp = { parse, importInto, match: matchSamples, ellipseFromFlowJo, bareName };
+  FM.wsp = { parse, importInto, match: matchSamples, ellipseFromFlowJo, bareName, channelResolver, _toGate: toGate };   // _toGate: for the tests
 })(FM);
 
 /* --- core/analysis.js --- */
@@ -12499,7 +12956,7 @@ FM.spectraData = {"source": "FPbase (https://www.fpbase.org) · Lambert TJ, Nat 
     }));
     return { lasers: Object.keys(spec).map(Number).sort((a, b) => a - b), detectors };
   }
-  // This lab's CytoFLEX LX (serial BA39013), exactly as recorded in the 17-Sep-2026 FCS files.
+  // CytoFLEX LX, 5 lasers: detectors as recorded in its FCS files.
   const LX_DETECTORS = [
     ['FL1', 355, 405, 30], ['FL2', 355, 525, 40], ['FL3', 355, 675, 30],
     ['FL4', 405, 450, 45], ['FL5', 405, 525, 40], ['FL6', 405, 610, 20], ['FL7', 405, 660, 10], ['FL8', 405, 763, 43],
@@ -12509,7 +12966,7 @@ FM.spectraData = {"source": "FPbase (https://www.fpbase.org) · Lambert TJ, Nat 
   ];
   const CHECK = 'Beckman’s standard configuration. Filters can be moved, so check yours.';
   const INSTRUMENTS = [
-    { id: 'cytoflex-lx', name: 'CytoFLEX LX · 5 lasers (your lab)', note: 'As recorded in the 17-Sep-2026 plate files (serial BA39013).',
+    { id: 'cytoflex-lx', name: 'CytoFLEX LX · 5 lasers', note: 'UV, violet, blue, yellow-green and red lasers. Filters can be moved, so check yours.',
       lasers: [355, 405, 488, 561, 638], detectors: LX_DETECTORS.map(([id, laser, center, width]) => ({ id, laser, center, width, type: 'bp' })) },
     Object.assign({ id: 'cytoflex-v5b5r3', name: 'CytoFLEX V5-B5-R3 · 3 lasers', note: CHECK },
       config({ 405: ['450/45', '525/40', '610/20', '660/10', '780/60'], 488: ['525/40', '585/42', '610/20', '690/50', '780/60'], 638: ['660/10', '712/25', '780/60'] })),
@@ -12681,7 +13138,7 @@ FM.spectraData = {"source": "FPbase (https://www.fpbase.org) · Lambert TJ, Nat 
   // ---------------------------------------------------------------- panels
   const PANEL_PRESETS = [
     { id: 'phagocytosis', name: 'Phagocytosis: blue beads, pHrodo Red, viability', instrument: 'cytoflex-lx',
-      description: 'Blue FluoSpheres read on the UV laser (355 nm · 405/30, the channel your 17-Sep plate used), pHrodo Red to show particles that reached acidic phagosomes, and Zombie NIR to leave out dead cells.',
+      description: 'Blue FluoSpheres read on the UV laser (355 nm · 405/30), pHrodo Red to show particles that reached acidic phagosomes, and Zombie NIR to leave out dead cells.',
       dyes: [{ ref: 'fsblue', target: 'Beads' }, { ref: 'phrodored', target: 'Acidified phagosomes' }, { ref: 'zombienir', target: 'Dead cells' }] },
   ];
   function entry(e) {
@@ -13322,6 +13779,16 @@ FM.spectraData = {"source": "FPbase (https://www.fpbase.org) · Lambert TJ, Nat 
    * A label reads name · % · events; the count is drawn only where the item carries one, in
    * lighter ink, because a percentage without the events behind it cannot be judged.
    */
+  /**
+   * A label the user has moved sits where they put it: gate.labelPos is its top-left corner as a
+   * fraction of the plot area, so it keeps its place at any plot size. Otherwise it stays at (bx, by).
+   */
+  function placeLabel(it, L, bx, by, w, h) {
+    const p = it.labelPos || (it.gate && it.gate.labelPos);
+    if (p && Number.isFinite(p[0]) && Number.isFinite(p[1])) { bx = L.x0 + p[0] * (L.x1 - L.x0); by = L.y0 + p[1] * (L.y1 - L.y0); }
+    return [Math.max(L.x0 + 1, Math.min(L.x1 - w - 1, bx)), Math.max(L.y0 + 1, Math.min(L.y1 - h - 1, by))];
+  }
+
   function drawGates(ctx, L, items, opts) {
     const th = theme();
     opts = opts || {};
@@ -13381,7 +13848,7 @@ FM.spectraData = {"source": "FPbase (https://www.fpbase.org) · Lambert TJ, Nat 
         ctx.font = '500 11px ' + th.font;
         const nw = name ? ctx.measureText(name).width + 8 : 0;
         const w = pw + nw + cw + (L.compact ? 6 : 12), h = L.compact ? 13 : 20;
-        const bx = right ? L.x1 - w - 3 : L.x0 + 3, by = upper ? L.y0 + 3 : L.y1 - h - 3;
+        const [bx, by] = placeLabel(it, L, right ? L.x1 - w - 3 : L.x0 + 3, upper ? L.y0 + 3 : L.y1 - h - 3, w, h);
         ctx.fillStyle = th.tagBg; ctx.globalAlpha = 0.92; roundRect(ctx, bx, by, w, h, 3); ctx.fill(); ctx.globalAlpha = 1;
         if (!L.compact) { ctx.strokeStyle = it.selected ? th.gateSel : th.frame; ctx.lineWidth = it.selected ? 1.4 : 0.8; roundRect(ctx, bx, by, w, h, 3); ctx.stroke(); }
         ctx.textBaseline = 'middle'; ctx.textAlign = 'left';
@@ -13402,10 +13869,11 @@ FM.spectraData = {"source": "FPbase (https://www.fpbase.org) · Lambert TJ, Nat 
       if (L.compact) {
         ctx.font = '600 10px ' + th.mono;
         const tw = ctx.measureText(pct).width;
-        const bx = Math.min(L.x1 - tw - 6, Math.max(L.x0 + 1, ax + 2)), by = Math.max(L.y0 + 1, Math.min(L.y1 - 14, ay - 14));
+        const [bx, by] = placeLabel(it, L, ax + 2, ay - 14, tw + 6, 13);
         ctx.fillStyle = th.tagBg; ctx.globalAlpha = 0.9; ctx.fillRect(bx, by, tw + 6, 13); ctx.globalAlpha = 1;
         ctx.fillStyle = it.selected ? th.gateSel : th.text; ctx.textAlign = 'left'; ctx.textBaseline = 'middle';
         ctx.fillText(pct, bx + 3, by + 7);
+        it.labelBox = [bx, by, tw + 6, 13];
         return;
       }
       const name = L.dense ? '' : (it.label || it.gate.name);
@@ -13419,8 +13887,7 @@ FM.spectraData = {"source": "FPbase (https://www.fpbase.org) · Lambert TJ, Nat 
       const w = nw + pw + cw + (name ? 18 : 12), h = L.dense ? 17 : 20;
       let bx = ax + 4, by = ay - h - 4;
       if (o.type === 'range') { bx = ax - w / 2; by = L.y0 + 22; }
-      bx = Math.max(L.x0 + 2, Math.min(L.x1 - w - 2, bx));
-      by = Math.max(L.y0 + 2, Math.min(L.y1 - h - 2, by));
+      [bx, by] = placeLabel(it, L, bx, by, w, h);
       ctx.fillStyle = th.tagBg; ctx.globalAlpha = 0.94;
       roundRect(ctx, bx, by, w, h, 3); ctx.fill(); ctx.globalAlpha = 1;
       ctx.strokeStyle = it.selected ? th.gateSel : th.frame; ctx.lineWidth = it.selected ? 1.4 : 0.8;
@@ -13445,6 +13912,21 @@ FM.spectraData = {"source": "FPbase (https://www.fpbase.org) · Lambert TJ, Nat 
     });
   }
 
+  /** The resize frame of a selected gate: a thin dashed box and small filled squares. */
+  function drawFrame(ctx, frame, hoverIdx) {
+    const th = theme();
+    const [x0, y0, x1, y1] = frame.box;
+    ctx.save();
+    ctx.strokeStyle = th.gateSel; ctx.globalAlpha = 0.55; ctx.lineWidth = 1; ctx.setLineDash([3, 3]);
+    ctx.strokeRect(Math.round(x0) + 0.5, Math.round(y0) + 0.5, Math.round(x1 - x0), Math.round(y1 - y0));
+    ctx.restore();
+    frame.handles.forEach(hd => {
+      const r = hd.i === hoverIdx ? 4.5 : 3.2;
+      ctx.fillStyle = th.gateSel; ctx.strokeStyle = th.tagBg; ctx.lineWidth = 1.2;
+      ctx.beginPath(); ctx.rect(hd.p[0] - r, hd.p[1] - r, 2 * r, 2 * r); ctx.fill(); ctx.stroke();
+    });
+  }
+
   // ------------------------------------------------------------ hit tests
   function distToSeg(px, py, a, b) {
     const vx = b[0] - a[0], vy = b[1] - a[1];
@@ -13459,7 +13941,7 @@ FM.spectraData = {"source": "FPbase (https://www.fpbase.org) · Lambert TJ, Nat 
     return FM.gating.pointInPolygon(px, py, pts.map(p => p[0]), pts.map(p => p[1]));
   }
 
-  FM.plot = { fmtEvents, theme, invalidateTheme, withLightTheme, layout, toPx, fromPx, zoomed, FULL, sizeCanvas, render, gateOutline, gateFits, drawGates, drawHandles, distToSeg, insidePts, histogramCurve, roundRect };
+  FM.plot = { fmtEvents, theme, invalidateTheme, withLightTheme, layout, toPx, fromPx, zoomed, FULL, sizeCanvas, render, gateOutline, gateFits, drawGates, drawHandles, drawFrame, distToSeg, insidePts, histogramCurve, roundRect };
 })(FM);
 
 /* --- render/charts.js --- */
@@ -14515,6 +14997,7 @@ FM.spectraData = {"source": "FPbase (https://www.fpbase.org) · Lambert TJ, Nat 
     table: 'M3 5h18v14H3zM3 10h18M3 14.5h18M9 10v9',
     beaker: 'M4.5 3h15M6 3v16a2 2 0 002 2h8a2 2 0 002-2V3M6 14h12',
     save: 'M19 21H5a2 2 0 01-2-2V5a2 2 0 012-2h11l5 5v11a2 2 0 01-2 2zM17 21v-8H7v8M7 3v5h8',
+    mail: 'M3 6h18v12H3zM3 7l9 6 9-6',
     ban: 'M12 22a10 10 0 100-20 10 10 0 000 20zM4.9 4.9l14.2 14.2',
     spectrum: 'M2 20h20M3 20c4 0 5-14 8-14s4 14 8 14M17 3v17',
     eyeoff: 'M1 12s4-7 11-7c2 0 3.8.6 5.3 1.4M23 12s-4 7-11 7c-2 0-3.8-.6-5.3-1.4M3 3l18 18',
@@ -14801,10 +15284,10 @@ FM.spectraData = {"source": "FPbase (https://www.fpbase.org) · Lambert TJ, Nat 
     return span;
   }
 
-  /** Tile + wordmark + "by benchmate", for the Workspace's welcome. */
+  /** Tile + wordmark, for the Workspace's welcome. */
   function lockup(height) {
-    const span = FM.dom.h('span.brand-lockup', { role: 'img', 'aria-label': 'FlowMate by BenchMate' });
-    span.innerHTML = BM.brand.lockup('flowmate', { height: height || 56, byline: true, prefixFill: 'var(--brand-wm)', mateFill: 'var(--ink)' });
+    const span = FM.dom.h('span.brand-lockup', { role: 'img', 'aria-label': 'FlowMate' });
+    span.innerHTML = BM.brand.lockup('flowmate', { height: height || 56, byline: false, prefixFill: 'var(--brand-wm)', mateFill: 'var(--ink)' });
     return span;
   }
 
@@ -15609,13 +16092,13 @@ FM.spectraData = {"source": "FPbase (https://www.fpbase.org) · Lambert TJ, Nat 
     const fileBtn = h('button.btn.sm', { on: { click: e => fileMenu(e.currentTarget) } }, icon('save'), h('span.lbl', 'File'), icon('down'));
     const layBtn = h('button.btn.ghost.sm.layout-btn', { 'data-tip': 'Arrange plots on a page to build a figure', on: { click: () => FM.openLayout() } }, icon('grid'), h('span.lbl', 'Figures'));
     const planBtn = h('button.btn.ghost.sm.planner-btn', { 'data-tip': 'Plan which dyes, lasers and detectors to use — a beta tool', on: { click: () => FM.openPlanner() } }, icon('spectrum'), h('span.lbl', 'Planner'), h('span.beta', 'beta'));
-    const aboutBtn = h('button.btn.ghost.sm.about-btn', { 'data-tip': 'What FlowMate and BenchMate are, and who they are for', on: { click: () => FM.openAbout() } }, icon('info'), h('span.lbl', 'About'));
+    const aboutBtn = h('button.btn.ghost.sm.about-btn', { 'data-tip': 'What FlowMate is, how it is checked, and how to get involved', on: { click: () => FM.openAbout() } }, icon('info'), h('span.lbl', 'About'));
     const helpBtn = h('button.btn.ghost.sm.guide-btn', { 'data-tip': 'A short walk through an example analysis', on: { click: () => FM.openGuide() } }, icon('help'), h('span.lbl', 'Guide'));
     statusEl = h('span.status.mono');
     const libBtn = h('button.btn.ghost.sm.lib-btn', { 'data-tip': 'Your saved analyses — open one to carry on where you left off', on: { click: () => FM.library.show() } }, icon('layers'), h('span.lbl', 'My analyses'));
 
     return h('header.topbar', h('span.laser-glint', { 'aria-hidden': 'true' }),
-      h('div.brand.home-link', { role: 'link', tabindex: '0', title: 'FlowMate ' + FM.version + ' · a BenchMate app — back to the start',
+      h('div.brand.home-link', { role: 'link', tabindex: '0', title: 'FlowMate ' + FM.version + ' — back to the start',
         on: { click: () => go(homeStep()), keydown: e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); go(homeStep()); } } } },
         FM.brand.mark(26), FM.brand.wordmark()),
       h('div.exp', nameInput, FM.library.statusChip(), statusEl),
@@ -16243,7 +16726,8 @@ FM.spectraData = {"source": "FPbase (https://www.fpbase.org) · Lambert TJ, Nat 
     const sel = FM.ui.gateId;
     const items = this.visibleGates().map(g => {
       const gg = this.gateForDraw(g);
-      return { gate: gg, id: g.id, outline: P.gateOutline(gg, L, xSpec, ySpec), pct: this.pctFor(g), count: this.countFor(g), selected: g.id === sel, hover: this.hover && this.hover.gateId === g.id };
+      const lp = this.drag && this.drag.kind === 'label' && this.drag.gateId === g.id ? this.drag.pos : null;
+      return { gate: gg, id: g.id, outline: P.gateOutline(gg, L, xSpec, ySpec), pct: this.pctFor(g), count: this.countFor(g), selected: g.id === sel, hover: this.hover && this.hover.gateId === g.id, labelPos: lp };
     });
     this.items = items;
     P.drawGates(ctx, L, items);
@@ -16256,11 +16740,44 @@ FM.spectraData = {"source": "FPbase (https://www.fpbase.org) · Lambert TJ, Nat 
       else if (o.type === 'rect') handles = o.pts;
       else if (o.type === 'range') { const yb = L.y0 + 18; handles = [[o.x0, (yb + L.y1) / 2], [o.x1, (yb + L.y1) / 2]]; }
       this.handles = handles.map(p => [Math.max(L.x0, Math.min(L.x1, p[0])), Math.max(L.y0, Math.min(L.y1, p[1]))]);
+      this.frame = this.frameFor(selItem);
+      if (this.frame) P.drawFrame(ctx, this.frame, this.hover && this.hover.gateId === selItem.id ? this.hover.frame : -1);
       P.drawHandles(ctx, this.handles, this.hover && this.hover.gateId === selItem.id ? this.hover.vertex : -1);
-    } else this.handles = [];
+    } else { this.handles = []; this.frame = null; }
     this.drawDraft(ctx);
     this.drawSuggestion(ctx, xSpec, ySpec);
     this.drawOverlayLegend(ctx);
+  };
+
+  /**
+   * The resize frame around a selected 2-D gate: its bounding box on screen with 8 handles —
+   * corners TL, TR, BR, BL (width and height together; Shift keeps the proportions) and the
+   * middles of the top, right, bottom and left sides (only the height, or only the width).
+   * A rectangle's corners are its own vertex handles, so it gets the side handles only.
+   */
+  const FRAME = [
+    { id: 'tl', sx: -1, sy: -1, cur: 'nwse-resize' }, { id: 'tr', sx: 1, sy: -1, cur: 'nesw-resize' },
+    { id: 'br', sx: 1, sy: 1, cur: 'nwse-resize' }, { id: 'bl', sx: -1, sy: 1, cur: 'nesw-resize' },
+    { id: 't', sx: 0, sy: -1, cur: 'ns-resize' }, { id: 'r', sx: 1, sy: 0, cur: 'ew-resize' },
+    { id: 'b', sx: 0, sy: 1, cur: 'ns-resize' }, { id: 'l', sx: -1, sy: 0, cur: 'ew-resize' },
+  ];
+  PV.frameFor = function (item) {
+    const o = item.outline, g = item.gate;
+    if (!this.model.y || !(g.type === 'polygon' || g.type === 'ellipse' || g.type === 'rect') || !o.pts || o.pts.length < 3) return null;
+    const L = this.L;
+    let x0 = Infinity, x1 = -Infinity, y0 = Infinity, y1 = -Infinity;
+    o.pts.forEach(([x, y]) => { if (x < x0) x0 = x; if (x > x1) x1 = x; if (y < y0) y0 = y; if (y > y1) y1 = y; });
+    // the frame is what you can grab: parts past the plot edge are pulled onto it, and it sits a
+    // few pixels outside the gate so its handles never cover the gate's own (vertices, axis ends)
+    const cx = v => Math.max(L.x0, Math.min(L.x1, v)), cy = v => Math.max(L.y0, Math.min(L.y1, v));
+    if (cx(x1) - cx(x0) < 6 || cy(y1) - cy(y0) < 6) return null;
+    const PAD = 9;
+    const inner = [cx(x0), cy(y0), cx(x1), cy(y1)];
+    const box = [cx(x0 - PAD), cy(y0 - PAD), cx(x1 + PAD), cy(y1 + PAD)];
+    const mx = (box[0] + box[2]) / 2, my = (box[1] + box[3]) / 2;
+    const at = f => [f.sx < 0 ? box[0] : f.sx > 0 ? box[2] : mx, f.sy < 0 ? box[1] : f.sy > 0 ? box[3] : my];
+    const handles = FRAME.map((f, i) => ({ i, f, p: at(f) })).filter(hd => !(g.type === 'rect' && hd.f.sx && hd.f.sy));
+    return { box, inner, handles };
   };
 
   /** A proposed gate (or quadrant), drawn dashed with its % in the current well. */
@@ -16359,12 +16876,17 @@ FM.spectraData = {"source": "FPbase (https://www.fpbase.org) · Lambert TJ, Nat 
         if (Math.hypot(px - h[0], py - h[1]) <= HANDLE_R) return { gateId: sel.id, vertex: i, kind: 'vertex' };
       }
     }
+    if (sel && this.frame) {
+      for (const hd of this.frame.handles) {
+        if (Math.abs(px - hd.p[0]) <= HANDLE_R - 1 && Math.abs(py - hd.p[1]) <= HANDLE_R - 1) return { gateId: sel.id, frame: hd.i, kind: 'frame' };
+      }
+    }
     // labels first (they sit on top), then shapes; selected gate wins ties
     const order = sel ? [sel].concat(items.filter(i => i !== sel)) : items;
     for (const it of order) {
       if (it.labelBox) {
         const [bx, by, bw, bh] = it.labelBox;
-        if (px >= bx && px <= bx + bw && py >= by && py <= by + bh) return { gateId: it.id, kind: 'body' };
+        if (px >= bx && px <= bx + bw && py >= by && py <= by + bh) return { gateId: it.id, kind: 'label', box: it.labelBox.slice() };
       }
     }
     for (const it of order) {
@@ -16482,7 +17004,18 @@ FM.spectraData = {"source": "FPbase (https://www.fpbase.org) · Lambert TJ, Nat 
       else FM.dom.toast('A polygon needs at least 3 points');
       return;
     }
-    this.drag = { kind: hit.kind, gateId: g.id, vertex: hit.vertex, edge: hit.edge, start: [tx, ty], orig: JSON.parse(JSON.stringify(g)), moved: false };
+    if (hit.kind === 'label') {
+      // the label moves on its own; the gate and its events stay where they are
+      // where the label starts, as a fraction of the plot: selecting the gate can redraw the plot at
+      // another size, so pixel positions taken now would not hold
+      const L = this.L, fw = L.x1 - L.x0, fh = L.y1 - L.y0;
+      this.drag = { kind: 'label', gateId: g.id, start: [(hit.box[0] - L.x0) / fw, (hit.box[1] - L.y0) / fh], startPx: [px, py], pos: null, moved: false };
+      this.capture(e);
+      this.drawOverlay();
+      return;
+    }
+    this.drag = { kind: hit.kind, gateId: g.id, vertex: hit.vertex, edge: hit.edge, frame: hit.frame, box: this.frame ? this.frame.inner.slice() : null, startPx: [px, py],
+      start: [tx, ty], orig: JSON.parse(JSON.stringify(g)), moved: false };
     this.capture(e);
     this.drawOverlay();
   };
@@ -16525,13 +17058,21 @@ FM.spectraData = {"source": "FPbase (https://www.fpbase.org) · Lambert TJ, Nat 
       this.render();
       return;
     }
-    if (this.drag) { this.dragTo(tx, ty, e); return; }
+    if (this.drag && this.drag.kind === 'label') {
+      const d = this.drag, L = this.L;
+      if (Math.abs(px - d.startPx[0]) + Math.abs(py - d.startPx[1]) > 2) d.moved = true;
+      if (!d.moved) return;
+      d.pos = [d.start[0] + (px - d.startPx[0]) / (L.x1 - L.x0), d.start[1] + (py - d.startPx[1]) / (L.y1 - L.y0)];
+      this.drawOverlay();
+      return;
+    }
+    if (this.drag) { this.lastPx = [px, py]; this.dragTo(tx, ty, e); return; }
 
     if (tool === 'select') {
       const hit = this.hitTest(px, py);
       const prev = this.hover;
-      this.hover = hit ? { gateId: hit.gateId, vertex: hit.kind === 'vertex' ? hit.vertex : -1 } : null;
-      this.overCv.style.cursor = !hit ? (P.zoomed(this.L) && this.inPlot(px, py) ? 'grab' : 'default') : hit.kind === 'vertex' ? 'grab' : hit.kind === 'edge' ? 'ew-resize' : 'move';
+      this.hover = hit ? { gateId: hit.gateId, vertex: hit.kind === 'vertex' ? hit.vertex : -1, frame: hit.kind === 'frame' ? hit.frame : -1 } : null;
+      this.overCv.style.cursor = !hit ? (P.zoomed(this.L) && this.inPlot(px, py) ? 'grab' : 'default') : hit.kind === 'vertex' ? 'grab' : hit.kind === 'frame' ? FRAME[hit.frame].cur : hit.kind === 'edge' ? 'ew-resize' : hit.kind === 'label' ? 'grab' : 'move';
       if (JSON.stringify(prev) !== JSON.stringify(this.hover)) this.drawOverlay();
     } else {
       this.overCv.style.cursor = 'crosshair';
@@ -16553,7 +17094,9 @@ FM.spectraData = {"source": "FPbase (https://www.fpbase.org) · Lambert TJ, Nat 
       const ny = ys ? ys.inv(ys.fwd(y) + dty) : null;
       return [nx, ny];
     };
-    if (g.type === 'ellipse') {
+    if (d.kind === 'frame') {
+      this.resizeTo(g, d, e);
+    } else if (g.type === 'ellipse') {
       // handles sit at the ends of the axes: dragging one sets that radius and turns the ellipse;
       // the body moves the centre. Everything in the gate's own display space.
       const gx = T.makeScale(g.xScale), gy = T.makeScale(g.yScale);
@@ -16607,6 +17150,47 @@ FM.spectraData = {"source": "FPbase (https://www.fpbase.org) · Lambert TJ, Nat 
     this._commit();
   };
 
+  /**
+   * Resize `g` (a copy of d.orig) by the frame handle being dragged: the opposite corner or side
+   * stays put; a side handle scales one axis, a corner both (Shift: the same factor, keeping the
+   * proportions). Scaling is in the plot's display space, the space the frame is drawn in.
+   */
+  PV.resizeTo = function (g, d, e) {
+    // b is the gate's own box (the handles sit a little outside it): the side being dragged moves
+    // by as much as the pointer, the opposite side stays
+    const f = FRAME[d.frame], b = d.box;
+    const [pxp, pyp] = this.lastPx || d.startPx;
+    const anchorPx = [f.sx < 0 ? b[2] : b[0], f.sy < 0 ? b[3] : b[1]];
+    const handlePx = [f.sx < 0 ? b[0] : b[2], f.sy < 0 ? b[1] : b[3]];
+    const MIN = 0.03;
+    let sx = f.sx ? (handlePx[0] + pxp - d.startPx[0] - anchorPx[0]) / (handlePx[0] - anchorPx[0]) : 1;
+    let sy = f.sy ? (handlePx[1] + pyp - d.startPx[1] - anchorPx[1]) / (handlePx[1] - anchorPx[1]) : 1;
+    if (f.sx && f.sy && e && e.shiftKey) { const s = Math.abs(sx - 1) >= Math.abs(sy - 1) ? sx : sy; sx = sy = s; }   // follow the axis moved more
+    sx = Math.max(MIN, sx); sy = Math.max(MIN, sy);
+    const [ax, ay] = this.toDisplay(anchorPx[0], anchorPx[1]);
+    const { xs, ys } = this.scales();
+    const mapT = (x, y) => [Number.isFinite(x) ? xs.inv(ax + sx * (xs.fwd(x) - ax)) : x, Number.isFinite(y) ? ys.inv(ay + sy * (ys.fwd(y) - ay)) : y];
+    const o = d.orig;
+    if (g.type === 'polygon') g.verts = o.verts.map(([x, y]) => mapT(x, y));
+    else if (g.type === 'rect') {
+      const a = mapT(o.rect.x0, o.rect.y0), c = mapT(o.rect.x1, o.rect.y1);
+      g.rect = { x0: a[0], y0: a[1], x1: c[0], y1: c[1] };
+    } else if (g.type === 'ellipse') {
+      // in the ellipse's own display space: the anchor goes there through data; the shape
+      // S·R·diag(rx, ry) is an ellipse again — its axes are the eigenvectors of M Mᵀ
+      const gx = T.makeScale(o.xScale), gy = T.makeScale(o.yScale);
+      const A = [gx.fwd(xs.inv(ax)), gy.fwd(ys.inv(ay))];
+      const E = o.ellipse, c0 = [gx.fwd(E.cx), gy.fwd(E.cy)];
+      const c = [A[0] + sx * (c0[0] - A[0]), A[1] + sy * (c0[1] - A[1])];
+      const ca = Math.cos(E.angle || 0), sa = Math.sin(E.angle || 0), rx = Math.abs(E.rx), ry = Math.abs(E.ry);
+      const m = [[sx * ca * rx, -sx * sa * ry], [sy * sa * rx, sy * ca * ry]];
+      const p = m[0][0] * m[0][0] + m[0][1] * m[0][1], q = m[0][0] * m[1][0] + m[0][1] * m[1][1], r = m[1][0] * m[1][0] + m[1][1] * m[1][1];
+      const mid = (p + r) / 2, dd = Math.sqrt(((p - r) / 2) ** 2 + q * q);
+      const angle = 0.5 * Math.atan2(2 * q, p - r);
+      g.ellipse = { cx: gx.inv(c[0]), cy: gy.inv(c[1]), rx: Math.sqrt(Math.max(1e-12, mid + dd)), ry: Math.sqrt(Math.max(1e-12, mid - dd)), angle };
+    }
+  };
+
   PV._commitPreview = function (final) {
     if (!this.preview) return;
     const now = performance.now();
@@ -16636,6 +17220,19 @@ FM.spectraData = {"source": "FPbase (https://www.fpbase.org) · Lambert TJ, Nat 
       if ((d.type === 'rect' || d.type === 'ellipse') && d.b && Math.abs(d.b[0] - d.a[0]) > 0.01 && Math.abs(d.b[1] - d.a[1]) > 0.01) this.finishDraft();
       else if (d.type === 'range' && d.b != null && Math.abs(d.b - d.a) > 0.005) this.finishDraft();
       else { this.draft = null; this.drawOverlay(); }
+      return;
+    }
+    if (this.drag && this.drag.kind === 'label') {
+      const d = this.drag;
+      this.drag = null;
+      if (d.moved && d.pos) {
+        // store where the label was drawn (after keeping it inside the plot)
+        const it = (this.items || []).find(i => i.id === d.gateId), L = this.L;
+        const b = it && it.labelBox ? it.labelBox : null;
+        const pos = b ? [(b[0] - L.x0) / (L.x1 - L.x0), (b[1] - L.y0) / (L.y1 - L.y0)] : d.pos;
+        FM.ws.updateGate(d.gateId, { labelPos: pos.map(v => Math.round(v * 1e4) / 1e4) }, { label: 'Move label' });
+      }
+      this.drawOverlay();
       return;
     }
     if (this.drag) {
@@ -19721,7 +20318,7 @@ FM.spectraData = {"source": "FPbase (https://www.fpbase.org) · Lambert TJ, Nat 
     // select-mode tips live in the population panel's footer; the plot only hints while drawing
     const foot = root && root.querySelector('.tree-foot');
     if (foot) foot.textContent = FM.ui.gateId
-      ? 'Drag the gate or its handles · Alt-click a handle removes it · double-click an edge adds one · Delete removes the gate'
+      ? 'Drag the gate or its handles · drag its label to move just the label · the small squares on the dashed frame resize it: sides for width or height, corners for both (Shift keeps the proportions) · Alt-click a handle removes it · double-click an edge adds one · Delete removes the gate'
       : 'Click a gate to edit it · double-click to open the population inside it · wheel to zoom';
     const hint = {
       select: '',
@@ -20189,6 +20786,7 @@ FM.spectraData = {"source": "FPbase (https://www.fpbase.org) · Lambert TJ, Nat 
     ];
     if (g.type !== 'bool' && g.type !== 'quad') items.push({ label: g.outside ? 'Keep the events inside' : 'Keep the events outside', icon: 'ban',
       fn: () => ws.updateGate(id, { outside: !g.outside }, { label: (g.outside ? 'Inside ' : 'Outside ') + g.name }) });
+    if (g.labelPos) items.push({ label: 'Reset label position', icon: 'undo', fn: () => ws.updateGate(id, { labelPos: null }, { label: 'Reset label of ' + g.name }) });
     const grp = ws.groupOf(s.key);
     items.push('sep', { heading: 'Applies to · now ' + ws.scopeText(g) },
       { label: 'Every sample', icon: FM.scope.isScoped(g) ? null : 'check', fn: () => ws.setGateScope(id, null) },
@@ -21752,10 +22350,19 @@ FM.spectraData = {"source": "FPbase (https://www.fpbase.org) · Lambert TJ, Nat 
       h('option', { value: 'all', selected: cmpVal === 'all' }, 'all pairs'),
       shown.map(x => h('option', { value: 'vs:' + x.id, selected: cmpVal === 'vs:' + x.id }, 'each vs ' + x.name)),
       h('option', { value: 'none', selected: cmpVal === 'none' }, 'nothing (no test)'));
+    // what one n is: a well (the replicate), or every cell, nested in its well
+    const unit = g.unit === 'cell' ? 'cell' : 'well';
+    const cellsWhy = r.error ? null : r.cellsWhy;
+    const unitSeg = h('div.seg.sm.anv-unit', { role: 'group' }, [
+      { id: 'well', label: 'wells', tip: 'Each well is one value (n = number of wells). The standard choice: wells are the independent replicates.' },
+      { id: 'cell', label: 'cells (nested)', tip: cellsWhy || 'Test every cell of every well. Cells of one well are not independent, so the well is a random effect in a mixed model (nested t test / nested one-way ANOVA, as in Prism): n for the test is still the wells, and the cells sharpen each well’s estimate.' },
+    ].map(o => h('button' + (unit === o.id ? '.on' : ''), { 'aria-pressed': unit === o.id ? 'true' : 'false', 'data-tip': o.tip,
+      disabled: o.id === 'cell' && !!cellsWhy && unit !== 'cell',
+      on: { click: () => { if (unit !== o.id) set({ unit: o.id }); } } }, o.label)));
     els.main.appendChild(h('div.anv-sentence',
       h('span.anv-w', 'Plot'), srcSel, h('span.anv-w', 'by condition, as'), kindSeg,
       g.kind === 'bar' || g.kind === 'dot' ? [h('span.anv-w', 'error bars'), errSeg] : null,
-      h('span.anv-w', 'and compare'), cmpSel));
+      h('span.anv-w', 'and compare'), cmpSel, h('span.anv-w', 'testing'), unitSeg));
 
     if (r.error) {
       els.main.appendChild(h('div.note.anv-broken', icon('alert'), h('span', r.error + ' Pick another column above.')));
@@ -21815,19 +22422,24 @@ FM.spectraData = {"source": "FPbase (https://www.fpbase.org) · Lambert TJ, Nat 
     const parts = [];
     if (st.test) {
       parts.push(h('div.anv-test', h('div.eyebrow', 'Test'), h('div.anv-testline', st.test.text),
-        st.method && st.comparisons.length > 1 ? h('div.muted.small', 'Comparisons: ' + st.method + ' (adjusted P)') : null));
+        st.method && st.comparisons.length > 1 ? h('div.muted.small', 'Comparisons: ' + st.method + ' (adjusted P)') : null,
+        st.fit ? h('div.muted.small.anv-nestline', st.fit.cells.toLocaleString('en-US') + ' cells in ' + st.fit.wells + ' wells · ' + num(st.fit.pctBetweenWells) +
+          '% of the cell-to-cell variation is between wells' + (st.fit.nesting.p < 0.05 ? ' (significant, P ' + (P.pText(st.fit.nesting.p)[0] === '<' ? '< ' + P.pText(st.fit.nesting.p).slice(1) :'= ' + P.pText(st.fit.nesting.p)) + ': wells differ more than their cells explain — nesting matters)' : '')) : null));
       if (st.comparisons.length) {
         parts.push(h('table.tbl.anv-tbl.anv-cmp-tbl',
-          h('thead', h('tr', h('th', 'Comparison'), h('th.r', 'Mean diff.'), h('th.r', 'P'), h('th', ''))),
+          h('thead', h('tr', h('th', 'Comparison'), h('th.r', r.nested && r.cellScale === 'log' ? 'Diff. (log10)' : 'Mean diff.'), h('th.r', 'P'), h('th', ''))),
           h('tbody', st.comparisons.map(c => h('tr' + (c.p <= 0.05 ? '.sig' : ''), h('td', c.label), h('td.r.mono', num(c.diff)), h('td.r.mono', P.pText(c.p)), h('td.mono', c.stars))))));
       }
     } else parts.push(h('div.anv-test', h('div.eyebrow', 'Test'), h('div.muted.small', 'No test: it needs at least two conditions with two or more values each.')));
     parts.push(h('table.tbl.anv-tbl.anv-sum-tbl',
-      h('thead', h('tr', h('th', 'Condition'), h('th.r', 'n'), box ? [h('th.r', 'Median'), h('th.r', 'Q1'), h('th.r', 'Q3')] : [h('th.r', 'Mean'), h('th.r', 'SD'), h('th.r', 'SEM')])),
-      h('tbody', st.summary.map(s => h('tr', h('td', s.name), h('td.r.mono', String(s.n)),
+      h('thead', h('tr', h('th', 'Condition'), h('th.r', 'n'), r.nested ? h('th.r', 'Cells') : null, box ? [h('th.r', 'Median'), h('th.r', 'Q1'), h('th.r', 'Q3')] : [h('th.r', 'Mean'), h('th.r', 'SD'), h('th.r', 'SEM')])),
+      h('tbody', st.summary.map(s => h('tr', h('td', s.name), h('td.r.mono', String(s.n)), r.nested ? h('td.r.mono', s.cells.toLocaleString('en-US')) : null,
         box ? [h('td.r.mono', num(s.median)), h('td.r.mono', num(s.q1)), h('td.r.mono', num(s.q3))] : [h('td.r.mono', num(s.mean)), h('td.r.mono', num(s.sd)), h('td.r.mono', num(s.sem))])))));
     if (r.notes.length) parts.push(h('div.anv-notes', r.notes.map(n => h('div.note.small', icon('info'), h('span', n)))));
-    parts.push(h('div.anv-how.muted.small', 'Each well is one value. Two conditions: ' + (g.kind === 'paired' ? 'paired' : 'unpaired') + ' t test; three or more: ' +
+    if (r.nested) parts.push(h('div.anv-how.muted.small', 'Each dot on the graph is a well; the test uses every cell, nested in its well: a linear mixed model with the well as a random effect (REML), so the wells — not the cells — are the replicates. ' +
+      'Two conditions: nested t test; three or more: nested one-way ANOVA' + (g.compare === 'none' ? '' : ', then ' + (g.compare === 'control' ? 'Dunnett' : 'Tukey')) + ', as in GraphPad Prism. ' +
+      (r.cellScale === 'log' ? 'Cells are tested on log10 of ' + r.col.param + ', the scale a median or geometric mean lives on.' : 'Cells are tested on their ' + r.col.param + ' values.')));
+    else parts.push(h('div.anv-how.muted.small', 'Each well is one value. Two conditions: ' + (g.kind === 'paired' ? 'paired' : 'unpaired') + ' t test; three or more: ' +
       (g.kind === 'paired' ? 'repeated-measures one-way ANOVA (Geisser–Greenhouse)' : 'one-way ANOVA') + (g.compare === 'none' ? '.' : ', then ' + (g.compare === 'control' ? 'Dunnett' : 'Tukey') + '. ') +
       'The same tests as GraphPad Prism, with the same results.'));
     return h('aside.anv-res', parts);
@@ -21958,6 +22570,7 @@ FM.guideMedia = {"load":{"src":"data:image/webp;base64,UklGRuy1AwBXRUJQVlA4WAoAA
       points: [
         point('Pick the measurement', 'and the kind: bar, dot, box, or paired (lines joining matched wells). Error bars are SD or SEM.'),
         point('Choose the comparison:', 'all pairs, each condition against one, or none. The test is chosen for you (t test for two conditions; ANOVA with Tukey or Dunnett for more), checked against GraphPad Prism.'),
+        point('Wells or cells:', 'testing wells uses one value per well — the replicates. Testing cells (for a mean, median or geometric mean column) uses every cell, nested in its well: a mixed model with the well as a random effect (nested t test or nested one-way ANOVA, as in Prism). Cells of one well are not independent, so pooling them as if they were would give falsely small P values; the nested test keeps the wells as the n and lets the cells sharpen each well’s estimate.'),
         point('Show it your way.', 'Drag the condition chips to reorder the bars, leave conditions out and add them back; Show values writes each mean on its bar; stars or P values on the brackets, with or without the non-significant ones; a title and an axis title.'),
         point('Paired data.', 'Match wells by their order in each condition, by plate row, or by plate column.'),
         point('Take the graph out.', 'Copy image, PNG or SVG; the test, every comparison and n, mean, SD and SEM sit beside it. Drag graphs in the list to keep them in order.'),
@@ -22020,7 +22633,7 @@ FM.guideMedia = {"load":{"src":"data:image/webp;base64,UklGRuy1AwBXRUJQVlA4WAoAA
             h('p', 'Choose dyes for your cytometer’s lasers and detectors and see where their spectra overlap before you stain. Save panels in this browser.'),
             h('button.btn.sm', { on: { click: () => FM.openPlanner() } }, 'Open the planner', icon('right'))))),
       h('section.g-about', h('h2', 'What is this?'),
-        h('p', 'FlowMate is part of BenchMate — free, browser-based versions of the software scientists depend on, built by a scientist for scientists. ',
+        h('p', 'FlowMate is a free, open-source flow cytometry analysis app that runs in your browser, built by a scientist for scientists. ',
           h('button.btn.sm.ghost', { on: { click: () => FM.openAbout() } }, 'About FlowMate', icon('right'))),
         h('p.muted', 'Something not working, or missing? Use the Feedback button in the corner.'))));
   }
@@ -22037,53 +22650,37 @@ FM.guideMedia = {"load":{"src":"data:image/webp;base64,UklGRuy1AwBXRUJQVlA4WAoAA
 })(FM);
 
 /* --- ui/view_about.js --- */
-/* About: what FlowMate is, why BenchMate exists, how your data is treated, how the numbers are checked,
- * what "beta" means here, and how to get in touch. A page of its own (not a step). */
+/* About: what FlowMate is, who makes it, how your data is treated, how the numbers are checked,
+ * what "beta" means here, and how to get involved. A page of its own (not a step). */
 (function (FM) {
   'use strict';
   const { h, icon, clear } = FM.dom;
 
   let root = null, returnTo = 'load';
 
-  const card = (ic, title, ...body) => h('div.ab-card', h('div.ab-ic', icon(ic)), h('div', h('h3', title), ...body));
+  const ext = (cls, href, ic, text) => h('a.btn' + cls, { href, target: '_blank', rel: 'noopener' }, icon(ic), text);
+  const fact = (k, v) => h('div.ab-fact', h('dt', k), h('dd', v));
 
   function render() {
     if (!root) return;
     clear(root);
     const back = FM.STEPS.find(s => s.id === returnTo);
+    const P = FM.project;
     root.appendChild(h('div.ab-wrap',
-      h('header.ab-head',
-        FM.brand.mark(44),
-        h('div.ab-title', h('div.eyebrow', 'FlowMate ' + FM.version + ' · a BenchMate app'), h('h1', 'About FlowMate'),
-          h('p.ab-lead', 'Free flow cytometry analysis that runs in your browser: load a plate, gate every well at once, measure, and graph the result with the statistics done.')),
-        h('button.btn', { on: { click: () => FM.go(back ? returnTo : 'load') } }, icon('left'), 'Back to ' + (back ? back.label : 'the app'))),
-
-      h('section.ab-mission',
-        h('h2', 'Built by a scientist, for scientists'),
-        h('p', 'FlowMate is part of BenchMate: free versions of the software scientists depend on. Good analysis tools are often locked behind licences that many labs cannot afford — and that gap decides whose data gets analysed well.'),
-        h('p', 'BenchMate’s aim is to democratise the software side of science: tools that are free, open in a browser with nothing to install, and keep your data on your own computer.')),
-
-      h('section.ab-grid',
-        card('ban', 'Your data stays with you', h('p', 'Your FCS files are read inside this browser tab. Nothing is uploaded — there is no server to upload to. Saved analyses live in this browser, and FlowMate keeps working offline.')),
-        card('check', 'Numbers you can check', h('p', 'Gate counts are checked against FlowKit, and the t tests, ANOVA and multiple comparisons in Analysis against GraphPad Prism. Every test, comparison and n is shown next to its graph.')),
-        card('target', 'One gate, every well', h('p', 'Draw a gate once and the whole plate is gated with it; adjust a single well where it needs it, and that is marked wherever it shows.')),
-        card('sigma', 'Free', h('p', 'No licence, no account, no limits on files or events. Share an analysis with a colleague as one file.'))),
-
-      h('section.ab-beta',
-        h('h2', 'Beta tools'),
-        h('p', 'Some tools are marked ', h('span.beta', 'beta'), ': they work, but they are new and still being checked on more instruments and data. Use them, look at their results critically, and tell us what you find.'),
-        h('ul',
-          h('li', h('strong', 'Unmixing'), ' — compensation and spectral unmixing from single-stain controls, or a matrix file. Open it from the Gate step.'),
-          h('li', h('strong', 'Panel planner'), ' — choose dyes for your lasers and detectors and see where they overlap. Open it from the top bar.'))),
-
-      h('section.ab-contact',
-        h('h2', 'Tell us what to fix or build next'),
-        h('p', 'Found a bug, missing a feature, or have a question? The Feedback button in the corner of every page sends it straight to the project.'),
-        h('div.row', h('button.btn.primary', { on: { click: () => FM.feedback.open('bug') } }, icon('alert'), 'Report a bug'),
-          h('button.btn', { on: { click: () => FM.feedback.open('idea') } }, icon('star'), 'Request a feature'),
-          h('button.btn.ghost', { on: { click: () => FM.openGuide() } }, icon('help'), 'Read the guide'))),
-
-      h('footer.ab-foot.muted.small', 'FlowMate ' + FM.version + ' · part of BenchMate')));
+      h('button.btn.ghost.sm.ab-back', { on: { click: () => FM.go(back ? returnTo : 'load') } }, icon('left'), 'Back'),
+      h('div.ab-card',
+        h('header.ab-head', FM.brand.mark(40),
+          h('div', h('h1', 'FlowMate'), h('div.muted.small', 'Version ' + FM.version))),
+        h('p.ab-lead', 'Free flow cytometry analysis in the browser. Files are processed locally and never uploaded.'),
+        h('dl.ab-facts',
+          fact('Author', P.author),
+          fact('Licence', P.licence + ', open source'),
+          fact('Contact', h('a', { href: 'mailto:' + P.email + '?subject=FlowMate' }, P.email))),
+        h('p.ab-note.small', 'Contributions are welcome — fork the code or get in touch.'),
+        h('div.ab-actions',
+          ext('.primary', P.repo, 'copy', 'Source code'),
+          ext('', P.repo + '/blob/main/VALIDATION.md', 'check', 'Validation'),
+          h('button.btn.ghost', { on: { click: () => FM.feedback.open('bug') } }, icon('alert'), 'Send feedback')))));
   }
 
   function mount(el) { root = el; render(); }
@@ -22109,7 +22706,7 @@ FM.guideMedia = {"load":{"src":"data:image/webp;base64,UklGRuy1AwBXRUJQVlA4WAoAA
   'use strict';
   const { h, icon, toast } = FM.dom;
 
-  const REPO = 'https://github.com/rlshir302010-cpu/benchmate-flowmate';
+  const REPO = FM.project.repo;
   const KINDS = [
     { id: 'bug', label: 'Something is wrong', tag: 'Bug', label2: 'bug', ph: 'What did you do, what did you expect, and what happened instead?' },
     { id: 'idea', label: 'An idea or a request', tag: 'Feature request', label2: 'enhancement', ph: 'What would you like FlowMate to do? What is it for in your work?' },

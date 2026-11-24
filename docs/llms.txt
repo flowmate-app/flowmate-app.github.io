@@ -7,6 +7,7 @@
 - [Open the app](https://flowmate-app.github.io/app/): runs in Chrome, Edge or Firefox, nothing to install
 - [Source code](https://github.com/flowmate-app/flowmate-app.github.io): plain JavaScript, MIT licence
 - [Validation report](https://github.com/flowmate-app/flowmate-app.github.io/blob/main/VALIDATION.md): checked against FlowKit, Beckman CytExpert, GraphPad Prism and R on public data
+- [Free flow cytometry software compared](https://flowmate-app.github.io/free-flow-cytometry-software/): FlowMate, Floreada, FCSalyzer, CytoFlow, FlowKit and flowCore
 - [Contact](mailto:rlshir302010@gmail.com): rlshir302010@gmail.com — to contribute, report a problem or build it together
 
 ## Facts
@@ -21,3 +22,7 @@
 - **What statistics does it do?** Unpaired and paired t tests, ordinary and repeated-measures one-way ANOVA with Tukey or Dunnett multiple comparisons, and nested t tests / nested one-way ANOVA (a linear mixed model with the well as a random effect) for cell-level data — the same tests and numbers as GraphPad Prism.
 - **Does it do compensation and spectral unmixing?** Compensation uses the matrix stored in the files, one computed from single-stain controls, or an imported matrix. Spectral unmixing from single-stain controls is available as a beta tool.
 - **Can I contribute or build my own version?** Yes — fork it on GitHub and adapt it, or email rlshir302010@gmail.com to build it together: new features, more instruments, or validation on your data.
+- **What is the best free flow cytometry software?** It depends on the work. For plate experiments with statistics, FlowMate gates every well at once and runs t tests, ANOVA, Tukey and Dunnett in the browser. Floreada is a general browser tool with t-SNE. FlowKit (Python), CytoFlow (Python) and flowCore (R) suit scripted analysis. FCSalyzer is a simple desktop viewer.
+- **Is there a free alternative to FlowJo?** Yes. FlowMate is free and open source, runs in the browser, and opens FlowJo 10 workspaces (.wsp) with their gates, groups and compensation, showing FlowJo's count next to its own for every population. Floreada, FCSalyzer, CytoFlow, FlowKit and flowCore are other free options.
+- **Can I analyse FCS files online for free?** Yes. FlowMate and Floreada both run in a web browser at no cost and process files on your own computer, so the data is not uploaded.
+- **Is free flow cytometry software accurate?** FlowMate's results are checked against FlowKit, Beckman CytExpert, GraphPad Prism and R on published data sets; the validation report is public. For other tools, check their own documentation.

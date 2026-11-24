@@ -79,8 +79,39 @@ def jsonld(version):
     return json.dumps([site, app, code, howto, faq], indent=1, ensure_ascii=False).replace('</', '<\\/')
 
 
+FREE_FAQ = [
+    ('What is the best free flow cytometry software?',
+     'It depends on the work. For plate experiments with statistics, FlowMate gates every well at once and runs t tests, ANOVA, Tukey and Dunnett in the browser. Floreada is a general browser tool with t-SNE. FlowKit (Python), CytoFlow (Python) and flowCore (R) suit scripted analysis. FCSalyzer is a simple desktop viewer.'),
+    ('Is there a free alternative to FlowJo?',
+     "Yes. FlowMate is free and open source, runs in the browser, and opens FlowJo 10 workspaces (.wsp) with their gates, groups and compensation, showing FlowJo's count next to its own for every population. Floreada, FCSalyzer, CytoFlow, FlowKit and flowCore are other free options."),
+    ('Can I analyse FCS files online for free?',
+     'Yes. FlowMate and Floreada both run in a web browser at no cost and process files on your own computer, so the data is not uploaded.'),
+    ('Is free flow cytometry software accurate?',
+     "FlowMate's results are checked against FlowKit, Beckman CytExpert, GraphPad Prism and R on published data sets; the validation report is public. For other tools, check their own documentation."),
+]
+
+
+def free_page(version, css):
+    page = (SITE_SRC / 'free.html').read_text(encoding='utf-8')
+    faq_html = ''.join('<details><summary>%s</summary><p>%s</p></details>' % (html.escape(q), html.escape(a)) for q, a in FREE_FAQ)
+    url = SITE + 'free-flow-cytometry-software/'
+    ld = [{'@context': 'https://schema.org', '@type': 'Article', 'headline': 'Free flow cytometry software', 'url': url,
+           'author': {'@type': 'Person', 'name': AUTHOR}, 'dateModified': datetime.date.today().isoformat(), 'image': SITE + 'og.png',
+           'about': ['Flow cytometry', 'FCS files', 'Data analysis software']},
+          {'@context': 'https://schema.org', '@type': 'BreadcrumbList', 'itemListElement': [
+              {'@type': 'ListItem', 'position': 1, 'name': 'FlowMate', 'item': SITE},
+              {'@type': 'ListItem', 'position': 2, 'name': 'Free flow cytometry software', 'item': url}]},
+          {'@context': 'https://schema.org', '@type': 'FAQPage',
+           'mainEntity': [{'@type': 'Question', 'name': q, 'acceptedAnswer': {'@type': 'Answer', 'text': a}} for q, a in FREE_FAQ]}]
+    for k, v in {'{{SITE}}': SITE, '{{REPO}}': REPO, '{{AUTHOR}}': AUTHOR, '{{YEAR}}': str(datetime.date.today().year), '{{CSS}}': css,
+                 '{{FAQ_HTML}}': faq_html, '{{JSONLD}}': json.dumps(ld, indent=1, ensure_ascii=False).replace('</', '<\\/')}.items():
+        page = page.replace(k, v)
+    assert '{{' not in page, re.findall(r'{{\w+}}', page)
+    return page
+
+
 def llms_txt(version):
-    faq = '\n'.join('- **%s** %s' % (q, a) for q, a in FAQ)
+    faq = '\n'.join('- **%s** %s' % (q, a) for q, a in FAQ + FREE_FAQ)
     return f"""# FlowMate
 
 > FlowMate is free, open-source flow cytometry analysis that runs in a web browser. It gates every well of a plate at once, compensates, imports FlowJo workspaces, and reports statistics (t tests, ANOVA, Tukey/Dunnett, nested mixed models). Data never leaves the user's computer. Made by {AUTHOR}; MIT licence; version {version}.
@@ -90,6 +121,7 @@ def llms_txt(version):
 - [Open the app]({SITE}app/): runs in Chrome, Edge or Firefox, nothing to install
 - [Source code]({REPO}): plain JavaScript, MIT licence
 - [Validation report]({REPO}/blob/main/VALIDATION.md): checked against FlowKit, Beckman CytExpert, GraphPad Prism and R on public data
+- [Free flow cytometry software compared]({SITE}free-flow-cytometry-software/): FlowMate, Floreada, FCSalyzer, CytoFlow, FlowKit and flowCore
 - [Contact](mailto:{EMAIL}): {EMAIL} — to contribute, report a problem or build it together
 
 ## Facts
@@ -113,6 +145,9 @@ def main():
         page = page.replace(k, v)
     assert '{{' not in page, re.findall(r'{{\w+}}', page)
     (OUT / 'index.html').write_text(page, encoding='utf-8')
+    css = re.search(r'<style>\n(.*?)</style>', (SITE_SRC / 'landing.html').read_text(encoding='utf-8'), re.S).group(1)
+    (OUT / 'free-flow-cytometry-software').mkdir()
+    (OUT / 'free-flow-cytometry-software' / 'index.html').write_text(free_page(version, css), encoding='utf-8')
 
     # the app, with a description and canonical address of its own
     app = (ROOT / 'FlowMate/dist/FlowMate.html').read_text(encoding='utf-8')
@@ -131,7 +166,7 @@ def main():
     (OUT / 'robots.txt').write_text('User-agent: *\nAllow: /\n\nSitemap: ' + SITE + 'sitemap.xml\n', encoding='utf-8')
     today = datetime.date.today().isoformat()
     (OUT / 'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
-        ''.join('  <url><loc>%s</loc><lastmod>%s</lastmod></url>\n' % (u, today) for u in (SITE, SITE + 'app/')) + '</urlset>\n', encoding='utf-8')
+        ''.join('  <url><loc>%s</loc><lastmod>%s</lastmod></url>\n' % (u, today) for u in (SITE, SITE + 'app/', SITE + 'free-flow-cytometry-software/')) + '</urlset>\n', encoding='utf-8')
     (OUT / 'llms.txt').write_text(llms_txt(version), encoding='utf-8')
     print('built docs/ for', SITE, '(FlowMate', version + ')')
 

@@ -238,7 +238,8 @@
     const v = this.doc.views[key] || (this.doc.views[key] = {});
     v.ranges = v.ranges || {};
     const o = v.ranges[param];
-    if (o && o.type === g.type) return o;
+    // a plot keeps a transform of its own (o.own) until the channel's is changed for every plot
+    if (o && (o.type === g.type || o.own)) return o;
     const fit = FM.autofit.fitScale(this, popId, param) || g;
     v.ranges[param] = fit;
     return fit;
@@ -250,8 +251,9 @@
     const v = this.doc.views[key] || (this.doc.views[key] = {});
     v.ranges = v.ranges || {};
     (params || Object.keys(v.ranges).concat([v.x, v.y].filter(Boolean))).forEach(p => {
-      const fit = FM.autofit.fitScale(this, popId, p);
-      if (fit) v.ranges[p] = fit; else delete v.ranges[p];
+      const own = v.ranges[p] && v.ranges[p].own ? v.ranges[p].type : null;
+      const fit = FM.autofit.fitScale(this, popId, p, own);
+      if (fit) v.ranges[p] = own ? Object.assign(fit, { own: true }) : fit; else if (!own) delete v.ranges[p];
     });
     this.emit('view', { popId, refit: true });
   };
@@ -262,6 +264,15 @@
     const v = this.doc.views[key] || (this.doc.views[key] = {});
     v.ranges = Object.assign({}, v.ranges, { [param]: spec });
     this.emit('view', { popId });
+  };
+
+  /** One plot's transform for a parameter: this population's view only, other plots keep theirs. */
+  P.setViewType = function (popId, param, spec) {
+    const key = popId || 'root';
+    this.update('Change ' + param + ' axis in ' + this.popName(popId), d => {
+      const v = d.views[key] || (d.views[key] = {});
+      v.ranges = Object.assign({}, v.ranges, { [param]: Object.assign({}, spec, { own: true }) });
+    }, { kind: 'axes' });
   };
 
   /** Change a parameter's transform type everywhere; every plot re-frames in the new type. */

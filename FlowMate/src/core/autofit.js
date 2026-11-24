@@ -96,11 +96,12 @@
   }
 
   /** Framed spec for `param` in population `popId`, keeping the parameter's global type. */
-  function fitScale(ws, popId, param) {
+  /** Frame `param` on population `popId`, in the channel's transform or in `type` (a plot's own). */
+  function fitScale(ws, popId, param, type) {
     const g = ws.scaleSpec(param);
     const vals = pooled(ws, popId, param);
     if (vals.length < 30) return null;
-    const spec = fitSpec(g.type, vals, g);
+    const spec = fitSpec(type || g.type, vals, type && type !== g.type ? {} : g);
     if (spec && spec.type === 'logicle') {
       try { new T.Logicle(spec.T, spec.W, spec.M, spec.A || 0); } catch (_) { return null; }
     }

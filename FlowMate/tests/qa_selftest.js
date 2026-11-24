@@ -42,10 +42,11 @@
       assert(chip, 'x chip on the plot');
       chip.click(); await settle();
       btn('Log', $('.pop')).click(); await settle();
-      eq(ws().scaleSpec('FL1-H').type, 'log', 'global type');
-      eq(ws().viewScale(singles, 'FL1-H').type, 'log', 'view re-framed in the new type');
+      const g0 = ws().scaleSpec('FL1-H').type;
+      eq(ws().viewScale(singles, 'FL1-H').type, 'log', 'this plot re-framed in the new type');
+      eq(ws().scaleSpec('FL1-H').type, g0, 'other plots keep theirs');
       btn('Logicle', $('.pop')).click(); await settle();
-      eq(ws().scaleSpec('FL1-H').type, 'logicle');
+      eq(ws().viewScale(singles, 'FL1-H').type, 'logicle');
       FM.dom.closePop();
       $$('.axis-float.y .axis-chip')[0].click(); await settle();
       const from = $$('.pop .axis-fields input')[1];

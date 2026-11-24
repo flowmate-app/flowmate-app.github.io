@@ -6946,7 +6946,8 @@ FM.store = (function () {
     const v = this.doc.views[key] || (this.doc.views[key] = {});
     v.ranges = v.ranges || {};
     const o = v.ranges[param];
-    if (o && o.type === g.type) return o;
+    // a plot keeps a transform of its own (o.own) until the channel's is changed for every plot
+    if (o && (o.type === g.type || o.own)) return o;
     const fit = FM.autofit.fitScale(this, popId, param) || g;
     v.ranges[param] = fit;
     return fit;
@@ -6958,8 +6959,9 @@ FM.store = (function () {
     const v = this.doc.views[key] || (this.doc.views[key] = {});
     v.ranges = v.ranges || {};
     (params || Object.keys(v.ranges).concat([v.x, v.y].filter(Boolean))).forEach(p => {
-      const fit = FM.autofit.fitScale(this, popId, p);
-      if (fit) v.ranges[p] = fit; else delete v.ranges[p];
+      const own = v.ranges[p] && v.ranges[p].own ? v.ranges[p].type : null;
+      const fit = FM.autofit.fitScale(this, popId, p, own);
+      if (fit) v.ranges[p] = own ? Object.assign(fit, { own: true }) : fit; else if (!own) delete v.ranges[p];
     });
     this.emit('view', { popId, refit: true });
   };
@@ -6970,6 +6972,15 @@ FM.store = (function () {
     const v = this.doc.views[key] || (this.doc.views[key] = {});
     v.ranges = Object.assign({}, v.ranges, { [param]: spec });
     this.emit('view', { popId });
+  };
+
+  /** One plot's transform for a parameter: this population's view only, other plots keep theirs. */
+  P.setViewType = function (popId, param, spec) {
+    const key = popId || 'root';
+    this.update('Change ' + param + ' axis in ' + this.popName(popId), d => {
+      const v = d.views[key] || (d.views[key] = {});
+      v.ranges = Object.assign({}, v.ranges, { [param]: Object.assign({}, spec, { own: true }) });
+    }, { kind: 'axes' });
   };
 
   /** Change a parameter's transform type everywhere; every plot re-frames in the new type. */
@@ -11654,11 +11665,12 @@ FM.store = (function () {
   }
 
   /** Framed spec for `param` in population `popId`, keeping the parameter's global type. */
-  function fitScale(ws, popId, param) {
+  /** Frame `param` on population `popId`, in the channel's transform or in `type` (a plot's own). */
+  function fitScale(ws, popId, param, type) {
     const g = ws.scaleSpec(param);
     const vals = pooled(ws, popId, param);
     if (vals.length < 30) return null;
-    const spec = fitSpec(g.type, vals, g);
+    const spec = fitSpec(type || g.type, vals, type && type !== g.type ? {} : g);
     if (spec && spec.type === 'logicle') {
       try { new T.Logicle(spec.T, spec.W, spec.M, spec.A || 0); } catch (_) { return null; }
     }
@@ -16335,8 +16347,8 @@ FM.spectraData = {"source": "FPbase (https://www.fpbase.org) · Lambert TJ, Nat 
 })(FM);
 
 /* --- ui/axis.js --- */
-/* Axis settings. The transform type is a property of the channel (applies to every plot);
- * the range belongs to one plot and is framed automatically on the population it shows. */
+/* Axis settings. Each plot sets its own transform and range (framed automatically on the
+ * population it shows); "Use for every plot" makes a transform the channel's default. */
 (function (FM) {
   'use strict';
   const { h, popover } = FM.dom;
@@ -16369,9 +16381,17 @@ FM.spectraData = {"source": "FPbase (https://www.fpbase.org) · Lambert TJ, Nat 
   /** Switch a channel's transform everywhere; each plot re-frames itself in the new type. */
   function setType(param, type) {
     const ws = FM.ws;
-    const cur = ws.scaleSpec(param);
-    if (cur.type === type) return;
+    // always applied, even when it is already the channel's type: plots with a type of their own follow too
     ws.setParamType(param, specForType(type, ws.paramInfo(param), pooledValues(param)));
+  }
+
+  /** Switch the transform of one plot (the plot of population popId) only. */
+  function setPlotType(param, type, popId) {
+    const ws = FM.ws;
+    if (ws.viewScale(popId, param).type === type) return;
+    const vals = FM.autofit.pooled(ws, popId, param);
+    const spec = specForType(type, ws.paramInfo(param), vals.length >= 30 ? vals : pooledValues(param));
+    ws.setViewType(popId, param, spec);
   }
 
   function numField(label, value, onChange, hint) {
@@ -16405,8 +16425,9 @@ FM.spectraData = {"source": "FPbase (https://www.fpbase.org) · Lambert TJ, Nat 
       };
       body.appendChild(h('div.axis-head',
         h('div', h('div.eyebrow', 'Axis'), h('div.axis-name.mono', param)),
-        h('div.seg', TYPES.map(([t, l]) => h('button' + (spec.type === t ? '.on' : ''), { on: { click: () => { setType(param, t); draw(); } } }, l))),
-        h('p.muted.small.axis-note', 'The transform applies to ' + param + ' in every plot.')));
+        h('div.seg', TYPES.map(([t, l]) => h('button' + (spec.type === t ? '.on' : ''), { on: { click: () => { setPlotType(param, t, popId); draw(); } } }, l))),
+        h('p.muted.small.axis-note', 'Applies to this plot only. ',
+          spec.own ? h('a', { href: '#', on: { click: e => { e.preventDefault(); setType(param, spec.type); FM.dom.toast(param + ' is ' + spec.type + ' in every plot'); draw(); } } }, 'Use ' + ((TYPES.find(t => t[0] === spec.type) || [])[1] || spec.type) + ' for every plot') : null)));
       const fields = h('div.axis-fields');
       if (spec.type === 'lin' || spec.type === 'log') {
         fields.appendChild(numField('From', spec.min, v => setRange({ min: v })));
@@ -16446,7 +16467,7 @@ FM.spectraData = {"source": "FPbase (https://www.fpbase.org) · Lambert TJ, Nat 
     return h('button.btn.sm.axis-chip', { 'data-tip': 'Axis scale for ' + param + ' — transform and range', on: { click: e => open(e.currentTarget, param, popId) } }, label);
   }
 
-  FM.axisUI = { open, chip, setType, specForType, pooledValues, parseNumber: parse, TYPES };
+  FM.axisUI = { open, chip, setType, setPlotType, specForType, pooledValues, parseNumber: parse, TYPES };
 })(FM);
 
 /* --- ui/plotview.js --- */

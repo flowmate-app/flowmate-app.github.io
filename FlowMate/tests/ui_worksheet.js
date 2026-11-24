@@ -123,7 +123,8 @@ window.addEventListener('load', () => setTimeout(async () => {
     check('scale: the axis popover opens with the transforms', !!logBtn);
     if (logBtn) { logBtn.click(); await wait(500); }
     FM.dom.closePop();
-    check('scale: the axis is now Log', ws.scaleSpec(xParam).type === 'log', ws.scaleSpec(xParam).type);
+    const cardPop = FM.gateSheet.views().get(pc.dataset.id).pv.model.popId;
+    check('scale: the axis is now Log in this plot', ws.viewScale(cardPop, xParam).type === 'log', ws.viewScale(cardPop, xParam).type);
     const pc2 = $$('.sheet-card').find(c => c.dataset.id === pc.dataset.id);
     check('scale: the card shows it', /Log/.test($$('.sheet-ax .axis-chip', pc2).pop().textContent));
     check('scale: the card redrew on the new scale', FM.gateSheet.views().get(pc.dataset.id).pv.scales().xSpec.type === 'log');

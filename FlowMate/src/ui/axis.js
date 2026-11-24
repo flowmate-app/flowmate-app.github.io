@@ -1,5 +1,5 @@
-/* Axis settings. The transform type is a property of the channel (applies to every plot);
- * the range belongs to one plot and is framed automatically on the population it shows. */
+/* Axis settings. Each plot sets its own transform and range (framed automatically on the
+ * population it shows); "Use for every plot" makes a transform the channel's default. */
 (function (FM) {
   'use strict';
   const { h, popover } = FM.dom;
@@ -32,9 +32,17 @@
   /** Switch a channel's transform everywhere; each plot re-frames itself in the new type. */
   function setType(param, type) {
     const ws = FM.ws;
-    const cur = ws.scaleSpec(param);
-    if (cur.type === type) return;
+    // always applied, even when it is already the channel's type: plots with a type of their own follow too
     ws.setParamType(param, specForType(type, ws.paramInfo(param), pooledValues(param)));
+  }
+
+  /** Switch the transform of one plot (the plot of population popId) only. */
+  function setPlotType(param, type, popId) {
+    const ws = FM.ws;
+    if (ws.viewScale(popId, param).type === type) return;
+    const vals = FM.autofit.pooled(ws, popId, param);
+    const spec = specForType(type, ws.paramInfo(param), vals.length >= 30 ? vals : pooledValues(param));
+    ws.setViewType(popId, param, spec);
   }
 
   function numField(label, value, onChange, hint) {
@@ -68,8 +76,9 @@
       };
       body.appendChild(h('div.axis-head',
         h('div', h('div.eyebrow', 'Axis'), h('div.axis-name.mono', param)),
-        h('div.seg', TYPES.map(([t, l]) => h('button' + (spec.type === t ? '.on' : ''), { on: { click: () => { setType(param, t); draw(); } } }, l))),
-        h('p.muted.small.axis-note', 'The transform applies to ' + param + ' in every plot.')));
+        h('div.seg', TYPES.map(([t, l]) => h('button' + (spec.type === t ? '.on' : ''), { on: { click: () => { setPlotType(param, t, popId); draw(); } } }, l))),
+        h('p.muted.small.axis-note', 'Applies to this plot only. ',
+          spec.own ? h('a', { href: '#', on: { click: e => { e.preventDefault(); setType(param, spec.type); FM.dom.toast(param + ' is ' + spec.type + ' in every plot'); draw(); } } }, 'Use ' + ((TYPES.find(t => t[0] === spec.type) || [])[1] || spec.type) + ' for every plot') : null)));
       const fields = h('div.axis-fields');
       if (spec.type === 'lin' || spec.type === 'log') {
         fields.appendChild(numField('From', spec.min, v => setRange({ min: v })));
@@ -109,5 +118,5 @@
     return h('button.btn.sm.axis-chip', { 'data-tip': 'Axis scale for ' + param + ' — transform and range', on: { click: e => open(e.currentTarget, param, popId) } }, label);
   }
 
-  FM.axisUI = { open, chip, setType, specForType, pooledValues, parseNumber: parse, TYPES };
+  FM.axisUI = { open, chip, setType, setPlotType, specForType, pooledValues, parseNumber: parse, TYPES };
 })(FM);
